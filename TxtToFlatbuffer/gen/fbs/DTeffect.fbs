@@ -1,0 +1,17 @@
+namespace LF.Table;
+
+table DReffect
+{
+  id:string;
+  AssetName:string;
+  Level:short;
+  SoundId:string;
+  KeepTime:int;
+}
+
+table Table_effect
+{
+  data:[DReffect];
+}
+
+root_type Table_effect;

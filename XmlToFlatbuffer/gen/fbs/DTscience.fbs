@@ -1,0 +1,30 @@
+namespace LF.Table;
+
+table DRscience
+{
+  id:int;
+  tab:int;
+  name:string;
+  description:string;
+  desc2:int;
+  icon:string;
+  position:[int];
+  line:[string];
+  relation:[int];
+  para1:string;
+  show:int;
+  desc2_para:int;
+  info:[string];
+  object_alies:string;
+  important:int;
+  pic:string;
+  description_simple:string;
+  descsp:int;
+}
+
+table Table_science
+{
+  data:[DRscience];
+}
+
+root_type Table_science;

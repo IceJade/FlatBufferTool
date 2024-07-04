@@ -1,0 +1,16 @@
+id		Single_Int	0			
+pic		Single_String	0			
+level		Single_Int	0			
+lv_add		Array_Int	2	;		
+type		Single_Int	0			
+consume		Array_Int	2	;		
+robot_consume		Array_Int	2	;		
+name		Fix_String	0			
+color		Single_String	0			
+pic2		Single_String	0			
+pic3		Single_String	0			
+pic_color		Single_String	0			
+pic4		Single_String	0			
+level_growth		Single_Int	0			
+star		Single_Int	0			
+limit_type		Single_Int	0			

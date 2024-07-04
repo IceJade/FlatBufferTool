@@ -1,0 +1,5 @@
+id		Single_Int	1	0			
+type		Single_Int	2	0			
+subActivityType		Single_Int	3	0			
+luaPath		Single_String	4	0			
+resUrl		Single_String	5	0			

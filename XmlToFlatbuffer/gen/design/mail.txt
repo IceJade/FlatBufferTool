@@ -1,0 +1,8 @@
+id		Single_Int	0			
+title		Single_Int	0			
+subtitle		Single_Int	0			
+message		Single_Int	0			
+type		Single_Int	0			
+reward		Single_Int	0			
+para1		Fix_String	0			
+time		Single_Int	0			

@@ -1,0 +1,18 @@
+id		Single_Int	0			
+tab		Single_Int	0			
+name		Fix_String	0			
+description		Fix_String	0			
+desc2		Single_Int	0			
+icon		Single_String	0			
+position		Array_Int	2	;		
+line		Array_Table	4	|	;	line_1#line_2#line_3#line_4
+relation		Array_Int	3	;		
+para1		Fix_String	8	|		
+show		Single_Int	0			
+desc2_para		Single_Int	0			
+info		Array_Table	10	|	;	info_1#info_2#info_3
+object	object_alies	Single_String	0			
+important		Single_Int	0			
+pic		Single_String	0			
+description_simple		Fix_String	0			
+descsp		Single_Int	0			

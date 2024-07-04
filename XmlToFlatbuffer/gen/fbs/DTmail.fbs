@@ -1,0 +1,20 @@
+namespace LF.Table;
+
+table DRmail
+{
+  id:int;
+  title:int;
+  subtitle:int;
+  message:int;
+  type:int;
+  reward:int;
+  para1:string;
+  time:int;
+}
+
+table Table_mail
+{
+  data:[DRmail];
+}
+
+root_type Table_mail;

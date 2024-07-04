@@ -1,0 +1,20 @@
+namespace LF.Table;
+
+table DRpve
+{
+  id:int;
+  area:int;
+  level:int;
+  reward_show:[int];
+  battle_ground:string;
+  army_show:int;
+  route_point_id:int;
+  explore_max:int;
+}
+
+table Table_pve
+{
+  data:[DRpve];
+}
+
+root_type Table_pve;

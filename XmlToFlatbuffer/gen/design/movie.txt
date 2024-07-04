@@ -1,0 +1,33 @@
+id		Single_Int	0			
+type		Single_Int	0			
+para1		Fix_String	14	|	;	
+time		Single_Float	0			
+delayTimeType		Single_Int	0			
+delayTime		Single_Float	0			
+nextevent		Array_Int	7	;		
+isStart		Single_Int	0			
+hideSkip		Single_Int	0			
+para2		Fix_String	3	;	|	
+para3		Fix_String	4	;		
+para4		Fix_String	0			
+para5		Fix_String	2	;		
+para6		Fix_String	0			
+isEnd		Single_String	0			
+OpenHeroAiState		Array_Int	4	;		
+interactiveButton		Array_Int	4	;		
+tips_button		Array_Int	4	;		
+CloseHeroAiState		Array_Int	4	;		
+movieMode		Single_Int	0			
+fog		Array_String	7	|		
+functionStart		Array_Int	6	|		
+nextType		Single_Int	0			
+nextPara		Single_Int	0			
+trigger		Fix_String	2	|		
+delete_Button		Array_Int	2	;		
+function		Array_Int	6	|		
+para7		Fix_String	0			
+skipId		Single_String	0			
+isMark		Single_String	0			
+para8		Fix_String	0			
+DebugDot		Single_Int	0			
+interface_close		Single_String	0			

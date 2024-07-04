@@ -1,0 +1,40 @@
+{
+  data: [
+    {
+      id: "hero_normal_attr_name",
+      Content: "150903,150905,150904,150906,150907"
+    },
+    {
+      id: "hero_battle_attr_name",
+      Content: "150566,150567,150568,150569,150570"
+    },
+    {
+      id: "hero_attr_key",
+      Content: "strength,intelligence,agility,endurance,luck"
+    },
+    {
+      id: "UIBuilding.Item.AnimatorInterval",
+      Content: "0.04"
+    },
+    {
+      id: "suspect_Chars",
+      Content: "\u2460\u2461\u2462\u2463\u2464\u2465\u2466\u2467\u2468\u2469\u246A\u246B\u246C\u246D\u246E\u246F\u2470\u2471\u2472\u2473\u2776\u2777\u2778\u2779\u277A\u277B\u277C\u277D\u277E\u277F\u3220\u3221\u3222\u3223\u3224\u3225\u3226\u3227\u3228\u3229"
+    },
+    {
+      id: "ScreenAdapterMaxWidth",
+      Content: "1920"
+    },
+    {
+      id: "ScreenAdapterAspectRatioWithBlackEdges",
+      Content: "1.778"
+    },
+    {
+      id: "UIHeroList.HeadIcon.Item.AnimatorInterval",
+      Content: "0.03"
+    },
+    {
+      id: "UIHeroList.HandBook.Item.AnimatorInterval",
+      Content: "0.04"
+    }
+  ]
+}

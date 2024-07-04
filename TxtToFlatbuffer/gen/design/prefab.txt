@@ -1,0 +1,4 @@
+id		Single_String	1	0			
+AssetName		Single_String	2	0			
+DefaultPrefab		Single_String	3	0			
+Prefabs		Array_String	4	0			

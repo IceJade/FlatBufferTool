@@ -1,0 +1,2997 @@
+{
+  data: [
+    {
+      id: 1,
+      pic: "UI_common_pinzhi_01",
+      level: 1,
+      lv_add: [
+        1,
+        0
+      ],
+      type: 1,
+      consume: [
+        1,
+        1
+      ],
+      robot_consume: [
+        1,
+        1
+      ],
+      name: "150544",
+      color: "#a7a7a7",
+      pic2: "UI_common_Heros_head_01",
+      pic3: "UI__common_Heroic_bust_01",
+      pic_color: "#F1F1F1",
+      pic4: "UI_Hero_pinzhitiao_01",
+      level_growth: 7000,
+      star: -2147483648,
+      limit_type: 3
+    },
+    {
+      id: 2,
+      pic: "UI_common_pinzhi_02",
+      level: 30,
+      lv_add: [
+        1,
+        0
+      ],
+      type: 1,
+      consume: [
+        2,
+        2
+      ],
+      robot_consume: [
+        2,
+        2
+      ],
+      name: "150534",
+      color: "#4c841d",
+      pic2: "UI_common_Heros_head_02",
+      pic3: "UI__common_Heroic_bust_02",
+      pic_color: "#7CB75A",
+      pic4: "UI_Hero_pinzhitiao_02",
+      level_growth: 10000,
+      star: -2147483648,
+      limit_type: -2147483648
+    },
+    {
+      id: 3,
+      pic: "UI_common_pinzhi_03",
+      level: 40,
+      lv_add: [
+        2,
+        6
+      ],
+      type: 1,
+      consume: [
+        3,
+        2
+      ],
+      robot_consume: [
+        3,
+        2
+      ],
+      name: "150535",
+      color: "#20638e",
+      pic2: "UI_common_Heros_head_03",
+      pic3: "UI__common_Heroic_bust_03",
+      pic_color: "#5A8AB7",
+      pic4: "UI_Hero_pinzhitiao_03",
+      level_growth: 12000,
+      star: -2147483648,
+      limit_type: -2147483648
+    },
+    {
+      id: 4,
+      pic: "UI_common_pinzhi_04",
+      level: 50,
+      lv_add: [
+        2,
+        6
+      ],
+      type: 1,
+      consume: [
+        4,
+        1
+      ],
+      robot_consume: [
+        4,
+        1
+      ],
+      name: "150536",
+      color: "#7c2195",
+      pic2: "UI_common_Heros_head_04",
+      pic3: "UI__common_Heroic_bust_04",
+      pic_color: "#945AB7",
+      pic4: "UI_Hero_pinzhitiao_04",
+      level_growth: 15000,
+      star: -2147483648,
+      limit_type: -2147483648
+    },
+    {
+      id: 5,
+      pic: "UI_common_pinzhi_05",
+      level: 60,
+      lv_add: [
+        2,
+        6
+      ],
+      type: 1,
+      consume: [
+        5,
+        1
+      ],
+      robot_consume: [
+        5,
+        1
+      ],
+      name: "150537",
+      color: "#bb5336",
+      pic2: "UI_common_Heros_head_05",
+      pic3: "UI__common_Heroic_bust_05",
+      pic_color: "#D76C4D",
+      pic4: "UI_Hero_pinzhitiao_05",
+      level_growth: 17000,
+      star: -2147483648,
+      limit_type: -2147483648
+    },
+    {
+      id: 6,
+      pic: "UI_common_pinzhi_06",
+      level: 70,
+      lv_add: [
+        2,
+        6
+      ],
+      type: 1,
+      consume: [
+        6,
+        1
+      ],
+      robot_consume: [
+        6,
+        1
+      ],
+      name: "150538",
+      color: "#942121",
+      pic2: "UI_common_Heros_head_06",
+      pic3: "UI__common_Heroic_bust_06",
+      pic_color: "#D35251",
+      pic4: "UI_Hero_pinzhitiao_06",
+      level_growth: 18000,
+      star: -2147483648,
+      limit_type: -2147483648
+    },
+    {
+      id: 7,
+      pic: "UI_common_pinzhi_07",
+      level: 80,
+      lv_add: [
+        2,
+        16
+      ],
+      type: 2,
+      consume: [
+        7,
+        1
+      ],
+      robot_consume: [
+        7,
+        2
+      ],
+      name: "150539",
+      color: "#946e21",
+      pic2: "UI_common_Heros_head_07",
+      pic3: "UI__common_Heroic_bust_07",
+      pic_color: "#CC9552",
+      pic4: "UI_Hero_pinzhitiao_07",
+      level_growth: 21000,
+      star: -2147483648,
+      limit_type: 1
+    },
+    {
+      id: 8,
+      pic: "UI_common_pinzhi_07",
+      level: 90,
+      lv_add: [
+        2,
+        11
+      ],
+      type: 2,
+      consume: [
+        7,
+        1
+      ],
+      robot_consume: [
+        7,
+        2
+      ],
+      name: "150540",
+      color: "#946e21",
+      pic2: "UI_common_Heros_head_07",
+      pic3: "UI__common_Heroic_bust_07",
+      pic_color: "#CC9552",
+      pic4: "UI_Hero_pinzhitiao_07",
+      level_growth: 22500,
+      star: 1,
+      limit_type: 1
+    },
+    {
+      id: 9,
+      pic: "UI_common_pinzhi_07",
+      level: 95,
+      lv_add: [
+        2,
+        11
+      ],
+      type: 2,
+      consume: [
+        7,
+        1
+      ],
+      robot_consume: [
+        7,
+        2
+      ],
+      name: "150541",
+      color: "#946e21",
+      pic2: "UI_common_Heros_head_07",
+      pic3: "UI__common_Heroic_bust_07",
+      pic_color: "#CC9552",
+      pic4: "UI_Hero_pinzhitiao_07",
+      level_growth: 24000,
+      star: 2,
+      limit_type: 1
+    },
+    {
+      id: 10,
+      pic: "UI_common_pinzhi_07",
+      level: 100,
+      lv_add: [
+        2,
+        11
+      ],
+      type: 2,
+      consume: [
+        7,
+        1
+      ],
+      robot_consume: [
+        7,
+        2
+      ],
+      name: "150542",
+      color: "#946e21",
+      pic2: "UI_common_Heros_head_07",
+      pic3: "UI__common_Heroic_bust_07",
+      pic_color: "#CC9552",
+      pic4: "UI_Hero_pinzhitiao_07",
+      level_growth: 25500,
+      star: 3,
+      limit_type: 1
+    },
+    {
+      id: 11,
+      pic: "UI_common_pinzhi_09",
+      level: 100,
+      lv_add: [
+        2,
+        11
+      ],
+      type: 2,
+      consume: [
+        7,
+        1
+      ],
+      robot_consume: [
+        7,
+        2
+      ],
+      name: "150403",
+      color: "#946e21",
+      pic2: "UI_common_Heros_head_08",
+      pic3: "UI__common_Heroic_bust_11",
+      pic_color: "#00000000",
+      pic4: "UI_Hero_pinzhitiao_08",
+      level_growth: 26600,
+      star: -2147483648,
+      limit_type: 1
+    },
+    {
+      id: 12,
+      pic: "UI_common_pinzhi_09",
+      level: 100,
+      lv_add: [
+        2,
+        11
+      ],
+      type: 2,
+      consume: [
+        7,
+        1
+      ],
+      robot_consume: [
+        7,
+        2
+      ],
+      name: "150404",
+      color: "#946e21",
+      pic2: "UI_common_Heros_head_08",
+      pic3: "UI__common_Heroic_bust_11",
+      pic_color: "#00000000",
+      pic4: "UI_Hero_pinzhitiao_08",
+      level_growth: 27400,
+      star: 1,
+      limit_type: 1
+    },
+    {
+      id: 13,
+      pic: "UI_common_pinzhi_09",
+      level: 100,
+      lv_add: [
+        2,
+        11
+      ],
+      type: 2,
+      consume: [
+        7,
+        1
+      ],
+      robot_consume: [
+        7,
+        2
+      ],
+      name: "150405",
+      color: "#946e21",
+      pic2: "UI_common_Heros_head_08",
+      pic3: "UI__common_Heroic_bust_11",
+      pic_color: "#00000000",
+      pic4: "UI_Hero_pinzhitiao_08",
+      level_growth: 28200,
+      star: 2,
+      limit_type: 1
+    },
+    {
+      id: 14,
+      pic: "UI_common_pinzhi_09",
+      level: 100,
+      lv_add: [
+        2,
+        11
+      ],
+      type: 2,
+      consume: [
+        7,
+        1
+      ],
+      robot_consume: [
+        7,
+        2
+      ],
+      name: "150406",
+      color: "#946e21",
+      pic2: "UI_common_Heros_head_08",
+      pic3: "UI__common_Heroic_bust_11",
+      pic_color: "#00000000",
+      pic4: "UI_Hero_pinzhitiao_08",
+      level_growth: 29000,
+      star: 3,
+      limit_type: 3
+    },
+    {
+      id: 101,
+      pic: "UI_common_pinzhi_01",
+      level: 1,
+      lv_add: [
+        1,
+        0
+      ],
+      type: 1,
+      consume: [
+        1,
+        1
+      ],
+      robot_consume: [
+        1,
+        1
+      ],
+      name: "150544",
+      color: "#a7a7a7",
+      pic2: "UI_common_Heros_head_01",
+      pic3: "UI__common_Heroic_bust_01",
+      pic_color: "#F1F1F1",
+      pic4: "UI_Hero_pinzhitiao_01",
+      level_growth: 7000,
+      star: -2147483648,
+      limit_type: 3
+    },
+    {
+      id: 102,
+      pic: "UI_common_pinzhi_02",
+      level: 30,
+      lv_add: [
+        1,
+        0
+      ],
+      type: 1,
+      consume: [
+        2,
+        2
+      ],
+      robot_consume: [
+        2,
+        2
+      ],
+      name: "150534",
+      color: "#4c841d",
+      pic2: "UI_common_Heros_head_02",
+      pic3: "UI__common_Heroic_bust_02",
+      pic_color: "#7CB75A",
+      pic4: "UI_Hero_pinzhitiao_02",
+      level_growth: 10000,
+      star: -2147483648
+    },
+    {
+      id: 103,
+      pic: "UI_common_pinzhi_03",
+      level: 40,
+      lv_add: [
+        2,
+        6
+      ],
+      type: 2,
+      consume: [
+        3,
+        2
+      ],
+      robot_consume: [
+        3,
+        2
+      ],
+      name: "150535",
+      color: "#20638e",
+      pic2: "UI_common_Heros_head_03",
+      pic3: "UI__common_Heroic_bust_03",
+      pic_color: "#5A8AB7",
+      pic4: "UI_Hero_pinzhitiao_03",
+      level_growth: 12000,
+      star: -2147483648
+    },
+    {
+      id: 104,
+      pic: "UI_common_pinzhi_04",
+      level: 50,
+      lv_add: [
+        2,
+        6
+      ],
+      type: 1,
+      consume: [
+        4,
+        1
+      ],
+      robot_consume: [
+        4,
+        1
+      ],
+      name: "150536",
+      color: "#7c2195",
+      pic2: "UI_common_Heros_head_04",
+      pic3: "UI__common_Heroic_bust_04",
+      pic_color: "#945AB7",
+      pic4: "UI_Hero_pinzhitiao_04",
+      level_growth: 15000,
+      star: -2147483648
+    },
+    {
+      id: 105,
+      pic: "UI_common_pinzhi_05",
+      level: 60,
+      lv_add: [
+        2,
+        6
+      ],
+      type: 2,
+      consume: [
+        5,
+        2
+      ],
+      robot_consume: [
+        5,
+        1
+      ],
+      name: "150537",
+      color: "#bb5336",
+      pic2: "UI_common_Heros_head_05",
+      pic3: "UI__common_Heroic_bust_05",
+      pic_color: "#D76C4D",
+      pic4: "UI_Hero_pinzhitiao_05",
+      level_growth: 17000,
+      star: -2147483648
+    },
+    {
+      id: 106,
+      pic: "UI_common_pinzhi_06",
+      level: 70,
+      lv_add: [
+        2,
+        6
+      ],
+      type: 1,
+      consume: [
+        5,
+        1
+      ],
+      robot_consume: [
+        6,
+        1
+      ],
+      name: "150538",
+      color: "#942121",
+      pic2: "UI_common_Heros_head_06",
+      pic3: "UI__common_Heroic_bust_06",
+      pic_color: "#D35251",
+      pic4: "UI_Hero_pinzhitiao_06",
+      level_growth: 18000,
+      star: -2147483648
+    },
+    {
+      id: 107,
+      pic: "UI_common_pinzhi_07",
+      level: 80,
+      lv_add: [
+        2,
+        16
+      ],
+      type: 2,
+      consume: [
+        7,
+        2
+      ],
+      robot_consume: [
+        7,
+        2
+      ],
+      name: "150539",
+      color: "#946e21",
+      pic2: "UI_common_Heros_head_07",
+      pic3: "UI__common_Heroic_bust_07",
+      pic_color: "#CC9552",
+      pic4: "UI_Hero_pinzhitiao_07",
+      level_growth: 21000,
+      star: -2147483648,
+      limit_type: 1
+    },
+    {
+      id: 108,
+      pic: "UI_common_pinzhi_07",
+      level: 90,
+      lv_add: [
+        2,
+        11
+      ],
+      type: 1,
+      consume: [
+        5,
+        1
+      ],
+      robot_consume: [
+        7,
+        2
+      ],
+      name: "150540",
+      color: "#946e21",
+      pic2: "UI_common_Heros_head_07",
+      pic3: "UI__common_Heroic_bust_07",
+      pic_color: "#CC9552",
+      pic4: "UI_Hero_pinzhitiao_07",
+      level_growth: 22500,
+      star: 1,
+      limit_type: 1
+    },
+    {
+      id: 109,
+      pic: "UI_common_pinzhi_07",
+      level: 95,
+      lv_add: [
+        2,
+        11
+      ],
+      type: 1,
+      consume: [
+        5,
+        1
+      ],
+      robot_consume: [
+        7,
+        2
+      ],
+      name: "150541",
+      color: "#946e21",
+      pic2: "UI_common_Heros_head_07",
+      pic3: "UI__common_Heroic_bust_07",
+      pic_color: "#CC9552",
+      pic4: "UI_Hero_pinzhitiao_07",
+      level_growth: 24000,
+      star: 2,
+      limit_type: 1
+    },
+    {
+      id: 110,
+      pic: "UI_common_pinzhi_07",
+      level: 100,
+      lv_add: [
+        2,
+        11
+      ],
+      type: 1,
+      consume: [
+        5,
+        2
+      ],
+      robot_consume: [
+        7,
+        2
+      ],
+      name: "150542",
+      color: "#946e21",
+      pic2: "UI_common_Heros_head_07",
+      pic3: "UI__common_Heroic_bust_07",
+      pic_color: "#CC9552",
+      pic4: "UI_Hero_pinzhitiao_07",
+      level_growth: 25500,
+      star: 3,
+      limit_type: 1
+    },
+    {
+      id: 111,
+      pic: "UI_common_pinzhi_09",
+      level: 100,
+      lv_add: [
+        2,
+        11
+      ],
+      type: 2,
+      consume: [
+        7,
+        2
+      ],
+      robot_consume: [
+        7,
+        2
+      ],
+      name: "150403",
+      color: "#946e21",
+      pic2: "UI_common_Heros_head_08",
+      pic3: "UI__common_Heroic_bust_11",
+      pic_color: "#00000000",
+      pic4: "UI_Hero_pinzhitiao_08",
+      level_growth: 26600,
+      star: -2147483648,
+      limit_type: 1
+    },
+    {
+      id: 112,
+      pic: "UI_common_pinzhi_09",
+      level: 100,
+      lv_add: [
+        2,
+        11
+      ],
+      type: 1,
+      consume: [
+        5,
+        2
+      ],
+      robot_consume: [
+        7,
+        2
+      ],
+      name: "150404",
+      color: "#946e21",
+      pic2: "UI_common_Heros_head_08",
+      pic3: "UI__common_Heroic_bust_11",
+      pic_color: "#00000000",
+      pic4: "UI_Hero_pinzhitiao_08",
+      level_growth: 27400,
+      star: 1,
+      limit_type: 1
+    },
+    {
+      id: 113,
+      pic: "UI_common_pinzhi_09",
+      level: 100,
+      lv_add: [
+        2,
+        11
+      ],
+      type: 1,
+      consume: [
+        5,
+        2
+      ],
+      robot_consume: [
+        7,
+        2
+      ],
+      name: "150405",
+      color: "#946e21",
+      pic2: "UI_common_Heros_head_08",
+      pic3: "UI__common_Heroic_bust_11",
+      pic_color: "#00000000",
+      pic4: "UI_Hero_pinzhitiao_08",
+      level_growth: 28200,
+      star: 2,
+      limit_type: 1
+    },
+    {
+      id: 114,
+      pic: "UI_common_pinzhi_09",
+      level: 100,
+      lv_add: [
+        2,
+        11
+      ],
+      type: 1,
+      consume: [
+        5,
+        2
+      ],
+      robot_consume: [
+        7,
+        2
+      ],
+      name: "150406",
+      color: "#946e21",
+      pic2: "UI_common_Heros_head_08",
+      pic3: "UI__common_Heroic_bust_11",
+      pic_color: "#00000000",
+      pic4: "UI_Hero_pinzhitiao_08",
+      level_growth: 29000,
+      star: 3,
+      limit_type: 3
+    },
+    {
+      id: 201,
+      pic: "UI_common_pinzhi_01",
+      level: 1,
+      lv_add: [
+        1,
+        0
+      ],
+      type: 1,
+      consume: [
+        1,
+        1
+      ],
+      robot_consume: [
+        1,
+        1
+      ],
+      name: "150544",
+      color: "#a7a7a7",
+      pic2: "UI_common_Heros_head_01",
+      pic3: "UI__common_Heroic_bust_01",
+      pic_color: "#F1F1F1",
+      pic4: "UI_Hero_pinzhitiao_01",
+      level_growth: 7000,
+      star: -2147483648,
+      limit_type: 3
+    },
+    {
+      id: 202,
+      pic: "UI_common_pinzhi_02",
+      level: 30,
+      lv_add: [
+        1,
+        0
+      ],
+      type: 1,
+      consume: [
+        2,
+        2
+      ],
+      robot_consume: [
+        2,
+        2
+      ],
+      name: "150534",
+      color: "#4c841d",
+      pic2: "UI_common_Heros_head_02",
+      pic3: "UI__common_Heroic_bust_02",
+      pic_color: "#7CB75A",
+      pic4: "UI_Hero_pinzhitiao_02",
+      level_growth: 10000,
+      star: -2147483648
+    },
+    {
+      id: 203,
+      pic: "UI_common_pinzhi_03",
+      level: 40,
+      lv_add: [
+        2,
+        6
+      ],
+      type: 2,
+      consume: [
+        3,
+        2
+      ],
+      robot_consume: [
+        3,
+        2
+      ],
+      name: "150535",
+      color: "#20638e",
+      pic2: "UI_common_Heros_head_03",
+      pic3: "UI__common_Heroic_bust_03",
+      pic_color: "#5A8AB7",
+      pic4: "UI_Hero_pinzhitiao_03",
+      level_growth: 12000,
+      star: -2147483648
+    },
+    {
+      id: 204,
+      pic: "UI_common_pinzhi_04",
+      level: 50,
+      lv_add: [
+        2,
+        6
+      ],
+      type: 1,
+      consume: [
+        4,
+        1
+      ],
+      robot_consume: [
+        4,
+        1
+      ],
+      name: "150536",
+      color: "#7c2195",
+      pic2: "UI_common_Heros_head_04",
+      pic3: "UI__common_Heroic_bust_04",
+      pic_color: "#945AB7",
+      pic4: "UI_Hero_pinzhitiao_04",
+      level_growth: 15000,
+      star: -2147483648
+    },
+    {
+      id: 205,
+      pic: "UI_common_pinzhi_05",
+      level: 60,
+      lv_add: [
+        2,
+        6
+      ],
+      type: 2,
+      consume: [
+        5,
+        2
+      ],
+      robot_consume: [
+        5,
+        1
+      ],
+      name: "150537",
+      color: "#bb5336",
+      pic2: "UI_common_Heros_head_05",
+      pic3: "UI__common_Heroic_bust_05",
+      pic_color: "#D76C4D",
+      pic4: "UI_Hero_pinzhitiao_05",
+      level_growth: 17000,
+      star: -2147483648
+    },
+    {
+      id: 206,
+      pic: "UI_common_pinzhi_06",
+      level: 70,
+      lv_add: [
+        2,
+        6
+      ],
+      type: 1,
+      consume: [
+        5,
+        1
+      ],
+      robot_consume: [
+        6,
+        1
+      ],
+      name: "150538",
+      color: "#942121",
+      pic2: "UI_common_Heros_head_06",
+      pic3: "UI__common_Heroic_bust_06",
+      pic_color: "#D35251",
+      pic4: "UI_Hero_pinzhitiao_06",
+      level_growth: 18000,
+      star: -2147483648
+    },
+    {
+      id: 207,
+      pic: "UI_common_pinzhi_07",
+      level: 80,
+      lv_add: [
+        2,
+        16
+      ],
+      type: 2,
+      consume: [
+        7,
+        2
+      ],
+      robot_consume: [
+        7,
+        2
+      ],
+      name: "150539",
+      color: "#946e21",
+      pic2: "UI_common_Heros_head_07",
+      pic3: "UI__common_Heroic_bust_07",
+      pic_color: "#CC9552",
+      pic4: "UI_Hero_pinzhitiao_07",
+      level_growth: 21000,
+      star: -2147483648,
+      limit_type: 1
+    },
+    {
+      id: 208,
+      pic: "UI_common_pinzhi_07",
+      level: 90,
+      lv_add: [
+        2,
+        11
+      ],
+      type: 1,
+      consume: [
+        5,
+        1
+      ],
+      robot_consume: [
+        7,
+        2
+      ],
+      name: "150540",
+      color: "#946e21",
+      pic2: "UI_common_Heros_head_07",
+      pic3: "UI__common_Heroic_bust_07",
+      pic_color: "#CC9552",
+      pic4: "UI_Hero_pinzhitiao_07",
+      level_growth: 22500,
+      star: 1,
+      limit_type: 1
+    },
+    {
+      id: 209,
+      pic: "UI_common_pinzhi_07",
+      level: 95,
+      lv_add: [
+        2,
+        11
+      ],
+      type: 1,
+      consume: [
+        5,
+        1
+      ],
+      robot_consume: [
+        7,
+        2
+      ],
+      name: "150541",
+      color: "#946e21",
+      pic2: "UI_common_Heros_head_07",
+      pic3: "UI__common_Heroic_bust_07",
+      pic_color: "#CC9552",
+      pic4: "UI_Hero_pinzhitiao_07",
+      level_growth: 24000,
+      star: 2,
+      limit_type: 1
+    },
+    {
+      id: 210,
+      pic: "UI_common_pinzhi_07",
+      level: 100,
+      lv_add: [
+        2,
+        11
+      ],
+      type: 1,
+      consume: [
+        5,
+        2
+      ],
+      robot_consume: [
+        7,
+        2
+      ],
+      name: "150542",
+      color: "#946e21",
+      pic2: "UI_common_Heros_head_07",
+      pic3: "UI__common_Heroic_bust_07",
+      pic_color: "#CC9552",
+      pic4: "UI_Hero_pinzhitiao_07",
+      level_growth: 25500,
+      star: 3,
+      limit_type: 1
+    },
+    {
+      id: 211,
+      pic: "UI_common_pinzhi_09",
+      level: 100,
+      lv_add: [
+        2,
+        11
+      ],
+      type: 2,
+      consume: [
+        7,
+        2
+      ],
+      robot_consume: [
+        7,
+        2
+      ],
+      name: "150403",
+      color: "#946e21",
+      pic2: "UI_common_Heros_head_08",
+      pic3: "UI__common_Heroic_bust_11",
+      pic_color: "#00000000",
+      pic4: "UI_Hero_pinzhitiao_08",
+      level_growth: 26600,
+      star: -2147483648,
+      limit_type: 1
+    },
+    {
+      id: 212,
+      pic: "UI_common_pinzhi_09",
+      level: 100,
+      lv_add: [
+        2,
+        11
+      ],
+      type: 1,
+      consume: [
+        5,
+        2
+      ],
+      robot_consume: [
+        7,
+        2
+      ],
+      name: "150404",
+      color: "#946e21",
+      pic2: "UI_common_Heros_head_08",
+      pic3: "UI__common_Heroic_bust_11",
+      pic_color: "#00000000",
+      pic4: "UI_Hero_pinzhitiao_08",
+      level_growth: 27400,
+      star: 1,
+      limit_type: 1
+    },
+    {
+      id: 213,
+      pic: "UI_common_pinzhi_09",
+      level: 100,
+      lv_add: [
+        2,
+        11
+      ],
+      type: 1,
+      consume: [
+        5,
+        2
+      ],
+      robot_consume: [
+        7,
+        2
+      ],
+      name: "150405",
+      color: "#946e21",
+      pic2: "UI_common_Heros_head_08",
+      pic3: "UI__common_Heroic_bust_11",
+      pic_color: "#00000000",
+      pic4: "UI_Hero_pinzhitiao_08",
+      level_growth: 28200,
+      star: 2,
+      limit_type: 1
+    },
+    {
+      id: 214,
+      pic: "UI_common_pinzhi_09",
+      level: 100,
+      lv_add: [
+        2,
+        11
+      ],
+      type: 1,
+      consume: [
+        5,
+        2
+      ],
+      robot_consume: [
+        7,
+        2
+      ],
+      name: "150406",
+      color: "#946e21",
+      pic2: "UI_common_Heros_head_08",
+      pic3: "UI__common_Heroic_bust_11",
+      pic_color: "#00000000",
+      pic4: "UI_Hero_pinzhitiao_08",
+      level_growth: 29000,
+      star: 3,
+      limit_type: 3
+    },
+    {
+      id: 301,
+      pic: "UI_common_pinzhi_01",
+      level: 1,
+      lv_add: [
+        1,
+        0
+      ],
+      type: 1,
+      consume: [
+        1,
+        1
+      ],
+      robot_consume: [
+        1,
+        1
+      ],
+      name: "150544",
+      color: "#a7a7a7",
+      pic2: "UI_common_Heros_head_01",
+      pic3: "UI__common_Heroic_bust_01",
+      pic_color: "#F1F1F1",
+      pic4: "UI_Hero_pinzhitiao_01",
+      level_growth: 7000,
+      star: -2147483648,
+      limit_type: 3
+    },
+    {
+      id: 302,
+      pic: "UI_common_pinzhi_02",
+      level: 30,
+      lv_add: [
+        1,
+        0
+      ],
+      type: 1,
+      consume: [
+        2,
+        2
+      ],
+      robot_consume: [
+        2,
+        2
+      ],
+      name: "150534",
+      color: "#4c841d",
+      pic2: "UI_common_Heros_head_02",
+      pic3: "UI__common_Heroic_bust_02",
+      pic_color: "#7CB75A",
+      pic4: "UI_Hero_pinzhitiao_02",
+      level_growth: 10000,
+      star: -2147483648
+    },
+    {
+      id: 303,
+      pic: "UI_common_pinzhi_03",
+      level: 40,
+      lv_add: [
+        2,
+        6
+      ],
+      type: 2,
+      consume: [
+        3,
+        2
+      ],
+      robot_consume: [
+        3,
+        2
+      ],
+      name: "150535",
+      color: "#20638e",
+      pic2: "UI_common_Heros_head_03",
+      pic3: "UI__common_Heroic_bust_03",
+      pic_color: "#5A8AB7",
+      pic4: "UI_Hero_pinzhitiao_03",
+      level_growth: 12000,
+      star: -2147483648
+    },
+    {
+      id: 304,
+      pic: "UI_common_pinzhi_04",
+      level: 50,
+      lv_add: [
+        2,
+        6
+      ],
+      type: 1,
+      consume: [
+        4,
+        1
+      ],
+      robot_consume: [
+        4,
+        1
+      ],
+      name: "150536",
+      color: "#7c2195",
+      pic2: "UI_common_Heros_head_04",
+      pic3: "UI__common_Heroic_bust_04",
+      pic_color: "#945AB7",
+      pic4: "UI_Hero_pinzhitiao_04",
+      level_growth: 15000,
+      star: -2147483648
+    },
+    {
+      id: 305,
+      pic: "UI_common_pinzhi_05",
+      level: 60,
+      lv_add: [
+        2,
+        6
+      ],
+      type: 2,
+      consume: [
+        5,
+        2
+      ],
+      robot_consume: [
+        5,
+        1
+      ],
+      name: "150537",
+      color: "#bb5336",
+      pic2: "UI_common_Heros_head_05",
+      pic3: "UI__common_Heroic_bust_05",
+      pic_color: "#D76C4D",
+      pic4: "UI_Hero_pinzhitiao_05",
+      level_growth: 17000,
+      star: -2147483648
+    },
+    {
+      id: 306,
+      pic: "UI_common_pinzhi_06",
+      level: 70,
+      lv_add: [
+        2,
+        6
+      ],
+      type: 1,
+      consume: [
+        5,
+        1
+      ],
+      robot_consume: [
+        6,
+        1
+      ],
+      name: "150538",
+      color: "#942121",
+      pic2: "UI_common_Heros_head_06",
+      pic3: "UI__common_Heroic_bust_06",
+      pic_color: "#D35251",
+      pic4: "UI_Hero_pinzhitiao_06",
+      level_growth: 18000,
+      star: -2147483648
+    },
+    {
+      id: 307,
+      pic: "UI_common_pinzhi_07",
+      level: 80,
+      lv_add: [
+        2,
+        16
+      ],
+      type: 2,
+      consume: [
+        7,
+        2
+      ],
+      robot_consume: [
+        7,
+        2
+      ],
+      name: "150539",
+      color: "#946e21",
+      pic2: "UI_common_Heros_head_07",
+      pic3: "UI__common_Heroic_bust_07",
+      pic_color: "#CC9552",
+      pic4: "UI_Hero_pinzhitiao_07",
+      level_growth: 21000,
+      star: -2147483648,
+      limit_type: 1
+    },
+    {
+      id: 308,
+      pic: "UI_common_pinzhi_07",
+      level: 90,
+      lv_add: [
+        2,
+        11
+      ],
+      type: 1,
+      consume: [
+        5,
+        1
+      ],
+      robot_consume: [
+        7,
+        2
+      ],
+      name: "150540",
+      color: "#946e21",
+      pic2: "UI_common_Heros_head_07",
+      pic3: "UI__common_Heroic_bust_07",
+      pic_color: "#CC9552",
+      pic4: "UI_Hero_pinzhitiao_07",
+      level_growth: 22500,
+      star: 1,
+      limit_type: 1
+    },
+    {
+      id: 309,
+      pic: "UI_common_pinzhi_07",
+      level: 95,
+      lv_add: [
+        2,
+        11
+      ],
+      type: 1,
+      consume: [
+        5,
+        1
+      ],
+      robot_consume: [
+        7,
+        2
+      ],
+      name: "150541",
+      color: "#946e21",
+      pic2: "UI_common_Heros_head_07",
+      pic3: "UI__common_Heroic_bust_07",
+      pic_color: "#CC9552",
+      pic4: "UI_Hero_pinzhitiao_07",
+      level_growth: 24000,
+      star: 2,
+      limit_type: 1
+    },
+    {
+      id: 310,
+      pic: "UI_common_pinzhi_07",
+      level: 100,
+      lv_add: [
+        2,
+        11
+      ],
+      type: 1,
+      consume: [
+        5,
+        2
+      ],
+      robot_consume: [
+        7,
+        2
+      ],
+      name: "150542",
+      color: "#946e21",
+      pic2: "UI_common_Heros_head_07",
+      pic3: "UI__common_Heroic_bust_07",
+      pic_color: "#CC9552",
+      pic4: "UI_Hero_pinzhitiao_07",
+      level_growth: 25500,
+      star: 3,
+      limit_type: 1
+    },
+    {
+      id: 311,
+      pic: "UI_common_pinzhi_09",
+      level: 100,
+      lv_add: [
+        2,
+        11
+      ],
+      type: 2,
+      consume: [
+        7,
+        2
+      ],
+      robot_consume: [
+        7,
+        2
+      ],
+      name: "150403",
+      color: "#946e21",
+      pic2: "UI_common_Heros_head_08",
+      pic3: "UI__common_Heroic_bust_11",
+      pic_color: "#00000000",
+      pic4: "UI_Hero_pinzhitiao_08",
+      level_growth: 26600,
+      star: -2147483648,
+      limit_type: 1
+    },
+    {
+      id: 312,
+      pic: "UI_common_pinzhi_09",
+      level: 100,
+      lv_add: [
+        2,
+        11
+      ],
+      type: 1,
+      consume: [
+        5,
+        2
+      ],
+      robot_consume: [
+        7,
+        2
+      ],
+      name: "150404",
+      color: "#946e21",
+      pic2: "UI_common_Heros_head_08",
+      pic3: "UI__common_Heroic_bust_11",
+      pic_color: "#00000000",
+      pic4: "UI_Hero_pinzhitiao_08",
+      level_growth: 27400,
+      star: 1,
+      limit_type: 1
+    },
+    {
+      id: 313,
+      pic: "UI_common_pinzhi_09",
+      level: 100,
+      lv_add: [
+        2,
+        11
+      ],
+      type: 1,
+      consume: [
+        5,
+        2
+      ],
+      robot_consume: [
+        7,
+        2
+      ],
+      name: "150405",
+      color: "#946e21",
+      pic2: "UI_common_Heros_head_08",
+      pic3: "UI__common_Heroic_bust_11",
+      pic_color: "#00000000",
+      pic4: "UI_Hero_pinzhitiao_08",
+      level_growth: 28200,
+      star: 2,
+      limit_type: 1
+    },
+    {
+      id: 314,
+      pic: "UI_common_pinzhi_09",
+      level: 100,
+      lv_add: [
+        2,
+        11
+      ],
+      type: 1,
+      consume: [
+        5,
+        2
+      ],
+      robot_consume: [
+        7,
+        2
+      ],
+      name: "150406",
+      color: "#946e21",
+      pic2: "UI_common_Heros_head_08",
+      pic3: "UI__common_Heroic_bust_11",
+      pic_color: "#00000000",
+      pic4: "UI_Hero_pinzhitiao_08",
+      level_growth: 29000,
+      star: 3,
+      limit_type: 3
+    },
+    {
+      id: 401,
+      pic: "UI_common_pinzhi_01",
+      level: 1,
+      lv_add: [
+        1,
+        0
+      ],
+      type: 1,
+      consume: [
+        1,
+        1
+      ],
+      robot_consume: [
+        1,
+        1
+      ],
+      name: "150544",
+      color: "#a7a7a7",
+      pic2: "UI_common_Heros_head_01",
+      pic3: "UI__common_Heroic_bust_01",
+      pic_color: "#F1F1F1",
+      pic4: "UI_Hero_pinzhitiao_01",
+      level_growth: 7000,
+      star: -2147483648,
+      limit_type: 3
+    },
+    {
+      id: 402,
+      pic: "UI_common_pinzhi_02",
+      level: 30,
+      lv_add: [
+        1,
+        0
+      ],
+      type: 1,
+      consume: [
+        2,
+        2
+      ],
+      robot_consume: [
+        2,
+        2
+      ],
+      name: "150534",
+      color: "#4c841d",
+      pic2: "UI_common_Heros_head_02",
+      pic3: "UI__common_Heroic_bust_02",
+      pic_color: "#7CB75A",
+      pic4: "UI_Hero_pinzhitiao_02",
+      level_growth: 10000,
+      star: -2147483648
+    },
+    {
+      id: 403,
+      pic: "UI_common_pinzhi_03",
+      level: 40,
+      lv_add: [
+        2,
+        6
+      ],
+      type: 2,
+      consume: [
+        3,
+        2
+      ],
+      robot_consume: [
+        3,
+        2
+      ],
+      name: "150535",
+      color: "#20638e",
+      pic2: "UI_common_Heros_head_03",
+      pic3: "UI__common_Heroic_bust_03",
+      pic_color: "#5A8AB7",
+      pic4: "UI_Hero_pinzhitiao_03",
+      level_growth: 12000,
+      star: -2147483648
+    },
+    {
+      id: 404,
+      pic: "UI_common_pinzhi_04",
+      level: 50,
+      lv_add: [
+        2,
+        6
+      ],
+      type: 1,
+      consume: [
+        4,
+        1
+      ],
+      robot_consume: [
+        4,
+        1
+      ],
+      name: "150536",
+      color: "#7c2195",
+      pic2: "UI_common_Heros_head_04",
+      pic3: "UI__common_Heroic_bust_04",
+      pic_color: "#945AB7",
+      pic4: "UI_Hero_pinzhitiao_04",
+      level_growth: 15000,
+      star: -2147483648
+    },
+    {
+      id: 405,
+      pic: "UI_common_pinzhi_05",
+      level: 60,
+      lv_add: [
+        2,
+        6
+      ],
+      type: 2,
+      consume: [
+        5,
+        2
+      ],
+      robot_consume: [
+        5,
+        1
+      ],
+      name: "150537",
+      color: "#bb5336",
+      pic2: "UI_common_Heros_head_05",
+      pic3: "UI__common_Heroic_bust_05",
+      pic_color: "#D76C4D",
+      pic4: "UI_Hero_pinzhitiao_05",
+      level_growth: 17000,
+      star: -2147483648
+    },
+    {
+      id: 406,
+      pic: "UI_common_pinzhi_06",
+      level: 70,
+      lv_add: [
+        2,
+        6
+      ],
+      type: 1,
+      consume: [
+        5,
+        1
+      ],
+      robot_consume: [
+        6,
+        1
+      ],
+      name: "150538",
+      color: "#942121",
+      pic2: "UI_common_Heros_head_06",
+      pic3: "UI__common_Heroic_bust_06",
+      pic_color: "#D35251",
+      pic4: "UI_Hero_pinzhitiao_06",
+      level_growth: 18000,
+      star: -2147483648
+    },
+    {
+      id: 407,
+      pic: "UI_common_pinzhi_07",
+      level: 80,
+      lv_add: [
+        2,
+        16
+      ],
+      type: 2,
+      consume: [
+        7,
+        2
+      ],
+      robot_consume: [
+        7,
+        2
+      ],
+      name: "150539",
+      color: "#946e21",
+      pic2: "UI_common_Heros_head_07",
+      pic3: "UI__common_Heroic_bust_07",
+      pic_color: "#CC9552",
+      pic4: "UI_Hero_pinzhitiao_07",
+      level_growth: 21000,
+      star: -2147483648,
+      limit_type: 1
+    },
+    {
+      id: 408,
+      pic: "UI_common_pinzhi_07",
+      level: 90,
+      lv_add: [
+        2,
+        11
+      ],
+      type: 1,
+      consume: [
+        5,
+        1
+      ],
+      robot_consume: [
+        7,
+        2
+      ],
+      name: "150540",
+      color: "#946e21",
+      pic2: "UI_common_Heros_head_07",
+      pic3: "UI__common_Heroic_bust_07",
+      pic_color: "#CC9552",
+      pic4: "UI_Hero_pinzhitiao_07",
+      level_growth: 22500,
+      star: 1,
+      limit_type: 1
+    },
+    {
+      id: 409,
+      pic: "UI_common_pinzhi_07",
+      level: 95,
+      lv_add: [
+        2,
+        11
+      ],
+      type: 1,
+      consume: [
+        5,
+        1
+      ],
+      robot_consume: [
+        7,
+        2
+      ],
+      name: "150541",
+      color: "#946e21",
+      pic2: "UI_common_Heros_head_07",
+      pic3: "UI__common_Heroic_bust_07",
+      pic_color: "#CC9552",
+      pic4: "UI_Hero_pinzhitiao_07",
+      level_growth: 24000,
+      star: 2,
+      limit_type: 1
+    },
+    {
+      id: 410,
+      pic: "UI_common_pinzhi_07",
+      level: 100,
+      lv_add: [
+        2,
+        11
+      ],
+      type: 1,
+      consume: [
+        5,
+        2
+      ],
+      robot_consume: [
+        7,
+        2
+      ],
+      name: "150542",
+      color: "#946e21",
+      pic2: "UI_common_Heros_head_07",
+      pic3: "UI__common_Heroic_bust_07",
+      pic_color: "#CC9552",
+      pic4: "UI_Hero_pinzhitiao_07",
+      level_growth: 25500,
+      star: 3,
+      limit_type: 1
+    },
+    {
+      id: 411,
+      pic: "UI_common_pinzhi_09",
+      level: 100,
+      lv_add: [
+        2,
+        11
+      ],
+      type: 2,
+      consume: [
+        7,
+        2
+      ],
+      robot_consume: [
+        7,
+        2
+      ],
+      name: "150403",
+      color: "#946e21",
+      pic2: "UI_common_Heros_head_08",
+      pic3: "UI__common_Heroic_bust_11",
+      pic_color: "#00000000",
+      pic4: "UI_Hero_pinzhitiao_08",
+      level_growth: 26600,
+      star: -2147483648,
+      limit_type: 1
+    },
+    {
+      id: 412,
+      pic: "UI_common_pinzhi_09",
+      level: 100,
+      lv_add: [
+        2,
+        11
+      ],
+      type: 1,
+      consume: [
+        5,
+        2
+      ],
+      robot_consume: [
+        7,
+        2
+      ],
+      name: "150404",
+      color: "#946e21",
+      pic2: "UI_common_Heros_head_08",
+      pic3: "UI__common_Heroic_bust_11",
+      pic_color: "#00000000",
+      pic4: "UI_Hero_pinzhitiao_08",
+      level_growth: 27400,
+      star: 1,
+      limit_type: 1
+    },
+    {
+      id: 413,
+      pic: "UI_common_pinzhi_09",
+      level: 100,
+      lv_add: [
+        2,
+        11
+      ],
+      type: 1,
+      consume: [
+        5,
+        2
+      ],
+      robot_consume: [
+        7,
+        2
+      ],
+      name: "150405",
+      color: "#946e21",
+      pic2: "UI_common_Heros_head_08",
+      pic3: "UI__common_Heroic_bust_11",
+      pic_color: "#00000000",
+      pic4: "UI_Hero_pinzhitiao_08",
+      level_growth: 28200,
+      star: 2,
+      limit_type: 1
+    },
+    {
+      id: 414,
+      pic: "UI_common_pinzhi_09",
+      level: 100,
+      lv_add: [
+        2,
+        11
+      ],
+      type: 1,
+      consume: [
+        5,
+        2
+      ],
+      robot_consume: [
+        7,
+        2
+      ],
+      name: "150406",
+      color: "#946e21",
+      pic2: "UI_common_Heros_head_08",
+      pic3: "UI__common_Heroic_bust_11",
+      pic_color: "#00000000",
+      pic4: "UI_Hero_pinzhitiao_08",
+      level_growth: 29000,
+      star: 3,
+      limit_type: 3
+    },
+    {
+      id: 501,
+      pic: "UI_common_pinzhi_01",
+      level: 1,
+      lv_add: [
+        1,
+        0
+      ],
+      type: 1,
+      consume: [
+        1,
+        1
+      ],
+      robot_consume: [
+        1,
+        1
+      ],
+      name: "150544",
+      color: "#a7a7a7",
+      pic2: "UI_common_Heros_head_01",
+      pic3: "UI__common_Heroic_bust_01",
+      pic_color: "#F1F1F1",
+      pic4: "UI_Hero_pinzhitiao_01",
+      level_growth: 7000,
+      star: -2147483648,
+      limit_type: 3
+    },
+    {
+      id: 502,
+      pic: "UI_common_pinzhi_02",
+      level: 30,
+      lv_add: [
+        1,
+        0
+      ],
+      type: 1,
+      consume: [
+        2,
+        2
+      ],
+      robot_consume: [
+        2,
+        2
+      ],
+      name: "150534",
+      color: "#4c841d",
+      pic2: "UI_common_Heros_head_02",
+      pic3: "UI__common_Heroic_bust_02",
+      pic_color: "#7CB75A",
+      pic4: "UI_Hero_pinzhitiao_02",
+      level_growth: 10000,
+      star: -2147483648
+    },
+    {
+      id: 503,
+      pic: "UI_common_pinzhi_03",
+      level: 40,
+      lv_add: [
+        2,
+        6
+      ],
+      type: 2,
+      consume: [
+        3,
+        2
+      ],
+      robot_consume: [
+        3,
+        2
+      ],
+      name: "150535",
+      color: "#20638e",
+      pic2: "UI_common_Heros_head_03",
+      pic3: "UI__common_Heroic_bust_03",
+      pic_color: "#5A8AB7",
+      pic4: "UI_Hero_pinzhitiao_03",
+      level_growth: 12000,
+      star: -2147483648
+    },
+    {
+      id: 504,
+      pic: "UI_common_pinzhi_04",
+      level: 50,
+      lv_add: [
+        2,
+        6
+      ],
+      type: 1,
+      consume: [
+        4,
+        1
+      ],
+      robot_consume: [
+        4,
+        1
+      ],
+      name: "150536",
+      color: "#7c2195",
+      pic2: "UI_common_Heros_head_04",
+      pic3: "UI__common_Heroic_bust_04",
+      pic_color: "#945AB7",
+      pic4: "UI_Hero_pinzhitiao_04",
+      level_growth: 15000,
+      star: -2147483648
+    },
+    {
+      id: 505,
+      pic: "UI_common_pinzhi_05",
+      level: 60,
+      lv_add: [
+        2,
+        6
+      ],
+      type: 2,
+      consume: [
+        5,
+        2
+      ],
+      robot_consume: [
+        5,
+        1
+      ],
+      name: "150537",
+      color: "#bb5336",
+      pic2: "UI_common_Heros_head_05",
+      pic3: "UI__common_Heroic_bust_05",
+      pic_color: "#D76C4D",
+      pic4: "UI_Hero_pinzhitiao_05",
+      level_growth: 17000,
+      star: -2147483648
+    },
+    {
+      id: 506,
+      pic: "UI_common_pinzhi_06",
+      level: 70,
+      lv_add: [
+        2,
+        6
+      ],
+      type: 1,
+      consume: [
+        5,
+        1
+      ],
+      robot_consume: [
+        6,
+        1
+      ],
+      name: "150538",
+      color: "#942121",
+      pic2: "UI_common_Heros_head_06",
+      pic3: "UI__common_Heroic_bust_06",
+      pic_color: "#D35251",
+      pic4: "UI_Hero_pinzhitiao_06",
+      level_growth: 18000,
+      star: -2147483648
+    },
+    {
+      id: 507,
+      pic: "UI_common_pinzhi_07",
+      level: 80,
+      lv_add: [
+        2,
+        16
+      ],
+      type: 2,
+      consume: [
+        7,
+        2
+      ],
+      robot_consume: [
+        7,
+        2
+      ],
+      name: "150539",
+      color: "#946e21",
+      pic2: "UI_common_Heros_head_07",
+      pic3: "UI__common_Heroic_bust_07",
+      pic_color: "#CC9552",
+      pic4: "UI_Hero_pinzhitiao_07",
+      level_growth: 21000,
+      star: -2147483648,
+      limit_type: 1
+    },
+    {
+      id: 508,
+      pic: "UI_common_pinzhi_07",
+      level: 90,
+      lv_add: [
+        2,
+        11
+      ],
+      type: 1,
+      consume: [
+        5,
+        1
+      ],
+      robot_consume: [
+        7,
+        2
+      ],
+      name: "150540",
+      color: "#946e21",
+      pic2: "UI_common_Heros_head_07",
+      pic3: "UI__common_Heroic_bust_07",
+      pic_color: "#CC9552",
+      pic4: "UI_Hero_pinzhitiao_07",
+      level_growth: 22500,
+      star: 1,
+      limit_type: 1
+    },
+    {
+      id: 509,
+      pic: "UI_common_pinzhi_07",
+      level: 95,
+      lv_add: [
+        2,
+        11
+      ],
+      type: 1,
+      consume: [
+        5,
+        1
+      ],
+      robot_consume: [
+        7,
+        2
+      ],
+      name: "150541",
+      color: "#946e21",
+      pic2: "UI_common_Heros_head_07",
+      pic3: "UI__common_Heroic_bust_07",
+      pic_color: "#CC9552",
+      pic4: "UI_Hero_pinzhitiao_07",
+      level_growth: 24000,
+      star: 2,
+      limit_type: 1
+    },
+    {
+      id: 510,
+      pic: "UI_common_pinzhi_07",
+      level: 100,
+      lv_add: [
+        2,
+        11
+      ],
+      type: 1,
+      consume: [
+        5,
+        2
+      ],
+      robot_consume: [
+        7,
+        2
+      ],
+      name: "150542",
+      color: "#946e21",
+      pic2: "UI_common_Heros_head_07",
+      pic3: "UI__common_Heroic_bust_07",
+      pic_color: "#CC9552",
+      pic4: "UI_Hero_pinzhitiao_07",
+      level_growth: 25500,
+      star: 3,
+      limit_type: 1
+    },
+    {
+      id: 511,
+      pic: "UI_common_pinzhi_09",
+      level: 100,
+      lv_add: [
+        2,
+        11
+      ],
+      type: 2,
+      consume: [
+        7,
+        2
+      ],
+      robot_consume: [
+        7,
+        2
+      ],
+      name: "150403",
+      color: "#946e21",
+      pic2: "UI_common_Heros_head_08",
+      pic3: "UI__common_Heroic_bust_11",
+      pic_color: "#00000000",
+      pic4: "UI_Hero_pinzhitiao_08",
+      level_growth: 26600,
+      star: -2147483648,
+      limit_type: 1
+    },
+    {
+      id: 512,
+      pic: "UI_common_pinzhi_09",
+      level: 100,
+      lv_add: [
+        2,
+        11
+      ],
+      type: 1,
+      consume: [
+        5,
+        2
+      ],
+      robot_consume: [
+        7,
+        2
+      ],
+      name: "150404",
+      color: "#946e21",
+      pic2: "UI_common_Heros_head_08",
+      pic3: "UI__common_Heroic_bust_11",
+      pic_color: "#00000000",
+      pic4: "UI_Hero_pinzhitiao_08",
+      level_growth: 27400,
+      star: 1,
+      limit_type: 1
+    },
+    {
+      id: 513,
+      pic: "UI_common_pinzhi_09",
+      level: 100,
+      lv_add: [
+        2,
+        11
+      ],
+      type: 1,
+      consume: [
+        5,
+        2
+      ],
+      robot_consume: [
+        7,
+        2
+      ],
+      name: "150405",
+      color: "#946e21",
+      pic2: "UI_common_Heros_head_08",
+      pic3: "UI__common_Heroic_bust_11",
+      pic_color: "#00000000",
+      pic4: "UI_Hero_pinzhitiao_08",
+      level_growth: 28200,
+      star: 2,
+      limit_type: 1
+    },
+    {
+      id: 514,
+      pic: "UI_common_pinzhi_09",
+      level: 100,
+      lv_add: [
+        2,
+        11
+      ],
+      type: 1,
+      consume: [
+        5,
+        2
+      ],
+      robot_consume: [
+        7,
+        2
+      ],
+      name: "150406",
+      color: "#946e21",
+      pic2: "UI_common_Heros_head_08",
+      pic3: "UI__common_Heroic_bust_11",
+      pic_color: "#00000000",
+      pic4: "UI_Hero_pinzhitiao_08",
+      level_growth: 29000,
+      star: 3,
+      limit_type: 3
+    },
+    {
+      id: 601,
+      pic: "UI_common_pinzhi_01",
+      level: 1,
+      lv_add: [
+        1,
+        0
+      ],
+      type: 1,
+      consume: [
+        1,
+        1
+      ],
+      robot_consume: [
+        1,
+        1
+      ],
+      name: "150544",
+      color: "#a7a7a7",
+      pic2: "UI_common_Heros_head_01",
+      pic3: "UI__common_Heroic_bust_01",
+      pic_color: "#F1F1F1",
+      pic4: "UI_Hero_pinzhitiao_01",
+      level_growth: 7000,
+      star: -2147483648,
+      limit_type: 3
+    },
+    {
+      id: 602,
+      pic: "UI_common_pinzhi_02",
+      level: 30,
+      lv_add: [
+        1,
+        0
+      ],
+      type: 1,
+      consume: [
+        2,
+        2
+      ],
+      robot_consume: [
+        2,
+        2
+      ],
+      name: "150534",
+      color: "#4c841d",
+      pic2: "UI_common_Heros_head_02",
+      pic3: "UI__common_Heroic_bust_02",
+      pic_color: "#7CB75A",
+      pic4: "UI_Hero_pinzhitiao_02",
+      level_growth: 10000,
+      star: -2147483648
+    },
+    {
+      id: 603,
+      pic: "UI_common_pinzhi_03",
+      level: 40,
+      lv_add: [
+        2,
+        6
+      ],
+      type: 1,
+      consume: [
+        3,
+        2
+      ],
+      robot_consume: [
+        3,
+        2
+      ],
+      name: "150535",
+      color: "#20638e",
+      pic2: "UI_common_Heros_head_03",
+      pic3: "UI__common_Heroic_bust_03",
+      pic_color: "#5A8AB7",
+      pic4: "UI_Hero_pinzhitiao_03",
+      level_growth: 12000,
+      star: -2147483648
+    },
+    {
+      id: 604,
+      pic: "UI_common_pinzhi_04",
+      level: 50,
+      lv_add: [
+        2,
+        6
+      ],
+      type: 1,
+      consume: [
+        4,
+        1
+      ],
+      robot_consume: [
+        4,
+        1
+      ],
+      name: "150536",
+      color: "#7c2195",
+      pic2: "UI_common_Heros_head_04",
+      pic3: "UI__common_Heroic_bust_04",
+      pic_color: "#945AB7",
+      pic4: "UI_Hero_pinzhitiao_04",
+      level_growth: 15000,
+      star: -2147483648
+    },
+    {
+      id: 605,
+      pic: "UI_common_pinzhi_05",
+      level: 60,
+      lv_add: [
+        2,
+        6
+      ],
+      type: 1,
+      consume: [
+        5,
+        1
+      ],
+      robot_consume: [
+        5,
+        1
+      ],
+      name: "150537",
+      color: "#bb5336",
+      pic2: "UI_common_Heros_head_05",
+      pic3: "UI__common_Heroic_bust_05",
+      pic_color: "#D76C4D",
+      pic4: "UI_Hero_pinzhitiao_05",
+      level_growth: 17000,
+      star: -2147483648,
+      limit_type: 1
+    },
+    {
+      id: 606,
+      pic: "UI_common_pinzhi_06",
+      level: 70,
+      lv_add: [
+        2,
+        6
+      ],
+      type: 1,
+      consume: [
+        5,
+        1
+      ],
+      robot_consume: [
+        6,
+        1
+      ],
+      name: "150538",
+      color: "#942121",
+      pic2: "UI_common_Heros_head_06",
+      pic3: "UI__common_Heroic_bust_06",
+      pic_color: "#D35251",
+      pic4: "UI_Hero_pinzhitiao_06",
+      level_growth: 18000,
+      star: -2147483648,
+      limit_type: 1
+    },
+    {
+      id: 607,
+      pic: "UI_common_pinzhi_07",
+      level: 80,
+      lv_add: [
+        2,
+        16
+      ],
+      type: 1,
+      consume: [
+        5,
+        2
+      ],
+      robot_consume: [
+        7,
+        2
+      ],
+      name: "150539",
+      color: "#946e21",
+      pic2: "UI_common_Heros_head_07",
+      pic3: "UI__common_Heroic_bust_07",
+      pic_color: "#CC9552",
+      pic4: "UI_Hero_pinzhitiao_07",
+      level_growth: 21000,
+      star: -2147483648,
+      limit_type: 1
+    },
+    {
+      id: 608,
+      pic: "UI_common_pinzhi_07",
+      level: 90,
+      lv_add: [
+        2,
+        11
+      ],
+      type: 1,
+      consume: [
+        5,
+        2
+      ],
+      robot_consume: [
+        7,
+        2
+      ],
+      name: "150540",
+      color: "#946e21",
+      pic2: "UI_common_Heros_head_07",
+      pic3: "UI__common_Heroic_bust_07",
+      pic_color: "#CC9552",
+      pic4: "UI_Hero_pinzhitiao_07",
+      level_growth: 22500,
+      star: 1,
+      limit_type: 1
+    },
+    {
+      id: 609,
+      pic: "UI_common_pinzhi_07",
+      level: 95,
+      lv_add: [
+        2,
+        11
+      ],
+      type: 1,
+      consume: [
+        5,
+        2
+      ],
+      robot_consume: [
+        7,
+        2
+      ],
+      name: "150541",
+      color: "#946e21",
+      pic2: "UI_common_Heros_head_07",
+      pic3: "UI__common_Heroic_bust_07",
+      pic_color: "#CC9552",
+      pic4: "UI_Hero_pinzhitiao_07",
+      level_growth: 24000,
+      star: 2,
+      limit_type: 1
+    },
+    {
+      id: 610,
+      pic: "UI_common_pinzhi_07",
+      level: 100,
+      lv_add: [
+        2,
+        11
+      ],
+      type: 1,
+      consume: [
+        5,
+        2
+      ],
+      robot_consume: [
+        7,
+        2
+      ],
+      name: "150542",
+      color: "#946e21",
+      pic2: "UI_common_Heros_head_07",
+      pic3: "UI__common_Heroic_bust_07",
+      pic_color: "#CC9552",
+      pic4: "UI_Hero_pinzhitiao_07",
+      level_growth: 25500,
+      star: 3,
+      limit_type: 1
+    },
+    {
+      id: 611,
+      pic: "UI_common_pinzhi_09",
+      level: 100,
+      lv_add: [
+        2,
+        11
+      ],
+      type: 1,
+      consume: [
+        5,
+        2
+      ],
+      robot_consume: [
+        7,
+        2
+      ],
+      name: "150403",
+      color: "#946e21",
+      pic2: "UI_common_Heros_head_08",
+      pic3: "UI__common_Heroic_bust_11",
+      pic_color: "#00000000",
+      pic4: "UI_Hero_pinzhitiao_08",
+      level_growth: 26600,
+      star: -2147483648,
+      limit_type: 1
+    },
+    {
+      id: 612,
+      pic: "UI_common_pinzhi_09",
+      level: 100,
+      lv_add: [
+        2,
+        11
+      ],
+      type: 1,
+      consume: [
+        5,
+        2
+      ],
+      robot_consume: [
+        7,
+        2
+      ],
+      name: "150404",
+      color: "#946e21",
+      pic2: "UI_common_Heros_head_08",
+      pic3: "UI__common_Heroic_bust_11",
+      pic_color: "#00000000",
+      pic4: "UI_Hero_pinzhitiao_08",
+      level_growth: 27400,
+      star: 1,
+      limit_type: 1
+    },
+    {
+      id: 613,
+      pic: "UI_common_pinzhi_09",
+      level: 100,
+      lv_add: [
+        2,
+        11
+      ],
+      type: 1,
+      consume: [
+        5,
+        2
+      ],
+      robot_consume: [
+        7,
+        2
+      ],
+      name: "150405",
+      color: "#946e21",
+      pic2: "UI_common_Heros_head_08",
+      pic3: "UI__common_Heroic_bust_11",
+      pic_color: "#00000000",
+      pic4: "UI_Hero_pinzhitiao_08",
+      level_growth: 28200,
+      star: 2,
+      limit_type: 1
+    },
+    {
+      id: 614,
+      pic: "UI_common_pinzhi_09",
+      level: 100,
+      lv_add: [
+        2,
+        11
+      ],
+      type: 1,
+      consume: [
+        5,
+        2
+      ],
+      robot_consume: [
+        7,
+        2
+      ],
+      name: "150406",
+      color: "#946e21",
+      pic2: "UI_common_Heros_head_08",
+      pic3: "UI__common_Heroic_bust_11",
+      pic_color: "#00000000",
+      pic4: "UI_Hero_pinzhitiao_08",
+      level_growth: 29000,
+      star: 3,
+      limit_type: 3
+    },
+    {
+      id: 701,
+      pic: "UI_common_pinzhi_01",
+      level: 1,
+      lv_add: [
+        1,
+        0
+      ],
+      type: 1,
+      consume: [
+        1,
+        1
+      ],
+      robot_consume: [
+        1,
+        1
+      ],
+      name: "150544",
+      color: "#a7a7a7",
+      pic2: "UI_common_Heros_head_01",
+      pic3: "UI__common_Heroic_bust_01",
+      pic_color: "#F1F1F1",
+      pic4: "UI_Hero_pinzhitiao_01",
+      level_growth: 7000,
+      star: -2147483648,
+      limit_type: 3
+    },
+    {
+      id: 702,
+      pic: "UI_common_pinzhi_02",
+      level: 30,
+      lv_add: [
+        1,
+        0
+      ],
+      type: 1,
+      consume: [
+        2,
+        2
+      ],
+      robot_consume: [
+        2,
+        2
+      ],
+      name: "150534",
+      color: "#4c841d",
+      pic2: "UI_common_Heros_head_02",
+      pic3: "UI__common_Heroic_bust_02",
+      pic_color: "#7CB75A",
+      pic4: "UI_Hero_pinzhitiao_02",
+      level_growth: 10000,
+      star: -2147483648
+    },
+    {
+      id: 703,
+      pic: "UI_common_pinzhi_03",
+      level: 40,
+      lv_add: [
+        2,
+        6
+      ],
+      type: 1,
+      consume: [
+        3,
+        2
+      ],
+      robot_consume: [
+        3,
+        2
+      ],
+      name: "150535",
+      color: "#20638e",
+      pic2: "UI_common_Heros_head_03",
+      pic3: "UI__common_Heroic_bust_03",
+      pic_color: "#5A8AB7",
+      pic4: "UI_Hero_pinzhitiao_03",
+      level_growth: 12000,
+      star: -2147483648
+    },
+    {
+      id: 704,
+      pic: "UI_common_pinzhi_04",
+      level: 50,
+      lv_add: [
+        2,
+        6
+      ],
+      type: 1,
+      consume: [
+        4,
+        1
+      ],
+      robot_consume: [
+        4,
+        1
+      ],
+      name: "150536",
+      color: "#7c2195",
+      pic2: "UI_common_Heros_head_04",
+      pic3: "UI__common_Heroic_bust_04",
+      pic_color: "#945AB7",
+      pic4: "UI_Hero_pinzhitiao_04",
+      level_growth: 15000,
+      star: -2147483648
+    },
+    {
+      id: 705,
+      pic: "UI_common_pinzhi_05",
+      level: 60,
+      lv_add: [
+        2,
+        6
+      ],
+      type: 1,
+      consume: [
+        5,
+        1
+      ],
+      robot_consume: [
+        5,
+        1
+      ],
+      name: "150537",
+      color: "#bb5336",
+      pic2: "UI_common_Heros_head_05",
+      pic3: "UI__common_Heroic_bust_05",
+      pic_color: "#D76C4D",
+      pic4: "UI_Hero_pinzhitiao_05",
+      level_growth: 17000,
+      star: -2147483648,
+      limit_type: 1
+    },
+    {
+      id: 706,
+      pic: "UI_common_pinzhi_06",
+      level: 70,
+      lv_add: [
+        2,
+        6
+      ],
+      type: 1,
+      consume: [
+        5,
+        1
+      ],
+      robot_consume: [
+        6,
+        1
+      ],
+      name: "150538",
+      color: "#942121",
+      pic2: "UI_common_Heros_head_06",
+      pic3: "UI__common_Heroic_bust_06",
+      pic_color: "#D35251",
+      pic4: "UI_Hero_pinzhitiao_06",
+      level_growth: 18000,
+      star: -2147483648,
+      limit_type: 1
+    },
+    {
+      id: 707,
+      pic: "UI_common_pinzhi_07",
+      level: 80,
+      lv_add: [
+        2,
+        16
+      ],
+      type: 1,
+      consume: [
+        5,
+        2
+      ],
+      robot_consume: [
+        7,
+        2
+      ],
+      name: "150539",
+      color: "#946e21",
+      pic2: "UI_common_Heros_head_07",
+      pic3: "UI__common_Heroic_bust_07",
+      pic_color: "#CC9552",
+      pic4: "UI_Hero_pinzhitiao_07",
+      level_growth: 21000,
+      star: -2147483648,
+      limit_type: 1
+    },
+    {
+      id: 708,
+      pic: "UI_common_pinzhi_07",
+      level: 90,
+      lv_add: [
+        2,
+        11
+      ],
+      type: 1,
+      consume: [
+        5,
+        2
+      ],
+      robot_consume: [
+        7,
+        2
+      ],
+      name: "150540",
+      color: "#946e21",
+      pic2: "UI_common_Heros_head_07",
+      pic3: "UI__common_Heroic_bust_07",
+      pic_color: "#CC9552",
+      pic4: "UI_Hero_pinzhitiao_07",
+      level_growth: 22500,
+      star: 1,
+      limit_type: 1
+    },
+    {
+      id: 709,
+      pic: "UI_common_pinzhi_07",
+      level: 95,
+      lv_add: [
+        2,
+        11
+      ],
+      type: 1,
+      consume: [
+        5,
+        2
+      ],
+      robot_consume: [
+        7,
+        2
+      ],
+      name: "150541",
+      color: "#946e21",
+      pic2: "UI_common_Heros_head_07",
+      pic3: "UI__common_Heroic_bust_07",
+      pic_color: "#CC9552",
+      pic4: "UI_Hero_pinzhitiao_07",
+      level_growth: 24000,
+      star: 2,
+      limit_type: 1
+    },
+    {
+      id: 710,
+      pic: "UI_common_pinzhi_07",
+      level: 100,
+      lv_add: [
+        2,
+        11
+      ],
+      type: 1,
+      consume: [
+        5,
+        2
+      ],
+      robot_consume: [
+        7,
+        2
+      ],
+      name: "150542",
+      color: "#946e21",
+      pic2: "UI_common_Heros_head_07",
+      pic3: "UI__common_Heroic_bust_07",
+      pic_color: "#CC9552",
+      pic4: "UI_Hero_pinzhitiao_07",
+      level_growth: 25500,
+      star: 3,
+      limit_type: 1
+    },
+    {
+      id: 711,
+      pic: "UI_common_pinzhi_09",
+      level: 100,
+      lv_add: [
+        2,
+        11
+      ],
+      type: 1,
+      consume: [
+        5,
+        2
+      ],
+      robot_consume: [
+        7,
+        2
+      ],
+      name: "150403",
+      color: "#946e21",
+      pic2: "UI_common_Heros_head_08",
+      pic3: "UI__common_Heroic_bust_11",
+      pic_color: "#00000000",
+      pic4: "UI_Hero_pinzhitiao_08",
+      level_growth: 26600,
+      star: -2147483648,
+      limit_type: 1
+    },
+    {
+      id: 712,
+      pic: "UI_common_pinzhi_09",
+      level: 100,
+      lv_add: [
+        2,
+        11
+      ],
+      type: 1,
+      consume: [
+        5,
+        2
+      ],
+      robot_consume: [
+        7,
+        2
+      ],
+      name: "150404",
+      color: "#946e21",
+      pic2: "UI_common_Heros_head_08",
+      pic3: "UI__common_Heroic_bust_11",
+      pic_color: "#00000000",
+      pic4: "UI_Hero_pinzhitiao_08",
+      level_growth: 27400,
+      star: 1,
+      limit_type: 1
+    },
+    {
+      id: 713,
+      pic: "UI_common_pinzhi_09",
+      level: 100,
+      lv_add: [
+        2,
+        11
+      ],
+      type: 1,
+      consume: [
+        5,
+        2
+      ],
+      robot_consume: [
+        7,
+        2
+      ],
+      name: "150405",
+      color: "#946e21",
+      pic2: "UI_common_Heros_head_08",
+      pic3: "UI__common_Heroic_bust_11",
+      pic_color: "#00000000",
+      pic4: "UI_Hero_pinzhitiao_08",
+      level_growth: 28200,
+      star: 2,
+      limit_type: 1
+    },
+    {
+      id: 714,
+      pic: "UI_common_pinzhi_09",
+      level: 100,
+      lv_add: [
+        2,
+        11
+      ],
+      type: 1,
+      consume: [
+        5,
+        2
+      ],
+      robot_consume: [
+        7,
+        2
+      ],
+      name: "150406",
+      color: "#946e21",
+      pic2: "UI_common_Heros_head_08",
+      pic3: "UI__common_Heroic_bust_11",
+      pic_color: "#00000000",
+      pic4: "UI_Hero_pinzhitiao_08",
+      level_growth: 29000,
+      star: 3,
+      limit_type: 3
+    }
+  ]
+}

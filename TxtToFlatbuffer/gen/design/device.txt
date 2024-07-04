@@ -1,0 +1,3 @@
+Id		Single_String	1	0			
+ModeType		Single_Short	2	0			
+RenderLevel		Single_Short	3	0			

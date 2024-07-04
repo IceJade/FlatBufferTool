@@ -1,0 +1,15 @@
+namespace LF.Table;
+
+table DRdevice
+{
+  Id:string;
+  ModeType:short;
+  RenderLevel:short;
+}
+
+table Table_device
+{
+  data:[DRdevice];
+}
+
+root_type Table_device;

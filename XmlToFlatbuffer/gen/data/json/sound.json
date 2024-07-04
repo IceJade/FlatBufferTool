@@ -1,0 +1,169 @@
+{
+  data: [
+    {
+      id: "Sound_RoomElectricity",
+      loop: 1,
+      maxDistance: 5,
+      priority: 1,
+      volume: 5.0
+    },
+    {
+      id: "Sound_Room_Controll",
+      loop: 1,
+      maxDistance: 5,
+      priority: 1,
+      volume: 5.0
+    },
+    {
+      id: "Sound_Room_Reset",
+      loop: 1,
+      maxDistance: 5,
+      priority: 1,
+      volume: 5.0
+    },
+    {
+      id: "Sound_Room_Defence",
+      loop: 1,
+      priority: 1,
+      volume: 5.0
+    },
+    {
+      id: "Sound_RoomWaterFactory",
+      loop: 1,
+      maxDistance: 5,
+      priority: 1,
+      volume: 5.0
+    },
+    {
+      id: "Sound_RoomPowerStation",
+      loop: 1,
+      maxDistance: 5,
+      priority: 1,
+      volume: 5.0
+    },
+    {
+      id: "Sound_LaboratoryLoop",
+      loop: 1,
+      maxDistance: 5,
+      priority: 1,
+      volume: 5.0
+    },
+    {
+      id: "Sound_RoomCommander",
+      loop: 1,
+      maxDistance: 5,
+      priority: 1,
+      volume: 5.0
+    },
+    {
+      id: "Sound_RoomCoin",
+      loop: 1,
+      maxDistance: 5,
+      priority: 1,
+      volume: 5.0
+    },
+    {
+      id: "Sound_CookLoop",
+      loop: 1,
+      maxDistance: 5,
+      priority: 1,
+      volume: 5.0
+    },
+    {
+      id: "Sound_RoomPlantingHerb",
+      loop: 1,
+      maxDistance: 5,
+      priority: 1,
+      volume: 5.0
+    },
+    {
+      id: "Sound_RoomPlantingWheat",
+      loop: 1,
+      maxDistance: 5,
+      priority: 1,
+      volume: 5.0
+    },
+    {
+      id: "Sound_RoomPlantingPumpkin",
+      loop: 1,
+      maxDistance: 5,
+      priority: 1,
+      volume: 5.0
+    },
+    {
+      id: "Sound_RoomCultivation",
+      loop: 1,
+      maxDistance: 5,
+      priority: 1,
+      volume: 5.0
+    },
+    {
+      id: "Sound_RoomAnimalBreed",
+      loop: 1,
+      maxDistance: 5,
+      priority: 1,
+      volume: 5.0
+    },
+    {
+      id: "Sound_RoomWrestle",
+      loop: 1,
+      maxDistance: 5,
+      priority: 1,
+      volume: 5.0
+    },
+    {
+      id: "Sound_RoomTraining",
+      loop: 1,
+      maxDistance: 5,
+      priority: 1,
+      volume: 5.0
+    },
+    {
+      id: "Sound_RoomShooting",
+      loop: 1,
+      maxDistance: 5,
+      priority: 1,
+      volume: 5.0
+    },
+    {
+      id: "Sound_RoomMine",
+      loop: 1,
+      maxDistance: 5,
+      priority: 1,
+      volume: 5.0
+    },
+    {
+      id: "LF_Leisure",
+      loop: 1,
+      maxDistance: 5,
+      priority: 1,
+      volume: 5.0
+    },
+    {
+      id: "Sound_Hero_Run",
+      loop: 1,
+      maxDistance: 10,
+      priority: 1,
+      volume: 5.0
+    },
+    {
+      id: "Sound_Water_Pool",
+      loop: 1,
+      maxDistance: 10,
+      priority: 1,
+      volume: 5.0
+    },
+    {
+      id: "Sound_Zombies",
+      loop: 1,
+      maxDistance: 10,
+      priority: 2,
+      volume: 5.0
+    },
+    {
+      id: "Sound_Marmot_Appear",
+      maxDistance: 5,
+      volume: 5.0
+    }
+  ]
+}

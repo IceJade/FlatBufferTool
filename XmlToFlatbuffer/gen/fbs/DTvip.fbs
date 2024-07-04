@@ -1,0 +1,19 @@
+namespace LF.Table;
+
+table DRvip
+{
+  id:int;
+  point:int;
+  icon:string;
+  reward1:[string];
+  reward2:int;
+  display:[int];
+  effect:[string];
+}
+
+table Table_vip
+{
+  data:[DRvip];
+}
+
+root_type Table_vip;

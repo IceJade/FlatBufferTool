@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "MakeTable": {
+      "commandName": "Project",
+      "commandLineArgs": "-f  D:\\Projects\\LF\\lfclient\\project\\Assets\\DataTable\\.Tool\\MakeTable\\tool\\win\\flatc.exe D:\\Projects\\LF\\lfclient\\project\\Assets\\DataTable\\XML D:\\Projects\\LF\\lfclient\\project\\Assets\\DataTable\\.Tool\\MakeTable\\gen"
+    }
+  }
+}

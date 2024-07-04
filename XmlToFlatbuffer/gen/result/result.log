@@ -1,0 +1,6 @@
+﻿[Error]get tool path fail, D:\Projects\MyCodeKit\FlatBufferTool\trunk\XmlToFlatbuffer\tool\win\
+[Error]config error => 数据配置错误! 数据类型必须为 Single_Int, 文件:goods.xml, 行:204003, 列:open_effect, 当前值: effect_Socks_001;1.3
+[Error]config error => id 410130 配置重复, file : D:\Projects\MyCodeKit\FlatBufferTool\trunk\XmlToFlatbuffer\XML\goods.xml
+[Error]config error => id 410131 配置重复, file : D:\Projects\MyCodeKit\FlatBufferTool\trunk\XmlToFlatbuffer\XML\goods.xml
+[Error]config error => id 410132 配置重复, file : D:\Projects\MyCodeKit\FlatBufferTool\trunk\XmlToFlatbuffer\XML\goods.xml
+[Error]config error => id 410133 配置重复, file : D:\Projects\MyCodeKit\FlatBufferTool\trunk\XmlToFlatbuffer\XML\goods.xml

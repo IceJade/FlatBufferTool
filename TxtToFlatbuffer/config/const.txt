@@ -1,0 +1,12 @@
+﻿字段描述	常量Key	常量内容	 
+字段名称	id	Content
+数据类型	string	string
+普通英雄属性名称	hero_normal_attr_name	150903,150905,150904,150906,150907
+战斗英雄属性名称	hero_battle_attr_name	150566,150567,150568,150569,150570
+英雄属性Key	hero_attr_key	strength,intelligence,agility,endurance,luck
+建造列表建筑动画播放时间间隔(秒)	UIBuilding.Item.AnimatorInterval	0.04
+聊天风险提示过滤	suspect_Chars	①②③④⑤⑥⑦⑧⑨⑩⑪⑫⑬⑭⑮⑯⑰⑱⑲⑳❶❷❸❹❺❻❼❽❾❿㈠㈡㈢㈣㈤㈥㈦㈧㈨㈩
+屏幕适配最大宽度	ScreenAdapterMaxWidth	1920
+上下留黑边屏幕适配宽高比	ScreenAdapterAspectRatioWithBlackEdges	1.778
+英雄列表头像Item动画播放时间间隔(秒)	UIHeroList.HeadIcon.Item.AnimatorInterval	0.03
+英雄列表图鉴Item动画播放时间间隔(秒)	UIHeroList.HandBook.Item.AnimatorInterval	0.04

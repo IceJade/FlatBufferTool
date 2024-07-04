@@ -1,0 +1,66 @@
+{
+  data: [
+    {
+      id: 2001,
+      language: "English",
+      lock_alies: -2147483648
+    },
+    {
+      id: 2002,
+      language: "\u65E5\u672C\u8A9E"
+    },
+    {
+      id: 2003,
+      language: "\uD55C\uAD6D\uC5B4"
+    },
+    {
+      id: 2004,
+      language: "Fran\u00E7ais"
+    },
+    {
+      id: 2005,
+      language: "Deutsch"
+    },
+    {
+      id: 2006,
+      language: "P\u0443\u0441\u0441\u043A\u0438\u0439"
+    },
+    {
+      id: 2007,
+      language: "Espa\u00F1ol"
+    },
+    {
+      id: 2008,
+      language: "Portugu\u00EAs"
+    },
+    {
+      id: 2009,
+      language: "Italiano"
+    },
+    {
+      id: 2010,
+      language: "\u0627\u0644\u0639\u0631\u0628\u064A\u0629"
+    },
+    {
+      id: 2012,
+      language: "Bahasa Indonesia"
+    },
+    {
+      id: 2014,
+      language: "T\u00FCrk\u00E7e"
+    },
+    {
+      id: 2015,
+      language: "\u7E41\u9AD4\u4E2D\u6587"
+    },
+    {
+      id: 2016,
+      language: "\u0E20\u0E32\u0E29\u0E32\u0E44\u0E17\u0E22"
+    },
+    {
+      id: 2000,
+      language: "\u7B80\u4F53\u4E2D\u6587",
+      lock_alies: -2147483648
+    }
+  ]
+}

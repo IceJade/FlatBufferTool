@@ -1,0 +1,2 @@
+﻿#扩展的表名
+ExtenalTables=atlas;sprites

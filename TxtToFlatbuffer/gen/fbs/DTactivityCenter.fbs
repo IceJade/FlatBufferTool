@@ -1,0 +1,17 @@
+namespace LF.Table;
+
+table DRactivityCenter
+{
+  id:int;
+  type:int;
+  subActivityType:int;
+  luaPath:string;
+  resUrl:string;
+}
+
+table Table_activityCenter
+{
+  data:[DRactivityCenter];
+}
+
+root_type Table_activityCenter;

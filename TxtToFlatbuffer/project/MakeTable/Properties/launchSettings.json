@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "MakeTable": {
+      "commandName": "Project",
+      "commandLineArgs": "-f  ..\\..\\..\\..\\..\\tool\\win\\flatc.exe ..\\..\\..\\..\\..\\config ..\\..\\..\\..\\..\\gen"
+    }
+  }
+}

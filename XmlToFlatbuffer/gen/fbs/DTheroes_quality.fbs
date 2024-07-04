@@ -1,0 +1,28 @@
+namespace LF.Table;
+
+table DRheroes_quality
+{
+  id:int;
+  pic:string;
+  level:int;
+  lv_add:[int];
+  type:int;
+  consume:[int];
+  robot_consume:[int];
+  name:string;
+  color:string;
+  pic2:string;
+  pic3:string;
+  pic_color:string;
+  pic4:string;
+  level_growth:int;
+  star:int;
+  limit_type:int;
+}
+
+table Table_heroes_quality
+{
+  data:[DRheroes_quality];
+}
+
+root_type Table_heroes_quality;

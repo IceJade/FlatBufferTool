@@ -1,0 +1,16 @@
+namespace LF.Table;
+
+table DRprefab
+{
+  id:string;
+  AssetName:string;
+  DefaultPrefab:string;
+  Prefabs:[string];
+}
+
+table Table_prefab
+{
+  data:[DRprefab];
+}
+
+root_type Table_prefab;

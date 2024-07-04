@@ -1,0 +1,8 @@
+id		Single_Int	0			
+area		Single_Int	0			
+level		Single_Int	0			
+reward_show		Array_Int	2	;		
+battle_ground		Single_String	0			
+army_show		Single_Int	0			
+route_point_id		Single_Int	0			
+explore_max		Single_Int	0			

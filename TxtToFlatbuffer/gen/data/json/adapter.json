@@ -1,0 +1,100 @@
+{
+  data: [
+    {
+      Id: 1,
+      MaxMemorySize: 2,
+      ScreenResolution: [
+        600,
+        800
+      ],
+      TargetFrameRate: 30,
+      AsyncUploadBufferSize: 4,
+      PointSource: 2,
+      VisibleRolesNumber: 3,
+      WaterRenderingLevelOfWorld: 1
+    },
+    {
+      Id: 2,
+      MinMemorySize: 2,
+      MaxMemorySize: 3,
+      ScreenResolution: [
+        768,
+        1024
+      ],
+      TargetFrameRate: 30,
+      EffectLevel: 1,
+      AsyncUploadBufferSize: 8,
+      PointSource: 2,
+      VisibleRolesNumber: 5,
+      TerrainRenderingLevelOfMainCity: 1,
+      BuildingRenderingLevelOfMainCity: 1,
+      Is2DCloudRenderingOfMainCity: true,
+      WaterRenderingLevelOfWorld: 1,
+      RoleBloomLevel: 1
+    },
+    {
+      Id: 3,
+      MinMemorySize: 3,
+      MaxMemorySize: 4,
+      ScreenResolution: [
+        720,
+        1280
+      ],
+      TargetFrameRate: 30,
+      EffectLevel: 2,
+      IsEnablePBR: true,
+      AsyncUploadBufferSize: 16,
+      IsVegetationRenderingOfMainCity: true,
+      PointSource: 1,
+      VisibleRolesNumber: 10,
+      IsShowFootShadow: true,
+      IsShowEnvironmentEffect: true,
+      TerrainRenderingLevelOfMainCity: 2,
+      BuildingRenderingLevelOfMainCity: 2,
+      IsSkyBoxRenderingOfMainCity: true,
+      Is2DCloudRenderingOfMainCity: true,
+      IsRoleBloomRendering: true,
+      IsShowRoleEffect: true,
+      IsBlitBlur: true,
+      IsTerrainRenderingOfWorld: 1,
+      BuildingRenderingLevelOfWorld: 1,
+      RoleBloomLevel: 2,
+      RoleFXAA: true,
+      IsRoleEnableFXAA: true
+    },
+    {
+      Id: 4,
+      MinMemorySize: 4,
+      MaxMemorySize: 1000,
+      ScreenResolution: [
+        1080,
+        1920
+      ],
+      TargetFrameRate: 60,
+      EffectLevel: 3,
+      IsEnablePBR: true,
+      AsyncUploadBufferSize: 32,
+      IsVegetationRenderingOfMainCity: true,
+      PointSource: 1,
+      VisibleRolesNumber: 15,
+      IsShowFootShadow: true,
+      IsShowEnvironmentEffect: true,
+      IsRealTimeShadowRendering: true,
+      IsShowSpecialEffects: true,
+      TerrainRenderingLevelOfMainCity: 2,
+      BuildingRenderingLevelOfMainCity: 2,
+      IsSkyBoxRenderingOfMainCity: true,
+      Is2DCloudRenderingOfMainCity: true,
+      IsRoleBloomRendering: true,
+      IsRoleShadowRendering: true,
+      IsShowRoleEffect: true,
+      IsBlitBlur: true,
+      IsTerrainRenderingOfWorld: 2,
+      BuildingRenderingLevelOfWorld: 1,
+      IsRoleSelfLightRendering: true,
+      RoleBloomLevel: 2,
+      RoleFXAA: true,
+      IsRoleEnableFXAA: true
+    }
+  ]
+}

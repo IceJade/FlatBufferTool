@@ -1,0 +1,51 @@
+id		Single_Int	0			
+name		Fix_String	0			
+description		Fix_String	0			
+icon		Single_String	0			
+type		Single_Int	0			
+color		Single_Int	0			
+lv		Single_Int	0			
+lv_limit		Single_Int	0			
+page		Single_Int	0			
+pages		Single_Int	0			
+pack_tab_type		Single_Int	0			
+use		Single_Int	0			
+order_num		Single_Int	0			
+store_order		Single_Int	0			
+price		Single_Int	0			
+price_hot		Single_Int	0			
+is_gift		Single_Int	0			
+sales		Dictionary_II	4	|	;	sales_1#sales_2
+alliance_order		Single_Int	0			
+price_all		Single_Int	0			
+type2		Single_Int	0			
+useall		Single_Int	0			
+para1		Fix_String	2	;		
+name_value		Array_String	2	|		
+para		Fix_String	3	;		
+para3		Fix_String	6	;		
+pagehot		Single_Int	0			
+save_loc		Single_Int	0			
+group_num		Single_Int	0			
+weight		Single_Int	0			
+des_para		Single_Int	0			
+is_show		Single_Int	0			
+para2		Fix_String	2	;		
+icon_loc		Dictionary_SS	3	|	;	icon_loc_1#icon_loc_2
+para4		Fix_String	0			
+heroid		Single_Int	0			
+denyBuy		Single_Int	0			
+auto_open		Single_Int	0			
+go_to		Array_Int	2	;		
+para5		Fix_String	0			
+not_gift		Single_Int	0			
+open_effect		Single_Int	0			
+alliance_lv_limit		Single_Int	0			
+rate		Array_Table	20	|	;	rate_1#rate_2#rate_3#rate_4#rate_5#rate_6#rate_7#rate_8
+recycleGoods		Array_Int	2	;		
+buy_times_limit		Single_Int	0			
+usemax		Single_Int	0			
+use_condition		Single_Int	0			
+bauxite		Single_Int	0			
+recycling_alliance_score		Single_Int	0			
+is_send		Single_Int	0			

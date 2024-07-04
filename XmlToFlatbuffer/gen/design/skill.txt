@@ -1,0 +1,20 @@
+id		Single_Int	0			
+level		Single_Int	0			
+type_area		Single_Int	0			
+object_num		Single_Int	0			
+effect		Array_Table	5	|	;	effect_1#effect_2
+effect_num		Array_Table	5	|	;	effect_num_1#effect_num_2
+type		Single_Int	0			
+type_para		Single_Int	0			
+show_type		Single_Int	0			
+name		Fix_String	0			
+des		Single_Int	0			
+icon		Single_String	0			
+object	object_alies	Single_Int	0			
+times		Single_Int	0			
+condition		Single_Int	0			
+effect_type		Single_Int	0			
+cd_time		Array_Int	0			
+ShortDes		Single_Int	0			
+activate_type		Single_Int	0			
+hide_effect		Array_Int	3	;		

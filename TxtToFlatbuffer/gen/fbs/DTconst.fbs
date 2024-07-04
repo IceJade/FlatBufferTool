@@ -1,0 +1,14 @@
+namespace LF.Table;
+
+table DRconst
+{
+  id:string;
+  Content:string;
+}
+
+table Table_const
+{
+  data:[DRconst];
+}
+
+root_type Table_const;

@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<tns:database xmlns:tns="http://www.iw.com/sns/platform/"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+    <ItemSpec id="80000" type="23" name="370032" points="3" season_type="2"/>
+    <ItemSpec id="80001" type="6" name="370033" points="3" season_type="2"/>
+    <ItemSpec id="80002" type="51" name="370034" points="10" season_type="2"/>
+    <ItemSpec id="80003" type="51" name="370035" points="10" season_type="2"/>
+    <ItemSpec id="80004" type="51" name="370036" points="10" season_type="2"/>
+    <ItemSpec id="80005" type="51" name="370037" points="10" season_type="2"/>
+    <ItemSpec id="80006" type="20" name="370038" points="5" season_type="2"/>
+    <ItemSpec id="80007" type="4" name="370039" points="4" season_type="2"/>
+    <ItemSpec id="80008" type="4" name="370040" points="8" season_type="2"/>
+    <ItemSpec id="80009" type="4" name="370041" points="12" season_type="2"/>
+    <ItemSpec id="80010" type="4" name="370042" points="16" season_type="2"/>
+    <ItemSpec id="80011" type="4" name="370043" points="24" season_type="2"/>
+    <ItemSpec id="80012" type="4" name="370044" points="36" season_type="2"/>
+    <ItemSpec id="80013" type="4" name="370045" points="48" season_type="2"/>
+    <ItemSpec id="80014" type="4" name="370046" points="60" season_type="2"/>
+    <ItemSpec id="80015" type="4" name="370047" points="80" season_type="2"/>
+    <ItemSpec id="80016" type="4" name="370048" points="100" season_type="2"/>
+    <ItemSpec id="80017" type="1" name="370049" points="2" season_type="2"/>
+    <ItemSpec id="80018" type="1" name="370050" points="3" season_type="2"/>
+    <ItemSpec id="80019" type="1" name="370051" points="4" season_type="2"/>
+    <ItemSpec id="80020" type="87" name="370052" points="2500" season_type="2"/>
+    <ItemSpec id="80021" type="87" name="370053" points="2500" season_type="2"/>
+    <ItemSpec id="80022" type="87" name="370054" points="4000" season_type="2"/>
+    <ItemSpec id="80023" type="2" name="370055" points="3" season_type="2"/>
+    <ItemSpec id="80024" type="2" name="370056" points="6" season_type="2"/>
+    <ItemSpec id="80025" type="2" name="370057" points="10" season_type="2"/>
+    <ItemSpec id="80026" type="2" name="370058" points="15" season_type="2"/>
+    <ItemSpec id="80027" type="2" name="370059" points="20" season_type="2"/>
+    <ItemSpec id="80028" type="2" name="370060" points="22" season_type="2"/>
+    <ItemSpec id="80029" type="2" name="370061" points="26" season_type="2"/>
+    <ItemSpec id="80030" type="2" name="370062" points="32" season_type="2"/>
+    <ItemSpec id="80031" type="2" name="370063" points="60" season_type="2"/>
+    <ItemSpec id="80032" type="2" name="370064" points="100" season_type="2"/>
+    <ItemSpec id="80033" type="2" name="370065" points="125" season_type="2"/>
+    <ItemSpec id="80034" type="2" name="370066" points="160" season_type="2"/>
+    <ItemSpec id="80035" type="2" name="370067" points="200" season_type="2"/>
+    <ItemSpec id="80036" type="2" name="370068" points="230" season_type="2"/>
+    <ItemSpec id="80037" type="2" name="370069" points="260" season_type="2"/>
+    <ItemSpec id="80038" type="2" name="370070" points="320" season_type="2"/>
+    <ItemSpec id="80039" type="2" name="370071" points="380" season_type="2"/>
+    <ItemSpec id="80040" type="2" name="370072" points="450" season_type="2"/>
+    <ItemSpec id="80041" type="2" name="370073" points="480" season_type="2"/>
+    <ItemSpec id="80042" type="2" name="370074" points="520" season_type="2"/>
+    <ItemSpec id="80043" type="2" name="370075" points="540" season_type="2"/>
+    <ItemSpec id="80044" type="2" name="370076" points="580" season_type="2"/>
+    <ItemSpec id="80045" type="2" name="370077" points="640" season_type="2"/>
+    <ItemSpec id="80046" type="2" name="370078" points="740" season_type="2"/>
+    <ItemSpec id="80047" type="2" name="370079" points="800" season_type="2"/>
+    <ItemSpec id="80126" type="2" name="370120" points="820" season_type="2"/>
+    <ItemSpec id="80127" type="2" name="370121" points="840" season_type="2"/>
+    <ItemSpec id="80128" type="2" name="370122" points="860" season_type="2"/>
+    <ItemSpec id="80129" type="2" name="370123" points="880" season_type="2"/>
+    <ItemSpec id="80130" type="2" name="370124" points="900" season_type="2"/>
+    <ItemSpec id="80048" type="72" name="370080" points="1000" season_type="2"/>
+    <ItemSpec id="80049" type="72" name="370081" points="4000" season_type="2"/>
+    <ItemSpec id="80050" type="72" name="370082" points="8000" season_type="2"/>
+    <ItemSpec id="80051" type="72" name="370083" points="10000" season_type="2"/>
+    <ItemSpec id="80052" type="72" name="370084" points="12000" season_type="2"/>
+    <ItemSpec id="80053" type="5" name="370085" points="4" season_type="2"/>
+    <ItemSpec id="80054" type="5" name="370086" points="8" season_type="2"/>
+    <ItemSpec id="80055" type="5" name="370087" points="12" season_type="2"/>
+    <ItemSpec id="80056" type="5" name="370088" points="16" season_type="2"/>
+    <ItemSpec id="80057" type="5" name="370089" points="24" season_type="2"/>
+    <ItemSpec id="80058" type="5" name="370090" points="36" season_type="2"/>
+    <ItemSpec id="80059" type="5" name="370091" points="48" season_type="2"/>
+    <ItemSpec id="80060" type="5" name="370092" points="60" season_type="2"/>
+    <ItemSpec id="80061" type="5" name="370093" points="80" season_type="2"/>
+    <ItemSpec id="80062" type="1" name="370049" points="10" season_type="2"/>
+    <ItemSpec id="80063" type="1" name="370050" points="15" season_type="2"/>
+    <ItemSpec id="80064" type="1" name="370051" points="20" season_type="2"/>
+    <ItemSpec id="80065" type="8" name="361082" value="1" points="2"/>
+    <ItemSpec id="80066" type="8" name="361083" value="1" points="3"/>
+    <ItemSpec id="80067" type="5" name="370085" value="1" points="1"/>
+    <ItemSpec id="80068" type="5" name="370086" value="2" points="2"/>
+    <ItemSpec id="80069" type="5" name="370087" value="3" points="3"/>
+    <ItemSpec id="80070" type="5" name="370088" value="4" points="4"/>
+    <ItemSpec id="80071" type="5" name="370089" value="5" points="6"/>
+    <ItemSpec id="80072" type="5" name="370090" value="6" points="9"/>
+    <ItemSpec id="80073" type="5" name="370091" value="7" points="12"/>
+    <ItemSpec id="80074" type="5" name="370092" value="8" points="15"/>
+    <ItemSpec id="80075" type="5" name="370093" value="9" points="20"/>
+    <ItemSpec id="80076" type="7" name="361081" value="1" points="3" group="1;361087;400"/>
+    <ItemSpec id="80077" type="7" name="361081" value="2" points="6" group="1;361087;400"/>
+    <ItemSpec id="80078" type="7" name="361081" value="3" points="9" group="1;361087;400"/>
+    <ItemSpec id="80079" type="7" name="361081" value="4" points="12" group="1;361087;400"/>
+    <ItemSpec id="80080" type="7" name="361081" value="5" points="18" group="1;361087;400"/>
+    <ItemSpec id="80081" type="7" name="361081" value="6" points="27" group="1;361087;400"/>
+    <ItemSpec id="80082" type="7" name="361081" value="7" points="36" group="1;361087;400"/>
+    <ItemSpec id="80083" type="7" name="361081" value="8" points="45" group="1;361087;400"/>
+    <ItemSpec id="80084" type="7" name="361081" value="9" points="60" group="1;361087;400"/>
+    <ItemSpec id="80085" type="73" name="361088" points="10000000" tips="361089;361090"/>
+    <ItemSpec id="80086" type="5" name="370094" points="100" season_type="2"/>
+    <ItemSpec id="80087" type="5" name="370094" value="10" points="60"/>
+    <ItemSpec id="80088" type="7" name="361081" value="10" points="180" group="1;361087;400"/>
+    <ItemSpec id="80100" type="20" name="370038" points="1" season_type="2"/>
+    <ItemSpec id="80101" type="20" name="370038" points="2" season_type="2"/>
+    <ItemSpec id="80102" type="20" name="370038" points="10" season_type="2"/>
+    <ItemSpec id="80103" type="72" name="370080" points="400" season_type="2"/>
+    <ItemSpec id="80104" type="72" name="370081" points="800" season_type="2"/>
+    <ItemSpec id="80105" type="72" name="370082" points="1200" season_type="2"/>
+    <ItemSpec id="80106" type="72" name="370514" points="400" season_type="2"/>
+    <ItemSpec id="80107" type="20" name="370038" points="50" season_type="2"/>
+    <ItemSpec id="80108" type="1" name="370049" points="30" season_type="2"/>
+    <ItemSpec id="80109" type="1" name="370050" points="45" season_type="2"/>
+    <ItemSpec id="80110" type="1" name="370051" points="60" season_type="2"/>
+    <ItemSpec id="80111" type="51" name="370035" points="13" season_type="2"/>
+    <ItemSpec id="80112" type="51" name="370036" points="13" season_type="2"/>
+    <ItemSpec id="80113" type="51" name="370037" points="13" season_type="2"/>
+    <ItemSpec id="80114" type="87" name="370052" points="4000" season_type="2"/>
+    <ItemSpec id="80115" type="87" name="370054" points="6800" season_type="2"/>
+    <ItemSpec id="80116" type="4" name="370039" points="20" season_type="2"/>
+    <ItemSpec id="80117" type="4" name="370040" points="80" season_type="2"/>
+    <ItemSpec id="80118" type="4" name="370041" points="150" season_type="2"/>
+    <ItemSpec id="80119" type="4" name="370042" points="250" season_type="2"/>
+    <ItemSpec id="80120" type="4" name="370043" points="300" season_type="2"/>
+    <ItemSpec id="80121" type="4" name="370044" points="500" season_type="2"/>
+    <ItemSpec id="80122" type="4" name="370045" points="750" season_type="2"/>
+    <ItemSpec id="80123" type="4" name="370046" points="1200" season_type="2"/>
+    <ItemSpec id="80124" type="4" name="370047" points="1800" season_type="2"/>
+    <ItemSpec id="80125" type="4" name="370048" points="5000" season_type="2"/>
+    <ItemSpec id="80131" type="87" name="370171" points="6800" season_type="2"/>
+    <ItemSpec id="80201" type="2" name="370055" points="64" season_type="2"/>
+    <ItemSpec id="80202" type="2" name="370056" points="72" season_type="2"/>
+    <ItemSpec id="80203" type="2" name="370057" points="80" season_type="2"/>
+    <ItemSpec id="80204" type="2" name="370058" points="86" season_type="2"/>
+    <ItemSpec id="80205" type="2" name="370059" points="92" season_type="2"/>
+    <ItemSpec id="80206" type="2" name="370060" points="96" season_type="2"/>
+    <ItemSpec id="80207" type="2" name="370061" points="100" season_type="2"/>
+    <ItemSpec id="80208" type="2" name="370062" points="104" season_type="2"/>
+    <ItemSpec id="80209" type="2" name="370063" points="107" season_type="2"/>
+    <ItemSpec id="80210" type="2" name="370064" points="109" season_type="2"/>
+    <ItemSpec id="80211" type="2" name="370065" points="111" season_type="2"/>
+    <ItemSpec id="80212" type="2" name="370066" points="113" season_type="2"/>
+    <ItemSpec id="80213" type="2" name="370067" points="115" season_type="2"/>
+    <ItemSpec id="80214" type="2" name="370068" points="116" season_type="2"/>
+    <ItemSpec id="80215" type="2" name="370069" points="117" season_type="2"/>
+    <ItemSpec id="80216" type="2" name="370070" points="118" season_type="2"/>
+    <ItemSpec id="80217" type="2" name="370071" points="119" season_type="2"/>
+    <ItemSpec id="80218" type="2" name="370072" points="120" season_type="2"/>
+    <ItemSpec id="80219" type="2" name="370073" points="121" season_type="2"/>
+    <ItemSpec id="80220" type="2" name="370074" points="122" season_type="2"/>
+    <ItemSpec id="80221" type="2" name="370075" points="123" season_type="2"/>
+    <ItemSpec id="80222" type="2" name="370076" points="123" season_type="2"/>
+    <ItemSpec id="80223" type="2" name="370077" points="124" season_type="2"/>
+    <ItemSpec id="80224" type="2" name="370078" points="124" season_type="2"/>
+    <ItemSpec id="80225" type="2" name="370079" points="125" season_type="2"/>
+    <ItemSpec id="80301" type="23" name="370032" points="1" season_type="2"/>
+    <ItemSpec id="80302" type="6" name="370033" points="3" season_type="2"/>
+    <ItemSpec id="80303" type="51" name="370035" points="20" season_type="2"/>
+    <ItemSpec id="80304" type="51" name="370036" points="4" season_type="2"/>
+    <ItemSpec id="80400" type="1" name="370049" points="3" season_type="2"/>
+    <ItemSpec id="80401" type="1" name="370050" points="5" season_type="2"/>
+    <ItemSpec id="80402" type="1" name="370051" points="8" season_type="2"/>
+    <ItemSpec id="80403" type="75" name="179001" points="60" season_type="2"/>
+    <ItemSpec id="80404" type="76" name="370117" points="60" season_type="2"/>
+    <ItemSpec id="80405" type="2" name="370055" points="150" season_type="2"/>
+    <ItemSpec id="80406" type="2" name="370056" points="160" season_type="2"/>
+    <ItemSpec id="80407" type="2" name="370057" points="170" season_type="2"/>
+    <ItemSpec id="80408" type="2" name="370058" points="180" season_type="2"/>
+    <ItemSpec id="80409" type="2" name="370059" points="190" season_type="2"/>
+    <ItemSpec id="80410" type="2" name="370060" points="200" season_type="2"/>
+    <ItemSpec id="80411" type="2" name="370061" points="210" season_type="2"/>
+    <ItemSpec id="80412" type="2" name="370062" points="220" season_type="2"/>
+    <ItemSpec id="80413" type="2" name="370063" points="230" season_type="2"/>
+    <ItemSpec id="80414" type="2" name="370064" points="240" season_type="2"/>
+    <ItemSpec id="80415" type="2" name="370065" points="250" season_type="2"/>
+    <ItemSpec id="80416" type="2" name="370066" points="260" season_type="2"/>
+    <ItemSpec id="80417" type="2" name="370067" points="270" season_type="2"/>
+    <ItemSpec id="80418" type="2" name="370068" points="280" season_type="2"/>
+    <ItemSpec id="80419" type="2" name="370069" points="290" season_type="2"/>
+    <ItemSpec id="80420" type="2" name="370070" points="300" season_type="2"/>
+    <ItemSpec id="80421" type="2" name="370071" points="310" season_type="2"/>
+    <ItemSpec id="80422" type="2" name="370072" points="320" season_type="2"/>
+    <ItemSpec id="80423" type="2" name="370073" points="330" season_type="2"/>
+    <ItemSpec id="80424" type="2" name="370074" points="340" season_type="2"/>
+    <ItemSpec id="80425" type="2" name="370075" points="350" season_type="2"/>
+    <ItemSpec id="80426" type="2" name="370076" points="360" season_type="2"/>
+    <ItemSpec id="80427" type="2" name="370077" points="370" season_type="2"/>
+    <ItemSpec id="80428" type="2" name="370078" points="380" season_type="2"/>
+    <ItemSpec id="80429" type="2" name="370079" points="390" season_type="2"/>
+    <ItemSpec id="80430" type="5" name="370085" points="1" season_type="2"/>
+    <ItemSpec id="80431" type="5" name="370086" points="2" season_type="2"/>
+    <ItemSpec id="80432" type="5" name="370087" points="3" season_type="2"/>
+    <ItemSpec id="80433" type="5" name="370088" points="4" season_type="2"/>
+    <ItemSpec id="80434" type="5" name="370089" points="5" season_type="2"/>
+    <ItemSpec id="80435" type="5" name="370090" points="8" season_type="2"/>
+    <ItemSpec id="80436" type="5" name="370091" points="12" season_type="2"/>
+    <ItemSpec id="80437" type="5" name="370092" points="22" season_type="2"/>
+    <ItemSpec id="80438" type="5" name="370093" points="35" season_type="2"/>
+    <ItemSpec id="80439" type="5" name="370094" points="50" season_type="2"/>
+    <ItemSpec id="80440" type="77" name="370114" points="2" season_type="2"/>
+    <ItemSpec id="80441" type="77" name="370115" points="3" season_type="2"/>
+    <ItemSpec id="80442" type="77" name="370116" points="4" season_type="2"/>
+    <ItemSpec id="80443" type="51" name="370035" points="6" season_type="2"/>
+    <ItemSpec id="80444" type="51" name="370036" points="6" season_type="2"/>
+    <ItemSpec id="80445" type="51" name="370037" points="6" season_type="2"/>
+    <ItemSpec id="80446" type="72" name="370080" points="800" season_type="2"/>
+    <ItemSpec id="80447" type="72" name="370081" points="850" season_type="2"/>
+    <ItemSpec id="80448" type="72" name="370082" points="1000" season_type="2"/>
+    <ItemSpec id="80449" type="72" name="370083" points="1100" season_type="2"/>
+    <ItemSpec id="80450" type="72" name="370084" points="1200" season_type="2"/>
+    <ItemSpec id="80451" type="72" name="370514" points="900" season_type="2"/>
+    <ItemSpec id="80452" type="72" name="370515" points="1000" season_type="2"/>
+    <ItemSpec id="80453" type="78" name="370141" value="1" points="0" season_type="2"/>
+    <ItemSpec id="80454" type="78" name="370141" value="2" points="0" season_type="2"/>
+    <ItemSpec id="80455" type="78" name="370141" value="3" points="0" season_type="2"/>
+    <ItemSpec id="80456" type="78" name="370141" value="4" points="1" season_type="2"/>
+    <ItemSpec id="80457" type="78" name="370141" value="5" points="2" season_type="2"/>
+    <ItemSpec id="80458" type="78" name="370141" value="6" points="3" season_type="2"/>
+    <ItemSpec id="80459" type="78" name="370141" value="7" points="4" season_type="2"/>
+    <ItemSpec id="80460" type="78" name="370141" value="8" points="5" season_type="2"/>
+    <ItemSpec id="80461" type="78" name="370141" value="9" points="6" season_type="2"/>
+    <ItemSpec id="80462" type="78" name="370141" value="10" points="18" season_type="2"/>
+    <ItemSpec id="80463" type="79" name="370140" value="1" points="3" season_type="2"/>
+    <ItemSpec id="80464" type="79" name="370140" value="2" points="6" season_type="2"/>
+    <ItemSpec id="80465" type="79" name="370140" value="3" points="9" season_type="2"/>
+    <ItemSpec id="80466" type="79" name="370140" value="4" points="12" season_type="2"/>
+    <ItemSpec id="80467" type="79" name="370140" value="5" points="18" season_type="2"/>
+    <ItemSpec id="80468" type="79" name="370140" value="6" points="27" season_type="2"/>
+    <ItemSpec id="80469" type="79" name="370140" value="7" points="36" season_type="2"/>
+    <ItemSpec id="80470" type="79" name="370140" value="8" points="45" season_type="2"/>
+    <ItemSpec id="80471" type="79" name="370140" value="9" points="60" season_type="2"/>
+    <ItemSpec id="80472" type="79" name="370140" value="10" points="180" season_type="2"/>
+    <ItemSpec id="80473" type="80" name="370143" value="1" points="6" season_type="2"/>
+    <ItemSpec id="80474" type="80" name="370143" value="2" points="12" season_type="2"/>
+    <ItemSpec id="80475" type="80" name="370143" value="3" points="18" season_type="2"/>
+    <ItemSpec id="80476" type="80" name="370143" value="4" points="24" season_type="2"/>
+    <ItemSpec id="80477" type="80" name="370143" value="5" points="36" season_type="2"/>
+    <ItemSpec id="80478" type="80" name="370143" value="6" points="54" season_type="2"/>
+    <ItemSpec id="80479" type="80" name="370143" value="7" points="72" season_type="2"/>
+    <ItemSpec id="80480" type="80" name="370143" value="8" points="90" season_type="2"/>
+    <ItemSpec id="80481" type="80" name="370143" value="9" points="120" season_type="2"/>
+    <ItemSpec id="80482" type="80" name="370143" value="10" points="360" season_type="2"/>
+    <ItemSpec id="80483" type="81" name="370141" value="1" points="0" group="2;361087;400" season_type="2"/>
+    <ItemSpec id="80484" type="81" name="370141" value="2" points="0" group="2;361087;400" season_type="2"/>
+    <ItemSpec id="80485" type="81" name="370141" value="3" points="0" group="2;361087;400" season_type="2"/>
+    <ItemSpec id="80486" type="81" name="370141" value="4" points="3" group="2;361087;400" season_type="2"/>
+    <ItemSpec id="80487" type="81" name="370141" value="5" points="6" group="2;361087;400" season_type="2"/>
+    <ItemSpec id="80488" type="81" name="370141" value="6" points="9" group="2;361087;400" season_type="2"/>
+    <ItemSpec id="80489" type="81" name="370141" value="7" points="12" group="2;361087;400" season_type="2"/>
+    <ItemSpec id="80490" type="81" name="370141" value="8" points="15" group="2;361087;400" season_type="2"/>
+    <ItemSpec id="80491" type="81" name="370141" value="9" points="18" group="2;361087;400" season_type="2"/>
+    <ItemSpec id="80492" type="81" name="370140" value="10" points="54" group="2;361087;400" season_type="2"/>
+    <ItemSpec id="80493" type="82" name="370140" value="1" points="9" group="2;361087;400" season_type="2"/>
+    <ItemSpec id="80494" type="82" name="370140" value="2" points="18" group="2;361087;400" season_type="2"/>
+    <ItemSpec id="80495" type="82" name="370140" value="3" points="27" group="2;361087;400" season_type="2"/>
+    <ItemSpec id="80496" type="82" name="370140" value="4" points="36" group="2;361087;400" season_type="2"/>
+    <ItemSpec id="80497" type="82" name="370140" value="5" points="54" group="2;361087;400" season_type="2"/>
+    <ItemSpec id="80498" type="82" name="370140" value="6" points="81" group="2;361087;400" season_type="2"/>
+    <ItemSpec id="80499" type="82" name="370140" value="7" points="108" group="2;361087;400" season_type="2"/>
+    <ItemSpec id="80500" type="82" name="370140" value="8" points="135" group="2;361087;400" season_type="2"/>
+    <ItemSpec id="80501" type="82" name="370140" value="9" points="180" group="2;361087;400" season_type="2"/>
+    <ItemSpec id="80502" type="82" name="370140" value="10" points="540" group="2;361087;400" season_type="2"/>
+    <ItemSpec id="80503" type="83" name="370143" value="1" points="18" group="2;361087;400" season_type="2"/>
+    <ItemSpec id="80504" type="83" name="370143" value="2" points="36" group="2;361087;400" season_type="2"/>
+    <ItemSpec id="80505" type="83" name="370143" value="3" points="54" group="2;361087;400" season_type="2"/>
+    <ItemSpec id="80506" type="83" name="370143" value="4" points="72" group="2;361087;400" season_type="2"/>
+    <ItemSpec id="80507" type="83" name="370143" value="5" points="108" group="2;361087;400" season_type="2"/>
+    <ItemSpec id="80508" type="83" name="370143" value="6" points="162" group="2;361087;400" season_type="2"/>
+    <ItemSpec id="80509" type="83" name="370143" value="7" points="216" group="2;361087;400" season_type="2"/>
+    <ItemSpec id="80510" type="83" name="370143" value="8" points="270" group="2;361087;400" season_type="2"/>
+    <ItemSpec id="80511" type="83" name="370143" value="9" points="360" group="2;361087;400" season_type="2"/>
+    <ItemSpec id="80512" type="83" name="370143" value="10" points="1080" group="2;361087;400" season_type="2"/>
+    <ItemSpec id="80513" type="85" name="370142" value="1" points="6" season_type="2"/>
+    <ItemSpec id="80514" type="85" name="370142" value="2" points="12" season_type="2"/>
+    <ItemSpec id="80515" type="85" name="370142" value="3" points="18" season_type="2"/>
+    <ItemSpec id="80516" type="85" name="370142" value="4" points="24" season_type="2"/>
+    <ItemSpec id="80517" type="85" name="370142" value="5" points="36" season_type="2"/>
+    <ItemSpec id="80518" type="85" name="370142" value="6" points="54" season_type="2"/>
+    <ItemSpec id="80519" type="85" name="370142" value="7" points="72" season_type="2"/>
+    <ItemSpec id="80520" type="85" name="370142" value="8" points="90" season_type="2"/>
+    <ItemSpec id="80521" type="85" name="370142" value="9" points="120" season_type="2"/>
+    <ItemSpec id="80522" type="85" name="370142" value="10" points="360" season_type="2"/>
+    <ItemSpec id="80523" type="31" name="370170" value="200030" points="10" season_type="2"/>
+    <ItemSpec id="80524" type="84" name="370170" value="3005" points="10" season_type="2"/>
+    <ItemSpec id="80525" type="31" name="370170" value="203006" points="10" season_type="2"/>
+    <ItemSpec id="80526" type="2" name="370120" points="400" season_type="2"/>
+    <ItemSpec id="80527" type="2" name="370121" points="410" season_type="2"/>
+    <ItemSpec id="80528" type="2" name="370122" points="420" season_type="2"/>
+    <ItemSpec id="80529" type="2" name="370123" points="430" season_type="2"/>
+    <ItemSpec id="80530" type="2" name="370124" points="440" season_type="2"/>
+    <ItemSpec id="80531" type="72" name="370118" points="1400" season_type="2"/>
+    <ItemSpec id="80532" type="72" name="370119" points="1500" season_type="2"/>
+    <ItemSpec id="80533" type="86"/>
+    <ItemSpec id="80534" type="87" name="370052" points="100" season_type="2"/>
+    <ItemSpec id="80535" type="87" name="370054" points="200" season_type="2"/>
+    <ItemSpec id="80536" type="86"/>
+    <ItemSpec id="80537" type="87" name="370052" points="1000" season_type="2"/>
+    <ItemSpec id="80538" type="87" name="370054" points="2000" season_type="2"/>
+    <ItemSpec id="80539" type="86"/>
+    <ItemSpec id="80540" type="51" name="370037" points="10" season_type="2"/>
+    <ItemSpec id="80541" type="51" name="370035" points="10" season_type="2"/>
+    <ItemSpec id="80542" type="72" name="370126" points="1600" season_type="2"/>
+    <ItemSpec id="80543" type="72" name="370172" points="1" season_type="2"/>
+    <ItemSpec id="80544" type="72" name="370172" points="1" season_type="2"/>
+
+</tns:database>

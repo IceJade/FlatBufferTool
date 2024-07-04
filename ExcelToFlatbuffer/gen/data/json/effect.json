@@ -1,0 +1,569 @@
+{
+  data: [
+    {
+      id: "click.button",
+      AssetName: "Assets/Shelter/Art/Effects/UI_prefabs/effec_ui_LFBookSmoke.prefab",
+      SoundId: ""
+    },
+    {
+      id: "hospital.cure.queue",
+      AssetName: "Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_LFViewHospital2_zhiliao_tishi_01.prefab",
+      SoundId: ""
+    },
+    {
+      id: "effect_world_Defense_room_smoke1_fire",
+      AssetName: "Assets/Shelter/Art/Effects/prefabs/effect_world_Defense_room_smoke1_fire.prefab",
+      SoundId: ""
+    },
+    {
+      id: "effect_ui_LFBattleView_btnSpeed",
+      AssetName: "Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_LFBattleView_btnSpeed",
+      SoundId: ""
+    },
+    {
+      id: "effect_ui_Guide_saoguang",
+      AssetName: "Assets/Shelter/Art/Effects/prefabs/effect_ui_Guide_saoguang",
+      SoundId: ""
+    },
+    {
+      id: "effect_pve_jiantou_01",
+      AssetName: "Assets/Shelter/Art/Effects/prefabs/effect_pve_jiantou_01",
+      SoundId: ""
+    },
+    {
+      id: "effect_pve_jiantou_02",
+      AssetName: "Assets/Shelter/Art/Effects/prefabs/effect_pve_jiantou_02",
+      SoundId: ""
+    },
+    {
+      id: "effect_ui_xinshouzhidao_01",
+      AssetName: "Assets/Shelter/Art/Effects/prefabs/effect_ui_xinshouzhidao_01",
+      SoundId: ""
+    },
+    {
+      id: "effect_ui_xinshouzhidao_02",
+      AssetName: "Assets/Shelter/Art/Effects/prefabs/effect_ui_xinshouzhidao_02",
+      SoundId: ""
+    },
+    {
+      id: "effect_ui_tips",
+      AssetName: "Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_tips",
+      SoundId: ""
+    },
+    {
+      id: "goGuideArrow",
+      AssetName: "Assets/Shelter/Prefabs/UI/goGuideArrow",
+      SoundId: ""
+    },
+    {
+      id: "effect_ui_gaoliang_01",
+      AssetName: "Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_gaoliang_01",
+      SoundId: ""
+    },
+    {
+      id: "effect_fangyudating_juqing_gun",
+      AssetName: "Assets/Shelter/Art/Effects/prefabs/effect_fangyudating_juqing_gun",
+      SoundId: ""
+    },
+    {
+      id: "effect_ui_LFPVEEnemyPreviewTip_button",
+      AssetName: "Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_LFPVEEnemyPreviewTip_button",
+      SoundId: ""
+    },
+    {
+      id: "effect_ui_LFRoomState_01",
+      AssetName: "Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_LFRoomState_01",
+      SoundId: ""
+    },
+    {
+      id: "effect_ui_WorkingNode_fire",
+      AssetName: "Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_WorkingNode_fire",
+      SoundId: ""
+    },
+    {
+      id: "effect_RoomControl_heipian",
+      AssetName: "Assets/Shelter/Art/Effects/prefabs/effect_RoomControl_heipian",
+      SoundId: ""
+    },
+    {
+      id: "effect_RoomControl_access",
+      AssetName: "Assets/Shelter/Art/Effects/prefabs/effect_RoomControl_access",
+      SoundId: ""
+    },
+    {
+      id: "effect_RoomControl_kaiji",
+      AssetName: "Assets/Shelter/Art/Effects/prefabs/effect_RoomControl_kaiji",
+      SoundId: ""
+    },
+    {
+      id: "effect_RoomControl_unlocked",
+      AssetName: "Assets/Shelter/Art/Effects/prefabs/effect_RoomControl_unlocked",
+      SoundId: ""
+    },
+    {
+      id: "effect_scene_CentralControlRoom_001",
+      AssetName: "Assets/Shelter/Art/Effects/prefabs/effect_scene_CentralControlRoom_001",
+      SoundId: ""
+    },
+    {
+      id: "effect_RoomControl_saomiao",
+      AssetName: "Assets/Shelter/Art/Effects/prefabs/effect_RoomControl_saomiao",
+      SoundId: ""
+    },
+    {
+      id: "effect_DiningRoom_MO_huo01",
+      AssetName: "Assets/Shelter/Art/Effects/prefabs/effect_DiningRoom_MO_huo01",
+      SoundId: ""
+    },
+    {
+      id: "effect_DiningRoom_MO_huo02",
+      AssetName: "Assets/Shelter/Art/Effects/prefabs/effect_DiningRoom_MO_huo02",
+      SoundId: ""
+    },
+    {
+      id: "effect_scene_emergency_light",
+      AssetName: "Assets/Shelter/Art/Effects/prefabs/effect_scene_emergency_light",
+      SoundId: ""
+    },
+    {
+      id: "effect_Hospital_hongse",
+      AssetName: "Assets/Shelter/Art/Effects/prefabs/effect_Hospital_hongse",
+      SoundId: ""
+    },
+    {
+      id: "effect_ui_RoomStateTip_Z",
+      AssetName: "Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_RoomStateTip_Z",
+      SoundId: ""
+    },
+    {
+      id: "effect_scene_fangzhi",
+      AssetName: "Assets/Shelter/Art/Effects/prefabs/effect_scene_fangzhi",
+      SoundId: ""
+    },
+    {
+      id: "effect_scene_fangzhi_01",
+      AssetName: "Assets/Shelter/Art/Effects/prefabs/effect_scene_fangzhi_01",
+      SoundId: ""
+    },
+    {
+      id: "effect_scene_Mushroombox_02",
+      AssetName: "Assets/Shelter/Art/Effects/prefabs/effect_scene_Mushroombox_02",
+      SoundId: ""
+    },
+    {
+      id: "effect_AuthorityGate_hongdeng",
+      AssetName: "Assets/Shelter/Art/Effects/prefabs/effect_AuthorityGate_hongdeng",
+      SoundId: ""
+    },
+    {
+      id: "effect_AuthorityGate_lvdeng",
+      AssetName: "Assets/Shelter/Art/Effects/prefabs/effect_AuthorityGate_lvdeng",
+      SoundId: ""
+    },
+    {
+      id: "effect_AuthorityGate_saomiao",
+      AssetName: "Assets/Shelter/Art/Effects/prefabs/effect_AuthorityGate_saomiao",
+      SoundId: ""
+    },
+    {
+      id: "effect_Clip",
+      AssetName: "Assets/Shelter/Art/Effects/prefabs/effect_Clip",
+      SoundId: ""
+    },
+    {
+      id: "effect_Snare_levelup",
+      AssetName: "Assets/Shelter/Art/Effects/prefabs/effect_Snare_levelup.prefab",
+      SoundId: ""
+    },
+    {
+      id: "effect_WaterDevice_000_shuihua",
+      AssetName: "Assets/Shelter/Art/Effects/prefabs/effect_WaterDevice_000_shuihua",
+      SoundId: ""
+    },
+    {
+      id: "effect_WaterDevice_000_liushui",
+      AssetName: "Assets/Shelter/Art/Effects/prefabs/effect_WaterDevice_000_liushui",
+      SoundId: ""
+    },
+    {
+      id: "effect_scene_jiantou_TruckSos",
+      AssetName: "Assets/Shelter/Art/Effects/prefabs/effect_scene_jiantou_TruckSos",
+      SoundId: ""
+    },
+    {
+      id: "effect_scene_PickupTrucks_light",
+      AssetName: "Assets/Shelter/Art/Effects/prefabs/effect_scene_PickupTrucks_light",
+      SoundId: ""
+    },
+    {
+      id: "effect_RoomGate_Smoke_Down",
+      AssetName: "Assets/Shelter/Art/Effects/prefabs/effect_RoomGate_Smoke_Down",
+      SoundId: ""
+    },
+    {
+      id: "effect_UI_BuildEdit_BtnBg01",
+      AssetName: "Assets/Shelter/Art/Effects/UI_prefabs/effect_UI_BuildEdit_BtnBg01",
+      SoundId: ""
+    },
+    {
+      id: "effect_ui_LFWorldFormationNew1_Button",
+      AssetName: "Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_LFWorldFormationNew1_Button",
+      SoundId: ""
+    },
+    {
+      id: "effect_ui_LFPLACEVIE_PrefabLFPlaceCell_saoguang",
+      AssetName: "Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_LFPLACEVIE_PrefabLFPlaceCell_saoguang",
+      SoundId: ""
+    },
+    {
+      id: "effect_ui_LFPLACEVIE_PrefabLFPlaceCell_jiesuo",
+      AssetName: "Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_LFPLACEVIE_PrefabLFPlaceCell_jiesuo",
+      SoundId: ""
+    },
+    {
+      id: "effect_ui_renkoujiangdi",
+      AssetName: "Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_renkoujiangdi",
+      SoundId: ""
+    },
+    {
+      id: "effect_ui_xinqing",
+      AssetName: "Assets/Shelter/Art/Effects/prefabs/effect_ui_xinqing",
+      SoundId: ""
+    },
+    {
+      id: "effect_ui_worldTips_blue",
+      AssetName: "Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_worldTips_blue",
+      SoundId: ""
+    },
+    {
+      id: "effect_ui_worldTips_red",
+      AssetName: "Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_worldTips_red",
+      SoundId: ""
+    },
+    {
+      id: "effect_ui_LFFunctionUnlock_001",
+      AssetName: "Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_LFFunctionUnlock_001",
+      SoundId: ""
+    },
+    {
+      id: "effect_ui_GOTOBTN_red",
+      AssetName: "Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_GOTOBTN_red",
+      SoundId: ""
+    },
+    {
+      id: "effect_ui_GOTOBTN_green",
+      AssetName: "Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_GOTOBTN_green",
+      SoundId: ""
+    },
+    {
+      id: "effect_ui_UIMainQueue_Z",
+      AssetName: "Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_UIMainQueue_Z",
+      SoundId: ""
+    },
+    {
+      id: "effect_WorldTemplate_xingjun",
+      AssetName: "Assets/Shelter/Art/Effects/UI_prefabs/effect_WorldTemplate_xingjun",
+      SoundId: ""
+    },
+    {
+      id: "effect_WorldTemplate_zhandou",
+      AssetName: "Assets/Shelter/Art/Effects/UI_prefabs/effect_WorldTemplate_zhandou",
+      SoundId: ""
+    },
+    {
+      id: "effect_ui_LFUIMain_worldtemplate",
+      AssetName: "Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_LFUIMain_worldtemplate",
+      SoundId: ""
+    },
+    {
+      id: "effect_ui_worldroot_jiesuo",
+      AssetName: "Assets/Shelter/Art/Effects/prefabs/effect_ui_worldroot_jiesuo",
+      SoundId: ""
+    },
+    {
+      id: "effect_ui_LFViewTradingCenter_anniu",
+      AssetName: "Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_LFViewTradingCenter_anniu",
+      SoundId: ""
+    },
+    {
+      id: "effect_ui_LFAllianceActivity_box_01",
+      AssetName: "Assets/Shelter/Art/Effects/prefabs/effect_ui_LFAllianceActivity_box_01.prefab",
+      SoundId: ""
+    },
+    {
+      id: "effect_ui_LFAllianceActivity_box_01_1",
+      AssetName: "Assets/Shelter/Art/Effects/prefabs/effect_ui_LFAllianceActivity_box_01_1.prefab",
+      SoundId: ""
+    },
+    {
+      id: "effect_ui_LFGiftPackMonthCardHero_001",
+      AssetName: "Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_LFGiftPackMonthCardHero_001",
+      SoundId: ""
+    },
+    {
+      id: "effect_ui_LFGiftPackMonthCardHero_002",
+      AssetName: "Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_LFGiftPackMonthCardHero_002",
+      SoundId: ""
+    },
+    {
+      id: "effect_LFDiningRoomCookPage 2_loading",
+      AssetName: "Assets/Shelter/Art/Effects/prefabs/effect_LFDiningRoomCookPage 2_loading",
+      SoundId: ""
+    },
+    {
+      id: "effect_ui_diningcook_004",
+      AssetName: "Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_diningcook_004",
+      SoundId: ""
+    },
+    {
+      id: "effect_ui_diningcook_001",
+      AssetName: "Assets/Shelter/Art/Effects/prefabs/effect_ui_diningcook_001",
+      SoundId: ""
+    },
+    {
+      id: "effect_ui_LFRoomManager_01",
+      AssetName: "Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_LFRoomManager_01",
+      SoundId: ""
+    },
+    {
+      id: "effect_ui_LFRoomManager_02",
+      AssetName: "Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_LFRoomManager_02",
+      SoundId: ""
+    },
+    {
+      id: "effect_ui_GiftPackageBarNew_001",
+      AssetName: "Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_GiftPackageBarNew_001",
+      SoundId: ""
+    },
+    {
+      id: "effect_ui_ActorBubble_01",
+      AssetName: "Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_ActorBubble_01",
+      SoundId: ""
+    },
+    {
+      id: "effect_ui_ActorBubble_03",
+      AssetName: "Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_ActorBubble_03",
+      SoundId: ""
+    },
+    {
+      id: "effect_ui_LevelUpTemplate_01",
+      AssetName: "Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_LevelUpTemplate_01",
+      SoundId: ""
+    },
+    {
+      id: "effect_ui_EmotionBubbleTemplate_down_01",
+      AssetName: "Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_EmotionBubbleTemplate_down_01",
+      SoundId: ""
+    },
+    {
+      id: "effect_ui_EmotionBubbleTemplate_down_02",
+      AssetName: "Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_EmotionBubbleTemplate_down_02",
+      SoundId: ""
+    },
+    {
+      id: "effect_ui_EmotionBubbleTemplate_up_01",
+      AssetName: "Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_EmotionBubbleTemplate_up_01",
+      SoundId: ""
+    },
+    {
+      id: "effect_ui_EmotionBubbleTemplate_up_02",
+      AssetName: "Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_EmotionBubbleTemplate_up_02",
+      SoundId: ""
+    },
+    {
+      id: "effect_ui_juqing_jiaohu",
+      AssetName: "Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_juqing_jiaohu",
+      SoundId: ""
+    },
+    {
+      id: "effect_ui_juqing_jiaohu_xiaoshi",
+      AssetName: "Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_juqing_jiaohu_xiaoshi",
+      SoundId: ""
+    },
+    {
+      id: "effect_ui_fangdajing",
+      AssetName: "Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_fangdajing",
+      SoundId: ""
+    },
+    {
+      id: "effect_ui_LFScienceCenter_01",
+      AssetName: "Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_LFScienceCenter_01",
+      SoundId: ""
+    },
+    {
+      id: "effect_ui_LFScienceCenter_02",
+      AssetName: "Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_LFScienceCenter_02",
+      SoundId: ""
+    },
+    {
+      id: "effect_ui_LFViewBuildAcc2_001",
+      AssetName: "Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_LFViewBuildAcc2_001.prefab",
+      SoundId: ""
+    },
+    {
+      id: "effect_ui_LFViewHospitalUse2_expBarBg",
+      AssetName: "Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_LFViewHospitalUse2_expBarBg",
+      SoundId: ""
+    },
+    {
+      id: "effect_ui_LFRecruitViewNew_panel_01",
+      AssetName: "Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_LFRecruitViewNew_panel_01.prefab",
+      SoundId: ""
+    },
+    {
+      id: "effect_ui_xUIWorkerSelect1_paiqian_tishi_01",
+      AssetName: "Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_xUIWorkerSelect1_paiqian_tishi_01",
+      SoundId: ""
+    },
+    {
+      id: "effect_RoomBattery",
+      AssetName: "Assets/Shelter/Art/Effects/prefabs/effect_RoomBattery",
+      SoundId: ""
+    },
+    {
+      id: "effect_scene_rh03_01",
+      AssetName: "Assets/Shelter/Art/Effects/prefabs/effect_scene_rh03_01",
+      SoundId: ""
+    },
+    {
+      id: "effect_scene_CoalMine_Level4_01",
+      AssetName: "Assets/Shelter/Art/Effects/prefabs/effect_scene_CoalMine_Level4_01",
+      SoundId: ""
+    },
+    {
+      id: "effect_scene_cbr_01",
+      AssetName: "Assets/Shelter/Art/Effects/prefabs/effect_scene_cbr_01",
+      SoundId: ""
+    },
+    {
+      id: "effect_scene_deng_001",
+      AssetName: "Assets/Shelter/Art/Effects/prefabs/effect_scene_deng_001",
+      SoundId: ""
+    },
+    {
+      id: "effect_DiningRoom_light",
+      AssetName: "Assets/Shelter/Art/Effects/prefabs/effect_DiningRoom_light",
+      SoundId: ""
+    },
+    {
+      id: "effect_scene_deng_003_Dormitory",
+      AssetName: "Assets/Shelter/Art/Effects/prefabs/effect_scene_deng_003_Dormitory",
+      SoundId: ""
+    },
+    {
+      id: "effect_scene_f_01",
+      AssetName: "Assets/Shelter/Art/Effects/prefabs/effect_scene_f_01",
+      SoundId: ""
+    },
+    {
+      id: "effect_scene_f_02",
+      AssetName: "Assets/Shelter/Art/Effects/prefabs/effect_scene_f_02",
+      SoundId: ""
+    },
+    {
+      id: "effect_scene_f_03",
+      AssetName: "Assets/Shelter/Art/Effects/prefabs/effect_scene_f_03",
+      SoundId: ""
+    },
+    {
+      id: "effect_scene_f_04",
+      AssetName: "Assets/Shelter/Art/Effects/prefabs/effect_scene_f_04",
+      SoundId: ""
+    },
+    {
+      id: "effect_scene_RoomHerbal_01",
+      AssetName: "Assets/Shelter/Art/Effects/prefabs/effect_scene_RoomHerbal_01",
+      SoundId: ""
+    },
+    {
+      id: "effect_scene_InstituteofMedicine_MT_01",
+      AssetName: "Assets/Shelter/Art/Effects/prefabs/effect_scene_InstituteofMedicine_MT_01",
+      SoundId: ""
+    },
+    {
+      id: "effect_scene_mint_01",
+      AssetName: "Assets/Shelter/Art/Effects/prefabs/effect_scene_mint_01",
+      SoundId: ""
+    },
+    {
+      id: "effect_Plantingroom_01",
+      AssetName: "Assets/Shelter/Art/Effects/prefabs/effect_Plantingroom_01",
+      SoundId: ""
+    },
+    {
+      id: "effect_scene_restroom_01",
+      AssetName: "Assets/Shelter/Art/Effects/prefabs/effect_scene_restroom_01",
+      SoundId: ""
+    },
+    {
+      id: "effect_scene_wh_01",
+      AssetName: "Assets/Shelter/Art/Effects/prefabs/effect_scene_wh_01",
+      SoundId: ""
+    },
+    {
+      id: "effect_scene_Satellitecenter_01",
+      AssetName: "Assets/Shelter/Art/Effects/prefabs/effect_scene_Satellitecenter_01",
+      SoundId: ""
+    },
+    {
+      id: "effect_scene_ShootingRange_001",
+      AssetName: "Assets/Shelter/Art/Effects/prefabs/effect_scene_ShootingRange_001",
+      SoundId: ""
+    },
+    {
+      id: "effect_scene_SpecialTraining_01",
+      AssetName: "Assets/Shelter/Art/Effects/prefabs/effect_scene_SpecialTraining_01",
+      SoundId: ""
+    },
+    {
+      id: "effect_RoomStairway_LightGlow_01",
+      AssetName: "Assets/Shelter/Art/Effects/prefabs/effect_RoomStairway_LightGlow_01",
+      SoundId: ""
+    },
+    {
+      id: "effect_scene_xushuichi_01",
+      AssetName: "Assets/Shelter/Art/Effects/prefabs/effect_scene_xushuichi_01",
+      SoundId: ""
+    },
+    {
+      id: "effect_scene_xushuichi_02",
+      AssetName: "Assets/Shelter/Art/Effects/prefabs/effect_scene_xushuichi_02",
+      SoundId: ""
+    },
+    {
+      id: "effect_scene_wpc_01",
+      AssetName: "Assets/Shelter/Art/Effects/prefabs/effect_scene_wpc_01",
+      SoundId: ""
+    },
+    {
+      id: "effect_scene_Cage_001",
+      AssetName: "Assets/Shelter/Art/Effects/prefabs/effect_scene_Cage_001",
+      SoundId: ""
+    },
+    {
+      id: "effect_scene_MarmotGenerator_02",
+      AssetName: "Assets/Shelter/Art/Effects/prefabs/effect_scene_MarmotGenerator_02",
+      SoundId: ""
+    },
+    {
+      id: "effect_scene_wenzi_01",
+      AssetName: "Assets/Shelter/Art/Effects/prefabs/effect_scene_wenzi_01",
+      SoundId: ""
+    },
+    {
+      id: "effect_scene_stone_05",
+      AssetName: "Assets/Shelter/Art/Effects/prefabs/effect_scene_stone_05",
+      SoundId: ""
+    },
+    {
+      id: "effect_scene_stone_02",
+      AssetName: "Assets/Shelter/Art/Effects/prefabs/effect_scene_stone_02",
+      SoundId: ""
+    },
+    {
+      id: "effect_world_baohuzhao_01",
+      AssetName: "Assets/Shelter/Art/Effects/prefabs/effect_world_baohuzhao_01",
+      SoundId: ""
+    }
+  ]
+}

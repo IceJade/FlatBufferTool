@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<tns:database xmlns:tns="http://www.iw.com/sns/platform/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<ItemSpec id="Sound_RoomElectricity" loop="1" maxDistance="5" priority="1" volume="5"/>
+<ItemSpec id="Sound_Room_Controll" loop="1" maxDistance="5" priority="1" volume="5"/>
+<ItemSpec id="Sound_Room_Reset" loop="1" maxDistance="5" priority="1" volume="5"/>
+<ItemSpec id="Sound_Room_Defence" loop="1" maxDistance="0" priority="1" volume="5"/>
+<ItemSpec id="Sound_RoomWaterFactory" loop="1" maxDistance="5" priority="1" volume="5"/>
+<ItemSpec id="Sound_RoomPowerStation" loop="1" maxDistance="5" priority="1" volume="5"/>
+<ItemSpec id="Sound_LaboratoryLoop" loop="1" maxDistance="5" priority="1" volume="5"/>
+<ItemSpec id="Sound_RoomCommander" loop="1" maxDistance="5" priority="1" volume="5"/>
+<ItemSpec id="Sound_RoomCoin" loop="1" maxDistance="5" priority="1" volume="5"/>
+<ItemSpec id="Sound_CookLoop" loop="1" maxDistance="5" priority="1" volume="5"/>
+<ItemSpec id="Sound_RoomPlantingHerb" loop="1" maxDistance="5" priority="1" volume="5"/>
+<ItemSpec id="Sound_RoomPlantingWheat" loop="1" maxDistance="5" priority="1" volume="5"/>
+<ItemSpec id="Sound_RoomPlantingPumpkin" loop="1" maxDistance="5" priority="1" volume="5"/>
+<ItemSpec id="Sound_RoomCultivation" loop="1" maxDistance="5" priority="1" volume="5"/>
+<ItemSpec id="Sound_RoomAnimalBreed" loop="1" maxDistance="5" priority="1" volume="5"/>
+<ItemSpec id="Sound_RoomWrestle" loop="1" maxDistance="5" priority="1" volume="5"/>
+<ItemSpec id="Sound_RoomTraining" loop="1" maxDistance="5" priority="1" volume="5"/>
+<ItemSpec id="Sound_RoomShooting" loop="1" maxDistance="5" priority="1" volume="5"/>
+<ItemSpec id="Sound_RoomMine" loop="1" maxDistance="5" priority="1" volume="5"/>
+<ItemSpec id="LF_Leisure" loop="1" maxDistance="5" priority="1" volume="5"/>
+<ItemSpec id="Sound_Hero_Run" loop="1" maxDistance="10" priority="1" volume="5"/>
+<ItemSpec id="Sound_Water_Pool" loop="1" maxDistance="10" priority="1" volume="5"/>
+<ItemSpec id="Sound_Zombies" loop="1" maxDistance="10" priority="2" volume="5"/>
+<ItemSpec id="Sound_Marmot_Appear" loop="0" maxDistance="5" priority="0" volume="5"/>
+</tns:database>

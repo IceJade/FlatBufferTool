@@ -1,0 +1,63 @@
+namespace LF.Table;
+
+table DRgoods
+{
+  id:int;
+  name:string;
+  description:string;
+  icon:string;
+  type:int;
+  color:int;
+  lv:int;
+  lv_limit:int;
+  page:int;
+  pages:int;
+  pack_tab_type:int;
+  use:int;
+  order_num:int;
+  store_order:int;
+  price:int;
+  price_hot:int;
+  is_gift:int;
+  sales:[string];
+  alliance_order:int;
+  price_all:int;
+  type2:int;
+  useall:int;
+  para1:string;
+  name_value:[string];
+  para:string;
+  para3:string;
+  pagehot:int;
+  save_loc:int;
+  group_num:int;
+  weight:int;
+  des_para:int;
+  is_show:int;
+  para2:string;
+  icon_loc:[string];
+  para4:string;
+  heroid:int;
+  denyBuy:int;
+  auto_open:int;
+  go_to:[int];
+  para5:string;
+  not_gift:int;
+  open_effect:int;
+  alliance_lv_limit:int;
+  rate:[string];
+  recycleGoods:[int];
+  buy_times_limit:int;
+  usemax:int;
+  use_condition:int;
+  bauxite:int;
+  recycling_alliance_score:int;
+  is_send:int;
+}
+
+table Table_goods
+{
+  data:[DRgoods];
+}
+
+root_type Table_goods;

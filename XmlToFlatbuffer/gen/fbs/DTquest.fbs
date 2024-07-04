@@ -1,0 +1,57 @@
+namespace LF.Table;
+
+table DRquest
+{
+  id:int;
+  Plot:[int];
+  series:int;
+  title:string;
+  description:string;
+  name:string;
+  gotype:int;
+  go:[int];
+  gotype2:int;
+  go2:int;
+  gobuild2:int;
+  interactiveButton:int;
+  Tips_Type:int;
+  remind:[float];
+  List_Id:int;
+  type2:int;
+  para1:string;
+  para2:string;
+  is_chapter:int;
+  pic:string;
+  pre_id:string;
+  auto:int;
+  progress:int;
+  gobuild:int;
+  reward_story:int;
+  guide_freedom:int;
+  click_story:int;
+  Tips_Movie:int;
+  Tips_Soil_Id:int;
+  finish_story:int;
+  para3:string;
+  remind_auto:int;
+  accept2:int;
+  is_achievement:int;
+  Finish_Id:int;
+  priority:int;
+  main_quest:int;
+  par3:int;
+  processing:int;
+  daily_series:int;
+  DebugDot:int;
+  Main_time:string;
+  Main_time2:string;
+  book_close:int;
+  event_dailyunlock_chest:int;
+}
+
+table Table_quest
+{
+  data:[DRquest];
+}
+
+root_type Table_quest;

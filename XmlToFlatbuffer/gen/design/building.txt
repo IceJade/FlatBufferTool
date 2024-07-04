@@ -1,0 +1,62 @@
+id		Single_Int	0			
+name		Fix_String	0			
+description		Fix_String	0			
+station_name		Single_Int	0			
+small_icon		Single_String	0			
+char	char_alies	Single_Int	0			
+information		Dictionary_II	30	|	;	information_1#information_2
+type		Single_Int	0			
+max_level		Single_Int	0			
+num		Single_Int	0			
+tiles		Single_Int	0			
+floor		Single_Int	0			
+power		Array_Int	30	;		
+pic		Single_String	0			
+prefab		Array_String	3	|		
+prefab_world		Dictionary_SS	3	|	;	prefab_world_1#prefab_world_2
+tab_type		Single_Int	0			
+building_list		Single_Int	0			
+order		Single_Int	0			
+edit		Single_Int	0			
+time		Single_Int	0			
+put_consume		Dictionary_II	5	|	;	open_arms_1#open_arms_2
+power_dissipation		Array_Float	30	;		
+lack_resource		Single_Int	0			
+para10		Fix_String	30	|	;	para10_1#para10_2#para10_3#para10_4#para10_5
+station_max		Single_Int	0			
+intelligence		Array_String	3	;		
+destip		Single_Int	0			
+station_type		Single_Int	0			
+exp		Single_Int	0			
+unlock_num		Dictionary_II	30	|	;	unlock_num_1#unlock_num_2
+unlock_population		Dictionary_II	5	|	;	open_arms_1#open_arms_2
+store_limit		Single_Int	0			
+needScience		Single_Int	0			
+agility		Array_String	3	;		
+rush		Single_Int	0			
+unlock_quest		Single_Int	0			
+endurance		Array_String	3	;		
+building		Dictionary_II	2	|	;	building_1#building_2
+gift_id		Fix_String	2	|		
+strength		Array_String	3	;		
+para2		Fix_String	2	|		
+para3		Fix_String	2	|		
+fixed_location		Array_Table	2	|	;	fixed_location_1#fixed_location_2
+para1		Fix_String	3	|	;	para1_1#para1_2
+para5		Fix_String	0			
+luck		Array_String	3	;		
+open_arms		Dictionary_II	5	|	;	open_arms_1#open_arms_2
+unlock_effect		Single_Int	0			
+inBuilding		Array_Int	2	|		
+destroy_hero		Single_Int	0			
+Unlock_edit		Dictionary_II	2	|	;	Unlock_edit_1#Unlock_edit_2
+quest_interfaceId		Single_Int	0			
+drawing		Single_Int	0			
+thumb_icon		Single_String	0			
+month_card		Single_Int	0			
+work_bd_pic		Single_String	0			
+up_bd_pic		Single_String	0			
+description_simple		Fix_String	0			
+foodShow		Array_Int	30	;		
+unlock_season		Single_Int	0			
+unlock_order		Array_Int	2	;		

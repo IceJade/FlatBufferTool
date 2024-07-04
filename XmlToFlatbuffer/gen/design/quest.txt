@@ -1,0 +1,45 @@
+id		Single_Int	0			
+Plot		Array_Int	2	|		
+series		Single_Int	0			
+title		Fix_String	0			
+description		Fix_String	0			
+name		Fix_String	0			
+gotype		Single_Int	0			
+go		Array_Int	3	|		
+gotype2		Single_Int	0			
+go2		Single_Int	0			
+gobuild2		Single_Int	0			
+interactiveButton		Single_Int	0			
+Tips_Type		Single_Int	0			
+remind		Array_Float	2	|		
+List_Id		Single_Int	0			
+type2		Single_Int	0			
+para1		Fix_String	6	|		
+para2		Fix_String	0			
+is_chapter		Single_Int	0			
+pic		Single_String	0			
+pre_id		Fix_String	0			
+auto		Single_Int	0			
+progress		Single_Int	0			
+gobuild		Single_Int	0			
+reward_story		Single_Int	0			
+guide_freedom		Single_Int	0			
+click_story		Single_Int	0			
+Tips_Movie		Single_Int	0			
+Tips_Soil_Id		Single_Int	0			
+finish_story		Single_Int	0			
+para3		Fix_String	0			
+remind_auto		Single_Int	0			
+accept2		Single_Int	0			
+is_achievement		Single_Int	0			
+Finish_Id		Single_Int	0			
+priority		Single_Int	0			
+main_quest		Single_Int	0			
+par3		Single_Int	0			
+processing		Single_Int	0			
+daily_series		Single_Int	0			
+DebugDot		Single_Int	0			
+Main_time		Fix_String	0			
+Main_time2		Fix_String	2	|		
+book_close		Single_Int	0			
+event_dailyunlock_chest		Single_Int	0			

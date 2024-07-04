@@ -1,0 +1,28 @@
+# vs files
+/ExcelToFlatbuffer/project/.vs
+/XmlToFlatbuffer/code/MakeTable/.vs
+/TxtToFlatbuffer/project/.vs
+/TxtToFlatbuffer/TableEditor/.vs
+/TxtToFlatbuffer/TableEditor/.vsconfig
+/TxtToFlatbuffer/TableEditor/*.csproj
+/TxtToFlatbuffer/TableEditor/*.sln
+/TxtToFlatbuffer/TableEditor/*.userprefs
+
+#Log files
+/ExcelToFlatbuffer/gen/log/*.log
+/TxtToFlatbuffer/gen/log/*.log
+/XmlToFlatbuffer/gen/log/*.log
+
+# unity project
+/TxtToFlatbuffer/TableEditor/Library
+/TxtToFlatbuffer/TableEditor/Temp
+/TxtToFlatbuffer/TableEditor/Logs
+/TxtToFlatbuffer/TableEditor/obj
+
+#temp files
+/ExcelToFlatbuffer/project/MakeTable/bin
+/ExcelToFlatbuffer/project/MakeTable/obj
+/XmlToFlatbuffer/code/MakeTable/MakeTable/bin
+/XmlToFlatbuffer/code/MakeTable/MakeTable/obj
+/TxtToFlatbuffer/project/MakeTable/bin
+/TxtToFlatbuffer/project/MakeTable/obj

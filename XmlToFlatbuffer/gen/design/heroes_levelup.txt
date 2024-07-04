@@ -1,0 +1,3 @@
+id		Single_Int	0			
+exp		Single_Int	0			
+diamond		Single_Int	0			

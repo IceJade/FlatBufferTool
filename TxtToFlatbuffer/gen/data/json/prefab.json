@@ -1,0 +1,45 @@
+{
+  data: [
+    {
+      id: "Ground",
+      AssetName: "Assets/Shelter/Prefabs/Ground/Ground",
+      DefaultPrefab: "Ground",
+      Prefabs: [
+        "Ground_low",
+        "Ground_low",
+        "Ground",
+        "Ground"
+      ]
+    },
+    {
+      id: "RoughTemplate",
+      AssetName: "Assets/Shelter/Prefabs/Rough/RoughTemplate",
+      DefaultPrefab: "RoughTemplate",
+      Prefabs: [
+
+      ]
+    },
+    {
+      id: "ZombieRoot",
+      AssetName: "Assets/Shelter/Prefabs/Ground/ZombieRoot",
+      DefaultPrefab: "ZombieRoot",
+      Prefabs: [
+        "ZombieRoot_low",
+        "ZombieRoot_low",
+        "ZombieRoot",
+        "ZombieRoot"
+      ]
+    },
+    {
+      id: "RoomGate_1",
+      AssetName: "Assets/Shelter/Prefabs/Room/RoomGate_1",
+      DefaultPrefab: "RoomGate_1",
+      Prefabs: [
+        "RoomGate_1_low",
+        "RoomGate_1_low",
+        "RoomGate_1",
+        "RoomGate_1"
+      ]
+    }
+  ]
+}

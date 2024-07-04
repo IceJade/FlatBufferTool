@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<tns:database xmlns:tns="http://www.iw.com/sns/platform/"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+    <ItemSpec id="1" exp="100"/>
+    <ItemSpec id="2" exp="200"/>
+    <ItemSpec id="3" exp="400"/>
+    <ItemSpec id="4" exp="600"/>
+    <ItemSpec id="5" exp="800" diamond="5"/>
+    <ItemSpec id="6" exp="1000"/>
+    <ItemSpec id="7" exp="1200"/>
+    <ItemSpec id="8" exp="1400"/>
+    <ItemSpec id="9" exp="1600"/>
+    <ItemSpec id="10" exp="3200" diamond="10"/>
+    <ItemSpec id="11" exp="3800"/>
+    <ItemSpec id="12" exp="4600"/>
+    <ItemSpec id="13" exp="5600"/>
+    <ItemSpec id="14" exp="6800"/>
+    <ItemSpec id="15" exp="8000" diamond="40"/>
+    <ItemSpec id="16" exp="9800"/>
+    <ItemSpec id="17" exp="12000"/>
+    <ItemSpec id="18" exp="14000"/>
+    <ItemSpec id="19" exp="17000"/>
+    <ItemSpec id="20" exp="27000" diamond="60"/>
+    <ItemSpec id="21" exp="33000"/>
+    <ItemSpec id="22" exp="38000"/>
+    <ItemSpec id="23" exp="46000"/>
+    <ItemSpec id="24" exp="56000"/>
+    <ItemSpec id="25" exp="67000" diamond="200"/>
+    <ItemSpec id="26" exp="80000"/>
+    <ItemSpec id="27" exp="96000"/>
+    <ItemSpec id="28" exp="120000"/>
+    <ItemSpec id="29" exp="140000"/>
+    <ItemSpec id="30" exp="210000" diamond="500"/>
+    <ItemSpec id="31" exp="240000"/>
+    <ItemSpec id="32" exp="280000"/>
+    <ItemSpec id="33" exp="340000"/>
+    <ItemSpec id="34" exp="380000"/>
+    <ItemSpec id="35" exp="380000" diamond="1000"/>
+    <ItemSpec id="36" exp="410000"/>
+    <ItemSpec id="37" exp="430000"/>
+    <ItemSpec id="38" exp="460000"/>
+    <ItemSpec id="39" exp="470000"/>
+    <ItemSpec id="40" exp="520000" diamond="1500"/>
+    <ItemSpec id="41" exp="680000"/>
+    <ItemSpec id="42" exp="690000"/>
+    <ItemSpec id="43" exp="710000"/>
+    <ItemSpec id="44" exp="740000"/>
+    <ItemSpec id="45" exp="750000" diamond="4000"/>
+    <ItemSpec id="46" exp="770000"/>
+    <ItemSpec id="47" exp="800000"/>
+    <ItemSpec id="48" exp="820000"/>
+    <ItemSpec id="49" exp="840000"/>
+    <ItemSpec id="50" exp="860000" diamond="6000"/>
+    <ItemSpec id="51" exp="880000"/>
+    <ItemSpec id="52" exp="910000"/>
+    <ItemSpec id="53" exp="950000"/>
+    <ItemSpec id="54" exp="980000"/>
+    <ItemSpec id="55" exp="1100000" diamond="8000"/>
+    <ItemSpec id="56" exp="1100000"/>
+    <ItemSpec id="57" exp="1200000"/>
+    <ItemSpec id="58" exp="1200000"/>
+    <ItemSpec id="59" exp="1200000"/>
+    <ItemSpec id="60" exp="1500000" diamond="12000"/>
+    <ItemSpec id="61" exp="1500000"/>
+    <ItemSpec id="62" exp="1600000"/>
+    <ItemSpec id="63" exp="1700000"/>
+    <ItemSpec id="64" exp="1700000"/>
+    <ItemSpec id="65" exp="1800000" diamond="30000"/>
+    <ItemSpec id="66" exp="1900000"/>
+    <ItemSpec id="67" exp="2000000"/>
+    <ItemSpec id="68" exp="2100000"/>
+    <ItemSpec id="69" exp="2200000"/>
+    <ItemSpec id="70" exp="2300000" diamond="100000"/>
+    <ItemSpec id="71" exp="2300000"/>
+    <ItemSpec id="72" exp="2400000"/>
+    <ItemSpec id="73" exp="2400000"/>
+    <ItemSpec id="74" exp="2500000"/>
+    <ItemSpec id="75" exp="2500000" diamond="150000"/>
+    <ItemSpec id="76" exp="2600000"/>
+    <ItemSpec id="77" exp="2600000"/>
+    <ItemSpec id="78" exp="2700000"/>
+    <ItemSpec id="79" exp="2700000"/>
+    <ItemSpec id="80" exp="2800000" diamond="200000"/>
+    <ItemSpec id="81" exp="2800000"/>
+    <ItemSpec id="82" exp="2900000"/>
+    <ItemSpec id="83" exp="2900000"/>
+    <ItemSpec id="84" exp="3000000"/>
+    <ItemSpec id="85" exp="3000000" diamond="300000"/>
+    <ItemSpec id="86" exp="3100000"/>
+    <ItemSpec id="87" exp="3200000"/>
+    <ItemSpec id="88" exp="3200000"/>
+    <ItemSpec id="89" exp="3300000"/>
+    <ItemSpec id="90" exp="3400000" diamond="400000"/>
+    <ItemSpec id="91" exp="3500000"/>
+    <ItemSpec id="92" exp="3700000"/>
+    <ItemSpec id="93" exp="3900000"/>
+    <ItemSpec id="94" exp="4100000"/>
+    <ItemSpec id="95" exp="4300000" diamond="600000"/>
+    <ItemSpec id="96" exp="4500000"/>
+    <ItemSpec id="97" exp="4700000"/>
+    <ItemSpec id="98" exp="4900000"/>
+    <ItemSpec id="99" exp="5200000"/>
+    <ItemSpec id="100" exp="5400000"/>
+
+</tns:database>

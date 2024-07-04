@@ -1,0 +1,15 @@
+namespace LF.Table;
+
+table DRduoyuyan
+{
+  id:int;
+  language:string;
+  lock_alies:int;
+}
+
+table Table_duoyuyan
+{
+  data:[DRduoyuyan];
+}
+
+root_type Table_duoyuyan;

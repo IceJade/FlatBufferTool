@@ -1,0 +1,45 @@
+namespace LF.Table;
+
+table DRmovie
+{
+  id:int;
+  type:int;
+  para1:string;
+  time:float;
+  delayTimeType:int;
+  delayTime:float;
+  nextevent:[int];
+  isStart:int;
+  hideSkip:int;
+  para2:string;
+  para3:string;
+  para4:string;
+  para5:string;
+  para6:string;
+  isEnd:string;
+  OpenHeroAiState:[int];
+  interactiveButton:[int];
+  tips_button:[int];
+  CloseHeroAiState:[int];
+  movieMode:int;
+  fog:[string];
+  functionStart:[int];
+  nextType:int;
+  nextPara:int;
+  trigger:string;
+  delete_Button:[int];
+  function:[int];
+  para7:string;
+  skipId:string;
+  isMark:string;
+  para8:string;
+  DebugDot:int;
+  interface_close:string;
+}
+
+table Table_movie
+{
+  data:[DRmovie];
+}
+
+root_type Table_movie;

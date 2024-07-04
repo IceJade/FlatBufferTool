@@ -1,0 +1,432 @@
+﻿字段描述	特效Key	资源文件	级别	音效KEY	特效持续时间(毫秒,0表示不控制时间)
+字段名称	id	AssetName	Level	SoundId	KeepTime
+数据类型	string	string	short	string	int
+点击按钮特效	click.button	Assets/Shelter/Art/Effects/UI_prefabs/effec_ui_LFBookSmoke.prefab	0		0
+医院治疗队列特效	hospital.cure.queue	Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_LFViewHospital2_zhiliao_tishi_01.prefab	0		0
+	effect_world_Defense_room_smoke1_fire	Assets/Shelter/Art/Effects/prefabs/effect_world_Defense_room_smoke1_fire.prefab	0		0	EffectObject
+	effect_ui_LFBattleView_btnSpeed	Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_LFBattleView_btnSpeed	0		0	EffectObject
+	effect_ui_Guide_saoguang	Assets/Shelter/Art/Effects/prefabs/effect_ui_Guide_saoguang	0		0	EffectObject
+	effect_pve_jiantou_01	Assets/Shelter/Art/Effects/prefabs/effect_pve_jiantou_01	0		0	EffectObject
+	effect_pve_jiantou_02	Assets/Shelter/Art/Effects/prefabs/effect_pve_jiantou_02	0		0	EffectObject
+	effect_ui_xinshouzhidao_01	Assets/Shelter/Art/Effects/prefabs/effect_ui_xinshouzhidao_01	0		0	EffectObject
+	effect_ui_xinshouzhidao_02	Assets/Shelter/Art/Effects/prefabs/effect_ui_xinshouzhidao_02	0		0	EffectObject
+	effect_ui_tips	Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_tips	0		0	EffectObject
+	goGuideArrow	Assets/Shelter/Prefabs/UI/goGuideArrow	0		0	EffectObject
+	effect_ui_gaoliang_01	Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_gaoliang_01	0		0	EffectObject
+	effect_fangyudating_juqing_gun	Assets/Shelter/Art/Effects/prefabs/effect_fangyudating_juqing_gun	0		0	EffectObject
+	effect_ui_LFPVEEnemyPreviewTip_button	Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_LFPVEEnemyPreviewTip_button	0		0	EffectObject
+	effect_ui_LFRoomState_01	Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_LFRoomState_01	0		0	EffectObject
+	effect_ui_WorkingNode_fire	Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_WorkingNode_fire	0		0	EffectObject
+	effect_RoomControl_heipian	Assets/Shelter/Art/Effects/prefabs/effect_RoomControl_heipian	0		0	EffectObject
+	effect_RoomControl_access	Assets/Shelter/Art/Effects/prefabs/effect_RoomControl_access	0		0	EffectObject
+	effect_RoomControl_kaiji	Assets/Shelter/Art/Effects/prefabs/effect_RoomControl_kaiji	0		0	EffectObject
+	effect_RoomControl_unlocked	Assets/Shelter/Art/Effects/prefabs/effect_RoomControl_unlocked	0		0	EffectObject
+中控室电视雪花屏幕特效	effect_scene_CentralControlRoom_001	Assets/Shelter/Art/Effects/prefabs/effect_scene_CentralControlRoom_001	0		0	EffectObject
+	effect_RoomControl_saomiao	Assets/Shelter/Art/Effects/prefabs/effect_RoomControl_saomiao	0		0	EffectObject
+	effect_DiningRoom_MO_huo01	Assets/Shelter/Art/Effects/prefabs/effect_DiningRoom_MO_huo01	0		0	EffectObject
+	effect_DiningRoom_MO_huo02	Assets/Shelter/Art/Effects/prefabs/effect_DiningRoom_MO_huo02	0		0	EffectObject
+军营能量灯光特效	effect_scene_emergency_light	Assets/Shelter/Art/Effects/prefabs/effect_scene_emergency_light	2		0	EffectObject
+	effect_Hospital_hongse	Assets/Shelter/Art/Effects/prefabs/effect_Hospital_hongse	0		0	EffectObject
+	effect_ui_RoomStateTip_Z	Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_RoomStateTip_Z	0		0	EffectObject
+	effect_scene_fangzhi	Assets/Shelter/Art/Effects/prefabs/effect_scene_fangzhi	0		0	EffectObject
+	effect_scene_fangzhi_01	Assets/Shelter/Art/Effects/prefabs/effect_scene_fangzhi_01	0		0	EffectObject
+	effect_scene_Mushroombox_02	Assets/Shelter/Art/Effects/prefabs/effect_scene_Mushroombox_02	0		0	EffectObject
+	effect_AuthorityGate_hongdeng	Assets/Shelter/Art/Effects/prefabs/effect_AuthorityGate_hongdeng	0		0	EffectObject
+	effect_AuthorityGate_lvdeng	Assets/Shelter/Art/Effects/prefabs/effect_AuthorityGate_lvdeng	0		0	EffectObject
+	effect_AuthorityGate_saomiao	Assets/Shelter/Art/Effects/prefabs/effect_AuthorityGate_saomiao	0		0	EffectObject
+	effect_Clip	Assets/Shelter/Art/Effects/prefabs/effect_Clip	0		0	EffectObject
+	effect_Snare_levelup	Assets/Shelter/Art/Effects/prefabs/effect_Snare_levelup.prefab	0		0	EffectObject
+	effect_WaterDevice_000_shuihua	Assets/Shelter/Art/Effects/prefabs/effect_WaterDevice_000_shuihua	0		0	EffectObject
+	effect_WaterDevice_000_liushui	Assets/Shelter/Art/Effects/prefabs/effect_WaterDevice_000_liushui	0		0	EffectObject
+	effect_scene_jiantou_TruckSos	Assets/Shelter/Art/Effects/prefabs/effect_scene_jiantou_TruckSos	0		0	EffectObject
+	effect_scene_PickupTrucks_light	Assets/Shelter/Art/Effects/prefabs/effect_scene_PickupTrucks_light	0		0	EffectObject
+直升机起飞时吹灰特效	effect_RoomGate_Smoke_Down	Assets/Shelter/Art/Effects/prefabs/effect_RoomGate_Smoke_Down	2		0	EffectObject
+	effect_UI_BuildEdit_BtnBg01	Assets/Shelter/Art/Effects/UI_prefabs/effect_UI_BuildEdit_BtnBg01	0		0	EffectObject
+	effect_ui_LFWorldFormationNew1_Button	Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_LFWorldFormationNew1_Button	0		0	EffectObject
+	effect_ui_LFPLACEVIE_PrefabLFPlaceCell_saoguang	Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_LFPLACEVIE_PrefabLFPlaceCell_saoguang	0		0	EffectObject
+	effect_ui_LFPLACEVIE_PrefabLFPlaceCell_jiesuo	Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_LFPLACEVIE_PrefabLFPlaceCell_jiesuo	0		0	EffectObject
+	effect_ui_renkoujiangdi	Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_renkoujiangdi	0		0	EffectObject
+	effect_ui_xinqing	Assets/Shelter/Art/Effects/prefabs/effect_ui_xinqing	0		0	EffectObject
+	effect_ui_worldTips_blue	Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_worldTips_blue	0		0	EffectObject
+	effect_ui_worldTips_red	Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_worldTips_red	0		0	EffectObject
+	effect_ui_LFFunctionUnlock_001	Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_LFFunctionUnlock_001	0		0	EffectObject
+	effect_ui_GOTOBTN_red	Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_GOTOBTN_red	0		0	EffectObject
+	effect_ui_GOTOBTN_green	Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_GOTOBTN_green	0		0	EffectObject
+	effect_ui_UIMainQueue_Z	Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_UIMainQueue_Z	0		0	EffectObject
+	effect_WorldTemplate_xingjun	Assets/Shelter/Art/Effects/UI_prefabs/effect_WorldTemplate_xingjun	0		0	EffectObject
+	effect_WorldTemplate_zhandou	Assets/Shelter/Art/Effects/UI_prefabs/effect_WorldTemplate_zhandou	0		0	EffectObject
+	effect_ui_LFUIMain_worldtemplate	Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_LFUIMain_worldtemplate	0		0	EffectObject
+	effect_ui_worldroot_jiesuo	Assets/Shelter/Art/Effects/prefabs/effect_ui_worldroot_jiesuo	0		0	EffectObject
+	effect_ui_LFViewTradingCenter_anniu	Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_LFViewTradingCenter_anniu	0		0	EffectObject
+	effect_ui_LFAllianceActivity_box_01	Assets/Shelter/Art/Effects/prefabs/effect_ui_LFAllianceActivity_box_01.prefab	0		0	EffectObject
+	effect_ui_LFAllianceActivity_box_01_1	Assets/Shelter/Art/Effects/prefabs/effect_ui_LFAllianceActivity_box_01_1.prefab	0		0	EffectObject
+	effect_ui_LFGiftPackMonthCardHero_001	Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_LFGiftPackMonthCardHero_001	0		0	EffectObject
+	effect_ui_LFGiftPackMonthCardHero_002	Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_LFGiftPackMonthCardHero_002	0		0	EffectObject
+	effect_LFDiningRoomCookPage 2_loading	Assets/Shelter/Art/Effects/prefabs/effect_LFDiningRoomCookPage 2_loading	0		0	EffectObject
+	effect_ui_LFRoomManager_01	Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_LFRoomManager_01	0		0	EffectObject
+	effect_ui_LFRoomManager_02	Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_LFRoomManager_02	0		0	EffectObject
+	effect_ui_GiftPackageBarNew_001	Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_GiftPackageBarNew_001	0		0	EffectObject
+	effect_ui_ActorBubble_01	Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_ActorBubble_01	0		0	EffectObject
+	effect_ui_ActorBubble_03	Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_ActorBubble_03	0		0	EffectObject
+	effect_ui_LevelUpTemplate_01	Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_LevelUpTemplate_01	0		0	EffectObject
+	effect_ui_EmotionBubbleTemplate_down_01	Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_EmotionBubbleTemplate_down_01	0		0	EffectObject
+	effect_ui_EmotionBubbleTemplate_down_02	Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_EmotionBubbleTemplate_down_02	0		0	EffectObject
+	effect_ui_EmotionBubbleTemplate_up_01	Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_EmotionBubbleTemplate_up_01	0		0	EffectObject
+	effect_ui_EmotionBubbleTemplate_up_02	Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_EmotionBubbleTemplate_up_02	0		0	EffectObject
+	effect_ui_juqing_jiaohu	Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_juqing_jiaohu	0		0	EffectObject
+	effect_ui_juqing_jiaohu_xiaoshi	Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_juqing_jiaohu_xiaoshi	0		0	EffectObject
+	effect_ui_fangdajing	Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_fangdajing	0		0	EffectObject
+	effect_ui_LFScienceCenter_01	Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_LFScienceCenter_01	0		0	EffectObject
+	effect_ui_LFScienceCenter_02	Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_LFScienceCenter_02	0		0	EffectObject
+	effect_ui_LFViewBuildAcc2_001	Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_LFViewBuildAcc2_001.prefab	0		0	EffectObject
+	effect_ui_LFViewHospitalUse2_expBarBg	Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_LFViewHospitalUse2_expBarBg	0		0	EffectObject
+	effect_ui_LFRecruitViewNew_panel_01	Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_LFRecruitViewNew_panel_01.prefab	0		0	EffectObject
+	effect_ui_xUIWorkerSelect1_paiqian_tishi_01	Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_xUIWorkerSelect1_paiqian_tishi_01	0		0	EffectObject
+	effect_RoomBattery	Assets/Shelter/Art/Effects/prefabs/effect_RoomBattery	2		0	EffectRoomObject
+主场景灯光特效	effect_scene_rh03_01	Assets/Shelter/Art/Effects/prefabs/effect_scene_rh03_01	0		0	EffectRoomObject
+主场景环绕灯光的飞蚊特效	effect_scene_wenzi_01	Assets/Shelter/Art/Effects/prefabs/effect_scene_wenzi_01	2		0	EffectRoomObject
+	effect_scene_CoalMine_Level4_01	Assets/Shelter/Art/Effects/prefabs/effect_scene_CoalMine_Level4_01	2		0	EffectRoomObject
+勇士训练营灯光特效	effect_scene_cbr_01	Assets/Shelter/Art/Effects/prefabs/effect_scene_cbr_01	2		0	EffectRoomObject
+射手训练营灯光特效	effect_scene_ShootingRange_001	Assets/Shelter/Art/Effects/prefabs/effect_scene_ShootingRange_001.prefab	2		0	EffectRoomObject
+防卫者训练营灯光特效	effect_scene_SpecialTraining_01	Assets/Shelter/Art/Effects/prefabs/effect_scene_SpecialTraining_01.prefab	2		0	EffectRoomObject
+房间灯光特效(工具间)	effect_scene_deng_001	Assets/Shelter/Art/Effects/prefabs/effect_scene_deng_001	2		0	EffectRoomObject
+餐厅灯光特效	effect_DiningRoom_light	Assets/Shelter/Art/Effects/prefabs/effect_DiningRoom_light	2		0	EffectRoomObject
+起居室灯光特效	effect_scene_deng_003_Dormitory	Assets/Shelter/Art/Effects/prefabs/effect_scene_deng_003_Dormitory	2		0	EffectRoomObject
+发电厂呲电特效	effect_scene_f_01	Assets/Shelter/Art/Effects/prefabs/effect_scene_f_01	2		0	EffectRoomObject
+发电厂发电冒火光特效	effect_scene_f_02	Assets/Shelter/Art/Effects/prefabs/effect_scene_f_02	2		0	EffectRoomObject
+发电厂冒烟特效	effect_scene_f_03	Assets/Shelter/Art/Effects/prefabs/effect_scene_f_03	2		0	EffectRoomObject
+发电厂呲电特效	effect_scene_f_04	Assets/Shelter/Art/Effects/prefabs/effect_scene_f_04	2		0	EffectRoomObject
+	effect_scene_RoomHerbal_01	Assets/Shelter/Art/Effects/prefabs/effect_scene_RoomHerbal_01	0		0	EffectRoomObject
+	effect_scene_InstituteofMedicine_MT_01	Assets/Shelter/Art/Effects/prefabs/effect_scene_InstituteofMedicine_MT_01	2		0	EffectRoomObject
+	effect_Plantingroom_01	Assets/Shelter/Art/Effects/prefabs/effect_Plantingroom_01	0		0	EffectRoomObject
+	effect_scene_restroom_01	Assets/Shelter/Art/Effects/prefabs/effect_scene_restroom_01	2		0	EffectRoomObject
+	effect_scene_wh_01	Assets/Shelter/Art/Effects/prefabs/effect_scene_wh_01	2		0	EffectRoomObject
+	effect_scene_Satellitecenter_01	Assets/Shelter/Art/Effects/prefabs/effect_scene_Satellitecenter_01	2		0	EffectRoomObject
+	effect_RoomStairway_LightGlow_01	Assets/Shelter/Art/Effects/prefabs/effect_RoomStairway_LightGlow_01	2		0	EffectRoomObject
+蓄水池瀑布特效	effect_scene_xushuichi_01	Assets/Shelter/Art/Effects/prefabs/effect_scene_xushuichi_01	2		0	EffectRoomObject
+蓄水池水流动特效	effect_scene_xushuichi_02	Assets/Shelter/Art/Effects/prefabs/effect_scene_xushuichi_02	2		0	EffectRoomObject
+污水净化间灯光特效	effect_scene_wpc_01	Assets/Shelter/Art/Effects/prefabs/effect_scene_wpc_01	2		0	EffectRoomObject
+	effect_scene_Cage_001	Assets/Shelter/Art/Effects/prefabs/effect_scene_Cage_001	2		0	EffectRoomObject
+	effect_scene_MarmotGenerator_02	Assets/Shelter/Art/Effects/prefabs/effect_scene_MarmotGenerator_02	2		0	EffectRoomObject
+玩家城市保护罩	effect_world_baohuzhao	Assets/Shelter/Art/Effects/prefabs/effect_world_baohuzhao	0		0
+首占矿保护罩	effect_world_baohuzhao_01	Assets/Shelter/Art/Effects/prefabs/effect_world_baohuzhao_01	0		0
+	effect_ui_LFGiftPackCellDefaultNew_003	Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_LFGiftPackCellDefaultNew_003	0		0
+	effect_ui_tuowei_02	Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_tuowei_02	0		0
+	effect_ui_tuowei_03	Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_tuowei_03	0		0
+	effect_ui_tuowei_04	Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_tuowei_04	0		0
+	effect_ui_tuowei_05	Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_tuowei_05	0		0
+	effect_scene_pve_01	assets/shelter/art/effects/prefabs/effect_scene_pve_01	0		0
+	effect_pve_caseparticle_01	assets/shelter/art/effects/prefabs/effect_pve_caseparticle_01	0		0
+	effect_pve_caseparticle_02	assets/shelter/art/effects/prefabs/effect_pve_caseparticle_02	0		0
+	effect_pve_caseparticle_03	assets/shelter/art/effects/prefabs/effect_pve_caseparticle_03	0		0
+	effect_pve_caseparticle_04	assets/shelter/art/effects/prefabs/effect_pve_caseparticle_04	0		0
+	effect_pve_caseparticle_05	assets/shelter/art/effects/prefabs/effect_pve_caseparticle_05	0		0
+	effect_scene_workhouse_yanwu01	assets/shelter/art/effects/prefabs/effect_scene_workhouse_yanwu01	0		0
+	effect_scene_wireframe_yanwu01	assets/shelter/art/effects/prefabs/effect_scene_wireframe_yanwu01	0		0
+	effect_scene_dining_room_yanwu01	assets/shelter/art/effects/prefabs/effect_scene_dining_room_yanwu01	0		0
+	effect_scene_satellitecenter_yanwu01	assets/shelter/art/effects/prefabs/effect_scene_satellitecenter_yanwu01	0		0
+	effect_scene_centralcontrolroom_yanwu01	assets/shelter/art/effects/prefabs/effect_scene_centralcontrolroom_yanwu01	0		0
+	effect_Machine_gun_saoshe_01	Assets/Shelter/Art/Effects/prefabs/effect_Machine_gun_saoshe_01	0		0
+	effect_Machine_gun_saoshe_02	Assets/Shelter/Art/Effects/prefabs/effect_Machine_gun_saoshe_02	0		0
+	effect_Machine_gun_dimian	Assets/Shelter/Art/Effects/prefabs/effect_Machine_gun_dimian	0		0
+	effect_Machine_gun_shuimian	Assets/Shelter/Art/Effects/prefabs/effect_Machine_gun_shuimian	0		0
+	SpiderWeb	Assets/Shelter/Prefabs/Scene/SpiderWeb.prefab	0		0
+主城宝箱特效(白)	effect_scence_baoxiang_bai	Assets/Shelter/Art/Effects/prefabs/effect_scence_baoxiang_bai	2		0
+主城宝箱特效(绿)	effect_scence_baoxiang_lv	Assets/Shelter/Art/Effects/prefabs/effect_scence_baoxiang_lv	2		0
+主城宝箱特效(蓝)	effect_scence_baoxiang_lan	Assets/Shelter/Art/Effects/prefabs/effect_scence_baoxiang_lan	2		0
+主城宝箱特效(紫)	effect_scence_baoxiang_zi	Assets/Shelter/Art/Effects/prefabs/effect_scence_baoxiang_zi	2		0
+主城宝箱特效(橙)	effect_scence_baoxiang_cheng	Assets/Shelter/Art/Effects/prefabs/effect_scence_baoxiang_cheng	2		0
+主城宝箱特效(红)	effect_scence_baoxiang_hong	Assets/Shelter/Art/Effects/prefabs/effect_scence_baoxiang_hong	2		0
+主城宝箱特效(黄)	effect_scence_baoxiang_huang	Assets/Shelter/Art/Effects/prefabs/effect_scence_baoxiang_huang	2		0
+主城开宝箱特效	effect_scence_baoxiang_open_small	Assets/Shelter/Art/Effects/prefabs/effect_scence_baoxiang_open_small	0		0
+主城开宝箱特效	effect_scence_baoxiang_open_big	Assets/Shelter/Art/Effects/prefabs/effect_scence_baoxiang_open_big	0		0
+	effect_ui_glow_01	Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_glow_01	0		0
+	effect_ui_LFHeroAdvanceView_heroltem_right_green	Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_LFHeroAdvanceView_heroltem_right_green	0		0
+	effect_ui_LFHeroAdvanceView_heroltem_right_blue	Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_LFHeroAdvanceView_heroltem_right_blue	0		0
+	effect_ui_LFHeroAdvanceView_heroltem_right_purple	Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_LFHeroAdvanceView_heroltem_right_purple	0		0
+	effect_ui_LFHeroAdvanceView_heroltem_right_orange	Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_LFHeroAdvanceView_heroltem_right_orange	0		0
+	effect_ui_LFHeroAdvanceView_heroltem_right_red	Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_LFHeroAdvanceView_heroltem_right_red	0		0
+	effect_ui_LFHeroAdvanceView_heroltem_right_yellow	Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_LFHeroAdvanceView_heroltem_right_yellow	0		0
+	effect_ui_LFHeroAdvanceView_herorow_green	Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_LFHeroAdvanceView_herorow_green	0		0
+	effect_ui_LFHeroAdvanceView_herorow_blue	Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_LFHeroAdvanceView_herorow_blue	0		0
+	effect_ui_LFHeroAdvanceView_herorow_purple	Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_LFHeroAdvanceView_herorow_purple	0		0
+	effect_ui_LFHeroAdvanceView_herorow_orange	Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_LFHeroAdvanceView_herorow_orange	0		0
+	effect_ui_LFHeroAdvanceView_herorow_red	Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_LFHeroAdvanceView_herorow_red	0		0
+	effect_ui_LFHeroAdvanceView_herorow_yellow	Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_LFHeroAdvanceView_herorow_yellow	0		0
+	effect_UI_CardSelect_white_back	Assets/Shelter/Art/Effects/prefabs/effect_UI_CardSelect_white_back	0		0
+	effect_UI_CardSelect_blue_back	Assets/Shelter/Art/Effects/prefabs/effect_UI_CardSelect_blue_back	0		0
+	effect_UI_CardSelect_purple_back	Assets/Shelter/Art/Effects/prefabs/effect_UI_CardSelect_purple_back	0		0
+	effect_UI_CardSelect_white	Assets/Shelter/Art/Effects/prefabs/effect_UI_CardSelect_white	0		0
+	effect_UI_CardSelect_blue	Assets/Shelter/Art/Effects/prefabs/effect_UI_CardSelect_blue	0		0
+	effect_UI_CardSelect_purple	Assets/Shelter/Art/Effects/prefabs/effect_UI_CardSelect_purple	0		0
+	effect_UI_CardSelect_blue_huiju	Assets/Shelter/Art/Effects/prefabs/effect_UI_CardSelect_blue_huiju	0		0
+	effect_UI_CardSelect_purple_huiju	Assets/Shelter/Art/Effects/prefabs/effect_UI_CardSelect_purple_huiju	0		0
+	effect_world_zhonglicheng_fire	Assets/Shelter/Art/Effects/prefabs/effect_world_zhonglicheng_fire	0		0
+	effect_ui_LFRoomOperator_01	Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_LFRoomOperator_01	0		0
+	effect_world_qiancheng_qianchu	assets/shelter/art/effects/prefabs/effect_world_qiancheng_qianchu	0		0
+	effect_world_qiancheng_qianru	assets/shelter/art/effects/prefabs/effect_world_qiancheng_qianru	0		0
+	effect_world_zhonglicheng_yanwu	Assets/Shelter/Art/Effects/prefabs/effect_world_zhonglicheng_yanwu	0		0
+	effect_world_wanjiacheng_fire	Assets/Shelter/Art/Effects/prefabs/effect_world_wanjiacheng_fire	0		0
+	GuideArrowObject	Assets/Shelter/Prefabs/Scene/GuideArrowObject	0		0
+	GuideArrowSurprise	Assets/Shelter/Prefabs/Scene/GuideArrowSurprise	0		0
+	effect_world_lianmengbiaoji_01	Assets/Shelter/Art/Effects/prefabs/effect_world_lianmengbiaoji_01.prefab	0		0
+	effect_world_lianmengbiaoji_02	Assets/Shelter/Art/Effects/prefabs/effect_world_lianmengbiaoji_02.prefab	0		0
+	effect_world_lianmengbiaoji_03	Assets/Shelter/Art/Effects/prefabs/effect_world_lianmengbiaoji_03.prefab	0		0
+	effect_world_lianmengbiaoji_04	Assets/Shelter/Art/Effects/prefabs/effect_world_lianmengbiaoji_04.prefab	0		0
+	effect_world_lianmengbiaoji_05	Assets/Shelter/Art/Effects/prefabs/effect_world_lianmengbiaoji_05.prefab	0		0
+	effect_world_lianmengbiaoji_06	Assets/Shelter/Art/Effects/prefabs/effect_world_lianmengbiaoji_06.prefab	0		0
+	effect_world_lianmengbiaoji_07	Assets/Shelter/Art/Effects/prefabs/effect_world_lianmengbiaoji_07.prefab	0		0
+	effect_world_lianmengbiaoji_08	Assets/Shelter/Art/Effects/prefabs/effect_world_lianmengbiaoji_08.prefab	0		0
+	effect_world_lianmengbiaoji_09	Assets/Shelter/Art/Effects/prefabs/effect_world_lianmengbiaoji_09.prefab	0		0
+	effect_world_lianmengbiaoji_10	Assets/Shelter/Art/Effects/prefabs/effect_world_lianmengbiaoji_10.prefab	0		0
+	effect_world_wanjiacheng_yanwu	Assets/Shelter/Art/Effects/prefabs/effect_world_wanjiacheng_yanwu.prefab	0		0
+	effect_pve_smoke_02	Assets/Shelter/Prefabs/Battle/Effect/effect_pve_smoke_02.prefab	0		0
+	effect_ui_ActorBubble_02	Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_ActorBubble_02.prefab	0		0
+	effect_ui_Combat	Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_Combat.prefab	0		0
+	effect_ui_down_01	Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_down_01.prefab	0		0
+	effect_ui_up_01	Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_up_01.prefab	0		0
+	effect_ui_LFUIMain_ChapterBar	Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_LFUIMain_ChapterBar.prefab	0		0
+	effect_ui_LFUIMain_ChapterBar_New	Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_LFUIMain_ChapterBar_New.prefab	0		0
+	effect_ui_topright_01	Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_topright_01.prefab	0		0
+	effect_ui_InfoPanel_001	Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_InfoPanel_001.prefab	0		0
+	effect_ui_InfoPanel_002	Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_InfoPanel_002.prefab	0		0
+	effect_ui_infoPanel_bai_02	Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_infoPanel_bai_02.prefab	0		0
+	effect_ui_infoPanel_lan	Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_infoPanel_lan.prefab	0		0
+	effect_ui_infoPanel_lan_01	Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_infoPanel_lan_01.prefab	0		0
+	effect_ui_infoPanel_lan_02	Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_infoPanel_lan_02.prefab	0		0
+	effect_ui_infoPanel_lv	Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_infoPanel_lv.prefab	0		0
+	effect_ui_infoPanel_lv_01	Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_infoPanel_lv_01.prefab	0		0
+	effect_ui_infoPanel_lv_02	Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_infoPanel_lv_02.prefab	0		0
+	effect_ui_infoPanel_zi	Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_infoPanel_zi.prefab	0		0
+	effect_ui_infoPanel_zi_01	Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_infoPanel_zi_01.prefab	0		0
+	LFViewBookLight	Assets/Shelter/Art/Effects/UI_prefabs/LFViewBookLight.prefab	0		0
+	LFViewBookLight1	Assets/Shelter/Art/Effects/UI_prefabs/LFViewBooKLight1.prefab	0		0
+	LFViewBookLight2	Assets/Shelter/Art/Effects/UI_prefabs/LFViewBooKLight2.prefab	0		0
+	LFViewBookLight3	Assets/Shelter/Art/Effects/UI_prefabs/LFViewBooKLight3.prefab	0		0
+	LFViewBookLight4	Assets/Shelter/Art/Effects/UI_prefabs/LFViewBooKLight4.prefab	0		0
+	LFViewBookLight5	Assets/Shelter/Art/Effects/UI_prefabs/LFViewBooKLight5.prefab	0		0
+	ActorPathArrow	Assets/Shelter/Prefabs/Scene/ActorPathArrow.prefab	0		0
+	effect_build_shengji_01	Assets/Shelter/Art/Effects/prefabs/effect_build_shengji_01.prefab	0		1500
+	effect_build_shengji_2x4	Assets/Shelter/Art/Effects/prefabs/effect_build_shengji_2x4.prefab	0		1500
+	effect_build_shengji_2x6	Assets/Shelter/Art/Effects/prefabs/effect_build_shengji_2x6.prefab	0		1500
+	effect_f_wamei_01	Assets/Shelter/Art/Effects/prefabs/effect_f_wamei_01.prefab	0		0
+	effect_levelup_01	Assets/Shelter/Art/Effects/prefabs/effect_levelup_01.prefab	0		0
+	effect_levelup_02	Assets/Shelter/Art/Effects/prefabs/effect_levelup_02.prefab	0		0
+	effect_levelup_03	Assets/Shelter/Art/Effects/prefabs/effect_levelup_03.prefab	0		0
+	effect_robot_charge_000	Assets/Shelter/Art/Effects/prefabs/effect_robot_charge_000.prefab	0		0
+	effect_robot_move_down	Assets/Shelter/Art/Effects/prefabs/effect_robot_move_down.prefab	0		0
+	effect_robot_move_up	Assets/Shelter/Art/Effects/prefabs/effect_robot_move_up.prefab	0		0
+	effect_scence_RoomMedicine_01	Assets/Shelter/Art/Effects/prefabs/effect_scence_RoomMedicine_01.prefab	0		0
+	effect_scene_mint_01	Assets/Shelter/Art/Effects/prefabs/effect_scene_mint_01.prefab	0		0
+	effect_scene_mint_02	Assets/Shelter/Art/Effects/prefabs/effect_scene_mint_02.prefab	0		0
+	effect_ui_diningcook_001	Assets/Shelter/Art/Effects/prefabs/effect_ui_diningcook_001.prefab	0		0
+	effect_ui_diningcook_002	Assets/Shelter/Art/Effects/prefabs/effect_ui_diningcook_002.prefab	0		0
+	effect_ui_diningcook_003	Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_diningcook_003.prefab	0		0
+	effect_ui_diningcook_004	Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_diningcook_004.prefab	0		0
+	effect_ui_diningcook_005	Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_diningcook_005.prefab	0		0
+	effect_ui_diningcook_006	Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_diningcook_006.prefab	0		0
+	effect_ui_uimain_ChapterBar_001	Assets/Shelter/Art/Effects/prefabs/effect_ui_uimain_ChapterBar_001.prefab	0		0
+	effect_wd_01	Assets/Shelter/Art/Effects/prefabs/effect_wd_01.prefab	0		0
+	effect_wd_02	Assets/Shelter/Art/Effects/prefabs/effect_wd_02.prefab	0		0
+	effect_wd_03	Assets/Shelter/Art/Effects/prefabs/effect_wd_03.prefab	0		0
+跳舞特效	effect_scene_Workhouse_shouyinji	Assets/Shelter/Art/Effects/prefabs/effect_scene_Workhouse_shouyinji.prefab	0		0
+	effect_scene_Truck_world_chedeng	Assets/Shelter/Art/Effects/prefabs/effect_scene_Truck_world_chedeng.prefab	0		0
+	effect_scene_CarPort_yanwu	Assets/Shelter/Art/Effects/prefabs/effect_scene_CarPort_yanwu.prefab	0		0
+	effect_scene_coal	Assets/Shelter/Art/Effects/prefabs/effect_scene_coal.prefab	0		0
+	effect_scene_Iron	Assets/Shelter/Art/Effects/prefabs/effect_scene_Iron.prefab	0		0
+	effect_scene_stone_01	Assets/Shelter/Art/Effects/prefabs/effect_scene_stone_01.prefab	2		0	EffectRoomObject
+	effect_scene_stone_02	Assets/Shelter/Art/Effects/prefabs/effect_scene_stone_02.prefab	2		0	EffectRoomObject
+	effect_scene_stone_03	Assets/Shelter/Art/Effects/prefabs/effect_scene_stone_03.prefab	2		0	EffectRoomObject
+	effect_scene_stone_04	Assets/Shelter/Art/Effects/prefabs/effect_scene_stone_04.prefab	2		0	EffectRoomObject
+	effect_scene_stone_05	Assets/Shelter/Art/Effects/prefabs/effect_scene_stone_05.prefab	2		0	EffectRoomObject
+	effect_scene_stone_06	Assets/Shelter/Art/Effects/prefabs/effect_scene_stone_06.prefab	2		0	EffectRoomObject
+	effect_scene_stone_07	Assets/Shelter/Art/Effects/prefabs/effect_scene_stone_07.prefab	2		0	EffectRoomObject
+	effect_Ladder_Metal_long_down_close_01	Assets/Shelter/Art/Effects/prefabs/effect_Ladder_Metal_long_down_close_01.prefab	0		0
+	effect_Ladder_Metal_long_down_close_02	Assets/Shelter/Art/Effects/prefabs/effect_Ladder_Metal_long_down_close_02.prefab	0		0
+英雄详情属性按钮特效	Effect.UIHeroMain.btnAttribute.Arrow	Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_UIHeroMain_shengji_jiantou_01.prefab	0		0
+	effect_pve_smoke_01	Assets/Shelter/Art/Effects/prefabs/effect_pve_smoke_01.prefab	0		0	挂载
+	effect_Blancher_woman_pve_skill	Assets/Shelter/Art/Effects/prefabs/effect_Blancher_woman_pve_skill.prefab	0		0	挂载
+	effect_pve_Plumber_Maroli_pve_skill_dimian	Assets/Shelter/Art/Effects/prefabs/effect_pve_Plumber_Maroli_pve_skill_dimian.prefab	0		0	挂载
+	effect_Boton_man_pve_skill_000	Assets/Shelter/Art/Effects/prefabs/effect_Boton_man_pve_skill_000.prefab	0		0	挂载
+	effect_Braum_man_pve_Bullet	Assets/Shelter/Art/Effects/prefabs/effect_Braum_man_pve_Bullet.prefab	0		0	挂载
+	effect_Braum_man_pve_skill	Assets/Shelter/Art/Effects/prefabs/effect_Braum_man_pve_skill.prefab	0		0	挂载
+	effect_Braum_man_pve_hit	Assets/Shelter/Art/Effects/prefabs/effect_Braum_man_pve_hit.prefab	0		0	挂载
+	effect_pve_coleman_skill_01	Assets/Shelter/Art/Effects/prefabs/effect_pve_coleman_skill_01.prefab	0		0	挂载
+	effect_pve_coleman_skill_02	Assets/Shelter/Art/Effects/prefabs/effect_pve_coleman_skill_02.prefab	0		0	挂载
+	effect_Doris_woman_pve_skill_000	Assets/Shelter/Art/Effects/prefabs/effect_Doris_woman_pve_skill_000.prefab	0		0	挂载
+	effect_Doris_woman_pve_000_01	Assets/Shelter/Art/Effects/prefabs/effect_Doris_woman_pve_000_01.prefab	0		0	挂载
+	effect_Duke_man_pve_attack	Assets/Shelter/Art/Effects/prefabs/effect_Duke_man_pve_attack.prefab	0		0	挂载
+	effect_Duke_man_pve_skill	Assets/Shelter/Art/Effects/prefabs/effect_Duke_man_pve_skill.prefab	0		0	挂载
+	effect_Ewan_man_pve_attack_000	Assets/Shelter/Art/Effects/prefabs/effect_Ewan_man_pve_attack_000.prefab	0		0	挂载
+	effect_Ewan_man_pve_fly	Assets/Shelter/Art/Effects/prefabs/effect_Ewan_man_pve_fly.prefab	0		0	挂载
+	effect_Ewan_man_pve_mingzhong	Assets/Shelter/Art/Effects/prefabs/effect_Ewan_man_pve_mingzhong.prefab	0		0	挂载
+	effect_pve_gun_shoot_02	Assets/Shelter/Art/Effects/prefabs/effect_pve_gun_shoot_02.prefab	0		0	挂载
+	effect_pve_huixue_01	Assets/Shelter/Art/Effects/prefabs/effect_pve_huixue_01.prefab	0		0	挂载
+	effect_shouji_01	Assets/Shelter/Art/Effects/prefabs/effect_shouji_01.prefab	0		0	挂载
+	effect_shouji_03	Assets/Shelter/Art/Effects/prefabs/effect_shouji_03.prefab	0		0	挂载
+	effect_shouji_02	Assets/Shelter/Art/Effects/prefabs/effect_shouji_02.prefab	0		0	挂载
+	effect_Kenogawa_man_pve_skill_000	Assets/Shelter/Art/Effects/prefabs/effect_Kenogawa_man_pve_skill_000.prefab	0		0	挂载
+	effect_Marks_man_pve_skill_000	Assets/Shelter/Art/Effects/prefabs/effect_Marks_man_pve_skill_000.prefab	0		0	挂载
+	effect_pve_Matthew_shoulei_fly	Assets/Shelter/Art/Effects/prefabs/effect_pve_Matthew_shoulei_fly.prefab	0		0	挂载
+	effect_pve_Matthew_shoulei_mingzhong	Assets/Shelter/Art/Effects/prefabs/effect_pve_Matthew_shoulei_mingzhong.prefab	0		0	挂载
+	effect_pve_Matthew_shoulei	Assets/Shelter/Art/Effects/prefabs/effect_pve_Matthew_shoulei.prefab	0		0	挂载
+	effect_Natalie_woman_pve_hit	Assets/Shelter/Art/Effects/prefabs/effect_Natalie_woman_pve_hit.prefab	0		0	挂载
+	effect_Natalie_woman_pve_skill	Assets/Shelter/Art/Effects/prefabs/effect_Natalie_woman_pve_skill.prefab	0		0	挂载
+	effect_Natasha_woman_pve_attack	Assets/Shelter/Art/Effects/prefabs/effect_Natasha_woman_pve_attack.prefab	0		0	挂载
+	effect_Natasha_woman_pve_skill_fly	Assets/Shelter/Art/Effects/prefabs/effect_Natasha_woman_pve_skill_fly.prefab	0		0	挂载
+	effect_Natasha_woman_pve_skill_mingzhong_000	Assets/Shelter/Art/Effects/prefabs/effect_Natasha_woman_pve_skill_mingzhong_000.prefab	0		0	挂载
+	effect_Natasha_woman_pve_skill_wuqi_Bone013	Assets/Shelter/Art/Effects/prefabs/effect_Natasha_woman_pve_skill_wuqi_Bone013.prefab	0		0	挂载
+	effect_Natasha_woman_pve_skill_wuqi_shanguang_000	Assets/Shelter/Art/Effects/prefabs/effect_Natasha_woman_pve_skill_wuqi_shanguang_000.prefab	0		0	挂载
+	effect_pve_Plumber_Maroli_pve_skill_Gun	Assets/Shelter/Art/Effects/prefabs/effect_pve_Plumber_Maroli_pve_skill_Gun.prefab	0		0	挂载
+	effect_Plumber_Maroli_pve_Wrench_000_01	Assets/Shelter/Art/Effects/prefabs/effect_Plumber_Maroli_pve_Wrench_000_01.prefab	0		0	挂载
+	effect_Plumber_Maroli_pve_Wrench_000_02	Assets/Shelter/Art/Effects/prefabs/effect_Plumber_Maroli_pve_Wrench_000_02.prefab	0		0	挂载
+	effect_Plumber_Maroli_pve_Wrench_000_03	Assets/Shelter/Art/Effects/prefabs/effect_Plumber_Maroli_pve_Wrench_000_03.prefab	0		0	挂载
+	effect_QianQian_woman_attack_000	Assets/Shelter/Art/Effects/prefabs/effect_QianQian_woman_attack_000.prefab	0		0	挂载
+	effect_QianQian_woman_skill_000	Assets/Shelter/Art/Effects/prefabs/effect_QianQian_woman_skill_000.prefab	0		0	挂载
+	effect_pve_Rebecca_Skill	Assets/Shelter/Art/Effects/prefabs/effect_pve_Rebecca_Skill.prefab	0		0	挂载
+	effect_pve_hudun_01	Assets/Shelter/Art/Effects/prefabs/effect_pve_hudun_01.prefab	0		0	挂载
+	effect_Suziki_woman_pve_attack	Assets/Shelter/Art/Effects/prefabs/effect_Suziki_woman_pve_attack.prefab	0		0	挂载
+	effect_Suziki_woman_pve_skill	Assets/Shelter/Art/Effects/prefabs/effect_Suziki_woman_pve_skill.prefab	0		0	挂载
+	effect_Swoopzombie_woman_pve_qiu	Assets/Shelter/Art/Effects/prefabs/effect_Swoopzombie_woman_pve_qiu.prefab	0		0	挂载
+	effect_Swoopzombie_woman_pve_mingzhong_000	Assets/Shelter/Art/Effects/prefabs/effect_Swoopzombie_woman_pve_mingzhong_000.prefab	0		0	挂载
+	effect_Swoopzombie_woman_pve_duye_Bone_002	Assets/Shelter/Art/Effects/prefabs/effect_Swoopzombie_woman_pve_duye_Bone_002.prefab	0		0	挂载
+	effect_pve_Tankzombie_skill_000	Assets/Shelter/Art/Effects/prefabs/effect_pve_Tankzombie_skill_000.prefab	0		0	挂载
+	effect_pve_Tankzombie_skill_shitou_Socket_01	Assets/Shelter/Art/Effects/prefabs/effect_pve_Tankzombie_skill_shitou_Socket_01.prefab	0		0	挂载
+	effect_tyrant_pve_skill_01	Assets/Shelter/Art/Effects/prefabs/effect_tyrant_pve_skill_01.prefab	0		0	挂载
+	effect_tyrant_pve_skill_02	Assets/Shelter/Art/Effects/prefabs/effect_tyrant_pve_skill_02.prefab	0		0	挂载
+	effect_tyrant_pve_skill_03	Assets/Shelter/Art/Effects/prefabs/effect_tyrant_pve_skill_03.prefab	0		0	挂载
+	effect_pve_Whinston_mingzhong_000	Assets/Shelter/Art/Effects/prefabs/effect_pve_Whinston_mingzhong_000.prefab	0		0	挂载
+	effect_pve_Whinston_paodan	Assets/Shelter/Art/Effects/prefabs/effect_pve_Whinston_paodan.prefab	0		0	挂载
+	effect_pve_Whinston_bao_Bone029	Assets/Shelter/Art/Effects/prefabs/effect_pve_Whinston_bao_Bone029.prefab	0		0	挂载
+	effect_pve_zombies_man_skill_01	Assets/Shelter/Art/Effects/prefabs/effect_pve_zombies_man_skill_01.prefab	0		0	挂载
+	effect_pve_zombies_man_skill_02	Assets/Shelter/Art/Effects/prefabs/effect_pve_zombies_man_skill_02.prefab	0		0	挂载
+	effect_Zomnum_woman_pve_000_01	Assets/Shelter/Art/Effects/prefabs/effect_Zomnum_woman_pve_000_01.prefab	0		0	挂载
+	effect_Zomnum_woman_pve_000_02	Assets/Shelter/Art/Effects/prefabs/effect_Zomnum_woman_pve_000_02.prefab	0		0	挂载
+	effect_Zomnum_woman_pve_000_03	Assets/Shelter/Art/Effects/prefabs/effect_Zomnum_woman_pve_000_03.prefab	0		0	挂载
+	effect_ui_jinruzhandou	Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_jinruzhandou.prefab	0		0	挂载
+	effect_DiningRoom_MO_yan03	Assets/Shelter/Art/Effects/prefabs/effect_DiningRoom_MO_yan03.prefab	0		0	挂载
+	effect_xuzhang_dahuoji_01	Assets/Shelter/Art/Effects/prefabs/effect_xuzhang_dahuoji_01.prefab	0		0	挂载
+	effect_xuzhang_dahuoji_02	Assets/Shelter/Art/Effects/prefabs/effect_xuzhang_dahuoji_02.prefab	0		0	挂载
+	effect_pve_lltbox_01	Assets/Shelter/Art/Effects/prefabs/effect_pve_lltbox_01.prefab	0		0	挂载
+	effect_pve_lltbox_02	Assets/Shelter/Art/Effects/prefabs/effect_pve_lltbox_02.prefab	0		0	挂载
+	effect_pve_lltbox_03	Assets/Shelter/Art/Effects/prefabs/effect_pve_lltbox_03.prefab	0		0	挂载
+	effect_pve_lltbox_04	Assets/Shelter/Art/Effects/prefabs/effect_pve_lltbox_04.prefab	0		0	挂载
+	effect_pve_lltbox_05	Assets/Shelter/Art/Effects/prefabs/effect_pve_lltbox_05.prefab	0		0	挂载
+	effect_deliverytruck_01	Assets/Shelter/Art/Effects/prefabs/effect_deliverytruck_01.prefab	0		0	挂载
+	effect_deliverytruck_02	Assets/Shelter/Art/Effects/prefabs/effect_deliverytruck_02.prefab	0		0	挂载
+	effect_deliverytruck_03	Assets/Shelter/Art/Effects/prefabs/effect_deliverytruck_03.prefab	0		0	挂载
+	effect_ui_xunlu_01	Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_xunlu_01.prefab	0		0	挂载
+	effect_DiningRoom_MO_yan02	Assets/Shelter/Art/Effects/prefabs/effect_DiningRoom_MO_yan02.prefab	0		0	挂载
+	effect_xuzhang_dengguang	Assets/Shelter/Art/Effects/UI_prefabs/effect_xuzhang_dengguang.prefab	0		0	挂载
+	effect_camera_blood	Assets/Shelter/Art/Effects/prefabs/effect_camera_blood.prefab	0		0	挂载
+	effect_scene_smoke_ty	Assets/Shelter/Art/Effects/prefabs/effect_scene_smoke_ty.prefab	0		0	挂载
+士兵解锁晋升特效	effect_ui_LFSoliderUnlockForm_jinsheng	Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_LFSoliderUnlockForm_jinsheng.prefab	0		0	挂载
+	effect_scene_dianhuohua_ty_02	Assets/Shelter/Art/Effects/prefabs/effect_scene_dianhuohua_ty_02.prefab	0		0	挂载
+	effect_scene_fengsha_02	Assets/Shelter/Art/Effects/prefabs/effect_scene_fengsha_02.prefab	0		0	挂载
+	effect_scene_jiantou_01	Assets/Shelter/Art/Effects/prefabs/effect_scene_jiantou_01.prefab	0		0	挂载
+	effect_previewscene_01	Assets/Shelter/Art/Effects/prefabs/effect_previewscene_01.prefab	0		0	挂载
+	effect_ui_LFTreasureResultTips_01	Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_LFTreasureResultTips_01.prefab	0		0	挂载
+	effect_ui_objMailTipsHeroExpItem_jindutiao_01	Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_objMailTipsHeroExpItem_jindutiao_01.prefab	0		0	挂载
+	effect_ui_LFarmsView_baoxiang_lingqu01	Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_LFarmsView_baoxiang_lingqu01.prefab	0		0	挂载
+	effect_ui_TurntableActivity_001_01	Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_TurntableActivity_001_01.prefab	0		0	挂载
+	effect_ui_LFAllianceMain_huoxing_01	Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_LFAllianceMain_huoxing_01.prefab	0		0	挂载
+	effect_ui_maingift_001	Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_maingift_001.prefab	0		0	挂载
+	effect_ui_GiftIconHeroMonthCard_001	Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_GiftIconHeroMonthCard_001.prefab	0		0	挂载
+	effect_ui_GiftIconMonthCard_001	Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_GiftIconMonthCard_001.prefab	0		0	挂载
+	effect_ui_GiftIconMonthCard_002	Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_GiftIconMonthCard_002.prefab	0		0	挂载
+	effect_ui_GiftIconMonthCard_circle	Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_GiftIconMonthCard_circle.prefab	0		0	挂载
+	effect_ui_newgiftpackrewardview_001	Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_newgiftpackrewardview_001.prefab	0		0	挂载
+	effect_ui_LFHeroListInfoView_001	Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_LFHeroListInfoView_001.prefab	0		0	挂载
+	effect_ui_LFDiningRoomCookPage 2_002	Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_LFDiningRoomCookPage 2_002.prefab	0		0	挂载
+	effect_LFMainCityLevelUpTips_01	Assets/Shelter/Art/Effects/UI_prefabs/effect_LFMainCityLevelUpTips_01.prefab	0		0	挂载
+	effect_LFMainCityLevelUpTips_02	Assets/Shelter/Art/Effects/UI_prefabs/effect_LFMainCityLevelUpTips_02.prefab	0		0	挂载
+	effect_ui_LFViewVipLevelUP_001	Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_LFViewVipLevelUP_001.prefab	0		0	挂载
+	effect_ui_LFViewVipLevelUP_002	Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_LFViewVipLevelUP_002.prefab	0		0	挂载
+	effect_ui_OneInfo_001	Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_OneInfo_001.prefab	0		0	挂载
+	effect_ui_LFViewHospital2_zhiliao_tishi_01	Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_LFViewHospital2_zhiliao_tishi_01.prefab	0		0	挂载
+	effect_world_build_yanwu	Assets/Shelter/Art/Effects/prefabs/effect_world_build_yanwu.prefab	0		0	挂载
+客服入口牌白天特效	effect_Ground_lamp_plate_day	Assets/Shelter/Art/Effects/prefabs/effect_Ground_lamp_plate.prefab	0		0
+客服入口牌晚上特效	effect_Ground_lamp_plate_night	Assets/Shelter/Art/Effects/prefabs/effect_Ground_lamp_plate_night.prefab	0		0
+获取资源进度条特效	effect_ui_LFResSupplyView_LFProgress	Assets/Shelter/Art/Effects/prefabs/effect_ui_LFResSupplyView_LFProgress.prefab	0		0
+成长礼包	GrowthPackageCell	Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_GrowthPackageComponent_cell.prefab	0		0
+pve血条特效	effect_ui_BattleHeadUI_Node_Hp_001	Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_BattleHeadUI_Node_Hp_001.prefab	0		0
+pve怒气满特效	effect_ui_BattleHeadUI_nuqi_001	Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_BattleHeadUI_nuqi_001.prefab	0		0
+	effect_ui_LFKingdomGiftTips_huoyan_01	Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_LFKingdomGiftTips_huoyan_01.prefab	0		0
+	effect_ui_LFKingdomGift_baoxiang_01	Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_LFKingdomGift_baoxiang_01.prefab	0		0
+	effect_ui_LFKingdomGift_baoxiang_02	Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_LFKingdomGift_baoxiang_02.prefab	0		0
+	effect_ui_LFKingdomGift_baoxiang_03	Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_LFKingdomGift_baoxiang_03.prefab	0		0
+	effect_uiLFPersonalInfoView2_flag	Assets/Shelter/Art/Effects/UI_prefabs/effect_uiLFPersonalInfoView2_flag.prefab	0		0
+	effect_uiLFPersonalInfoView2_flag_zi	Assets/Shelter/Art/Effects/UI_prefabs/effect_uiLFPersonalInfoView2_flag_zi.prefab	0		0
+	effect_world_PlayerCity_light	Assets/Shelter/Art/Effects/prefabs/effect_world_PlayerCity_light.prefab	0		0
+	effect_world_PlayerCity_light_zi	Assets/Shelter/Art/Effects/UI_prefabs/effect_world_PlayerCity_light_zi.prefab	0		0
+	effect_ui_LFKingdomPositionView_flag_01	Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_LFKingdomPositionView_flag_01.prefab	0		0
+	effect_ui_LFKingdomPositionView_flag_02	Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_LFKingdomPositionView_flag_02.prefab	0		0
+	effect_ui_LFKingdomPositionView_flag_01_zi	Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_LFKingdomPositionView_flag_01_zi.prefab	0		0
+	effect_ui_LFKingdomPositionView_flag_02_zi	Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_LFKingdomPositionView_flag_02_zi.prefab	0		0
+	effect_ui_LFWorldBOSSView_boss_01	Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_LFWorldBOSSView_boss_01.prefab	0		0
+	effect_ui_LFWorldBOSSView_boss_02	Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_LFWorldBOSSView_boss_02.prefab	0		0
+	effect_ui_LFWorldBOSSView_boss_03	Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_LFWorldBOSSView_boss_03.prefab	0		0
+雷达车boss选中	effect_ui_LFRadarCarView1_001	Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_LFRadarCarView1_001.prefab	0		0
+雷达车普通选中	effect_ui_LFRadarCarView1_002	Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_LFRadarCarView1_002.prefab	0		0
+雷达车英雄界面燃烧	effect_ui_UIRadarCarHandbook_kapai_ranshao_001	Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_UIRadarCarHandbook_kapai_ranshao_001.prefab	0		0
+雷达车英雄姐面扫光	effect_ui_UIRadarCarHandbook_saoguang_001	Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_UIRadarCarHandbook_saoguang_001.prefab	0		0
+	effect_ui_tubiao_qiancheng_tishi_001	Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_tubiao_qiancheng_tishi_001.prefab	0		0
+联盟官员设置界面特效	effect_ui_LFAllianceSetPosition_001	Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_LFAllianceSetPosition_001.prefab	0		0
+联盟官员设置界面特效	effect_ui_LFAllianceSetPosition_002	Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_LFAllianceSetPosition_002.prefab	0		0
+联盟官员设置界面特效	effect_ui_LFAllianceSetPosition_003	Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_LFAllianceSetPosition_003.prefab	0		0
+联盟官员设置界面特效	effect_ui_LFAllianceSetPosition_004	Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_LFAllianceSetPosition_004.prefab	0		0
+联盟官员设置界面特效	effect_ui_LFAllianceSetPosition_xuanzhong_001	Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_LFAllianceSetPosition_xuanzhong_001.prefab	0		0
+联盟设置级别界面特效	effect_ui_LFAllianceSetRank_xuanzhong_001	Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_LFAllianceSetRank_xuanzhong_001.prefab	0		0
+雷达车选中效果	effect_ui_LFRadarCarView1_kuaisusaomian_xuanzhong_001	Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_LFRadarCarView1_kuaisusaomian_xuanzhong_001.prefab	0		0
+雷达车刷新效果	effect_ui_LFRadarCarView1_kuaisusaomian_shuaxindian_001	Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_LFRadarCarView1_kuaisusaomian_shuaxindian_001.prefab	0		0
+雷达车打开界面扫描	effect_ui_LFRadarCarView1_kuaisusaomian_saomian_001	Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_LFRadarCarView1_kuaisusaomian_saomian_001.prefab	0		0
+雷达车左下角升级效果	effect_ui_LFRadarCarView1_LevelUp_01	Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_LFRadarCarView1_LevelUp_01.prefab	0		0
+	effect_ui_LFRadarCarView1_LevelMax_01	Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_LFRadarCarView1_LevelMax_01.prefab	0		0
+打地预告界面特效	effect_ui_ActThroneWar_Home_chuansongmen_01	Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_ActThroneWar_Home_chuansongmen_01.prefab	0		0
+赛季开始中界面特效	effect_ui_ActThroneWar_Home_duqi_01	Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_ActThroneWar_Home_duqi_01.prefab	0		0
+	effect_dashijie_jianzhu_posun_001	Assets/Shelter/Art/Effects/prefabs/effect_dashijie_jianzhu_posun_001.prefab	0		0
+	effect_dashijie_jianzhu_shengji_001	Assets/Shelter/Art/Effects/prefabs/effect_dashijie_jianzhu_shengji_001.prefab	0		0
+	effect_dashijie_jianzhu_chaichu_001	Assets/Shelter/Art/Effects/prefabs/effect_dashijie_jianzhu_chaichu_001.prefab	0		0
+	effect_world_zhonglicheng_blue	Assets/Shelter/Art/Effects/prefabs/effect_world_zhonglicheng_blue.prefab	0		0
+	effect_world_zhonglicheng_red	Assets/Shelter/Art/Effects/prefabs/effect_world_zhonglicheng_red.prefab	0		0
+	effect_world_zhanling_win	Assets/Shelter/Art/Effects/prefabs/effect_world_zhanling_win.prefab	0		0
+	effect_world_zhanling_lose	Assets/Shelter/Art/Effects/prefabs/effect_world_zhanling_lose.prefab	0		0
+	effect_world_dikuai_3_blue	Assets/Shelter/Art/Effects/prefabs/effect_world_dikuai_3_blue.prefab	0		0
+	effect_world_dikuai_3_red	Assets/Shelter/Art/Effects/prefabs/effect_world_dikuai_3_red.prefab	0		0
+	effect_world_dikuai_4_blue	Assets/Shelter/Art/Effects/prefabs/effect_world_dikuai_4_blue.prefab	0		0
+	effect_world_dikuai_4_red	Assets/Shelter/Art/Effects/prefabs/effect_world_dikuai_4_red.prefab	0		0
+	effect_world_dikuai_9_blue	Assets/Shelter/Art/Effects/prefabs/effect_world_dikuai_9_blue.prefab	0		0
+	effect_world_dikuai_9_red	Assets/Shelter/Art/Effects/prefabs/effect_world_dikuai_9_red.prefab	0		0
+联盟发展宝箱特效	effect_ui_AllianceDevelopTask_box_lingqu_bottom	Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_AllianceDevelopTask_box_lingqu_bottom.prefab	0		0
+	effect_ui_AllianceDevelopTask_box_lingqu_top	Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_AllianceDevelopTask_box_lingqu_top.prefab	0		0
+	effect_ui_AllianceDevelopLevelBox_box_lingqu_bottom	Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_AllianceDevelopLevelBox_box_lingqu_bottom.prefab	0		0
+	effect_ui_AllianceDevelopLevelBox_box_lingqu_top	Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_AllianceDevelopLevelBox_box_lingqu_top.prefab	0		0
+	effect_ui_LFWorldBOSSView_boss_06	Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_LFWorldBOSSView_boss_06.prefab	0		0
+	effect_ui_LFWorldBOSSView_boss_07	Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_LFWorldBOSSView_boss_07.prefab	0		0
+	effect_ui_LFWorldBOSSView_boss_08	Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_LFWorldBOSSView_boss_08.prefab	0		0
+	effect_ui_LFWorldBOSSView_boss_09	Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_LFWorldBOSSView_boss_09.prefab	0		0
+	effect_ui_LFWorldBOSSView_boss_10	Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_LFWorldBOSSView_boss_10.prefab	0		0
+中立城外扩	effect_world_dikuai_3_guide	Assets/Shelter/Art/Effects/prefabs/effect_world_dikuai_3_guide.prefab	0		0
+	effect_ui_LFScienceCenter2_OtherScienceCell_saoguang	Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_LFScienceCenter2_OtherScienceCell_saoguang.prefab	0		0
+	effect_ui_LFScienceCenter2_OtherScienceCell_jiesuo	Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_LFScienceCenter2_OtherScienceCell_jiesuo.prefab	0		0
+雷达车提示特效	effect_ui_LFRadarCarView1_kuaisusaomian_tishidianji_001	Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_LFRadarCarView1_kuaisusaomian_tishidianji_001.prefab	0		0
+英雄试用	effect_ui_LFUImain2_heroestest_connect_001	Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_LFUImain2_heroestest_connect_001.prefab	0		0
+	effect_ui_UIHeroMain_btnProbationReward_01	Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_UIHeroMain_btnProbationReward_01.prefab	0		0
+大本升级反馈	effect_ui_daben_shengji_01	Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_daben_shengji_01.prefab	0		0
+	effect_ui_daben_shengji_02	Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_daben_shengji_02.prefab	0		0
+赛季战令可领取特效	effect_ui_UISeasonBattlePassAwardItem_kelingqu_01	Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_UISeasonBattlePassAwardItem_kelingqu_01.prefab	0		0
+赛季战令购买进阶卡常驻特效	effect_ui_UISeasonBattlePassPurchaseCard_changzhu_01	Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_UISeasonBattlePassPurchaseCard_changzhu_01.prefab	0		0
+赛季战令购买进阶卡成功特效	effect_ui_UISeasonBattlePassPurchaseCard_goumaichenggong_01	Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_UISeasonBattlePassPurchaseCard_goumaichenggong_01.prefab	0		0
+赛季战令购买等级特效	effect_ui_UISeasonBattlePassPayLevel	Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_UISeasonBattlePassPayLevel.prefab	0		0
+	effect_ui_AllianceBattleAct_fire	Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_AllianceBattleAct_fire.prefab	0		0
+	effect_ui_LFAllianceBattleActView_buttom	Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_LFAllianceBattleActView_buttom.prefab	0		0
+	effect_world_dikuai_purple1	Assets/Shelter/Art/Effects/prefabs/effect_world_dikuai_purple1.prefab	0		0
+	effect_world_dikuai_purple2	Assets/Shelter/Art/Effects/prefabs/effect_world_dikuai_purple2.prefab	0		0
+	effect_world_dikuai_3_purple	Assets/Shelter/Art/Effects/prefabs/effect_world_dikuai_3_purple.prefab	0		0
+	effect_world_dikuai_4_purple	Assets/Shelter/Art/Effects/prefabs/effect_world_dikuai_4_purple.prefab	0		0
+	effect_world_dikuai_9_purple	Assets/Shelter/Art/Effects/prefabs/effect_world_dikuai_9_purple.prefab	0		0
+pve战斗VS特效	effect_LFPVEBattleBub_VS	Assets/Shelter/Art/Effects/prefabs/effect_LFPVEBattleBub_VS.prefab	0		0
+挂机界面宝箱特效	effect_LFUISubwayRunningPanel_Light_001	Assets/Shelter/Art/Effects/UI_prefabs/effect_LFUISubwayRunningPanel_Light_001.prefab	0		0
+圣诞特效	effect_Socks_001	Assets/Shelter/Art/Effects/prefabs/effect_Socks_001.prefab	0		0
+编队无英雄上阵时的特效	effect_ui_LFWorldFormationNew1_standPos_yuanhuan_001	Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_LFWorldFormationNew1_standPos_yuanhuan_001.prefab	0		0
+主界面滚动礼包节日皮肤特效	effect_ui_UIMainActivityIcon_ChristmasDeco_Light_01	Assets/Shelter/Art/Effects/UI_prefabs/effect_ui_UIMainActivityIcon_ChristmasDeco_Light_01.prefab	0		0

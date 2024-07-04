@@ -1,0 +1,15 @@
+namespace LF.Table;
+
+table DRheroes_levelup
+{
+  id:int;
+  exp:int;
+  diamond:int;
+}
+
+table Table_heroes_levelup
+{
+  data:[DRheroes_levelup];
+}
+
+root_type Table_heroes_levelup;

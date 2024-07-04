@@ -1,0 +1,19 @@
+id		Single_Int	0			
+name		Fix_String	0			
+des		Fix_String	0			
+kind_icon1		Single_String	0			
+kind_icon2		Single_String	0			
+kind_icon3		Single_String	0			
+icon		Single_String	0			
+camp_scene		Single_String	0			
+result_icon		Single_String	0			
+against		Single_Int	0			
+big_icon		Single_String	0			
+kind_icon4		Single_String	0			
+camp_icon		Single_String	0			
+normal_icon		Single_String	0			
+list_icon		Single_String	0			
+order		Single_Int	0			
+icon_color		Single_String	0			
+restraint_des		Single_Int	0			
+effect		Dictionary_II	2	|	;	effect_1#effect_2

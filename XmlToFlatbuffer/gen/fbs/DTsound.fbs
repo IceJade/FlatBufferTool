@@ -1,0 +1,17 @@
+namespace LF.Table;
+
+table DRsound
+{
+  id:string;
+  loop:int;
+  maxDistance:int;
+  priority:int;
+  volume:float;
+}
+
+table Table_sound
+{
+  data:[DRsound];
+}
+
+root_type Table_sound;

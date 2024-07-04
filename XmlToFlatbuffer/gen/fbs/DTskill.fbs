@@ -1,0 +1,32 @@
+namespace LF.Table;
+
+table DRskill
+{
+  id:int;
+  level:int;
+  type_area:int;
+  object_num:int;
+  effect:[string];
+  effect_num:[string];
+  type:int;
+  type_para:int;
+  show_type:int;
+  name:string;
+  des:int;
+  icon:string;
+  object_alies:int;
+  times:int;
+  condition:int;
+  effect_type:int;
+  cd_time:[int];
+  ShortDes:int;
+  activate_type:int;
+  hide_effect:[int];
+}
+
+table Table_skill
+{
+  data:[DRskill];
+}
+
+root_type Table_skill;

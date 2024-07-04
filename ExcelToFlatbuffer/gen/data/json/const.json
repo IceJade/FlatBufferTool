@@ -1,0 +1,16 @@
+{
+  data: [
+    {
+      id: "hero_normal_attr_name",
+      Content: "150903,150905,150904,150906,150907"
+    },
+    {
+      id: "hero_battle_attr_name",
+      Content: "150566,150567,150568,150569,150570"
+    },
+    {
+      id: "hero_attr_key",
+      Content: "strength,intelligence,agility,endurance,luck"
+    }
+  ]
+}

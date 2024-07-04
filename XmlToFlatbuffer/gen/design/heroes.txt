@@ -1,0 +1,58 @@
+id		Single_Int	0			
+name		Fix_String	0			
+nickname		Fix_String	0			
+sculpture		Single_String	0			
+recruit_linshi		Single_String	0			
+avatar_icon		Single_String	0			
+tujian_icon		Single_String	0			
+prefab		Single_String	0			
+prefab_high		Single_String	0			
+size		Single_Float	0			
+handbook		Single_Int	0			
+order		Single_Int	0			
+quality_min		Single_Int	0			
+quality_max		Single_Int	0			
+poster		Single_Int	0			
+rarity		Single_Int	0			
+camp		Single_Int	0			
+Arms		Single_Int	0			
+Label_1		Array_Int	2	;		
+Label_3		Array_Int	3	;		
+eat_speed		Single_Int	0			
+strength		Dictionary_SS	20	|	;	strength_1#strength_2
+agility		Dictionary_SS	20	|	;	agility_1#agility_2
+intelligence		Dictionary_SS	20	|	;	intelligence_1#intelligence_2
+endurance		Dictionary_SS	20	|	;	endurance_1#endurance_2
+luck		Dictionary_SS	20	|	;	luck_1#luck_2
+skill		Array_Int	5	|		
+skill_unlock		Array_Int	5	|		
+skill_levelup_num		Array_Int	20	|		
+skill_levelup_item		Single_Int	0			
+power_para		Array_Int	5	|		
+position		Single_Int	0			
+robot		Single_Int	0			
+promote		Array_Table	7	|	;	promote_1#promote_2
+avatar_spine		Single_String	0			
+work_sculpture		Single_String	0			
+TujianIcon2		Single_String	0			
+skill_levelup_num_new		Array_Table	5	|	;	skill_levelup_num_new_1#skill_levelup_num_new_2#skill_levelup_num_new_3#skill_levelup_num_new_4
+show_condition		Array_Int	2	;		
+video		Single_String	0			
+tryReward		Single_Int	0			
+showType		Single_Int	0			
+arms		Single_Int	0			
+skill_levelup_item_exchange		Array_Int	3	;		
+sculpture_round		Single_String	0			
+sound		Single_Int	0			
+story		Single_Int	0			
+prefab_pve		Single_String	0			
+prefab_city		Single_String	0			
+show_server		Array_String	2	|		
+shelter_stationed		Single_Int	0			
+hide_in_city		Single_Int	0			
+rarity_lottery		Single_String	0			
+tag_pic		Single_String	0			
+portrait		Single_String	0			
+recruit_front		Single_String	0			
+recruit_rear		Single_String	0			
+honor		Single_String	0			

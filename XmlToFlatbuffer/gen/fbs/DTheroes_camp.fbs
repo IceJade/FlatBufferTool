@@ -1,0 +1,31 @@
+namespace LF.Table;
+
+table DRheroes_camp
+{
+  id:int;
+  name:string;
+  des:string;
+  kind_icon1:string;
+  kind_icon2:string;
+  kind_icon3:string;
+  icon:string;
+  camp_scene:string;
+  result_icon:string;
+  against:int;
+  big_icon:string;
+  kind_icon4:string;
+  camp_icon:string;
+  normal_icon:string;
+  list_icon:string;
+  order:int;
+  icon_color:string;
+  restraint_des:int;
+  effect:[string];
+}
+
+table Table_heroes_camp
+{
+  data:[DRheroes_camp];
+}
+
+root_type Table_heroes_camp;

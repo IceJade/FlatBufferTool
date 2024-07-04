@@ -1,0 +1,134 @@
+{
+  data: [
+    {
+      id: 1,
+      type: 100,
+      luaPath: "Game.View.Activity.Monster.MonsterActivity",
+      resUrl: "Assets/Shelter/Prefabs/UI/Activity/ActMonster/MonsterActivity.prefab"
+    },
+    {
+      id: 2,
+      type: 11,
+      subActivityType: 2001,
+      luaPath: "Game.View.Activity.Hero.HeroActivity",
+      resUrl: "Assets/Shelter/Prefabs/UI/Activity/ActHero/HeroActivity.prefab"
+    },
+    {
+      id: 3,
+      type: 10,
+      luaPath: "Game.View.Activity.Turntable.TurntableActivity",
+      resUrl: "Assets/Shelter/Prefabs/UI/Activity/TurntableActivity/TurntableActivity.prefab"
+    },
+    {
+      id: 4,
+      type: 14,
+      luaPath: "Game.View.Activity.AllianceActivity.AllianceArmRaceAct",
+      resUrl: "Assets/Shelter/Prefabs/UI/Activity/AllianceActivity/AllianceArmRaceAct.prefab"
+    },
+    {
+      id: 5,
+      type: 102,
+      luaPath: "Game.View.Activity.Exchange.ExchangeActivity",
+      resUrl: "Assets/Shelter/Prefabs/UI/Activity/Boss/WorldBossActivity.prefab"
+    },
+    {
+      id: 6,
+      type: 8,
+      luaPath: "Game.View.Activity.NewServer.ActivityNewServer",
+      resUrl: "Assets/Shelter/Prefabs/UI/Activity/NewServer/ActivityNewServer.prefab"
+    },
+    {
+      id: 7,
+      type: 9,
+      luaPath: "Game.View.Activity.NewServer.ActivityNewServer",
+      resUrl: "Assets/Shelter/Prefabs/UI/Activity/NewServer/ActivityNewServer.prefab"
+    },
+    {
+      id: 8,
+      type: 104,
+      luaPath: "Game.View.Activity.ActAllianceDkp.ActAllianceDkp",
+      resUrl: "Assets/Shelter/Prefabs/UI/Activity/AllianceDkp/ActAllianceDkp.prefab"
+    },
+    {
+      id: 9,
+      type: 105,
+      luaPath: "Game.View.Activity.AllianceQuestion.ActAllianceQuestion",
+      resUrl: "Assets/Shelter/Prefabs/UI/Activity/AllianceQuestion/AllianceQuestion.prefab"
+    },
+    {
+      id: 10,
+      type: 103,
+      luaPath: "Game.View.Activity.ActThroneWarSeasonAccount.ActThroneWar_Home",
+      resUrl: "Assets/Shelter/Prefabs/UI/Activity/ThroneWarSeasonAccount/ActThroneWar_Home.prefab"
+    },
+    {
+      id: 11,
+      type: 15,
+      luaPath: "Game.View.Activity.NewServer.ActivityNewServer",
+      resUrl: "Assets/Shelter/Prefabs/UI/Activity/NewServer/ActivityNewServer.prefab"
+    },
+    {
+      id: 12,
+      type: 106,
+      luaPath: "Game.View.Activity.ActHeroTrain.ActHeroTrain",
+      resUrl: "Assets/Shelter/Prefabs/UI/Activity/ActHeroTrain/ActHeroTrain.prefab"
+    },
+    {
+      id: 13,
+      type: 107,
+      luaPath: "Game.View.Activity.Turntable.TurntableActivity",
+      resUrl: "Assets/Shelter/Prefabs/UI/Activity/TurntableActivity/TurntableActivity.prefab"
+    },
+    {
+      id: 14,
+      type: 12,
+      subActivityType: 1001,
+      luaPath: "Game.View.Activity.ActPersonArms.PersonArmsView",
+      resUrl: "Assets/Shelter/Prefabs/UI/Activity/PersonArms/PersonArmsView.prefab"
+    },
+    {
+      id: 15,
+      type: 12,
+      subActivityType: 1002,
+      luaPath: "Game.View.Activity.ActPersonArms.PersonArmsView",
+      resUrl: "Assets/Shelter/Prefabs/UI/Activity/PersonArms/PersonArmsView.prefab"
+    },
+    {
+      id: 16,
+      type: 11,
+      subActivityType: 2002,
+      luaPath: "Game.View.Activity.Hero.ActThankGiving",
+      resUrl: "Assets/Shelter/Prefabs/UI/Activity/ActHero/ActThankGiving.prefab"
+    },
+    {
+      id: 17,
+      type: 110,
+      luaPath: "Game.View.Activity.ActAccumulativeRecharge.ActAccumulativeRecharge",
+      resUrl: "Assets/Shelter/Prefabs/UI/Activity/ActAccumulativeRecharge/ActAccumulativeRecharge.prefab"
+    },
+    {
+      id: 18,
+      type: 109,
+      luaPath: "Game.View.Activity.ActAccountBind.UIAccountBindGuide",
+      resUrl: "Assets/Shelter/Prefabs/UI/Activity/AccountBind/UIAccountBindGuide.prefab"
+    },
+    {
+      id: 19,
+      type: 108,
+      luaPath: "Game.View.Activity.RegionForce.UIRegionForcePanel",
+      resUrl: "Assets/Shelter/Prefabs/UI/Activity/RegionForce/UIRegionForcePanel.prefab"
+    },
+    {
+      id: 20,
+      type: 111,
+      luaPath: "Game.View.Activity.ActSevenDayLogin.ActSevenDayLogin",
+      resUrl: "Assets/Shelter/Prefabs/UI/Activity/SevenDayLogin/ActSevenDayLogin.prefab"
+    },
+    {
+      id: 21,
+      type: 16,
+      luaPath: "Game.View.Activity.ActChristmas.ActItemChristmas",
+      resUrl: "Assets/Shelter/Prefabs/UI2/ChristmasAct/ActItemChristmas.prefab"
+    }
+  ]
+}

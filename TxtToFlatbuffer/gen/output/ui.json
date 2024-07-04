@@ -1,0 +1,1534 @@
+{
+  data: [
+    {
+      id: "LFWorldDonateView",
+      AssetName: "Assets/Shelter/Prefabs/UI/LFWorldDonateView.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "LFWorldSiegeView2",
+      AssetName: "Assets/Shelter/Prefabs/UI/LFWorldsiegeView2.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "UIInputActiveCodePanel",
+      AssetName: "Assets/Shelter/Prefabs/UI/UIAccount/UIInputActiveCodePanel.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "LFGerenjunbei",
+      AssetName: "Assets/Main/Prefabs/UI/ActivityCenter/UIPersonalArmsRace.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "LFarmsView",
+      AssetName: "Assets/Shelter/Prefabs/UI/Activity/LFarmsView.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "LFarmsRankingListView",
+      AssetName: "Assets/Shelter/Prefabs/UI/Activity/LFarmsRankingListView",
+      UIGroupName: "UIResourcePopUp",
+      Priority: 99
+    },
+    {
+      id: "LFWorldGatherSub",
+      AssetName: "Assets/Shelter/Prefabs/UI2/Alliance/LFWorldGatherSub2.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "LFWorldGather",
+      AssetName: "Assets/Shelter/Prefabs/UI2/Alliance/LFWorldGather2.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "LFWorldGatherAttack",
+      AssetName: "Assets/Shelter/Prefabs/World/UI/LFWorldGatherAttack.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "LFMoveCityView",
+      AssetName: "Assets/Shelter/Prefabs/World/WorldCity/LFMoveCityView.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "LFMoveCityListView",
+      AssetName: "Assets/Shelter/Prefabs/World/WorldCity/LFMoveCityListView.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "LFMarchBtnView",
+      AssetName: "Assets/Shelter/Prefabs/World/UI/LFMarchBtnView.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "LFStartMovie",
+      AssetName: "Assets/Shelter/Prefabs/UI/DefaultUI/LFStartMovie.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "UIGameMovie",
+      AssetName: "Assets/Shelter/Prefabs/UI/DefaultUI/UIGameMovie.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "LFScrollTipsView",
+      AssetName: "Assets/Shelter/Prefabs/UI/DefaultUI/LFScrollTipsView.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "UILoadingAnimation",
+      AssetName: "Assets/Shelter/Prefabs/UI/DefaultUI/UILoadingAnimation.prefab",
+      UIGroupName: "Loading",
+      Priority: 99
+    },
+    {
+      id: "UIMainTipPlus",
+      AssetName: "Assets/Shelter/Prefabs/UI2/LFUIMainTipPlus.prefab",
+      UIGroupName: "Scene",
+      Priority: 99
+    },
+    {
+      id: "HeadBubbleLayer",
+      AssetName: "Assets/Shelter/Prefabs/UI/Scene/HeadBubbleLayer.prefab",
+      UIGroupName: "Scene",
+      Priority: 99
+    },
+    {
+      id: "LFLevelUpTips",
+      AssetName: "Assets/Shelter/Prefabs/UI/LFLevelUpTips.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "LFMainCityLevelUpTips",
+      AssetName: "Assets/Shelter/Prefabs/UI/LFMainCityLevelUpTips.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "LFBattleLvAndCamp",
+      AssetName: "Assets/Shelter/Prefabs/Battle/UI/BattleLvAndCamp.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "LFBattleHeadUI",
+      AssetName: "Assets/Shelter/Prefabs/Battle/UI/BattleHeadUI.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "LFBattleView",
+      AssetName: "Assets/Shelter/Prefabs/Battle/UI/LFBattleView.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "LFBattleResultView",
+      AssetName: "Assets/Shelter/Prefabs/Battle/UI/LFBattleResultView.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "Tips",
+      AssetName: "Assets/Shelter/Prefabs/UI/Common/UITips.prefab",
+      UIGroupName: "Dialog",
+      Priority: 99
+    },
+    {
+      id: "UITipMessage",
+      AssetName: "Assets/Shelter/Prefabs/UI2/UITipMessage2.prefab",
+      UIGroupName: "Dialog",
+      Priority: 99
+    },
+    {
+      id: "UIAuthorityDoorTips",
+      AssetName: "Assets/Shelter/Prefabs/UI/Common/UIAuthorityDoorTips.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "LFHarvestPop",
+      AssetName: "Assets/Shelter/Prefabs/UI/LFHarvestPop.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "LFCommonTips",
+      AssetName: "Assets/Shelter/Prefabs/UI/Common/LFCommonTips.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "LFCommonWhiteTips",
+      AssetName: "Assets/Shelter/Prefabs/UI/Common/LFCommonWhiteTips.prefab",
+      UIGroupName: "Dialog",
+      Priority: 99
+    },
+    {
+      id: "LFScienceItemTips",
+      AssetName: "Assets/Shelter/Prefabs/UI/Science/LFScienceItemTips.prefab",
+      UIGroupName: "Dialog",
+      Priority: 99
+    },
+    {
+      id: "LFCommonTitleTips",
+      AssetName: "Assets/Shelter/Prefabs/UI/Common/LFCommonTitleTips.prefab",
+      UIGroupName: "Dialog",
+      Priority: 99
+    },
+    {
+      id: "LFCommonItemTips",
+      AssetName: "Assets/Shelter/Prefabs/UI/Common/LFCommonItemTips.prefab",
+      UIGroupName: "Dialog",
+      Priority: 99
+    },
+    {
+      id: "LFCommonHeroInfoTip",
+      AssetName: "Assets/Shelter/Prefabs/UI/Common/LFCommonHeroInfoTip.prefab",
+      UIGroupName: "Dialog",
+      Priority: 99
+    },
+    {
+      id: "LFDigTipsPanel",
+      AssetName: "Assets/Shelter/Prefabs/UI/Common/LFDigTipsPanel.prefab",
+      UIGroupName: "Dialog",
+      Priority: 99
+    },
+    {
+      id: "LFSelectWorkerPanel",
+      AssetName: "Assets/Shelter/Prefabs/UInew/UIWorkerSelect1.prefab",
+      UIGroupName: "Dialog",
+      Priority: 99
+    },
+    {
+      id: "LFMouseClickEffect",
+      AssetName: "Assets/Shelter/Prefabs/UI/Common/LFMouseClickEffect.prefab",
+      UIGroupName: "Story",
+      Priority: 99
+    },
+    {
+      id: "LFSelectBuildPanel",
+      AssetName: "Assets/Shelter/Prefabs/UI/Room/LFBuildSelect.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "LFSelectWorkerTransView",
+      AssetName: "Assets/Shelter/Prefabs/UI/LFWorkerSelectTransView.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "LFCommonHelp",
+      AssetName: "Assets/Shelter/Prefabs/UI/Common/LFCommonHelp.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "LFSkillDesTips",
+      AssetName: "Assets/Shelter/Prefabs/UI/LFHeroSkillInfoTips.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "UseDiamondConfirm",
+      AssetName: "Assets/Shelter/Prefabs/UI2/LFDiamondConfirm2.prefab",
+      UIGroupName: "Dialog",
+      Priority: 99
+    },
+    {
+      id: "UIMain",
+      AssetName: "Assets/Shelter/Prefabs/UI2/LFUIMain2.prefab",
+      UIGroupName: "Scene",
+      Priority: 99
+    },
+    {
+      id: "UIMainTipFood",
+      AssetName: "Assets/Shelter/Prefabs/UI/LFUIMainTipFood.prefab",
+      UIGroupName: "Dialog",
+      Priority: 99
+    },
+    {
+      id: "UIMainTipElect",
+      AssetName: "Assets/Shelter/Prefabs/UI/LFUIMainTipElect.prefab",
+      UIGroupName: "Scene",
+      Priority: 99
+    },
+    {
+      id: "UIMainTipEmotion",
+      AssetName: "Assets/Shelter/Prefabs/UI/LFUIMainTipEmotion.prefab",
+      UIGroupName: "Scene",
+      Priority: 99
+    },
+    {
+      id: "UIMainTipPeople",
+      AssetName: "Assets/Shelter/Prefabs/UI/LFUIMainTipPeople.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "UIMainTipWorker",
+      AssetName: "Assets/Shelter/Prefabs/UI/LFUIMainTipWorker.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "UIMainTipZb",
+      AssetName: "Assets/Shelter/Prefabs/UI/LFUIMainTipZb.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "UIMainTipRecruit",
+      AssetName: "Assets/Shelter/Prefabs/UI/LFUIMainTipRecruit.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "RescuePeopleView",
+      AssetName: "Assets/Shelter/Prefabs/UI/LFRescuePeopleView.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "RescueScanView",
+      AssetName: "Assets/Shelter/Prefabs/UI/LFRescueScanView.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "PlaceViewNew",
+      AssetName: "Assets/Shelter/Prefabs/UI/LFPlaceViewNew.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "ScienceLackResTips",
+      AssetName: "Assets/Shelter/Prefabs/UI/LFScienceLackResTips.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "RoomManagerView",
+      AssetName: "Assets/Shelter/Prefabs/UI/Room/LFRoomManager2.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "RoomManagerStationSelect",
+      AssetName: "Assets/Shelter/Prefabs/UI/Room/LFRoomManagerSelect.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "RoomManagerRobot",
+      AssetName: "Assets/Shelter/Prefabs/UI/Room/LFRoomManagerRobot.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "RoomOperator",
+      AssetName: "Assets/Shelter/Prefabs/UI/Room/LFRoomOperator.prefab",
+      UIGroupName: "Scene",
+      Priority: 99
+    },
+    {
+      id: "RoomDetail1View",
+      AssetName: "Assets/Shelter/Prefabs/UI/Room/LFRoomDetail1.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "RoomDetail2View",
+      AssetName: "Assets/Shelter/Prefabs/UI/Room/LFRoomDetail2.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "DiningView",
+      AssetName: "Assets/Shelter/Prefabs/UI/Room/LFDiningRoom.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "DiningPageView",
+      AssetName: "Assets/Shelter/Prefabs/UI2/Room/LFDiningRoomCookPage3.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "DiningQuickCookSuccessView",
+      AssetName: "Assets/Shelter/Prefabs/UI/LFQuickCookSuccess.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "LFUseQuickCookTip",
+      AssetName: "Assets/Shelter/Prefabs/UI2/Room/LFUseQuickCookTip1.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "ResSupplyView",
+      AssetName: "Assets/Shelter/Prefabs/UI/LFResSupplyView.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "ZbProduceView",
+      AssetName: "Assets/Shelter/Prefabs/UI/LFZbProduceView.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "TransportDetail",
+      AssetName: "Assets/Shelter/Prefabs/UI/LFTransportDetail.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "EleAddResView",
+      AssetName: "Assets/Shelter/Prefabs/UI/LFEleResView.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "LFBuildQueueView",
+      AssetName: "Assets/Shelter/Prefabs/UI/BuildQueue/LFBuildQueueView.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "LFBuildAccView",
+      AssetName: "Assets/Shelter/Prefabs/UI/BuildQueue/LFBuildAccView.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "LFViewBuildAcc",
+      AssetName: "Assets/Shelter/Prefabs/UI2/BuildQueue/LFViewBuildAcc2.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "LFBuildQueueSelection",
+      AssetName: "Assets/Shelter/Prefabs/UI/BuildQueue/LFBuildQueueSelection.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "LFMultipleBuildDialog",
+      AssetName: "Assets/Shelter/Prefabs/UI/BuildQueue/LFMultipleBuildDialog.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "LFBagBoxSelectView",
+      AssetName: "Assets/Shelter/Prefabs/UI/LFBagBoxSelectView.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "LFBagSelectRewardView",
+      AssetName: "Assets/Shelter/Prefabs/LuaUI/Bag/LFBagSelectRewardView.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "LFWareHouseView",
+      AssetName: "Assets/Shelter/Prefabs/UI/LFWareHouseView.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "LFWareHouseNewView",
+      AssetName: "Assets/Shelter/Prefabs/UI/LFWareHouseNewView.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "LFWareHouseNewViewInWorld",
+      AssetName: "Assets/Shelter/Prefabs/UI/LFWareHouseNewViewInWorld.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "LFWareHouseGround",
+      AssetName: "Assets/Shelter/Prefabs/UI/LFWareHouseGround.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "LFWareHouseNewGround",
+      AssetName: "Assets/Shelter/Prefabs/UI/LFWareHouseNewGround.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "LFWareHouseTips",
+      AssetName: "Assets/Shelter/Prefabs/UI/LFWareHouseTip.prefab",
+      UIGroupName: "Dialog",
+      Priority: 99
+    },
+    {
+      id: "RoomOperator2",
+      AssetName: "Assets/Shelter/Prefabs/UI2/Room/LFRoomOperator2.prefab",
+      UIGroupName: "Scene",
+      Priority: 99
+    },
+    {
+      id: "DiningMaterialPageView",
+      AssetName: "Assets/Shelter/Prefabs/UI2/Room/LFRoomFoodWareHousePage.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "LFRoomBaseView",
+      AssetName: "Assets/Shelter/Prefabs/UI2/Room/LFRoomBaseView.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "LFRoomDetailView",
+      AssetName: "Assets/Shelter/Prefabs/UI2/Room/LFRoomDetailView.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "LFRoomUpgradePage",
+      AssetName: "Assets/Shelter/Prefabs/UI2/Room/LFRoomUpgradePage.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "LFRoomProducePage",
+      AssetName: "Assets/Shelter/Prefabs/UI2/Room/LFRoomProducePage.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "LFRoomStationPage",
+      AssetName: "Assets/Shelter/Prefabs/UI2/Room/LFRoomStationPage2.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "LFRoomFastProducePage",
+      AssetName: "Assets/Shelter/Prefabs/UI2/Room/LFRoomFastProducePage2.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "LFRoomSelectWorkerPage",
+      AssetName: "Assets/Shelter/Prefabs/UI2/Room/LFRoomSelectWorkerPage.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "LFRoomBuildFixedPosPage",
+      AssetName: "Assets/Shelter/Prefabs/UI2/Room/LFRoomBuildFixedPosPage.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "BagView",
+      AssetName: "Assets/Shelter/Prefabs/UI2/UIBag.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "ViewMinepit",
+      AssetName: "Assets/Shelter/Prefabs/UI2/LFMinepitView2.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "QueueListView",
+      AssetName: "Assets/Shelter/Prefabs/UI/LFQueueListView.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "RoomEditOperation",
+      AssetName: "Assets/Shelter/Prefabs/UI/LFEditOperation.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "ScienceCenter",
+      AssetName: "Assets/Shelter/Prefabs/UI/Science/LFScienceCenter.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "ScienceTree",
+      AssetName: "Assets/Shelter/Prefabs/UI/Science/LFScienceTree.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "ScienceUpgrade",
+      AssetName: "Assets/Shelter/Prefabs/UI/Science/LFScienceUpgradeNew.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "ScienceDetail",
+      AssetName: "Assets/Shelter/Prefabs/UI/Science/LFScienceDetail.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "LFScienceTreeUnlockView",
+      AssetName: "Assets/Shelter/Prefabs/UI/Science/LFScienceTreeUnlockView.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "LFSciencLevelUpTips",
+      AssetName: "Assets/Shelter/Prefabs/UI/Science/LFScienceLevelUpTips.prefab",
+      UIGroupName: "Dialog",
+      Priority: 99
+    },
+    {
+      id: "MarmotPageView",
+      AssetName: "Assets/Shelter/Prefabs/UI/LFMarmotGenPage.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "StationView",
+      AssetName: "Assets/Shelter/Prefabs/UI/LFStationView.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "RoomStationView",
+      AssetName: "Assets/Shelter/Prefabs/UI2/RoomStationView2.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "LFDormitoryView",
+      AssetName: "Assets/Shelter/Prefabs/UI/Room/LFDormitoryView.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "LFDormitoryDetail",
+      AssetName: "Assets/Shelter/Prefabs/UI/Room/LFDormitoryDetail.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "LFWorkManagementView",
+      AssetName: "Assets/Shelter/Prefabs/UI2/LFWorkManagementView2.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "EditCityView",
+      AssetName: "Assets/Shelter/Prefabs/UI/LFEditCityView.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "LFAccPropView",
+      AssetName: "Assets/Shelter/Prefabs/UI/LFAccPropView.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "LFAccPropCell",
+      AssetName: "Assets/Shelter/Prefabs/UI/LFAccPropCell.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "LFMsgBallView1",
+      AssetName: "Assets/Shelter/Prefabs/UI2/LFMsgBallView3d2.prefab",
+      UIGroupName: "Dialog",
+      Priority: 99
+    },
+    {
+      id: "LFViewSoldierTrain",
+      AssetName: "Assets/Shelter/Prefabs/UI/LFViewSoldierTrain.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "RoomBubble",
+      AssetName: "Assets/Shelter/Prefabs/Room/RoomBubble.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "RoomRoughCanvas",
+      AssetName: "Assets/Shelter/Prefabs/Room/RoomRoughCanvas.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "CultivationView",
+      AssetName: "Assets/Shelter/Prefabs/UI/LFCultivationView.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "ViewMedicalDepartment",
+      AssetName: "Assets/Shelter/Prefabs/UI/LFViewMedicalDepartment.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "ViewHospital",
+      AssetName: "Assets/Shelter/Prefabs/UI2/Hospital/LFViewHospital2.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "LFViewHospitalPharmaceutical",
+      AssetName: "Assets/Shelter/Prefabs/UI2/Hospital/LFViewHospitalPharmaceutical2.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "LFViewHospitalUse",
+      AssetName: "Assets/Shelter/Prefabs/UI2/Hospital/LFViewHospitalUse2.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "SkillInfoView",
+      AssetName: "Assets/Shelter/Prefabs/UI/LFSkillInfoView.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "ViewTask",
+      AssetName: "Assets/Shelter/Prefabs/UI/LFViewTaskBook.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "ViewTaskReward",
+      AssetName: "Assets/Shelter/Prefabs/UI/LFViewTaskReward.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "ViewTaskOld",
+      AssetName: "Assets/Shelter/Prefabs/UI2/LFnewtaskView2.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "LFRewardTipTask",
+      AssetName: "Assets/Shelter/Prefabs/UI/LFRewardTipTask.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "ViewGuide",
+      AssetName: "Assets/Shelter/Prefabs/UI/LFViewGuide.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "LFChatView",
+      AssetName: "Assets/Shelter/Prefabs/LuaUI/Chat/LuaLFChatView.prefab",
+      UIGroupName: "UIResource",
+      Priority: 99
+    },
+    {
+      id: "LFChatCreateRoomView",
+      AssetName: "Assets/Shelter/Prefabs/LuaUI/Chat/LuaLFChatCreateRoomView.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "LFChatSettingRoomView",
+      AssetName: "Assets/Shelter/Prefabs/LuaUI/Chat/LuaLFChatSettingRoomView.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "LFChatCommanderTips",
+      AssetName: "Assets/Shelter/Prefabs/LuaUI/Chat/LFChatCommanderTips.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "LFHeroAccelerateInfoTips",
+      AssetName: "Assets/Shelter/Prefabs/UI/Hero/LFHeroAccelerateInfoTips.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "LFHeroListView",
+      AssetName: "Assets/Shelter/Prefabs/UI/Hero/LFHeroListView.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "LFHeroListInfoView",
+      AssetName: "Assets/Shelter/Prefabs/UI/Hero/LFHeroListInfoView.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "LFHeroSkillUpSucView",
+      AssetName: "Assets/Shelter/Prefabs/UI/Hero/LFHeroSkillUpSucView.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "LFHeroAdvanceView",
+      AssetName: "Assets/Shelter/Prefabs/UI/Hero/LFHeroAdvanceView.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "LFHeroAdvancePreview",
+      AssetName: "Assets/Shelter/Prefabs/UI/Hero/LFHeroAdvancePreview.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "LFHeroAdvanceSuccess",
+      AssetName: "Assets/Shelter/Prefabs/UI/Hero/LFHeroAdvanceSuccess.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "LFHeroItemTips",
+      AssetName: "Assets/Shelter/Prefabs/UI/Hero/LFHeroItemTips.prefab",
+      UIGroupName: "Dialog",
+      Priority: 99
+    },
+    {
+      id: "LFHeroResetSuccess",
+      AssetName: "Assets/Shelter/Prefabs/UI/Hero/LFHeroResetSuccess.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "HeroInfoView",
+      AssetName: "Assets/Shelter/Prefabs/UI2/Hero/LFHeroicSatietyTips2.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "LFHeroJigsawResultTips",
+      AssetName: "Assets/Shelter/Prefabs/UI/Hero/LFHeroJigsawResultTips.prefab",
+      UIGroupName: "Dialog",
+      Priority: 99
+    },
+    {
+      id: "LFHeroAdvanceAllView",
+      AssetName: "Assets/Shelter/Prefabs/UI/Hero/LFHeroAdvanceAllView.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "LFHeroAdvanceAllResultTips",
+      AssetName: "Assets/Shelter/Prefabs/UI/Hero/LFHeroAdvanceAllResultTips.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "LFRecruitCampChangeView",
+      AssetName: "Assets/Shelter/Prefabs/UI2/Recruit/LFRecruitCampChangeView2.prefab",
+      UIGroupName: "UIResource",
+      Priority: 99
+    },
+    {
+      id: "LFRecruitViewNew",
+      AssetName: "Assets/Shelter/Prefabs/UI2/Recruit/LFRecruitViewNew2.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "LFRecruitRewardNewView",
+      AssetName: "Assets/Shelter/Prefabs/UI2/Recruit/LFRecruitRewardNewView2.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "LFExchangeUpSkillItemView",
+      AssetName: "Assets/Shelter/Prefabs/UI/Gift/LFExchangeUpSkillItemView.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "ExchangeResDialog",
+      AssetName: "Assets/Shelter/Prefabs/UI2/LFExchangeResDialog1.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "LFNewHero",
+      AssetName: "Assets/Shelter/Prefabs/UI/LFNewHero.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "LFCriticalLog",
+      AssetName: "Assets/Shelter/Prefabs/UI/LFCriticalLog.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "LFSetLanguageView",
+      AssetName: "Assets/Shelter/Prefabs/UI/Set/LFSetLanguageView.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "LFChangeUidView",
+      AssetName: "Assets/Main/Prefabs/Debug/UIChangeUid.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "LFTestSettingsView",
+      AssetName: "Assets/Shelter/Prefabs/UI/LFSettings.prefab",
+      UIGroupName: "Dialog",
+      Priority: 99
+    },
+    {
+      id: "LFUIDetailsView",
+      AssetName: "Assets/Shelter/Prefabs/UI/LFUIDetailsView.prefab",
+      UIGroupName: "Scene",
+      Priority: 99
+    },
+    {
+      id: "LFDigingTip",
+      AssetName: "Assets/Shelter/Prefabs/UI/LFDigingTip.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "LFTreasureResultTips",
+      AssetName: "Assets/Shelter/Prefabs/UI2/LFTreasureResultTips2.prefab",
+      UIGroupName: "Dialog",
+      Priority: 99
+    },
+    {
+      id: "LFRobotRewardView",
+      AssetName: "Assets/Shelter/Prefabs/UI/LFRobotRewardView.prefab",
+      UIGroupName: "Dialog",
+      Priority: 99
+    },
+    {
+      id: "LFViewDetailSoldier",
+      AssetName: "Assets/Shelter/Prefabs/UI/LFViewDetailSoldier.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "ViewPickTip",
+      AssetName: "Assets/Shelter/Prefabs/UI/LFViewPickTip.prefab",
+      UIGroupName: "Scene",
+      Priority: 99
+    },
+    {
+      id: "MarmotPickTip",
+      AssetName: "Assets/Shelter/Prefabs/UI/LFMarmotPickTip.prefab",
+      UIGroupName: "Scene",
+      Priority: 99
+    },
+    {
+      id: "ViewTradingCenter",
+      AssetName: "Assets/Shelter/Prefabs/UI2/Trading/LFViewTradingCenter 1.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "LFViewTradingLevelPanel",
+      AssetName: "Assets/Shelter/Prefabs/UI2/Trading/LFViewTradingLevelPanel.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "LFViewTradingLevelMenuItem",
+      AssetName: "Assets/Shelter/Prefabs/UI2/Trading/LFViewTradingLevelMenuItem.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "ViewDetailTrading",
+      AssetName: "Assets/Shelter/Prefabs/UI/LFViewDetailTrading.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "PVEUIMain",
+      AssetName: "Assets/Shelter/Prefabs/UI/PVEUIMain.prefab",
+      UIGroupName: "Scene",
+      Priority: 99
+    },
+    {
+      id: "LFCloudView",
+      AssetName: "Assets/Shelter/Prefabs/UI/LFCloudView.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "LFPVEHookRewardTips",
+      AssetName: "Assets/Shelter/Prefabs/PVE/LFPVEHookReward.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "LFPVEBattleResultTips",
+      AssetName: "Assets/Shelter/Prefabs/PVE/LFPVEBattleResultTips.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "LFPVEBattleDamageItem",
+      AssetName: "Assets/Shelter/Prefabs/PVE/LFPVEBattleDamageItem.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "LFPVEBattleDamageTips",
+      AssetName: "Assets/Shelter/Prefabs/PVE/LFPVEBattleDamageTips.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "LFPVEBattleBub",
+      AssetName: "Assets/Shelter/Prefabs/PVE/LFPVEBattleBub.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "LFPVECampRestraintTips",
+      AssetName: "Assets/Shelter/Prefabs/PVE/LFCampRestraintTips.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "LFPVECampAddEffectTips",
+      AssetName: "Assets/Shelter/Prefabs/PVE/LFCampNumTips.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "LFPVEEnemyPreviewTip",
+      AssetName: "Assets/Shelter/Prefabs/PVE/LFPVEEnemyPreviewTip.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "LFPVESceneDescriptionTips",
+      AssetName: "Assets/Shelter/Prefabs/PVE/LFSceneDescriptionTips.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "LFPVERecruitDescriptionTips",
+      AssetName: "Assets/Shelter/Prefabs/PVE/LFRecruitDescriptionTips.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "LFPVEPauseView",
+      AssetName: "Assets/Shelter/Prefabs/PVE/LFPVEPauseView.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "LFPVELineUpView",
+      AssetName: "Assets/Shelter/Prefabs/UI/Pve/UIPVELineUpView.prefab",
+      UIGroupName: "UIResourcePopUp",
+      Priority: 99
+    },
+    {
+      id: "LFUploadAvator",
+      AssetName: "Assets/Shelter/Prefabs/UI/Personal/LFUploadAvator.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "LFAccountList",
+      AssetName: "Assets/Shelter/Prefabs/UI/LFAccountList.prefab",
+      UIGroupName: "Loading",
+      Priority: 99
+    },
+    {
+      id: "LFDisconnectView",
+      AssetName: "Assets/Shelter/Prefabs/UI/Scene/DisconnectView.prefab",
+      UIGroupName: "Loading",
+      Priority: 99
+    },
+    {
+      id: "WorldWarUIMain",
+      AssetName: "Assets/Shelter/Prefabs/WorldWar/WorldWarUIMain.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "LFChangeNickname",
+      AssetName: "Assets/Shelter/Prefabs/UI/LFChangeNickname.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "LFSoliderTrainView",
+      AssetName: "Assets/Shelter/Prefabs/UI2/Solider/LFSoliderTrainView1.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "LFViewSoliderAcc",
+      AssetName: "Assets/Shelter/Prefabs/UI2/Solider/LFViewSoliderAcc.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "LFCommonHand",
+      AssetName: "Assets/Shelter/Prefabs/UI/Common/LFCommonHand.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "LFCommonHandDouble",
+      AssetName: "Assets/Shelter/Prefabs/UI/Common/LFCommonHandDouble.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "RoomStation",
+      AssetName: "Assets/Shelter/Prefabs/Room/RoomStation.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "LFSoliderUnlockForm",
+      AssetName: "Assets/Shelter/Prefabs/UI/LFSoliderUnlockForm.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "AddResPanel",
+      AssetName: "Assets/Shelter/Prefabs/UI2/AddResPanel.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "AddResItem",
+      AssetName: "Assets/Shelter/Prefabs/UI/AddResItem.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "LFTransitionView",
+      AssetName: "Assets/Shelter/Prefabs/UI/LFTransitionView.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "ViewShady",
+      AssetName: "Assets/Shelter/Prefabs/UI/LFViewShady.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "WorldMarchQueueDetail",
+      AssetName: "Assets/Shelter/Prefabs/World/UI/WorldMarchQueueDetail.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "LFWorldSoldierChange",
+      AssetName: "Assets/Shelter/Prefabs/World/UI/LFWorldSoldierChange.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "LFWorldFormationNew",
+      AssetName: "Assets/Shelter/Prefabs/World/UI/LFWorldFormationNew.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "LFWorldFormationNew1",
+      AssetName: "Assets/Shelter/Prefabs/World/UI/LFWorldFormationNew1.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "LFWorldTeamList",
+      AssetName: "Assets/Shelter/Prefabs/World/UI/LFWorldTeamList.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "LFWorldTeamList1",
+      AssetName: "Assets/Shelter/Prefabs/World/UI/LFWorldTeamList1.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "MonsterTank",
+      AssetName: "Assets/Main/Prefabs/Monsters/MonsterTank.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "MonsterTank2",
+      AssetName: "Assets/Shelter/World/Actor/MonsterBoss.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "LFWorldPositioning",
+      AssetName: "Assets/Shelter/Prefabs/World/UI/LFWorldPositioning.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "LFWorldTileBoss",
+      AssetName: "Assets/Shelter/Prefabs/World/UI/LFWorldBOSSView",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "LFWorldTileUINew",
+      AssetName: "Assets/Shelter/Prefabs/World/UI/LFWorldTileUINew.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "LFWorldNewsTips",
+      AssetName: "Assets/Shelter/Prefabs/World/UI/LFWorldNewsTips.prefab",
+      UIGroupName: "Dialog",
+      Priority: 99
+    },
+    {
+      id: "LFWorldBuildingMoveCity",
+      AssetName: "Assets/Shelter/Prefabs/World/UI/LFWorldTileBuildingMoveCity.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "LFWorldBattleReport",
+      AssetName: "Assets/Shelter/Prefabs/World/UI/LFWorldBattleReportView.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "LFMailView",
+      AssetName: "Assets/Shelter/Prefabs/UI/LFMailView.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "LFFunctionUnlock",
+      AssetName: "Assets/Shelter/Prefabs/UI/LFFunctionUnlock.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "LFMoodExplanation",
+      AssetName: "Assets/Shelter/Prefabs/UI/LFMoodExplanation.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "AllServerListView",
+      AssetName: "Assets/Shelter/Prefabs/World/UI/CrossServerMove/AllServerListView.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "ServerInfoDialog",
+      AssetName: "Assets/Shelter/Prefabs/World/UI/CrossServerMove/ServerInfoDialog.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "CrossMoveConfirmDialog",
+      AssetName: "Assets/Shelter/Prefabs/World/UI/CrossServerMove/CrossMoveConfirmDialog.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "WorldCityOccupyTip",
+      AssetName: "Assets/Shelter/Prefabs/World/WorldCity/UI/WorldCityOccupyTip.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "LFWorldCityBeSiegeView",
+      AssetName: "Assets/Shelter/Prefabs/World/WorldCity/UI/LFWorldCityBeSiegeView.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "LFWorldCityGarrisonView",
+      AssetName: "Assets/Shelter/Prefabs/World/WorldCity/UI/LFWorldCityGarrisonView.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "LFWorldSmallMap",
+      AssetName: "Assets/Shelter/Prefabs/World/UI/LFWorldSmallMapUI.prefab",
+      UIGroupName: "Scene",
+      Priority: 99
+    },
+    {
+      id: "WorldCityDetail",
+      AssetName: "Assets/Shelter/Prefabs/World/UI/UIWorldCityDetailPanel.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "WorldCityFirstOccupyRewardTip",
+      AssetName: "Assets/Shelter/Prefabs/World/UI/UIFirstOccupyRankTipPanel.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "ClearZombie",
+      AssetName: "Assets/Shelter/Prefabs/UI2/LFZombieClear.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "ViewIntroduction",
+      AssetName: "Assets/Shelter/Prefabs/UI/LFItemIntroduction.prefab",
+      UIGroupName: "Dialog",
+      Priority: 99
+    },
+    {
+      id: "LFAllianceMain",
+      AssetName: "Assets/Shelter/Prefabs/UI/Common/LFAllianceMain.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "WelfarePopup",
+      AssetName: "Assets/Shelter/Prefabs/UI/LFGiftPackMain.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "FlyGood",
+      AssetName: "Assets/Shelter/Prefabs/UI/Common/LFCommonFlyGood.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "GiftIconPathString",
+      AssetName: "Assets/Shelter/Prefabs/UI/Gift/{0}.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "LFViewGarage",
+      AssetName: "Assets/Shelter/Prefabs/UI/LFViewGarage.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "WaitResponse",
+      AssetName: "Assets/Shelter/Prefabs/UI/Scene/WaitResponseView.prefab",
+      UIGroupName: "Dialog",
+      Priority: 99
+    },
+    {
+      id: "LFDefenceView",
+      AssetName: "Assets/Shelter/Prefabs/UI/LFDefenceView.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "LFViewCommonReward",
+      AssetName: "Assets/Shelter/Prefabs/UI/CommonTips/LFViewCommonReward.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "LFViewVipMain",
+      AssetName: "Assets/Shelter/Prefabs/UI/Vip/LFViewVipMain.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "LFViewVipPurchase",
+      AssetName: "Assets/Shelter/Prefabs/UI/Vip/LFViewVipPurchase.prefab",
+      UIGroupName: "UIResource",
+      Priority: 99
+    },
+    {
+      id: "LFViewVipPointReward",
+      AssetName: "Assets/Shelter/Prefabs/UI/Vip/LFViewVipPointReward.prefab",
+      UIGroupName: "UIResource",
+      Priority: 99
+    },
+    {
+      id: "LFViewVipReward",
+      AssetName: "Assets/Shelter/Prefabs/UI/Vip/LFViewVipReward.prefab",
+      UIGroupName: "UIResourcePopUp",
+      Priority: 99
+    },
+    {
+      id: "LFViewVipItemList",
+      AssetName: "Assets/Shelter/Prefabs/UI/Vip/LFViewVipItemList.prefab",
+      UIGroupName: "UIResource",
+      Priority: 99
+    },
+    {
+      id: "LFViewVipLevelUP",
+      AssetName: "Assets/Shelter/Prefabs/UI/Vip/LFViewVipLevelUP.prefab",
+      UIGroupName: "UIResourcePopUp",
+      Priority: 99
+    },
+    {
+      id: "LFDiamongNotEnough",
+      AssetName: "Assets/Shelter/Prefabs/UI2/LFDiamondNotEnough2.prefab",
+      UIGroupName: "Dialog",
+      Priority: 99
+    },
+    {
+      id: "LFRecruitHeroCampPanel",
+      AssetName: "Assets/Shelter/Prefabs/UI/LFRecruitHeroCampPanel.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "GuideArrowObject",
+      AssetName: "Assets/Shelter/Prefabs/Scene/ArrowGuideObject.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "LFGiftPackageTips",
+      AssetName: "Assets/Shelter/Prefabs/UI/Common/LFGiftPackageTips.prefab",
+      UIGroupName: "UIResource",
+      Priority: 99
+    },
+    {
+      id: "LFViewWorldSearch",
+      AssetName: "Assets/Shelter/Prefabs/UI/WorldSearch/LFWorldSearchView.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "LFViewWorldSearchArrow",
+      AssetName: "Assets/Shelter/Prefabs/UI/WorldSearch/LFViewWorldSearchArrow.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "LFRobotWorkReport",
+      AssetName: "Assets/Shelter/Prefabs/UI/Robot/LFRobotWorkReport.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "LFManagementView",
+      AssetName: "Assets/Shelter/Prefabs/UI/LFManagementView.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "UIEffectSpotLight",
+      AssetName: "Assets/Shelter/Prefabs/UI/UIEffectSpotLight.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "RoomBattleManagerView",
+      AssetName: "assets/shelter/prefabs/UI2/lfindoorpaintingview2.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "LFWorldAlertView",
+      AssetName: "Assets/Shelter/Prefabs/UI/LFWorldAlertView.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "LFRecruitRewardPreview",
+      AssetName: "Assets/Shelter/Prefabs/UI2/Recruit/LFRecruitRewardPreview2.prefab",
+      UIGroupName: "Dialog",
+      Priority: 99
+    },
+    {
+      id: "LFPVEHeroUpgradeTipsView",
+      AssetName: "Assets/Shelter/Prefabs/UI/LFPVEHeroUpgradeTipsView.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "UIHeroList",
+      AssetName: "Assets/Shelter/Prefabs/UI2/Hero/UIHeroList.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "UIHeroMain",
+      AssetName: "Assets/Shelter/Prefabs/UI2/Hero/UIHeroMain.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "UIHeroAdvanceUpadeView",
+      AssetName: "Assets/Shelter/Prefabs/UI2/Hero/Advance/UIHeroAdvanceUpadeView.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "UIHeroLevel",
+      AssetName: "Assets/Shelter/Prefabs/UI2/Hero/UIHeroLevel.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "LFNewHeroShow",
+      AssetName: "Assets/Shelter/Prefabs/UI2/Hero/NewHero/UINewHeroShow.prefab",
+      UIGroupName: "UIResource",
+      Priority: 99
+    },
+    {
+      id: "LFWorldTrendsView",
+      AssetName: "Assets/Shelter/Prefabs/Scene/WorldTrendScene.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "UIBuilding",
+      AssetName: "Assets/Shelter/Prefabs/UI2/Build/UIBuilding.prefab",
+      UIGroupName: "Default",
+      Priority: 99
+    },
+    {
+      id: "LFScienceLog",
+      AssetName: "Assets/Shelter/Prefabs/UI/Science/LFScienceLog.prefab",
+      UIGroupName: "Dialog",
+      Priority: 99
+    }
+  ]
+}

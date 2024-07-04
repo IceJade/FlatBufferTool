@@ -1,0 +1,74 @@
+namespace LF.Table;
+
+table DRAB_building
+{
+  id:int;
+  name:string;
+  description:string;
+  station_name:int;
+  small_icon:string;
+  char_alies:int;
+  information:[string];
+  type:int;
+  max_level:int;
+  num:int;
+  tiles:int;
+  floor:int;
+  power:[int];
+  pic:string;
+  prefab:[string];
+  prefab_world:[string];
+  tab_type:int;
+  building_list:int;
+  order:int;
+  edit:int;
+  time:int;
+  put_consume:[string];
+  power_dissipation:[float];
+  lack_resource:int;
+  para10:string;
+  station_max:int;
+  intelligence:[string];
+  destip:int;
+  station_type:int;
+  exp:int;
+  unlock_num:[string];
+  unlock_population:[string];
+  store_limit:int;
+  needScience:int;
+  agility:[string];
+  rush:int;
+  unlock_quest:int;
+  endurance:[string];
+  building:[string];
+  gift_id:string;
+  strength:[string];
+  para2:string;
+  para3:string;
+  fixed_location:[string];
+  para1:string;
+  para5:string;
+  luck:[string];
+  open_arms:[string];
+  unlock_effect:int;
+  inBuilding:[int];
+  destroy_hero:int;
+  Unlock_edit:[string];
+  quest_interfaceId:int;
+  drawing:int;
+  thumb_icon:string;
+  month_card:int;
+  work_bd_pic:string;
+  up_bd_pic:string;
+  description_simple:string;
+  foodShow:[int];
+  unlock_season:int;
+  unlock_order:[int];
+}
+
+table Table_AB_building
+{
+  data:[DRAB_building];
+}
+
+root_type Table_AB_building;

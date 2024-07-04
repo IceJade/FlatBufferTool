@@ -1,0 +1,20 @@
+namespace LF.Table;
+
+table DRscore
+{
+  id:int;
+  type:int;
+  name:string;
+  points:int;
+  season_type:int;
+  value:[string];
+  group:[int];
+  tips:[int];
+}
+
+table Table_score
+{
+  data:[DRscore];
+}
+
+root_type Table_score;

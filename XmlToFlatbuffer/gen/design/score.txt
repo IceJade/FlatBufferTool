@@ -1,0 +1,8 @@
+id		Single_Int	0			
+type		Single_Int	0			
+name		Fix_String	0			
+points		Single_Int	0			
+season_type		Single_Int	0			
+value		Array_String	3	|		
+group		Array_Int	3	;		
+tips		Array_Int	2	;		

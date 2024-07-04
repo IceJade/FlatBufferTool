@@ -1,0 +1,35 @@
+namespace LF.Table;
+
+table SPair
+{
+   key:string;
+   value:string;
+}
+
+table IPair
+{
+   key:int;
+   value:int;
+}
+
+table XPair
+{
+   key:int;
+   value:string;
+}
+
+table Item
+{
+  id:int;
+  type:int;
+  count:int;
+}
+
+table Slot
+{
+  para1:string;
+  para2:string;
+  para3:string;
+  para4:string;
+  para5:string;
+}

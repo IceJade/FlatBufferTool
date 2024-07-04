@@ -1,0 +1,193 @@
+{
+  data: [
+    {
+      name: "150700",
+      des: "150730",
+      kind_icon1: "ICON_HeroSkill_shuguanglianmeng",
+      kind_icon2: "ICON_HeroSkill_shuguanglianmeng_Gray",
+      kind_icon3: "ICON_shuguanglianmengda",
+      icon: "ICON_Hero_shuguang",
+      camp_scene: "",
+      result_icon: "",
+      against: -2147483648,
+      big_icon: "UI_common_Hero_icon_shuguang",
+      kind_icon4: "UI_touxiang_shuguang",
+      camp_icon: "ui_icon_jianshe",
+      normal_icon: "ICON_HERO_yangcheng_jianshe",
+      list_icon: "UI_normal_shuguang",
+      order: 1,
+      icon_color: "#A65F3A",
+      restraint_des: -2147483648,
+      effect: [
+
+      ]
+    },
+    {
+      id: 1,
+      name: "150704",
+      des: "162034",
+      kind_icon1: "ICON_HeroSkill_yiyongjun",
+      kind_icon2: "ICON_HeroSkill_yiyongjun_Gray",
+      kind_icon3: "ICON_yiyongjunda",
+      icon: "ICON_Hero_yiyongjun",
+      camp_scene: "OutdoorScene",
+      result_icon: "UI_pve_VIT_flag_yiyongjun",
+      against: 2,
+      big_icon: "UI_common_Hero_icon_yiyongjun",
+      kind_icon4: "UI_touxiang_yiyongjun",
+      camp_icon: "ui_icon_yiyongjun",
+      normal_icon: "ICON_HERO_yangcheng_yiyongjun",
+      list_icon: "UI_normal_yiyongjun",
+      order: 2,
+      icon_color: "#58B5A3",
+      restraint_des: 140927,
+      effect: [
+        "20518;20",
+        "20701;0"
+      ]
+    },
+    {
+      id: 2,
+      name: "150701",
+      des: "162035",
+      kind_icon1: "ICON_HeroSkill_fuchouzhe",
+      kind_icon2: "ICON_HeroSkill_fuchouzhe_Gray",
+      kind_icon3: "ICON_fuchouzheda",
+      icon: "ICON_Hero_fuchouzhe",
+      camp_scene: "OutdoorScene",
+      result_icon: "UI_pve_VIT_flag_fuchouzhe",
+      against: 3,
+      big_icon: "UI_common_Hero_icon_fuchouzhe",
+      kind_icon4: "UI_touxiang_fuchouzhe",
+      camp_icon: "ui_icon_fuchouzhe",
+      normal_icon: "ICON_HERO_yangcheng_fuchouzhe",
+      list_icon: "UI_normal_fuchouzhe",
+      order: 3,
+      icon_color: "#9971D9",
+      restraint_des: 140928,
+      effect: [
+        "20518;20",
+        "20703;0"
+      ]
+    },
+    {
+      id: 3,
+      name: "150702",
+      des: "162036",
+      kind_icon1: "ICON_HeroSkill_huangyezhizi",
+      kind_icon2: "ICON_HeroSkill_huangyezhizi_Gray",
+      kind_icon3: "ICON_huangyezhizida",
+      icon: "ICON_Hero_huangyezhizi",
+      camp_scene: "OutdoorScene",
+      result_icon: "UI_pve_VIT_flag_huangyezhizi",
+      against: 4,
+      big_icon: "UI_common_Hero_icon_huangyezhizi",
+      kind_icon4: "UI_touxiang_huangyezhizi",
+      camp_icon: "ui_icon_huangyezhizi",
+      normal_icon: "ICON_HERO_yangcheng_huangyezhizi",
+      list_icon: "UI_normal_huangyezhizi",
+      order: 4,
+      icon_color: "#DEC96F",
+      restraint_des: 140929,
+      effect: [
+        "20518;20",
+        "20702;0"
+      ]
+    },
+    {
+      id: 4,
+      name: "150703",
+      des: "162037",
+      kind_icon1: "ICON_HeroSkill_shouwangzhe",
+      kind_icon2: "ICON_HeroSkill_shouwangzhe_Gray",
+      kind_icon3: "ICON_shouwangzheda",
+      icon: "ICON_Hero_shouwangzhe",
+      camp_scene: "OutdoorScene",
+      result_icon: "UI_pve_VIT_flag_shouwangzhe",
+      against: 1,
+      big_icon: "UI_common_Hero_icon_shouwangzhe",
+      kind_icon4: "UI_touxiang_shouwangzhe",
+      camp_icon: "ui_icon_shouwangzhe",
+      normal_icon: "ICON_HERO_yangcheng_shouwangzhe",
+      list_icon: "UI_normal_shouwangzhe",
+      order: 5,
+      icon_color: "#63BACD",
+      restraint_des: 140930,
+      effect: [
+        "20518;20",
+        "20704;0"
+      ]
+    },
+    {
+      id: 5,
+      name: "",
+      des: "",
+      kind_icon1: "ICON_HeroCamp5",
+      kind_icon2: "ICON_HeroCamp5",
+      kind_icon3: "ICON_HeroCamp5",
+      icon: "ICON_HeroCamp5",
+      camp_scene: "",
+      result_icon: "",
+      against: -2147483648,
+      big_icon: "ICON_HeroCamp5",
+      kind_icon4: "ICON_HeroCamp5",
+      camp_icon: "ICON_HeroCamp5",
+      normal_icon: "ICON_HeroCamp5",
+      list_icon: "",
+      order: -1,
+      icon_color: "",
+      restraint_des: -2147483648,
+      effect: [
+
+      ]
+    },
+    {
+      id: 6,
+      name: "150694",
+      des: "162036",
+      kind_icon1: "ICON_HeroSkill_shen",
+      kind_icon2: "ICON_HeroSkill_shen_Gray",
+      kind_icon3: "ICON_shenda",
+      icon: "ICON_Hero_shen",
+      camp_scene: "OutdoorScene",
+      result_icon: "UI_pve_VIT_flag_shen",
+      against: 7,
+      big_icon: "UI_common_Hero_icon_shen",
+      kind_icon4: "UI_touxiang_shen",
+      camp_icon: "ui_icon_shen",
+      normal_icon: "ICON_HERO_yangcheng_shen",
+      list_icon: "UI_normal_shen",
+      order: 6,
+      icon_color: "#FFF1B5",
+      restraint_des: 140931,
+      effect: [
+        "20518;20",
+        "20705;0"
+      ]
+    },
+    {
+      id: 7,
+      name: "150695",
+      des: "162037",
+      kind_icon1: "ICON_HeroSkill_mo",
+      kind_icon2: "ICON_HeroSkill_mo_Gray",
+      kind_icon3: "ICON_moda",
+      icon: "ICON_Hero_mo",
+      camp_scene: "OutdoorScene",
+      result_icon: "UI_pve_VIT_flag_mo",
+      against: 6,
+      big_icon: "UI_common_Hero_icon_mo",
+      kind_icon4: "UI_touxiang_mo",
+      camp_icon: "ui_icon_mo",
+      normal_icon: "ICON_HERO_yangcheng_mo",
+      list_icon: "UI_normal_mo",
+      order: 7,
+      icon_color: "#C63535",
+      restraint_des: 140932,
+      effect: [
+        "20518;20",
+        "20706;0"
+      ]
+    }
+  ]
+}

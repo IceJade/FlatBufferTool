@@ -1,0 +1,20 @@
+namespace LF.Table;
+
+table DRui
+{
+  id:string;
+  AssetName:string;
+  UIGroupName:string;
+  Priority:int;
+  IsPauseCoveredUI:bool;
+  IsMultipleInstance:bool;
+  IsLocked:bool;
+  IsRefreshPositionWhenOpen:bool;
+}
+
+table Table_ui
+{
+  data:[DRui];
+}
+
+root_type Table_ui;

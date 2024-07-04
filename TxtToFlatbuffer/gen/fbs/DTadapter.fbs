@@ -1,0 +1,43 @@
+namespace LF.Table;
+
+table DRadapter
+{
+  Id:int;
+  MinMemorySize:int;
+  MaxMemorySize:int;
+  ScreenResolution:[int];
+  TargetFrameRate:int;
+  EffectLevel:short;
+  IsEnablePBR:bool;
+  AsyncUploadBufferSize:int;
+  IsVegetationRenderingOfMainCity:bool;
+  PointSource:short;
+  VisibleRolesNumber:int;
+  IsShowFootShadow:bool;
+  IsShowEnvironmentEffect:bool;
+  IsRealTimeShadowRendering:bool;
+  IsShowSpecialEffects:bool;
+  TerrainRenderingLevelOfMainCity:short;
+  BuildingRenderingLevelOfMainCity:short;
+  IsSkyBoxRenderingOfMainCity:bool;
+  Is2DCloudRenderingOfMainCity:bool;
+  IsRoleBloomRendering:bool;
+  IsRoleShadowRendering:bool;
+  IsShowRoleEffect:bool;
+  IsShowEffectOfPVE:bool;
+  IsBlitBlur:bool;
+  IsTerrainRenderingOfWorld:short;
+  BuildingRenderingLevelOfWorld:short;
+  WaterRenderingLevelOfWorld:short;
+  IsRoleSelfLightRendering:bool;
+  RoleBloomLevel:short;
+  RoleFXAA:bool;
+  IsRoleEnableFXAA:bool;
+}
+
+table Table_adapter
+{
+  data:[DRadapter];
+}
+
+root_type Table_adapter;

@@ -1,0 +1,7 @@
+id		Single_Int	0			
+point		Single_Int	0			
+icon		Single_String	0			
+reward1		Dictionary_II	13	|	;	reward1_1#reward1_2
+reward2		Single_Int	0			
+display		Array_Int	2	|		
+effect		Dictionary_IS	19	|	;	effect_1#effect_2

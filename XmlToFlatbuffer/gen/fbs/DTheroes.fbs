@@ -1,0 +1,70 @@
+namespace LF.Table;
+
+table DRheroes
+{
+  id:int;
+  name:string;
+  nickname:string;
+  sculpture:string;
+  recruit_linshi:string;
+  avatar_icon:string;
+  tujian_icon:string;
+  prefab:string;
+  prefab_high:string;
+  size:float;
+  handbook:int;
+  order:int;
+  quality_min:int;
+  quality_max:int;
+  poster:int;
+  rarity:int;
+  camp:int;
+  Arms:int;
+  Label_1:[int];
+  Label_3:[int];
+  eat_speed:int;
+  strength:[string];
+  agility:[string];
+  intelligence:[string];
+  endurance:[string];
+  luck:[string];
+  skill:[int];
+  skill_unlock:[int];
+  skill_levelup_num:[int];
+  skill_levelup_item:int;
+  power_para:[int];
+  position:int;
+  robot:int;
+  promote:[string];
+  avatar_spine:string;
+  work_sculpture:string;
+  TujianIcon2:string;
+  skill_levelup_num_new:[string];
+  show_condition:[int];
+  video:string;
+  tryReward:int;
+  showType:int;
+  arms:int;
+  skill_levelup_item_exchange:[int];
+  sculpture_round:string;
+  sound:int;
+  story:int;
+  prefab_pve:string;
+  prefab_city:string;
+  show_server:[string];
+  shelter_stationed:int;
+  hide_in_city:int;
+  rarity_lottery:string;
+  tag_pic:string;
+  portrait:string;
+  recruit_front:string;
+  recruit_rear:string;
+  honor:string;
+}
+
+table Table_heroes
+{
+  data:[DRheroes];
+}
+
+root_type Table_heroes;

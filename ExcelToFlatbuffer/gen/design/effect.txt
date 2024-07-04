@@ -1,0 +1,5 @@
+id		Single_String	1	0			
+AssetName		Single_String	2	0			
+Level		Single_Short	3	0			
+SoundId		Single_String	4	0			
+KeepTime		Single_Int	5	0			

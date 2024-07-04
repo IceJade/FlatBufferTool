@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<tns:database xmlns:tns="http://www.iw.com/sns/platform/"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+    <ItemSpec id="2001" language="English" />
+    <ItemSpec id="2002" language="日本語" lock="0" />
+    <ItemSpec id="2003" language="한국어" lock="0" />
+    <ItemSpec id="2004" language="Français" lock="0" />
+    <ItemSpec id="2005" language="Deutsch" lock="0" />
+    <ItemSpec id="2006" language="Pусский" lock="0" />
+    <ItemSpec id="2007" language="Español" lock="0" />
+    <ItemSpec id="2008" language="Português" lock="0" />
+    <ItemSpec id="2009" language="Italiano" lock="0" />
+    <ItemSpec id="2010" language="العربية" lock="0" />
+    <ItemSpec id="2012" language="Bahasa Indonesia" lock="0" />
+    <ItemSpec id="2014" language="Türkçe" lock="0" />
+    <ItemSpec id="2015" language="繁體中文" lock="0" />
+    <ItemSpec id="2016" language="ภาษาไทย" lock="0" />
+    <ItemSpec id="2000" language="简体中文"/>
+</tns:database>

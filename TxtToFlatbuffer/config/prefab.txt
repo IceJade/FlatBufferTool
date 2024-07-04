@@ -1,0 +1,7 @@
+﻿字段描述	Key	assetbundle 路径	默认品质预制体	预制体
+字段名称	id	AssetName	DefaultPrefab	Prefabs
+数据类型	string	string	string	string[]
+内城地表	Ground	Assets/Shelter/Prefabs/Ground/Ground	Ground	Ground_low,Ground_low,Ground,Ground
+毛坯房模板	RoughTemplate	Assets/Shelter/Prefabs/Rough/RoughTemplate	RoughTemplate	
+内城地表丧尸	ZombieRoot	Assets/Shelter/Prefabs/Ground/ZombieRoot	ZombieRoot	ZombieRoot_low,ZombieRoot_low,ZombieRoot,ZombieRoot
+	RoomGate_1	Assets/Shelter/Prefabs/Room/RoomGate_1	RoomGate_1	RoomGate_1_low,RoomGate_1_low,RoomGate_1,RoomGate_1

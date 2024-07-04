@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<tns:database xmlns:tns="http://www.iw.com/sns/platform/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <ItemSpec id="10001" title="310021" subtitle="310022" message="310023" type="3" />
+    <ItemSpec id="10002" title="310043" subtitle="310044" message="310045" type="3" />
+    <ItemSpec id="10003" title="310030" subtitle="310031" message="310032" type="3" />
+    <ItemSpec id="10004" title="310027" subtitle="310028" message="310029" type="3" />
+    <ItemSpec id="10005" title="310033" subtitle="310034" message="310035" type="3" />
+    <ItemSpec id="10006" title="310024" subtitle="310025" message="310026" type="3" />
+    <ItemSpec id="10011" title="320164" subtitle="320165" message="320166" type="66" />
+    <ItemSpec id="10013" title="310055" subtitle="310061" message="310057" type="32" />
+    <ItemSpec id="10014" title="310055" subtitle="310062" message="310058" type="32" />
+    <ItemSpec id="10015" title="310055" subtitle="310063" message="310059" type="32" />
+    <ItemSpec id="10016" title="310055" subtitle="310064" message="310060" type="32" />
+    <ItemSpec id="10017" title="310065" subtitle="310066" message="310067" type="101" />
+    <ItemSpec id="10018" title="310068" subtitle="310069" message="310070" type="102" />
+    <ItemSpec id="10019" title="310071" subtitle="310072" message="310073" type="103" para1="3" />
+    <ItemSpec id="10023" title="310087" subtitle="310088" message="310089" type="104" />
+    <ItemSpec id="10024" title="310090" message="310091" type="105" />
+    <ItemSpec id="10025" title="310092" message="310093" type="106" />
+    <ItemSpec id="10026" title="310094" message="310095" type="3" />
+    <ItemSpec id="70002" title="280129" message="156020" type="2" />
+
+
+</tns:database>

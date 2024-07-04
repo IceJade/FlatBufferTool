@@ -1,0 +1,5 @@
+id		Single_String	0			
+loop		Single_Int	0			
+maxDistance		Single_Int	0			
+priority		Single_Int	0			
+volume		Single_Float	0			
