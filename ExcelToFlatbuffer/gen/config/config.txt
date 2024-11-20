@@ -1,0 +1,12 @@
+﻿#字段是否启用客户端/服务器端使用标记
+IsClientOrServerUsedFlagEnable=true
+#生成数据的类型(1表示生成客户端数据,0表示生成服务器数据,前提是IsClientOrServerUsedFlagEnable为true,否则不区分)
+GenerateDataType=1
+#是否生成代码
+IsGenerateCode=true
+#是否生成Json
+IsGenerateJson=true
+#命名空间
+NameSpace=Chanto.Table
+#生成Manager的文件名
+ManagerFileName=TableManager.cs

@@ -7,7 +7,7 @@ using System.IO;
 using FlatBuffers;
 using UnityGameFramework.Runtime;
 
-namespace LF
+namespace Chanto.Table
 {
 	public class BaseConfig : BaseTable
     {
@@ -20,7 +20,7 @@ namespace LF
 
             if (this.IsLoading())
             {
-                GameFramework.Log.Warning("the table {0} is loading, please wait...", this.GetTableFileName());
+                Log.Warning("the table {0} is loading, please wait...", this.GetTableFileName());
                 return;
             }
 
@@ -35,7 +35,7 @@ namespace LF
             }
             else
             {
-                GameFramework.Log.Error("The file {0} is not load, please check config assetbundle", this.GetTableFileName());
+                Log.Error("The file {0} is not load, please check config assetbundle", this.GetTableFileName());
             }
 #endif
 
@@ -71,7 +71,7 @@ namespace LF
             }
             else
             {
-                GameFramework.Log.Error("The file {0} is not load, please check config assetbundle", this.GetIndexFileName());
+                Log.Error("The file {0} is not load, please check config assetbundle", this.GetIndexFileName());
             }
 #endif
 

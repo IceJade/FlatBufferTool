@@ -10,7 +10,7 @@ using UnityEngine;
 using UnityEngine.Networking;
 using GameFramework;
 
-namespace LF
+namespace Chanto.Table
 {
     /// <summary>
     /// 表格数据加载状态
@@ -129,7 +129,7 @@ namespace LF
 
             if (this.IsLoading())
             {
-                GameFramework.Log.Warning("the table {0} is loading, please wait...", this.GetTableFileName());
+                Log.Warning("the table {0} is loading, please wait...", this.GetTableFileName());
                 return;
             }
 
@@ -145,7 +145,7 @@ namespace LF
             }
             else
             {
-                GameFramework.Log.Error("The file {0} is not load, please check tables assetbundle", this.GetTableFileName());
+                Log.Error("The file {0} is not load, please check tables assetbundle", this.GetTableFileName());
             }
 #endif
 #else
@@ -171,7 +171,7 @@ namespace LF
                     if (request.isNetworkError || request.isHttpError)
                     {
                         this.load_state = E_LoadState.Fail;
-                        GameFramework.Log.Error("Load {0} fail, error mssage : {1}", request.url, request.error);
+                        Log.Error("Load {0} fail, error mssage : {1}", request.url, request.error);
 
                         return;
                     }
@@ -180,7 +180,7 @@ namespace LF
                     if (loopCount > loopTimeOutCount)
                     {
                         this.load_state = E_LoadState.Fail;
-                        GameFramework.Log.Error("Load table {0} time out.", filepath);
+                        Log.Error("Load table {0} time out.", filepath);
 
                         return;
                     }
@@ -203,7 +203,7 @@ namespace LF
             catch(Exception e)
             {
                 this.load_state = E_LoadState.Fail;
-                GameFramework.Log.Error("Read table {0} exception, error msg : {1}", filepath, e.Message);
+                Log.Error("Read table {0} exception, error msg : {1}", filepath, e.Message);
             }
 #endif
             
@@ -216,7 +216,7 @@ namespace LF
             else
             {
                 this.load_state = E_LoadState.Fail;
-                GameFramework.Log.Error("Load table {0} fail.", filepath);
+                Log.Error("Load table {0} fail.", filepath);
             }
 
             this.LoadIndex();
@@ -243,7 +243,7 @@ namespace LF
             }
             else
             {
-                GameFramework.Log.Error("The file {0} is not load, please check tables assetbundle", this.GetIndexFileName());
+                Log.Error("The file {0} is not load, please check tables assetbundle", this.GetIndexFileName());
             }
 #endif
 #else
@@ -262,14 +262,14 @@ namespace LF
                 {
                     if (request.isNetworkError || request.isHttpError)
                     {
-                        GameFramework.Log.Error("Load {0} fail, error mssage : {1}", request.url, request.error);
+                        Log.Error("Load {0} fail, error mssage : {1}", request.url, request.error);
                         return;
                     }
 
                     // 循环最大时间设置为5分钟, 防止死循环
                     if (loopCount > loopTimeOutCount)
                     {
-                        GameFramework.Log.Error("Load table {0} time out.", filepath);
+                        Log.Error("Load table {0} time out.", filepath);
                         return;
                     }
 
@@ -290,7 +290,7 @@ namespace LF
             }
             catch(Exception e)
             {
-                GameFramework.Log.Error("Read table {0} exception, error msg : {1}", filepath, e.Message);
+                Log.Error("Read table {0} exception, error msg : {1}", filepath, e.Message);
             }
 #endif
 #endif

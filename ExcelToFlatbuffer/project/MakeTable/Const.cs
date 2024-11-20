@@ -113,6 +113,11 @@ namespace MakeTable
         public readonly static string g_TableGenarateFolder = "genarate";
 
         /// <summary>
+        /// 解析代码生成的脚本文件夹
+        /// </summary>
+        public readonly static string g_TableExtendFolder = "extend";
+
+        /// <summary>
         /// 表格管理器模板文件名
         /// </summary>
         public readonly static string g_ManagerModelFileName = "TableManager.model";
@@ -141,6 +146,11 @@ namespace MakeTable
         /// 生成的表格管理器代码文件名
         /// </summary>
         public readonly static string g_TableCodeFileName = "{0}Table.cs";
+
+        /// <summary>
+        /// 生成的表格扩展代码文件名
+        /// </summary>
+        public readonly static string g_TableExtendCodeFileName = "{0}DataRow.cs";
 
         /// <summary>
         /// 生成表格ID与Index对应关系表

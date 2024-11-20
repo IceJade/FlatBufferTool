@@ -6,6 +6,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.IO;
+using System.Reflection;
 using System.Text;
 
 namespace MakeTable
@@ -77,9 +78,6 @@ namespace MakeTable
                     {
                         Log.Print("生成二进制失败, {0}", fileInfo.FullName);
                     }
-
-                    // 创建ID和行数的索引文件;
-                    this.CreateIndexIdDicFile(fileInfo.FullName, genPath);
                 }
             }
 
@@ -103,163 +101,177 @@ namespace MakeTable
             if (!Directory.Exists(binPath))
                 Directory.CreateDirectory(binPath);
 
-            string binFile = Path.Combine(binPath, fileName + Const.g_BytesFileExtensionName);
-            Log.Print("create binary => {0}", binFile);
-
-            string designFile = Path.Combine(ToolUtils.GetPath(E_PathType.Design, genPath), fileName + Const.g_TextFileExtensionName);
-            this.LoadDesignFile(designFile);
-
             try
             {
                 FileStream fs = new FileStream(excelFile, FileMode.Open, FileAccess.Read);
                 XSSFWorkbook workbook = new XSSFWorkbook(fs);
-                ISheet sheet = workbook.GetSheetAt(0);
+                var sheets = workbook.GetEnumerator();
 
-                // 初始化内存长度
-                FlatBufferBuilder fbBuilder = new FlatBufferBuilder((sheet.LastRowNum - 2) * 512);
-                // 临时数组,包含注释行
-                Offset<int>[] tmpOffsets = new Offset<int>[sheet.LastRowNum - 2];
-
-                bool isBreak = false;
-                ushort index = 0;
-                int rowIndex = 0;
-                string columnName = string.Empty;
-                string columnValue = string.Empty;
-
-                // 列数量
-                int columnCount = this.TableColumnInfoList.Count;
-
-                // 列值;
-                ArrayList columnValueList = new ArrayList(columnCount);
-
-                this.TableIndexIdList.Clear();
-
-                // 获得列名;
-                for (int i = 3; i <= sheet.LastRowNum; i++)
+                string designFile = "";
+                string sheetName = "";
+                string tableName = "";
+                while (sheets.MoveNext())
                 {
-                    isBreak = false;
+                    ISheet sheet = sheets.Current;
+                    sheetName = sheet.SheetName;
 
-                    IRow datarow = sheet.GetRow(i);
+                    // 不符合规则的Sheet页跳过
+                    tableName = ToolUtils.GetTableName(sheetName);
+                    if (string.IsNullOrEmpty(tableName))
+                        continue;
 
-                    // 清理行数据
-                    columnValueList.Clear();
+                    designFile = Path.Combine(ToolUtils.GetPath(E_PathType.Design, genPath), tableName + Const.g_TextFileExtensionName);
+                    this.LoadDesignFile(designFile);
 
-                    for (int j = 0; j < columnCount; j++)
+                    // 初始化内存长度
+                    FlatBufferBuilder fbBuilder = new FlatBufferBuilder((sheet.LastRowNum - 3) * 512);
+                    // 临时数组,包含注释行
+                    Offset<int>[] tmpOffsets = new Offset<int>[sheet.LastRowNum - 2];
+
+                    ushort index = 0;
+                    int rowIndex = 0;
+                    string columnName = string.Empty;
+                    string columnValue = string.Empty;
+
+                    // 列数量
+                    int columnCount = this.TableColumnInfoList.Count;
+
+                    // 列值;
+                    ArrayList columnValueList = new ArrayList(columnCount);
+
+                    this.TableIndexIdList.Clear();
+
+                    // 获得列名;
+                    for (int i = 4; i <= sheet.LastRowNum; i++)
                     {
-                        columnValue = string.Empty;
+                        IRow datarow = sheet.GetRow(i);
+                        if (null == datarow)
+                            continue;
 
-                        if (this.TableColumnInfoList[j].columnIndex > datarow.LastCellNum)
+                        // 清理行数据
+                        columnValueList.Clear();
+
+                        for (int j = 0; j < columnCount; j++)
                         {
-                            Log.Error("column index is error, column:{0}, row:{1}, file:{2}", i + 1, j + 1, excelFile);
-                            ErrorLog.Error("column index is error, column:{0}, row:{1}, file:{2}", i + 1, j + 1, excelFile);
-                            break;
-                        }
+                            columnValue = string.Empty;
 
-                        // 对应的列索引
-                        int columnIndex = this.TableColumnInfoList[j].columnIndex;
+                            // 对应的列索引
+                            int columnIndex = this.TableColumnInfoList[j].columnIndex;
 
-                        ICell cell = datarow.GetCell(columnIndex);
-                        columnValue = this.GetColumnValue(cell);
-
-                        // 检查行数是否超过ushort的最大值
-                        if (index >= ushort.MaxValue)
-                        {
-                            Log.Error("Row counts of {0} is over max limit, max:{1}", fileName, ushort.MaxValue);
-                            ErrorLog.Error("config error => Row counts of {0} is over max limit, max:{1}", excelFile, ushort.MaxValue);
-                        }
-
-                        // 字段名称
-                        columnName = this.TableColumnInfoList[j].name;
-
-                        // ID列索引记录
-                        if (columnName.ToLower() == Const.g_Id && index <= ushort.MaxValue)
-                        {
-                            // 检查ID是否重复
-                            var find = this.TableIndexIdList.Find(o => o._id == columnValue);
-                            if (null != find)
+                            if (columnIndex > datarow.LastCellNum)
                             {
-                                Log.Error("The id is repeat, table:{0}, id:{1}", excelFile, columnValue);
-                                ErrorLog.Error("config error => The id {0} is repeat, file:{1}", columnValue, excelFile);
-                            }
-
-                            // 检查ID是否超过int的最大值
-                            if (!string.IsNullOrEmpty(columnValue.Trim()))
-                            {
-                                // 如果ID数据以"#"开头代表为注释行,直接跳过
-                                if(columnValue.Trim().StartsWith("#"))
-                                {
-                                    isBreak = true;
-                                    break;
-                                }
-
-                                long longValue = 0;
-                                if (long.TryParse(columnValue, out longValue))
-                                {
-                                    if (longValue >= int.MaxValue)
-                                    {
-                                        Log.Error("The value of id must be less than int.MaxValue[{0}], table:{1}, id:{2}", int.MaxValue, excelFile, columnValue);
-                                        Log.Error("config error => The value of id must be less than int.MaxValue[{0}], table:{1}, id:{2}", int.MaxValue, excelFile, columnValue);
-                                    }
-                                }
-                                //else
-                                //{
-                                //    Log.Warning("The id is not integer, table:{0}, id:{1}", excelFile, columnValue);
-                                //}
+                                //Log.Error("column index is error, column:{0}, row:{1}, file:{2}", i + 1, j + 1, excelFile);
+                                //ErrorLog.Error("column index is error, column:{0}, row:{1}, file:{2}", i + 1, j + 1, excelFile);
                             }
                             else
                             {
-                                Log.Error("The value of id must be not empty or space, table:{0}, id:{1}", excelFile, columnValue);
-                                Log.Error("config error => The value of id must be not empty or space, table:{0}, id:{1}", excelFile, columnValue);
+                                ICell cell = datarow.GetCell(columnIndex);
+                                columnValue = this.GetColumnValue(cell);
 
-                                isBreak = true;
+                                // 检查行数是否超过ushort的最大值
+                                if (index >= ushort.MaxValue)
+                                {
+                                    Log.Error("Row counts of {0} is over max limit, max:{1}", fileName, ushort.MaxValue);
+                                    ErrorLog.Error("config error => Row counts of {0} is over max limit, max:{1}", excelFile, ushort.MaxValue);
+                                }
 
-                                break;
+                                // 字段名称
+                                columnName = this.TableColumnInfoList[j].name;
+
+                                // ID列索引记录
+                                if (columnName.ToLower() == Const.g_Id && index <= ushort.MaxValue)
+                                {
+                                    if (string.IsNullOrEmpty(columnValue))
+                                        break;
+
+                                    // 检查ID是否重复
+                                    var find = this.TableIndexIdList.Find(o => o._id == columnValue);
+                                    if (null != find)
+                                    {
+                                        Log.Error($"ID({columnValue})配置重复!文件:{excelFile}");
+                                        ErrorLog.Error($"ID({columnValue})配置重复!文件:{excelFile}");
+                                    }
+
+                                    // 检查ID是否超过int的最大值
+                                    if (!string.IsNullOrEmpty(columnValue.Trim()))
+                                    {
+                                        // 如果ID数据以"#"开头代表为注释行,直接跳过
+                                        if (columnValue.Trim().StartsWith("#"))
+                                            break;
+
+                                        long longValue = 0;
+                                        if (long.TryParse(columnValue, out longValue))
+                                        {
+                                            if (longValue >= int.MaxValue)
+                                            {
+                                                Log.Error("The value of id must be less than int.MaxValue[{0}], table:{1}, id:{2}", int.MaxValue, excelFile, columnValue);
+                                                Log.Error("config error => The value of id must be less than int.MaxValue[{0}], table:{1}, id:{2}", int.MaxValue, excelFile, columnValue);
+                                            }
+                                        }
+                                        //else
+                                        //{
+                                        //    Log.Warning("The id is not integer, table:{0}, id:{1}", excelFile, columnValue);
+                                        //}
+                                    }
+                                    else
+                                    {
+                                        Log.Error("The value of id must be not empty or space, table:{0}, id:{1}", excelFile, columnValue);
+                                        Log.Error("config error => The value of id must be not empty or space, table:{0}, id:{1}", excelFile, columnValue);
+
+                                        break;
+                                    }
+
+                                    if (!string.IsNullOrEmpty(columnValue))
+                                        this.TableIndexIdList.Add(new TableIndexID(columnValue, index, this.TableColumnInfoList[j].dataType));
+
+                                    index++;
+                                }
                             }
 
-                            if (!string.IsNullOrEmpty(columnValue))
-                                this.TableIndexIdList.Add(new TableIndexID(columnValue, index, this.TableColumnInfoList[j].dataType));
-
-                            index++;
+                            // 获取列数据
+                            this.AddColumnArrayList(ref columnValueList, fbBuilder, columnValue, this.TableColumnInfoList[j]);
                         }
 
-                        // 获取列数据
-                        if(!isBreak)
-                            this.AddColumnArrayList(ref columnValueList, fbBuilder, columnValue, this.TableColumnInfoList[j]);
+                        if (columnValueList.Count > 0)
+                        {
+                            // 开始行;
+                            fbBuilder.StartTable(columnCount);
+
+                            // 将列数据添加到flatbuffer
+                            this.AddDataRowToFlatBuffer(fbBuilder, columnValueList);
+
+                            // 结束行
+                            tmpOffsets[rowIndex] = new Offset<int>(fbBuilder.EndTable());
+
+                            rowIndex++;
+                        }
                     }
 
-                    if (columnValueList.Count > 0)
-                    {
-                        // 开始行;
-                        fbBuilder.StartTable(columnCount);
+                    // 修改成实际的行数;
+                    Offset<int>[] offsets = new Offset<int>[rowIndex];
+                    for (int i = 0; i < offsets.Length; i++)
+                        offsets[i] = tmpOffsets[i];
 
-                        // 将列数据添加到flatbuffer
-                        this.AddDataRowToFlatBuffer(fbBuilder, columnValueList);
+                    this.CreateFlatBuffer(fbBuilder, offsets);
 
-                        // 结束行
-                        tmpOffsets[rowIndex] = new Offset<int>(fbBuilder.EndTable());
+                    string binFile = Path.Combine(binPath, tableName + Const.g_BytesFileExtensionName);
+                    Log.Print("create binary => {0}", binFile);
 
-                        rowIndex++;
-                    }
+                    byte[] buffers = fbBuilder.SizedByteArray();
+
+                    FileStream fileWrite = new FileStream(binFile, FileMode.OpenOrCreate, FileAccess.ReadWrite);
+                    fileWrite.Write(buffers, 0, buffers.Length);
+                    fileWrite.Flush();
+                    fileWrite.Close();
+                    fileWrite.Dispose();
+
+                    // 创建ID和行数的索引文件;
+                    this.CreateIndexIdDicFile(tableName, genPath);
                 }
-
-                // 修改成实际的行数;
-                Offset<int>[] offsets = new Offset<int>[rowIndex];
-                for (int i = 0; i < offsets.Length; i++)
-                    offsets[i] = tmpOffsets[i];
-
-                this.CreateFlatBuffer(fbBuilder, offsets);
-
-                byte[] buffers = fbBuilder.SizedByteArray();
-
-                FileStream fileWrite = new FileStream(binFile, FileMode.OpenOrCreate, FileAccess.ReadWrite);
-                fileWrite.Write(buffers, 0, buffers.Length);
-                fileWrite.Flush();
-                fileWrite.Close();
-                fileWrite.Dispose();
             }
             catch(Exception e)
             {
-                Log.Error("Parse file error, error message:{0}, file:{1}", e.Message, excelFile);
+                Log.Error($"文件 {excelFile} 被占用, 请关闭后再执行!");
             }
 
             return true;
@@ -288,7 +300,7 @@ namespace MakeTable
                         }
                     case CellType.String:   // 字符串型
                         {
-                            columnValue = cell.StringCellValue;
+                            columnValue = cell.StringCellValue.Trim();
                             break;
                         }
                     case CellType.Formula:  // 公式型
@@ -461,6 +473,17 @@ namespace MakeTable
 
                         break;
                     }
+                case E_ColumnType.Single_Byte:
+                    {
+                        byte value = 0;
+
+                        if (!string.IsNullOrEmpty(columnValue))
+                            byte.TryParse(columnValue, out value);
+
+                        arrayList.Add(value);
+
+                        break;
+                    }
                 case E_ColumnType.Single_Short:
                     {
                         short value = 0;
@@ -477,7 +500,10 @@ namespace MakeTable
                         bool value = false;
 
                         if(!string.IsNullOrEmpty(columnValue))
-                            bool.TryParse(columnValue, out value);
+                        {
+                            if(!bool.TryParse(columnValue, out value))
+                                value = (columnValue != "0");
+                        }
 
                         arrayList.Add(value);
 
@@ -522,6 +548,30 @@ namespace MakeTable
                         else
                         {
                             VectorOffset vectorOffset = this.CreateVectorOffset_Int(fbBuilder, null);
+                            arrayList.Add(vectorOffset);
+                        }
+
+                        break;
+                    }
+                case E_ColumnType.Array_Byte:
+                    {
+                        if (!string.IsNullOrEmpty(columnValue))
+                        {
+                            string[] array = columnValue.Split(Const.g_VerticalLineSeparator);
+                            if (null == array || array.Length <= 1)
+                                array = columnValue.Split(Const.g_CommaSeparator);
+
+                            byte[] data = new byte[array.Length];
+
+                            for (int k = 0; k < array.Length; k++)
+                                byte.TryParse(array[k], out data[k]);
+
+                            VectorOffset vectorOffset = this.CreateVectorOffset_Byte(fbBuilder, data);
+                            arrayList.Add(vectorOffset);
+                        }
+                        else
+                        {
+                            VectorOffset vectorOffset = this.CreateVectorOffset_Byte(fbBuilder, null);
                             arrayList.Add(vectorOffset);
                         }
 
@@ -723,6 +773,28 @@ namespace MakeTable
                     builder.AddInt(data[i]);
             }
             
+            return builder.EndVector();
+        }
+
+        /// <summary>
+        /// 创建byte类型的数组
+        /// </summary>
+        /// <param name="builder"></param>
+        /// <param name="data"></param>
+        /// <returns></returns>
+        private VectorOffset CreateVectorOffset_Byte(FlatBufferBuilder builder, byte[] data)
+        {
+            if (null == data || data.Length <= 0)
+            {
+                builder.StartVector(4, 0, 4);
+            }
+            else
+            {
+                builder.StartVector(4, data.Length, 4);
+                for (int i = data.Length - 1; i >= 0; i--)
+                    builder.AddByte(data[i]);
+            }
+
             return builder.EndVector();
         }
 

@@ -125,12 +125,15 @@ namespace MakeTable
             if (File.Exists(saveFile))
                 File.Delete(saveFile);
 
+            string configNameSpace = Config.Instance.GetString("NameSpace", "Game.Table");
+            string nameSpace = $"namespace {configNameSpace};";
+
             using (FileStream fileStream = new FileStream(saveFile, FileMode.Create))
             {
                 using (StreamWriter writer = new StreamWriter(fileStream))
                 {
                     // 写入文件头;
-                    writer.WriteLine("namespace LF.Table;");
+                    writer.WriteLine(nameSpace);
                     writer.WriteLine();
 
                     // 写入表名;

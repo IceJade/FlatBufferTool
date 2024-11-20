@@ -7,10 +7,11 @@ namespace MakeTable
     public enum E_CommandType
     {
         None = 0,
-        CMD_ParseTable,                        // 解析数据表生成表结构文件
-        CMD_FlatBuffer,                          // 生成FlatBuffer文件(不包含源目录下的子目录)
+        CMD_ParseTable,                    // 解析数据表生成表结构文件
+        CMD_FlatBuffer,                   // 生成FlatBuffer文件(不包含源目录下的子目录)
         CMD_Recursive_FlatBuffer,         // 递归生成FlatBuffer文件(包括源目录下的子目录)
-        CMD_BuffersToJson,                  // 将flatbuffers数据转换成json数据
+        CMD_BuffersToJson,                // 将flatbuffers数据转换成json数据
+        CMD_GenerateDataOnly,             // 批量生成Flatbuffer数据不生成解析代码
     }
 
     /// <summary>
@@ -48,12 +49,14 @@ namespace MakeTable
     {
         Unknow = -1,
         Single_Int = 0,
+        Single_Byte,
         Single_Short,
         Single_Bool,
         Single_Float,
         Single_String,
         Single_Table,
         Array_Int,
+        Array_Byte,
         Array_Short,
         Array_bool,
         Array_Float,
@@ -72,6 +75,7 @@ namespace MakeTable
     public enum E_ModelType
     {
         Common = 0,
+        Byte,
         Short,
         Bool,
         Float,
@@ -82,6 +86,7 @@ namespace MakeTable
         Dictionary_SI,
         Dictionary_SS,
         CommonArray,
+        ByteArray,
         ShortArray,
         BoolArray,
         FloatArray,

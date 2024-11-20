@@ -7,7 +7,7 @@ using System.Collections.Generic;
 using System.IO;
 using UnityGameFramework.Runtime;
 
-namespace LF
+namespace Chanto.Table
 {
 	public class StringIdConfig : BaseConfig
     {

@@ -1,6 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
-using LF;
+using Chanto;
 using XLua;
 
 public class ConvertDataToLuaTable

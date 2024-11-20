@@ -152,5 +152,32 @@ namespace MakeTable
 
             return result;
         }
+
+        public static string GetTableName(string sheetName)
+        {
+            if (string.IsNullOrEmpty(sheetName))
+                return null;
+
+            if (sheetName.StartsWith("#"))
+                return sheetName.Substring(1);
+
+            if (sheetName.Contains("_"))
+                return sheetName.Substring(sheetName.IndexOf("_") + 1);
+
+            return null;
+        }
+
+        /// <summary>
+        /// 获得当前系统时间
+        /// </summary>
+        /// <returns></returns>
+        public static string GetCurrentTime()
+        {
+            // 获取当前系统时间
+            DateTime currentTime = DateTime.Now;
+
+            // 将日期时间格式化为年月日时分秒格式 (yyyy-MM-dd HH:mm:ss)
+            return currentTime.ToString("yyyy-MM-dd HH:mm:ss");
+        }
     }
 }

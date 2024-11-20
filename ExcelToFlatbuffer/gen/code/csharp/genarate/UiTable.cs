@@ -3,10 +3,10 @@
 // </auto-generated>
 using System.IO;
 using FlatBuffers;
-using LF.Table;
+using Chanto.Table;
 using System.Collections.Generic;
 
-namespace LF
+namespace Chanto.Table
 {
     #region Table
     
@@ -35,7 +35,7 @@ namespace LF
                 case "IsLocked": { result = datarow.IsLocked; break; }
                 case "IsRefreshPositionWhenOpen": { result = datarow.IsRefreshPositionWhenOpen; break; }
 
-                default: { GameFramework.Log.Error("Table_ui.GetBoolValue => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_ui.GetBoolValue => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -52,7 +52,7 @@ namespace LF
             switch (column)
             {
 
-                default: { GameFramework.Log.Error("Table_ui.GetShortValue => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_ui.GetShortValue => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -70,7 +70,7 @@ namespace LF
             {
                 case "Priority": { result = datarow.Priority; break; }
 
-                default: { GameFramework.Log.Error("Table_ui.GetIntValue => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_ui.GetIntValue => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -88,7 +88,7 @@ namespace LF
             {
                 case "Priority": { result = datarow.Priority; break; }
 
-                default: { GameFramework.Log.Error("Table_ui.GetFloatValue => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_ui.GetFloatValue => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -109,7 +109,7 @@ namespace LF
                 case "UIGroupName": { result = datarow.UIGroupName; break; }
                 case "Priority": { result = datarow.Priority.ToString(); break; }
 
-                default: { GameFramework.Log.Error("Table_ui.GetStringValue => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_ui.GetStringValue => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -126,7 +126,7 @@ namespace LF
             switch (column)
             {
 
-                default: { GameFramework.Log.Error("Table_ui.GetBoolArray => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_ui.GetBoolArray => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -143,7 +143,7 @@ namespace LF
             switch (column)
             {
 
-                default: { GameFramework.Log.Error("Table_ui.GetShortArray => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_ui.GetShortArray => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -160,7 +160,7 @@ namespace LF
             switch (column)
             {
 
-                default: { GameFramework.Log.Error("Table_ui.GetIntArray => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_ui.GetIntArray => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -177,7 +177,7 @@ namespace LF
             switch (column)
             {
 
-                default: { GameFramework.Log.Error("Table_ui.GetFloatArray => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_ui.GetFloatArray => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -194,7 +194,7 @@ namespace LF
             switch (column)
             {
 
-                default: { GameFramework.Log.Error("Table_ui.GetStringArray => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_ui.GetStringArray => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -207,7 +207,7 @@ namespace LF
             int length = this.GetStringArrayLength(id, column);
             if (index < 0 || index >= length)
             {
-                GameFramework.Log.Error("Table_ui.GetStringArrayItem => index out of array length({0}), [id:{1}, column:{2}, index:{3}]", length, id, column, index);
+                Log.Error("Table_ui.GetStringArrayItem => index out of array length({0}), [id:{1}, column:{2}, index:{3}]", length, id, column, index);
                 return result;
             }
             
@@ -218,7 +218,7 @@ namespace LF
             switch (column)
             {
 
-                default: { GameFramework.Log.Error("Table_ui.GetStringArrayItem => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_ui.GetStringArrayItem => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -235,7 +235,7 @@ namespace LF
             switch (column)
             {
 
-                default: { GameFramework.Log.Error("Table_ui.GetStringArrayLength => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_ui.GetStringArrayLength => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -252,7 +252,7 @@ namespace LF
             switch (column)
             {
 
-                default: { GameFramework.Log.Error("Table_ui.GetDictionaryII => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_ui.GetDictionaryII => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -269,7 +269,7 @@ namespace LF
             switch (column)
             {
 
-                default: { GameFramework.Log.Error("Table_ui.GetDictionaryIS => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_ui.GetDictionaryIS => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -286,7 +286,7 @@ namespace LF
             switch (column)
             {
 
-                default: { GameFramework.Log.Error("Table_ui.GetDictionarySI => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_ui.GetDictionarySI => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -303,7 +303,7 @@ namespace LF
             switch (column)
             {
 
-                default: { GameFramework.Log.Error("Table_ui.GetDictionarySS => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_ui.GetDictionarySS => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;

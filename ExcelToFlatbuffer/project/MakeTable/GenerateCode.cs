@@ -11,7 +11,7 @@ namespace MakeTable
     /// <summary>
     /// 生成解析代码文件
     /// </summary>
-    class GenerateCode
+    class GenerateCode : GenerateBase
     {
         /// <summary>
         /// 表列信息
@@ -28,6 +28,9 @@ namespace MakeTable
         /// <returns></returns>
         public bool MakeCode(string flatcFile, string tablePath, string genPath)
         {
+            if (!IsGenerateCode())
+                return true;
+
             Log.Print("---------------------------------------------------------------------------------------");
             Log.Print("开始生成FlatBuffer解析代码文件...");
 
@@ -48,10 +51,13 @@ namespace MakeTable
                 this.CreateFlatbufferCodeFile_CSharp(flatcFile, fbsFile, csGenPath);
 
                 // 生成Lua代码
-                this.CreateFlatbufferCodeFile_Lua(flatcFile, fbsFile, ToolUtils.GetPath(E_PathType.Lua, genPath));
+                //this.CreateFlatbufferCodeFile_Lua(flatcFile, fbsFile, ToolUtils.GetPath(E_PathType.Lua, genPath));
 
                 // 生成框架代码
                 this.CreateTableParseCode_CSharp(designFile, genPath, fileName);
+
+                // 生成扩展代码
+                this.CreateTableExtendCode_CSharp(designFile, genPath, fileName);
             }
             else
             {
@@ -64,7 +70,7 @@ namespace MakeTable
                     this.CreateFlatbufferCodeFile_CSharp(flatcFile, fileInfo.FullName, csGenPath);
 
                     // 生成Lua代码
-                    this.CreateFlatbufferCodeFile_Lua(flatcFile, fileInfo.FullName, ToolUtils.GetPath(E_PathType.Lua, genPath));
+                    //this.CreateFlatbufferCodeFile_Lua(flatcFile, fileInfo.FullName, ToolUtils.GetPath(E_PathType.Lua, genPath));
                     
                     fileName = Path.GetFileNameWithoutExtension(fileInfo.FullName);
                     fileName = fileName.Replace(Const.g_DataTableAliasName, "");
@@ -72,6 +78,9 @@ namespace MakeTable
 
                     // 生成框架代码
                     this.CreateTableParseCode_CSharp(designFile, genPath, fileName);
+
+                    // 生成扩展代码
+                    this.CreateTableExtendCode_CSharp(designFile, genPath, fileName);
                 }
             }
 
@@ -189,11 +198,11 @@ namespace MakeTable
             // 生成类属性代码;
             saveContent = this.GeneratePropertyCode(saveContent);
 
-            // 生成LuaTable
-            saveContent = this.GenerateLuaTableCode(saveContent);
+            //// 生成LuaTable
+            //saveContent = this.GenerateLuaTableCode(saveContent);
 
-            // 生成LuaValue
-            saveContent = this.GenerateLuaValueCode(saveContent);
+            //// 生成LuaValue
+            //saveContent = this.GenerateLuaValueCode(saveContent);
 
             // 生成HasKey接口
             saveContent = this.GenerateHasKeyCode(saveContent);
@@ -225,6 +234,65 @@ namespace MakeTable
         }
 
         /// <summary>
+        /// 生成表格扩展代码
+        /// </summary>
+        /// <returns></returns>
+        private bool CreateTableExtendCode_CSharp(string designFile, string genPath, string tableFileName)
+        {
+            string modelFile = Path.Combine(ToolUtils.GetPath(E_PathType.Model, genPath), Const.g_TableExtendModelFileName);
+            byte[] buffers = File.ReadAllBytes(modelFile);
+            string modelContent = Encoding.UTF8.GetString(buffers);
+
+            // 替换表名;
+            string saveContent = modelContent.Replace("#tablename#", tableFileName);
+            // 类名大写
+            saveContent = saveContent.Replace("#up_tablename#", ToolUtils.UpFirstChar(tableFileName));
+
+            // 获得要写入文件的字节buffer;
+            byte[] code = Encoding.UTF8.GetBytes(saveContent);
+
+            // 获得保存的文件名;
+            string codeFileName = string.Format(Const.g_TableExtendCodeFileName, ToolUtils.UpFirstChar(tableFileName));
+            string codeTablePath = Path.Combine(ToolUtils.GetPath(E_PathType.CSharp, genPath), Const.g_TableExtendFolder);
+            string codeFile = Path.Combine(codeTablePath, codeFileName);
+
+            try
+            {
+                if (!Directory.Exists(codeTablePath))
+                    Directory.CreateDirectory(codeTablePath);
+            }
+            catch (Exception e)
+            {
+                Log.Error("创建C#脚本目录失败! error:{0}, path:{1}, in function CreateTableParseCode_CSharp.", e.Message, codeTablePath);
+                ErrorLog.Error("创建C#脚本目录失败! error:{0}, path:{1}, in function CreateTableParseCode_CSharp.", e.Message, codeTablePath);
+            }
+
+            if (File.Exists(codeFile))
+                File.Delete(codeFile);
+
+            Log.Print("create class => {0}", codeFile);
+
+            try
+            {
+                // 创建并写入文件;
+                using (FileStream fileWrite = new FileStream(codeFile, FileMode.OpenOrCreate, FileAccess.ReadWrite))
+                {
+                    fileWrite.Write(code, 0, code.Length);
+                    fileWrite.Flush();
+                    fileWrite.Close();
+                    fileWrite.Dispose();
+                }
+            }
+            catch (Exception e)
+            {
+                Log.Error("打开或者创建文件失败, error:{0}, file:{1}, in function CreateTableParseCode_CSharp.", e.Message, codeFile);
+                ErrorLog.Error("打开或者创建文件失败, error:{0}, file:{1}, in function CreateTableParseCode_CSharp.", e.Message, codeFile);
+            }
+
+            return true;
+        }
+
+        /// <summary>
         /// 生成case代码
         /// </summary>
         /// <param name="content"></param>
@@ -232,11 +300,13 @@ namespace MakeTable
         private string GenerateCaseCode(string content)
         {
             string boolCase = string.Empty;
+            string byteCase = string.Empty;
             string shortCase = string.Empty;
             string intCase = string.Empty;
             string floatCase = string.Empty;
             string stringCase = string.Empty;
             string boolArrayCase = string.Empty;
+            string byteArrayCase = string.Empty;
             string shortArrayCase = string.Empty;
             string intArrayCase = string.Empty;
             string floatArrayCase = string.Empty;
@@ -257,6 +327,12 @@ namespace MakeTable
                     case E_ColumnType.Single_Bool:
                         {
                             boolCase += this.GetCaseCodeLine(columnInfo.name);
+
+                            break;
+                        }
+                    case E_ColumnType.Single_Byte:
+                        {
+                            byteCase += this.GetCaseCodeLine(columnInfo.name);
 
                             break;
                         }
@@ -295,6 +371,12 @@ namespace MakeTable
                     case E_ColumnType.Array_bool:
                         {
                             boolArrayCase += this.GetCaseCodeLine(columnInfo.name, E_ModelType.CommonArray);
+
+                            break;
+                        }
+                    case E_ColumnType.Array_Byte:
+                        {
+                            byteArrayCase += this.GetCaseCodeLine(columnInfo.name, E_ModelType.CommonArray);
 
                             break;
                         }
@@ -373,6 +455,7 @@ namespace MakeTable
             genContent = genContent.Replace("#case_float#", floatCase);
             genContent = genContent.Replace("#case_string#", stringCase);
             genContent = genContent.Replace("#case_bool_array#", boolArrayCase);
+            genContent = genContent.Replace("#case_byte_array#", byteArrayCase);
             genContent = genContent.Replace("#case_short_array#", shortArrayCase);
             genContent = genContent.Replace("#case_int_array#", intArrayCase);
             genContent = genContent.Replace("#case_float_array#", floatArrayCase);
@@ -408,7 +491,11 @@ namespace MakeTable
                     case E_ColumnType.Single_Int:
                         {
                             properts += this.GetPropertsCodeLine(columnInfo.name);
-
+                            break;
+                        }
+                    case E_ColumnType.Single_Byte:
+                        {
+                            properts += this.GetPropertsCodeLine(columnInfo.name, E_ModelType.Byte);
                             break;
                         }
                     case E_ColumnType.Single_Short:
@@ -441,6 +528,12 @@ namespace MakeTable
                     case E_ColumnType.Array_Int:
                         {
                             properts += this.GetPropertsCodeLine(columnInfo.name, E_ModelType.CommonArray);
+
+                            break;
+                        }
+                    case E_ColumnType.Array_Byte:
+                        {
+                            properts += this.GetPropertsCodeLine(columnInfo.name, E_ModelType.ByteArray);
 
                             break;
                         }
@@ -536,6 +629,7 @@ namespace MakeTable
                 switch (columnInfo.dataType)
                 {
                     case E_ColumnType.Single_Int:
+                    case E_ColumnType.Single_Byte:
                     case E_ColumnType.Single_Short:
                     case E_ColumnType.Single_Bool:
                     case E_ColumnType.Single_Float:
@@ -547,6 +641,7 @@ namespace MakeTable
                             break;
                         }
                     case E_ColumnType.Array_Int:
+                    case E_ColumnType.Array_Byte:
                     case E_ColumnType.Array_Short:
                     case E_ColumnType.Array_bool:
                     case E_ColumnType.Array_Float:
@@ -590,6 +685,7 @@ namespace MakeTable
                 switch (columnInfo.dataType)
                 {
                     case E_ColumnType.Single_Int:
+                    case E_ColumnType.Single_Byte:
                     case E_ColumnType.Single_Short:
                     case E_ColumnType.Single_Bool:
                     case E_ColumnType.Single_Float:
@@ -601,6 +697,7 @@ namespace MakeTable
                             break;
                         }
                     case E_ColumnType.Array_Int:
+                    case E_ColumnType.Array_Byte:
                     case E_ColumnType.Array_Short:
                     case E_ColumnType.Array_bool:
                     case E_ColumnType.Array_Float:
@@ -651,6 +748,7 @@ namespace MakeTable
                 switch (columnInfo.dataType)
                 {
                     case E_ColumnType.Single_Int:
+                    case E_ColumnType.Single_Byte:
                     case E_ColumnType.Single_Short:
                     case E_ColumnType.Single_Bool:
                     case E_ColumnType.Single_Float:
@@ -666,6 +764,7 @@ namespace MakeTable
                             break;
                         }
                     case E_ColumnType.Array_Int:
+                    case E_ColumnType.Array_Byte:
                     case E_ColumnType.Array_Short:
                     case E_ColumnType.Array_bool:
                     case E_ColumnType.Array_Float:
@@ -768,6 +867,11 @@ namespace MakeTable
                         result += string.Format("        public bool {0} [[ get [[ return _datarow.{0}; ]] ]]\n\n", realName);
                         break;
                     }
+                case E_ModelType.Byte:
+                    {
+                        result += string.Format("        public byte {0} [[ get [[ return _datarow.{0}; ]] ]]\n\n", realName);
+                        break;
+                    }
                 case E_ModelType.Short:
                     {
                         result += string.Format("        public short {0} [[ get [[ return _datarow.{0}; ]] ]]\n\n", realName);
@@ -790,6 +894,14 @@ namespace MakeTable
                         result += string.Format("        private int[] _{0}Array = null;\n", realName);
                         result += string.Format("        public int[] {0}Array [[ get [[ if (null == _{1}Array) _{2}Array = _datarow.Get{3}Array(); return _{4}Array; ]] ]]\n", realName, realName, realName, realName, realName);
                         result += string.Format("        public int {0}ArrayLength [[ get [[ if (null == this.{0}Array) return 0; return this.{0}Array.Length; ]] ]]\n\n", realName);
+
+                        break;
+                    }
+                case E_ModelType.ByteArray:
+                    {
+                        result += string.Format("        private byte[] _{0}Array = null;\n", realName);
+                        result += string.Format("        public byte[] {0}Array [[ get [[ if (null == _{1}Array) _{2}Array = _datarow.Get{3}Array(); return _{4}Array; ]] ]]\n", realName, realName, realName, realName, realName);
+                        result += string.Format("        public byte {0}ArrayLength [[ get [[ if (null == this.{0}Array) return 0; return this.{0}Array.Length; ]] ]]\n\n", realName);
 
                         break;
                     }

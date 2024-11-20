@@ -138,6 +138,11 @@ namespace MakeTable
                         e_ColumnType = E_ColumnType.Single_Bool;
                         break;
                     }
+                case "byte":
+                    {
+                        e_ColumnType = E_ColumnType.Single_Byte;
+                        break;
+                    }
                 case "short":
                     {
                         e_ColumnType = E_ColumnType.Single_Short;
@@ -163,6 +168,11 @@ namespace MakeTable
                         e_ColumnType = E_ColumnType.Array_bool;
                         break;
                     }
+                case "byte[]":
+                    {
+                        e_ColumnType = E_ColumnType.Array_Byte;
+                        break;
+                    }
                 case "short[]":
                     {
                         e_ColumnType = E_ColumnType.Array_Short;
@@ -183,6 +193,54 @@ namespace MakeTable
                         e_ColumnType = E_ColumnType.Array_String;
                         break;
                     }
+                case "dictionaryii":
+                case "dictionary_ii":
+                case "d[int,int]":
+                case "d[int, int]":
+                case "dictionary[int,int]":
+                case "dictionary[int, int]":
+                case "dictionary<int,int>":
+                case "dictionary<int, int>":
+                    {
+                        e_ColumnType = E_ColumnType.Dictionary_II;
+                        break;
+                    }
+                case "dictionaryis":
+                case "dictionary_is":
+                case "d[int,string]":
+                case "d[int, string]":
+                case "dictionary[int,string]":
+                case "dictionary[int, string]":
+                case "dictionary<int,string>":
+                case "dictionary<int, string>":
+                    {
+                        e_ColumnType = E_ColumnType.Dictionary_IS;
+                        break;
+                    }
+                case "dictionarysi":
+                case "dictionary_si":
+                case "d[string,int]":
+                case "d[string, int]":
+                case "dictionary[string,int]":
+                case "dictionary[string, int]":
+                case "dictionary<string,int>":
+                case "dictionary<string, int>":
+                    {
+                        e_ColumnType = E_ColumnType.Dictionary_SI;
+                        break;
+                    }
+                case "dictionaryss":
+                case "dictionary_ss":
+                case "d[string,string]":
+                case "d[string, string]":
+                case "dictionary[string,string]":
+                case "dictionary[string, string]":
+                case "dictionary<string,string>":
+                case "dictionary<string, string>":
+                    {
+                        e_ColumnType = E_ColumnType.Dictionary_SS;
+                        break;
+                    }
                 default:
                     break;
             }
@@ -197,6 +255,7 @@ namespace MakeTable
         private bool IsArray(E_ColumnType dataType_)
         {
             return dataType_ == E_ColumnType.Array_Int
+                || dataType_ == E_ColumnType.Array_Byte
                 || dataType_ == E_ColumnType.Array_Short
                 || dataType_ == E_ColumnType.Array_bool
                 || dataType_ == E_ColumnType.Array_Float
@@ -450,6 +509,11 @@ namespace MakeTable
                     {
                         break;
                     }
+                case E_ColumnType.Single_Byte:
+                    {
+                        type = "byte";
+                        break;
+                    }
                 case E_ColumnType.Single_Short:
                     {
                         type = "short";
@@ -479,6 +543,11 @@ namespace MakeTable
                 case E_ColumnType.Array_Int:
                     {
                         type = "[int]";
+                        break;
+                    }
+                case E_ColumnType.Array_Byte:
+                    {
+                        type = "[byte]";
                         break;
                     }
                 case E_ColumnType.Array_Short:

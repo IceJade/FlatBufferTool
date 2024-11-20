@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace LF
+namespace Chanto.Table
 {
     public class CSLuaTable
     {
@@ -46,7 +46,7 @@ namespace LF
             int ret;
             if (!int.TryParse(datas[key].ToString(), out ret))
             {
-                GameFramework.Log.Error("CSLuaTable::GetInt => data type is not match, or not find [id:{0}, column:{1}]", this.GetInt("id"), key);
+                Log.Error("CSLuaTable::GetInt => data type is not match, or not find [id:{0}, column:{1}]", this.GetInt("id"), key);
                 return defaultValue;
             }
 
@@ -64,7 +64,7 @@ namespace LF
             float ret;
             if (!float.TryParse((string)datas[key], out ret))
             {
-                GameFramework.Log.Error("CSLuaTable::GetFloat => data type is not match, or not find [id:{0}, column:{1}]", this.GetInt("id"), key);
+                Log.Error("CSLuaTable::GetFloat => data type is not match, or not find [id:{0}, column:{1}]", this.GetInt("id"), key);
                 return defaultValue;
             }
 
@@ -87,7 +87,7 @@ namespace LF
             }
             //else
             //{
-            //    GameFramework.Log.Error("CSLuaTable::GetString => data type is not match, or not find [id:{0}, column:{1}]", this.GetInt("id"), key);
+            //    Log.Error("CSLuaTable::GetString => data type is not match, or not find [id:{0}, column:{1}]", this.GetInt("id"), key);
             //}
 
             return defaultValue;

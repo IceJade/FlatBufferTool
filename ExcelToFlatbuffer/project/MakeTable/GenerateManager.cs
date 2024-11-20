@@ -5,7 +5,7 @@ using System.Text;
 
 namespace MakeTable
 {
-    public class GenerateManager
+    public class GenerateManager : GenerateBase
     {
         /// <summary>
         /// 表列信息
@@ -19,6 +19,9 @@ namespace MakeTable
         /// <returns></returns>
         public bool MakeCode(string genPath)
         {
+            if(!IsGenerateCode())
+                return true;
+
             Log.Print("---------------------------------------------------------------------------------------");
             Log.Print("开始创建表格管理器代码文件...");
 
@@ -84,6 +87,9 @@ namespace MakeTable
                 allTable.Append(this.GetCaseCodeLine(fileName, E_CaseType.case_check_table));
             }
 
+            if(allTable.Length <= 0)
+                return false;
+
             string saveContent = modelContent;
             saveContent = saveContent.Replace("#case_table#", allTable.ToString());
 
@@ -92,7 +98,8 @@ namespace MakeTable
             //byte[] code = new UTF8Encoding(true).GetBytes(saveContent);
 
             // 获得保存的文件名;
-            string codeFile = Path.Combine(ToolUtils.GetPath(E_PathType.CSharp, genPath), "ConfigManager.cs");
+            string managerFileName = Config.Instance.GetString("ManagerFileName", "TableManager.cs");
+            string codeFile = Path.Combine(ToolUtils.GetPath(E_PathType.CSharp, genPath), managerFileName);
 
             if (File.Exists(codeFile))
                 File.Delete(codeFile);
@@ -107,91 +114,6 @@ namespace MakeTable
             fileWrite.Dispose();
 
             return true;
-        }
-
-        /// <summary>
-        /// 创建表格主管理器代码文件
-        /// </summary>
-        /// <param name="genPath"></param>
-        private bool CreateExtendManager(string genPath)
-        {
-            string modelFile = Path.Combine(ToolUtils.GetPath(E_PathType.Model, genPath), Const.g_ManagerExtendModelFileName);
-            if (!File.Exists(modelFile))
-                return false;
-
-            string tableExtendMode = this.GetTableExtendMode(genPath);
-
-            // 获得模板文件内容;
-            byte[] buffers = File.ReadAllBytes(modelFile);
-            string modelContent = Encoding.UTF8.GetString(buffers);
-
-            StringBuilder allTable = new StringBuilder();
-
-            bool isInt = true;
-            string fileName = string.Empty;
-            string designPath = ToolUtils.GetPath(E_PathType.Design, genPath);
-            string targetCode = string.Empty;
-
-            DirectoryInfo TheFolder = new DirectoryInfo(designPath);
-            foreach (FileInfo fileInfo in TheFolder.GetFiles("*.txt"))//遍历文件夹下所有文件
-            {
-                isInt = true;
-
-                this.LoadDesignFile(fileInfo.FullName);
-
-                var columnInfo = this.TableColumnInfoList.Find(o => o.name.ToLower() == Const.g_Id);
-                if (null != columnInfo && columnInfo.dataType == E_ColumnType.Single_String)
-                    isInt = false;
-
-                fileName = fileInfo.Name.Replace(fileInfo.Extension, "");
-                targetCode = tableExtendMode.Replace("#tablename#", fileName);
-                targetCode = targetCode.Replace("#up_tablename#", ToolUtils.UpFirstChar(fileName));
-
-                if(isInt)
-                    targetCode = targetCode.Replace("#data_type#", "int");
-                else
-                    targetCode = targetCode.Replace("#data_type#", "string");
-
-                allTable.Append(targetCode + "\n");
-            }
-
-            string saveContent = modelContent;
-            saveContent = saveContent.Replace("#table_list#", allTable.ToString());
-
-            // 获得要写入文件的字节buffer;
-            byte[] code = Encoding.UTF8.GetBytes(saveContent);
-
-            // 获得保存的文件名;
-            string codeFile = Path.Combine(ToolUtils.GetPath(E_PathType.CSharp, genPath), "TableManager.Extend.cs");
-
-            if (File.Exists(codeFile))
-                File.Delete(codeFile);
-
-            Log.Print("create extend manager => {0}", codeFile);
-
-            // 创建并写入文件;
-            FileStream fileWrite = new FileStream(codeFile, FileMode.OpenOrCreate, FileAccess.ReadWrite);
-            fileWrite.Write(code, 0, code.Length);
-            fileWrite.Flush();
-            fileWrite.Close();
-            fileWrite.Dispose();
-
-            return true;
-        }
-
-        /// <summary>
-        /// 创建表格主管理器代码文件
-        /// </summary>
-        /// <param name="genPath"></param>
-        private string GetTableExtendMode(string genPath)
-        {
-            string modelFile = Path.Combine(ToolUtils.GetPath(E_PathType.Model, genPath), Const.g_TableExtendModelFileName);
-            if (!File.Exists(modelFile))
-                return string.Empty;
-
-            // 获得模板文件内容;
-            byte[] buffers = File.ReadAllBytes(modelFile);
-            return Encoding.UTF8.GetString(buffers);
         }
 
         /// <summary>

@@ -4,7 +4,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace LF
+namespace Chanto.Table
 {
 	public class ConfigManager : Singleton<ConfigManager>
     {
@@ -331,7 +331,7 @@ namespace LF
                 int index = typeName.LastIndexOf("Table");
                 if (index <= 0)
                 {
-                    GameFramework.Log.Error("The T must inherit from BaseTable");
+                    Log.Error("The T must inherit from BaseTable");
                     return null;
                 }
 
@@ -397,7 +397,7 @@ namespace LF
                 int index = typeName.LastIndexOf("DataRow");
                 if (index <= 0)
                 {
-                    GameFramework.Log.Error("The T must inherit from BaseDataRow");
+                    Log.Error("The T must inherit from BaseDataRow");
                     return false;
                 }
 
@@ -432,7 +432,7 @@ namespace LF
                 int index = typeName.LastIndexOf("DataRow");
                 if (index <= 0)
                 {
-                    GameFramework.Log.Error("The T must inherit from BaseDataRow");
+                    Log.Error("The T must inherit from BaseDataRow");
                     return false;
                 }
 
@@ -466,7 +466,7 @@ namespace LF
                 int index = typeName.LastIndexOf("DataRow");
                 if (index <= 0)
                 {
-                    GameFramework.Log.Error("The T must inherit from BaseDataRow");
+                    Log.Error("The T must inherit from BaseDataRow");
                     return null;
                 }
 
@@ -500,7 +500,7 @@ namespace LF
                 int index = typeName.LastIndexOf("DataRow");
                 if (index <= 0)
                 {
-                    GameFramework.Log.Error("The T must inherit from BaseDataRow");
+                    Log.Error("The T must inherit from BaseDataRow");
                     return null;
                 }
 
@@ -585,7 +585,7 @@ namespace LF
             
             if (!this.IsValidTable(tableName))
             {
-                GameFramework.Log.Error("Not find the table {0}", tableName);
+                Log.Error("Not find the table {0}", tableName);
                 return null;
             }
             

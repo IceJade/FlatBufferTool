@@ -4,7 +4,7 @@ using System.IO;
 
 namespace MakeTable
 {
-    public class GenerateJson
+    public class GenerateJson : GenerateBase
     {
         /// <summary>
         /// 生成json文件
@@ -14,6 +14,9 @@ namespace MakeTable
         /// <returns></returns>
         public bool MakeJson(string flatc, string tablePath, string genPath)
         {
+            if (!IsGenerateJson())
+                return false;
+
             Log.Print("---------------------------------------------------------------------------------------");
             Log.Print("开始生成Json数据文件...");
 
