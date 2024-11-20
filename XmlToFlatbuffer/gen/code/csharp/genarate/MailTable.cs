@@ -3,10 +3,10 @@
 // </auto-generated>
 using System.IO;
 using FlatBuffers;
-using LF.Table;
+using Chanto.Table;
 using System.Collections.Generic;
 
-namespace LF
+namespace Chanto.Table
 {
     #region Table
 
@@ -31,7 +31,7 @@ namespace LF
             switch (column)
             {
 
-                default: { GameFramework.Log.Error("Table_mail.GetBoolValue => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_mail.GetBoolValue => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -48,7 +48,7 @@ namespace LF
             switch (column)
             {
 
-                default: { GameFramework.Log.Error("Table_mail.GetShortValue => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_mail.GetShortValue => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -72,7 +72,7 @@ namespace LF
                 case "reward": { result = datarow.Reward; break; }
                 case "time": { result = datarow.Time; break; }
 
-                default: { GameFramework.Log.Error("Table_mail.GetIntValue => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_mail.GetIntValue => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -96,7 +96,7 @@ namespace LF
                 case "reward": { result = datarow.Reward; break; }
                 case "time": { result = datarow.Time; break; }
 
-                default: { GameFramework.Log.Error("Table_mail.GetFloatValue => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_mail.GetFloatValue => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -121,7 +121,7 @@ namespace LF
                 case "para1": { result = datarow.Para1; break; }
                 case "time": { result = datarow.Time.ToString(); break; }
 
-                default: { GameFramework.Log.Error("Table_mail.GetStringValue => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_mail.GetStringValue => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -138,7 +138,7 @@ namespace LF
             switch (column)
             {
 
-                default: { GameFramework.Log.Error("Table_mail.GetBoolArray => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_mail.GetBoolArray => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -155,7 +155,7 @@ namespace LF
             switch (column)
             {
 
-                default: { GameFramework.Log.Error("Table_mail.GetShortArray => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_mail.GetShortArray => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -172,7 +172,7 @@ namespace LF
             switch (column)
             {
 
-                default: { GameFramework.Log.Error("Table_mail.GetIntArray => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_mail.GetIntArray => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -189,7 +189,7 @@ namespace LF
             switch (column)
             {
 
-                default: { GameFramework.Log.Error("Table_mail.GetFloatArray => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_mail.GetFloatArray => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -206,7 +206,7 @@ namespace LF
             switch (column)
             {
 
-                default: { GameFramework.Log.Error("Table_mail.GetStringArray => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_mail.GetStringArray => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -219,7 +219,7 @@ namespace LF
             int length = this.GetStringArrayLength(id, column);
             if (index < 0 || index >= length)
             {
-                GameFramework.Log.Error("Table_mail.GetStringArrayItem => index out of array length({0}), [id:{1}, column:{2}, index:{3}]", length, id, column, index);
+                Log.Error("Table_mail.GetStringArrayItem => index out of array length({0}), [id:{1}, column:{2}, index:{3}]", length, id, column, index);
                 return result;
             }
             
@@ -230,7 +230,7 @@ namespace LF
             switch (column)
             {
 
-                default: { GameFramework.Log.Error("Table_mail.GetStringArrayItem => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_mail.GetStringArrayItem => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -247,7 +247,7 @@ namespace LF
             switch (column)
             {
 
-                default: { GameFramework.Log.Error("Table_mail.GetStringArrayLength => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_mail.GetStringArrayLength => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -264,7 +264,7 @@ namespace LF
             switch (column)
             {
 
-                default: { GameFramework.Log.Error("Table_mail.GetDictionaryII => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_mail.GetDictionaryII => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -281,7 +281,7 @@ namespace LF
             switch (column)
             {
 
-                default: { GameFramework.Log.Error("Table_mail.GetDictionaryIS => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_mail.GetDictionaryIS => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -298,7 +298,7 @@ namespace LF
             switch (column)
             {
 
-                default: { GameFramework.Log.Error("Table_mail.GetDictionarySI => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_mail.GetDictionarySI => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -315,7 +315,7 @@ namespace LF
             switch (column)
             {
 
-                default: { GameFramework.Log.Error("Table_mail.GetDictionarySS => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_mail.GetDictionarySS => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;

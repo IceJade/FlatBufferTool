@@ -4,7 +4,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace LF
+namespace Chanto.Table
 {
 	public class ConfigManager : Singleton<ConfigManager>
     {

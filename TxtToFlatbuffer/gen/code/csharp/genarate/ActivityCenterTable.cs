@@ -3,10 +3,10 @@
 // </auto-generated>
 using System.IO;
 using FlatBuffers;
-using LF.Table;
+using Chanto.Table;
 using System.Collections.Generic;
 
-namespace LF
+namespace Chanto.Table
 {
     #region Table
 
@@ -31,7 +31,7 @@ namespace LF
             switch (column)
             {
 
-                default: { GameFramework.Log.Error("Table_activityCenter.GetBoolValue => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_activityCenter.GetBoolValue => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -48,7 +48,7 @@ namespace LF
             switch (column)
             {
 
-                default: { GameFramework.Log.Error("Table_activityCenter.GetShortValue => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_activityCenter.GetShortValue => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -68,7 +68,7 @@ namespace LF
                 case "type": { result = datarow.Type; break; }
                 case "subActivityType": { result = datarow.SubActivityType; break; }
 
-                default: { GameFramework.Log.Error("Table_activityCenter.GetIntValue => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_activityCenter.GetIntValue => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -88,7 +88,7 @@ namespace LF
                 case "type": { result = datarow.Type; break; }
                 case "subActivityType": { result = datarow.SubActivityType; break; }
 
-                default: { GameFramework.Log.Error("Table_activityCenter.GetFloatValue => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_activityCenter.GetFloatValue => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -110,7 +110,7 @@ namespace LF
                 case "luaPath": { result = datarow.LuaPath; break; }
                 case "resUrl": { result = datarow.ResUrl; break; }
 
-                default: { GameFramework.Log.Error("Table_activityCenter.GetStringValue => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_activityCenter.GetStringValue => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -127,7 +127,7 @@ namespace LF
             switch (column)
             {
 
-                default: { GameFramework.Log.Error("Table_activityCenter.GetBoolArray => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_activityCenter.GetBoolArray => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -144,7 +144,7 @@ namespace LF
             switch (column)
             {
 
-                default: { GameFramework.Log.Error("Table_activityCenter.GetShortArray => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_activityCenter.GetShortArray => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -161,7 +161,7 @@ namespace LF
             switch (column)
             {
 
-                default: { GameFramework.Log.Error("Table_activityCenter.GetIntArray => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_activityCenter.GetIntArray => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -178,7 +178,7 @@ namespace LF
             switch (column)
             {
 
-                default: { GameFramework.Log.Error("Table_activityCenter.GetFloatArray => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_activityCenter.GetFloatArray => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -195,7 +195,7 @@ namespace LF
             switch (column)
             {
 
-                default: { GameFramework.Log.Error("Table_activityCenter.GetStringArray => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_activityCenter.GetStringArray => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -208,7 +208,7 @@ namespace LF
             int length = this.GetStringArrayLength(id, column);
             if (index < 0 || index >= length)
             {
-                GameFramework.Log.Error("Table_activityCenter.GetStringArrayItem => index out of array length({0}), [id:{1}, column:{2}, index:{3}]", length, id, column, index);
+                Log.Error("Table_activityCenter.GetStringArrayItem => index out of array length({0}), [id:{1}, column:{2}, index:{3}]", length, id, column, index);
                 return result;
             }
             
@@ -219,7 +219,7 @@ namespace LF
             switch (column)
             {
 
-                default: { GameFramework.Log.Error("Table_activityCenter.GetStringArrayItem => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_activityCenter.GetStringArrayItem => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -236,7 +236,7 @@ namespace LF
             switch (column)
             {
 
-                default: { GameFramework.Log.Error("Table_activityCenter.GetStringArrayLength => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_activityCenter.GetStringArrayLength => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -253,7 +253,7 @@ namespace LF
             switch (column)
             {
 
-                default: { GameFramework.Log.Error("Table_activityCenter.GetDictionaryII => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_activityCenter.GetDictionaryII => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -270,7 +270,7 @@ namespace LF
             switch (column)
             {
 
-                default: { GameFramework.Log.Error("Table_activityCenter.GetDictionaryIS => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_activityCenter.GetDictionaryIS => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -287,7 +287,7 @@ namespace LF
             switch (column)
             {
 
-                default: { GameFramework.Log.Error("Table_activityCenter.GetDictionarySI => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_activityCenter.GetDictionarySI => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -304,7 +304,7 @@ namespace LF
             switch (column)
             {
 
-                default: { GameFramework.Log.Error("Table_activityCenter.GetDictionarySS => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_activityCenter.GetDictionarySS => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;

@@ -3,10 +3,10 @@
 // </auto-generated>
 using System.IO;
 using FlatBuffers;
-using LF.Table;
+using Chanto.Table;
 using System.Collections.Generic;
 
-namespace LF
+namespace Chanto.Table
 {
     #region Table
 
@@ -31,7 +31,7 @@ namespace LF
             switch (column)
             {
 
-                default: { GameFramework.Log.Error("Table_skill.GetBoolValue => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_skill.GetBoolValue => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -48,7 +48,7 @@ namespace LF
             switch (column)
             {
 
-                default: { GameFramework.Log.Error("Table_skill.GetShortValue => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_skill.GetShortValue => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -79,7 +79,7 @@ namespace LF
                 case "ShortDes": { result = datarow.ShortDes; break; }
                 case "activate_type": { result = datarow.ActivateType; break; }
 
-                default: { GameFramework.Log.Error("Table_skill.GetIntValue => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_skill.GetIntValue => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -110,7 +110,7 @@ namespace LF
                 case "ShortDes": { result = datarow.ShortDes; break; }
                 case "activate_type": { result = datarow.ActivateType; break; }
 
-                default: { GameFramework.Log.Error("Table_skill.GetFloatValue => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_skill.GetFloatValue => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -143,7 +143,7 @@ namespace LF
                 case "ShortDes": { result = datarow.ShortDes.ToString(); break; }
                 case "activate_type": { result = datarow.ActivateType.ToString(); break; }
 
-                default: { GameFramework.Log.Error("Table_skill.GetStringValue => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_skill.GetStringValue => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -160,7 +160,7 @@ namespace LF
             switch (column)
             {
 
-                default: { GameFramework.Log.Error("Table_skill.GetBoolArray => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_skill.GetBoolArray => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -177,7 +177,7 @@ namespace LF
             switch (column)
             {
 
-                default: { GameFramework.Log.Error("Table_skill.GetShortArray => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_skill.GetShortArray => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -196,7 +196,7 @@ namespace LF
                 case "cd_time": { result = datarow.CdTimeArray; break; }
                 case "hide_effect": { result = datarow.HideEffectArray; break; }
 
-                default: { GameFramework.Log.Error("Table_skill.GetIntArray => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_skill.GetIntArray => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -213,7 +213,7 @@ namespace LF
             switch (column)
             {
 
-                default: { GameFramework.Log.Error("Table_skill.GetFloatArray => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_skill.GetFloatArray => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -232,7 +232,7 @@ namespace LF
                 case "effect": { result = datarow.EffectArray; break; }
                 case "effect_num": { result = datarow.EffectNumArray; break; }
 
-                default: { GameFramework.Log.Error("Table_skill.GetStringArray => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_skill.GetStringArray => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -245,7 +245,7 @@ namespace LF
             int length = this.GetStringArrayLength(id, column);
             if (index < 0 || index >= length)
             {
-                GameFramework.Log.Error("Table_skill.GetStringArrayItem => index out of array length({0}), [id:{1}, column:{2}, index:{3}]", length, id, column, index);
+                Log.Error("Table_skill.GetStringArrayItem => index out of array length({0}), [id:{1}, column:{2}, index:{3}]", length, id, column, index);
                 return result;
             }
             
@@ -258,7 +258,7 @@ namespace LF
                 case "effect": { result = datarow.EffectArray[index]; break; }
                 case "effect_num": { result = datarow.EffectNumArray[index]; break; }
 
-                default: { GameFramework.Log.Error("Table_skill.GetStringArrayItem => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_skill.GetStringArrayItem => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -277,7 +277,7 @@ namespace LF
                 case "effect": { result = datarow.EffectArrayLength; break; }
                 case "effect_num": { result = datarow.EffectNumArrayLength; break; }
 
-                default: { GameFramework.Log.Error("Table_skill.GetStringArrayLength => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_skill.GetStringArrayLength => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -294,7 +294,7 @@ namespace LF
             switch (column)
             {
 
-                default: { GameFramework.Log.Error("Table_skill.GetDictionaryII => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_skill.GetDictionaryII => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -311,7 +311,7 @@ namespace LF
             switch (column)
             {
 
-                default: { GameFramework.Log.Error("Table_skill.GetDictionaryIS => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_skill.GetDictionaryIS => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -328,7 +328,7 @@ namespace LF
             switch (column)
             {
 
-                default: { GameFramework.Log.Error("Table_skill.GetDictionarySI => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_skill.GetDictionarySI => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -345,7 +345,7 @@ namespace LF
             switch (column)
             {
 
-                default: { GameFramework.Log.Error("Table_skill.GetDictionarySS => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_skill.GetDictionarySS => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;

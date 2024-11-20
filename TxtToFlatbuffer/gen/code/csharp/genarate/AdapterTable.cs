@@ -3,10 +3,10 @@
 // </auto-generated>
 using System.IO;
 using FlatBuffers;
-using LF.Table;
+using Chanto.Table;
 using System.Collections.Generic;
 
-namespace LF
+namespace Chanto.Table
 {
     #region Table
 
@@ -47,7 +47,7 @@ namespace LF
                 case "RoleFXAA": { result = datarow.RoleFXAA; break; }
                 case "IsRoleEnableFXAA": { result = datarow.IsRoleEnableFXAA; break; }
 
-                default: { GameFramework.Log.Error("Table_adapter.GetBoolValue => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_adapter.GetBoolValue => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -72,7 +72,7 @@ namespace LF
                 case "WaterRenderingLevelOfWorld": { result = datarow.WaterRenderingLevelOfWorld; break; }
                 case "RoleBloomLevel": { result = datarow.RoleBloomLevel; break; }
 
-                default: { GameFramework.Log.Error("Table_adapter.GetShortValue => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_adapter.GetShortValue => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -95,7 +95,7 @@ namespace LF
                 case "AsyncUploadBufferSize": { result = datarow.AsyncUploadBufferSize; break; }
                 case "VisibleRolesNumber": { result = datarow.VisibleRolesNumber; break; }
 
-                default: { GameFramework.Log.Error("Table_adapter.GetIntValue => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_adapter.GetIntValue => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -118,7 +118,7 @@ namespace LF
                 case "AsyncUploadBufferSize": { result = datarow.AsyncUploadBufferSize; break; }
                 case "VisibleRolesNumber": { result = datarow.VisibleRolesNumber; break; }
 
-                default: { GameFramework.Log.Error("Table_adapter.GetFloatValue => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_adapter.GetFloatValue => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -141,7 +141,7 @@ namespace LF
                 case "AsyncUploadBufferSize": { result = datarow.AsyncUploadBufferSize.ToString(); break; }
                 case "VisibleRolesNumber": { result = datarow.VisibleRolesNumber.ToString(); break; }
 
-                default: { GameFramework.Log.Error("Table_adapter.GetStringValue => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_adapter.GetStringValue => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -158,7 +158,7 @@ namespace LF
             switch (column)
             {
 
-                default: { GameFramework.Log.Error("Table_adapter.GetBoolArray => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_adapter.GetBoolArray => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -175,7 +175,7 @@ namespace LF
             switch (column)
             {
 
-                default: { GameFramework.Log.Error("Table_adapter.GetShortArray => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_adapter.GetShortArray => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -193,7 +193,7 @@ namespace LF
             {
                 case "ScreenResolution": { result = datarow.ScreenResolutionArray; break; }
 
-                default: { GameFramework.Log.Error("Table_adapter.GetIntArray => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_adapter.GetIntArray => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -210,7 +210,7 @@ namespace LF
             switch (column)
             {
 
-                default: { GameFramework.Log.Error("Table_adapter.GetFloatArray => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_adapter.GetFloatArray => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -227,7 +227,7 @@ namespace LF
             switch (column)
             {
 
-                default: { GameFramework.Log.Error("Table_adapter.GetStringArray => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_adapter.GetStringArray => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -240,7 +240,7 @@ namespace LF
             int length = this.GetStringArrayLength(id, column);
             if (index < 0 || index >= length)
             {
-                GameFramework.Log.Error("Table_adapter.GetStringArrayItem => index out of array length({0}), [id:{1}, column:{2}, index:{3}]", length, id, column, index);
+                Log.Error("Table_adapter.GetStringArrayItem => index out of array length({0}), [id:{1}, column:{2}, index:{3}]", length, id, column, index);
                 return result;
             }
             
@@ -251,7 +251,7 @@ namespace LF
             switch (column)
             {
 
-                default: { GameFramework.Log.Error("Table_adapter.GetStringArrayItem => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_adapter.GetStringArrayItem => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -268,7 +268,7 @@ namespace LF
             switch (column)
             {
 
-                default: { GameFramework.Log.Error("Table_adapter.GetStringArrayLength => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_adapter.GetStringArrayLength => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -285,7 +285,7 @@ namespace LF
             switch (column)
             {
 
-                default: { GameFramework.Log.Error("Table_adapter.GetDictionaryII => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_adapter.GetDictionaryII => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -302,7 +302,7 @@ namespace LF
             switch (column)
             {
 
-                default: { GameFramework.Log.Error("Table_adapter.GetDictionaryIS => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_adapter.GetDictionaryIS => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -319,7 +319,7 @@ namespace LF
             switch (column)
             {
 
-                default: { GameFramework.Log.Error("Table_adapter.GetDictionarySI => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_adapter.GetDictionarySI => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -336,7 +336,7 @@ namespace LF
             switch (column)
             {
 
-                default: { GameFramework.Log.Error("Table_adapter.GetDictionarySS => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_adapter.GetDictionarySS => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;

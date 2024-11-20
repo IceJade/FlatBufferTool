@@ -7,7 +7,7 @@ using System.IO;
 using FlatBuffers;
 using UnityEngine;
 
-namespace LF
+namespace Chanto.Table
 {
 	public class BaseConfig : BaseTable
     {

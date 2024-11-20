@@ -5,7 +5,7 @@ using System;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace LF
+namespace Chanto.Table
 {
 	public class TableManager : Singleton<TableManager>
     {

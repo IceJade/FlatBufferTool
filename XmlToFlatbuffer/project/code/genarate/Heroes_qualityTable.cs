@@ -3,10 +3,10 @@
 // </auto-generated>
 using System.IO;
 using FlatBuffers;
-using LF.Table;
+using Chanto.Table;
 using System.Collections.Generic;
 
-namespace LF
+namespace Chanto.Table
 {
     #region Table
 
@@ -31,7 +31,7 @@ namespace LF
             switch (column)
             {
 
-                default: { GameFramework.Log.Error("Table_heroes_quality.GetBoolValue => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_heroes_quality.GetBoolValue => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -48,7 +48,7 @@ namespace LF
             switch (column)
             {
 
-                default: { GameFramework.Log.Error("Table_heroes_quality.GetShortValue => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_heroes_quality.GetShortValue => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -71,7 +71,7 @@ namespace LF
                 case "star": { result = datarow.Star; break; }
                 case "limit_type": { result = datarow.LimitType; break; }
 
-                default: { GameFramework.Log.Error("Table_heroes_quality.GetIntValue => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_heroes_quality.GetIntValue => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -94,7 +94,7 @@ namespace LF
                 case "star": { result = datarow.Star; break; }
                 case "limit_type": { result = datarow.LimitType; break; }
 
-                default: { GameFramework.Log.Error("Table_heroes_quality.GetFloatValue => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_heroes_quality.GetFloatValue => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -124,7 +124,7 @@ namespace LF
                 case "star": { result = datarow.Star.ToString(); break; }
                 case "limit_type": { result = datarow.LimitType.ToString(); break; }
 
-                default: { GameFramework.Log.Error("Table_heroes_quality.GetStringValue => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_heroes_quality.GetStringValue => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -141,7 +141,7 @@ namespace LF
             switch (column)
             {
 
-                default: { GameFramework.Log.Error("Table_heroes_quality.GetBoolArray => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_heroes_quality.GetBoolArray => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -158,7 +158,7 @@ namespace LF
             switch (column)
             {
 
-                default: { GameFramework.Log.Error("Table_heroes_quality.GetShortArray => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_heroes_quality.GetShortArray => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -178,7 +178,7 @@ namespace LF
                 case "consume": { result = datarow.ConsumeArray; break; }
                 case "robot_consume": { result = datarow.RobotConsumeArray; break; }
 
-                default: { GameFramework.Log.Error("Table_heroes_quality.GetIntArray => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_heroes_quality.GetIntArray => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -195,7 +195,7 @@ namespace LF
             switch (column)
             {
 
-                default: { GameFramework.Log.Error("Table_heroes_quality.GetFloatArray => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_heroes_quality.GetFloatArray => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -212,7 +212,7 @@ namespace LF
             switch (column)
             {
 
-                default: { GameFramework.Log.Error("Table_heroes_quality.GetStringArray => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_heroes_quality.GetStringArray => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -225,7 +225,7 @@ namespace LF
             int length = this.GetStringArrayLength(id, column);
             if (index < 0 || index >= length)
             {
-                GameFramework.Log.Error("Table_heroes_quality.GetStringArrayItem => index out of array length({0}), [id:{1}, column:{2}, index:{3}]", length, id, column, index);
+                Log.Error("Table_heroes_quality.GetStringArrayItem => index out of array length({0}), [id:{1}, column:{2}, index:{3}]", length, id, column, index);
                 return result;
             }
             
@@ -236,7 +236,7 @@ namespace LF
             switch (column)
             {
 
-                default: { GameFramework.Log.Error("Table_heroes_quality.GetStringArrayItem => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_heroes_quality.GetStringArrayItem => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -253,7 +253,7 @@ namespace LF
             switch (column)
             {
 
-                default: { GameFramework.Log.Error("Table_heroes_quality.GetStringArrayLength => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_heroes_quality.GetStringArrayLength => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -270,7 +270,7 @@ namespace LF
             switch (column)
             {
 
-                default: { GameFramework.Log.Error("Table_heroes_quality.GetDictionaryII => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_heroes_quality.GetDictionaryII => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -287,7 +287,7 @@ namespace LF
             switch (column)
             {
 
-                default: { GameFramework.Log.Error("Table_heroes_quality.GetDictionaryIS => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_heroes_quality.GetDictionaryIS => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -304,7 +304,7 @@ namespace LF
             switch (column)
             {
 
-                default: { GameFramework.Log.Error("Table_heroes_quality.GetDictionarySI => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_heroes_quality.GetDictionarySI => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -321,7 +321,7 @@ namespace LF
             switch (column)
             {
 
-                default: { GameFramework.Log.Error("Table_heroes_quality.GetDictionarySS => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_heroes_quality.GetDictionarySS => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;

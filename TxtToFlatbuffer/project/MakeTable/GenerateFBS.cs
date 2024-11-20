@@ -130,7 +130,7 @@ namespace MakeTable
                 using (StreamWriter writer = new StreamWriter(fileStream))
                 {
                     // 写入文件头;
-                    writer.WriteLine("namespace LF.Table;");
+                    writer.WriteLine("namespace Chanto.Table;");
                     writer.WriteLine();
 
                     // 写入表名;

@@ -3,10 +3,10 @@
 // </auto-generated>
 using System.IO;
 using FlatBuffers;
-using LF.Table;
+using Chanto.Table;
 using System.Collections.Generic;
 
-namespace LF
+namespace Chanto.Table
 {
     #region Table
 
@@ -31,7 +31,7 @@ namespace LF
             switch (column)
             {
 
-                default: { GameFramework.Log.Error("Table_pve.GetBoolValue => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_pve.GetBoolValue => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -48,7 +48,7 @@ namespace LF
             switch (column)
             {
 
-                default: { GameFramework.Log.Error("Table_pve.GetShortValue => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_pve.GetShortValue => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -71,7 +71,7 @@ namespace LF
                 case "route_point_id": { result = datarow.RoutePointId; break; }
                 case "explore_max": { result = datarow.ExploreMax; break; }
 
-                default: { GameFramework.Log.Error("Table_pve.GetIntValue => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_pve.GetIntValue => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -94,7 +94,7 @@ namespace LF
                 case "route_point_id": { result = datarow.RoutePointId; break; }
                 case "explore_max": { result = datarow.ExploreMax; break; }
 
-                default: { GameFramework.Log.Error("Table_pve.GetFloatValue => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_pve.GetFloatValue => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -118,7 +118,7 @@ namespace LF
                 case "route_point_id": { result = datarow.RoutePointId.ToString(); break; }
                 case "explore_max": { result = datarow.ExploreMax.ToString(); break; }
 
-                default: { GameFramework.Log.Error("Table_pve.GetStringValue => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_pve.GetStringValue => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -135,7 +135,7 @@ namespace LF
             switch (column)
             {
 
-                default: { GameFramework.Log.Error("Table_pve.GetBoolArray => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_pve.GetBoolArray => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -152,7 +152,7 @@ namespace LF
             switch (column)
             {
 
-                default: { GameFramework.Log.Error("Table_pve.GetShortArray => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_pve.GetShortArray => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -170,7 +170,7 @@ namespace LF
             {
                 case "reward_show": { result = datarow.RewardShowArray; break; }
 
-                default: { GameFramework.Log.Error("Table_pve.GetIntArray => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_pve.GetIntArray => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -187,7 +187,7 @@ namespace LF
             switch (column)
             {
 
-                default: { GameFramework.Log.Error("Table_pve.GetFloatArray => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_pve.GetFloatArray => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -204,7 +204,7 @@ namespace LF
             switch (column)
             {
 
-                default: { GameFramework.Log.Error("Table_pve.GetStringArray => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_pve.GetStringArray => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -217,7 +217,7 @@ namespace LF
             int length = this.GetStringArrayLength(id, column);
             if (index < 0 || index >= length)
             {
-                GameFramework.Log.Error("Table_pve.GetStringArrayItem => index out of array length({0}), [id:{1}, column:{2}, index:{3}]", length, id, column, index);
+                Log.Error("Table_pve.GetStringArrayItem => index out of array length({0}), [id:{1}, column:{2}, index:{3}]", length, id, column, index);
                 return result;
             }
             
@@ -228,7 +228,7 @@ namespace LF
             switch (column)
             {
 
-                default: { GameFramework.Log.Error("Table_pve.GetStringArrayItem => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_pve.GetStringArrayItem => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -245,7 +245,7 @@ namespace LF
             switch (column)
             {
 
-                default: { GameFramework.Log.Error("Table_pve.GetStringArrayLength => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_pve.GetStringArrayLength => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -262,7 +262,7 @@ namespace LF
             switch (column)
             {
 
-                default: { GameFramework.Log.Error("Table_pve.GetDictionaryII => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_pve.GetDictionaryII => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -279,7 +279,7 @@ namespace LF
             switch (column)
             {
 
-                default: { GameFramework.Log.Error("Table_pve.GetDictionaryIS => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_pve.GetDictionaryIS => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -296,7 +296,7 @@ namespace LF
             switch (column)
             {
 
-                default: { GameFramework.Log.Error("Table_pve.GetDictionarySI => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_pve.GetDictionarySI => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -313,7 +313,7 @@ namespace LF
             switch (column)
             {
 
-                default: { GameFramework.Log.Error("Table_pve.GetDictionarySS => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_pve.GetDictionarySS => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;

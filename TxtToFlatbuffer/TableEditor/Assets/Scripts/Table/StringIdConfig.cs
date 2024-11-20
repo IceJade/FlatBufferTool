@@ -6,7 +6,7 @@ using System.Text;
 using System.Collections.Generic;
 using System.IO;
 
-namespace LF
+namespace Chanto.Table
 {
 	public class StringIdConfig : BaseConfig
     {

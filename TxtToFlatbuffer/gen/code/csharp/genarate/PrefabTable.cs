@@ -3,10 +3,10 @@
 // </auto-generated>
 using System.IO;
 using FlatBuffers;
-using LF.Table;
+using Chanto.Table;
 using System.Collections.Generic;
 
-namespace LF
+namespace Chanto.Table
 {
     #region Table
     
@@ -31,7 +31,7 @@ namespace LF
             switch (column)
             {
 
-                default: { GameFramework.Log.Error("Table_prefab.GetBoolValue => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_prefab.GetBoolValue => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -48,7 +48,7 @@ namespace LF
             switch (column)
             {
 
-                default: { GameFramework.Log.Error("Table_prefab.GetShortValue => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_prefab.GetShortValue => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -65,7 +65,7 @@ namespace LF
             switch (column)
             {
 
-                default: { GameFramework.Log.Error("Table_prefab.GetIntValue => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_prefab.GetIntValue => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -82,7 +82,7 @@ namespace LF
             switch (column)
             {
 
-                default: { GameFramework.Log.Error("Table_prefab.GetFloatValue => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_prefab.GetFloatValue => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -102,7 +102,7 @@ namespace LF
                 case "AssetName": { result = datarow.AssetName; break; }
                 case "DefaultPrefab": { result = datarow.DefaultPrefab; break; }
 
-                default: { GameFramework.Log.Error("Table_prefab.GetStringValue => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_prefab.GetStringValue => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -119,7 +119,7 @@ namespace LF
             switch (column)
             {
 
-                default: { GameFramework.Log.Error("Table_prefab.GetBoolArray => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_prefab.GetBoolArray => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -136,7 +136,7 @@ namespace LF
             switch (column)
             {
 
-                default: { GameFramework.Log.Error("Table_prefab.GetShortArray => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_prefab.GetShortArray => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -153,7 +153,7 @@ namespace LF
             switch (column)
             {
 
-                default: { GameFramework.Log.Error("Table_prefab.GetIntArray => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_prefab.GetIntArray => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -170,7 +170,7 @@ namespace LF
             switch (column)
             {
 
-                default: { GameFramework.Log.Error("Table_prefab.GetFloatArray => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_prefab.GetFloatArray => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -188,7 +188,7 @@ namespace LF
             {
                 case "Prefabs": { result = datarow.PrefabsArray; break; }
 
-                default: { GameFramework.Log.Error("Table_prefab.GetStringArray => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_prefab.GetStringArray => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -201,7 +201,7 @@ namespace LF
             int length = this.GetStringArrayLength(id, column);
             if (index < 0 || index >= length)
             {
-                GameFramework.Log.Error("Table_prefab.GetStringArrayItem => index out of array length({0}), [id:{1}, column:{2}, index:{3}]", length, id, column, index);
+                Log.Error("Table_prefab.GetStringArrayItem => index out of array length({0}), [id:{1}, column:{2}, index:{3}]", length, id, column, index);
                 return result;
             }
             
@@ -213,7 +213,7 @@ namespace LF
             {
                 case "Prefabs": { result = datarow.PrefabsArray[index]; break; }
 
-                default: { GameFramework.Log.Error("Table_prefab.GetStringArrayItem => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_prefab.GetStringArrayItem => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -231,7 +231,7 @@ namespace LF
             {
                 case "Prefabs": { result = datarow.PrefabsArrayLength; break; }
 
-                default: { GameFramework.Log.Error("Table_prefab.GetStringArrayLength => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_prefab.GetStringArrayLength => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -248,7 +248,7 @@ namespace LF
             switch (column)
             {
 
-                default: { GameFramework.Log.Error("Table_prefab.GetDictionaryII => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_prefab.GetDictionaryII => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -265,7 +265,7 @@ namespace LF
             switch (column)
             {
 
-                default: { GameFramework.Log.Error("Table_prefab.GetDictionaryIS => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_prefab.GetDictionaryIS => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -282,7 +282,7 @@ namespace LF
             switch (column)
             {
 
-                default: { GameFramework.Log.Error("Table_prefab.GetDictionarySI => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_prefab.GetDictionarySI => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -299,7 +299,7 @@ namespace LF
             switch (column)
             {
 
-                default: { GameFramework.Log.Error("Table_prefab.GetDictionarySS => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_prefab.GetDictionarySS => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;

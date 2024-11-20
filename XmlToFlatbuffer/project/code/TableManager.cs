@@ -5,7 +5,7 @@ using System;
 using System.Collections.Generic;
 using UnityGameFramework.Runtime;
 
-namespace LF
+namespace Chanto.Table
 {
 	public class TableManager : Singleton<TableManager>
     {
@@ -312,7 +312,7 @@ namespace LF
                 int index = typeName.LastIndexOf("Table");
                 if (index <= 0)
                 {
-                    GameFramework.Log.Error("The T must inherit from BaseTable");
+                    Log.Error("The T must inherit from BaseTable");
                     return null;
                 }
 
@@ -323,7 +323,7 @@ namespace LF
 
                 if (!this.IsValidTable(tableName))
                 {
-                    GameFramework.Log.Error("Can not find {0}, please check.", typeName);
+                    Log.Error("Can not find {0}, please check.", typeName);
                     return null;
                 }
 
@@ -404,7 +404,7 @@ namespace LF
                 int index = typeName.LastIndexOf("DataRow");
                 if (index <= 0)
                 {
-                    GameFramework.Log.Error("The T must inherit from BaseDataRow");
+                    Log.Error("The T must inherit from BaseDataRow");
                     return false;
                 }
 
@@ -415,7 +415,7 @@ namespace LF
 
                 if (!this.IsValidTable(tableName))
                 {
-                    GameFramework.Log.Error("Can not find {0}, please check.", typeName);
+                    Log.Error("Can not find {0}, please check.", typeName);
                     return false;
                 }
                 
@@ -448,7 +448,7 @@ namespace LF
                 int index = typeName.LastIndexOf("DataRow");
                 if (index <= 0)
                 {
-                    GameFramework.Log.Error("The T must inherit from BaseDataRow");
+                    Log.Error("The T must inherit from BaseDataRow");
                     return false;
                 }
 
@@ -459,7 +459,7 @@ namespace LF
 
                 if (!this.IsValidTable(tableName))
                 {
-                    GameFramework.Log.Error("Can not find {0}, please check.", typeName);
+                    Log.Error("Can not find {0}, please check.", typeName);
                     return false;
                 }
                 
@@ -491,7 +491,7 @@ namespace LF
                 int index = typeName.LastIndexOf("DataRow");
                 if (index <= 0)
                 {
-                    GameFramework.Log.Error("The T must inherit from BaseDataRow");
+                    Log.Error("The T must inherit from BaseDataRow");
                     return null;
                 }
 
@@ -502,7 +502,7 @@ namespace LF
 
                 if (!this.IsValidTable(tableName))
                 {
-                    GameFramework.Log.Error("Can not find {0}, please check.", typeName);
+                    Log.Error("Can not find {0}, please check.", typeName);
                     return null;
                 }
                 
@@ -534,7 +534,7 @@ namespace LF
                 int index = typeName.LastIndexOf("DataRow");
                 if (index <= 0)
                 {
-                    GameFramework.Log.Error("The T must inherit from BaseDataRow");
+                    Log.Error("The T must inherit from BaseDataRow");
                     return null;
                 }
 
@@ -545,7 +545,7 @@ namespace LF
 
                 if (!this.IsValidTable(tableName))
                 {
-                    GameFramework.Log.Error("Can not find {0}, please check.", typeName);
+                    Log.Error("Can not find {0}, please check.", typeName);
                     return null;
                 }
                 
@@ -577,7 +577,7 @@ namespace LF
                 int tmpIndex = typeName.LastIndexOf("DataRow");
                 if (tmpIndex <= 0)
                 {
-                    GameFramework.Log.Error("The T must inherit from BaseDataRow");
+                    Log.Error("The T must inherit from BaseDataRow");
                     return null;
                 }
 
@@ -588,7 +588,7 @@ namespace LF
 
                 if (!this.IsValidTable(tableName))
                 {
-                    GameFramework.Log.Error("Can not find {0}, please check.", typeName);
+                    Log.Error("Can not find {0}, please check.", typeName);
                     return null;
                 }
 
@@ -716,7 +716,7 @@ namespace LF
             
             if (!this.IsValidTable(tableName))
             {
-                GameFramework.Log.Error("Can not find the table {0}", tableName);
+                Log.Error("Can not find the table {0}", tableName);
                 return null;
             }
             

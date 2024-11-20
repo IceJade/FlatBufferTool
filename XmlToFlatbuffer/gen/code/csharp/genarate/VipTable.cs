@@ -3,10 +3,10 @@
 // </auto-generated>
 using System.IO;
 using FlatBuffers;
-using LF.Table;
+using Chanto.Table;
 using System.Collections.Generic;
 
-namespace LF
+namespace Chanto.Table
 {
     #region Table
 
@@ -31,7 +31,7 @@ namespace LF
             switch (column)
             {
 
-                default: { GameFramework.Log.Error("Table_vip.GetBoolValue => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_vip.GetBoolValue => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -48,7 +48,7 @@ namespace LF
             switch (column)
             {
 
-                default: { GameFramework.Log.Error("Table_vip.GetShortValue => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_vip.GetShortValue => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -68,7 +68,7 @@ namespace LF
                 case "point": { result = datarow.Point; break; }
                 case "reward2": { result = datarow.Reward2; break; }
 
-                default: { GameFramework.Log.Error("Table_vip.GetIntValue => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_vip.GetIntValue => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -88,7 +88,7 @@ namespace LF
                 case "point": { result = datarow.Point; break; }
                 case "reward2": { result = datarow.Reward2; break; }
 
-                default: { GameFramework.Log.Error("Table_vip.GetFloatValue => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_vip.GetFloatValue => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -109,7 +109,7 @@ namespace LF
                 case "icon": { result = datarow.Icon; break; }
                 case "reward2": { result = datarow.Reward2.ToString(); break; }
 
-                default: { GameFramework.Log.Error("Table_vip.GetStringValue => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_vip.GetStringValue => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -126,7 +126,7 @@ namespace LF
             switch (column)
             {
 
-                default: { GameFramework.Log.Error("Table_vip.GetBoolArray => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_vip.GetBoolArray => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -143,7 +143,7 @@ namespace LF
             switch (column)
             {
 
-                default: { GameFramework.Log.Error("Table_vip.GetShortArray => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_vip.GetShortArray => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -161,7 +161,7 @@ namespace LF
             {
                 case "display": { result = datarow.DisplayArray; break; }
 
-                default: { GameFramework.Log.Error("Table_vip.GetIntArray => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_vip.GetIntArray => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -178,7 +178,7 @@ namespace LF
             switch (column)
             {
 
-                default: { GameFramework.Log.Error("Table_vip.GetFloatArray => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_vip.GetFloatArray => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -197,7 +197,7 @@ namespace LF
                 case "reward1": { result = datarow.Reward1Array; break; }
                 case "effect": { result = datarow.EffectArray; break; }
 
-                default: { GameFramework.Log.Error("Table_vip.GetStringArray => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_vip.GetStringArray => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -210,7 +210,7 @@ namespace LF
             int length = this.GetStringArrayLength(id, column);
             if (index < 0 || index >= length)
             {
-                GameFramework.Log.Error("Table_vip.GetStringArrayItem => index out of array length({0}), [id:{1}, column:{2}, index:{3}]", length, id, column, index);
+                Log.Error("Table_vip.GetStringArrayItem => index out of array length({0}), [id:{1}, column:{2}, index:{3}]", length, id, column, index);
                 return result;
             }
             
@@ -223,7 +223,7 @@ namespace LF
                 case "reward1": { result = datarow.Reward1Array[index]; break; }
                 case "effect": { result = datarow.EffectArray[index]; break; }
 
-                default: { GameFramework.Log.Error("Table_vip.GetStringArrayItem => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_vip.GetStringArrayItem => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -242,7 +242,7 @@ namespace LF
                 case "reward1": { result = datarow.Reward1ArrayLength; break; }
                 case "effect": { result = datarow.EffectArrayLength; break; }
 
-                default: { GameFramework.Log.Error("Table_vip.GetStringArrayLength => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_vip.GetStringArrayLength => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -260,7 +260,7 @@ namespace LF
             {
                 case "reward1": { result = datarow.Reward1Dic; break; }
 
-                default: { GameFramework.Log.Error("Table_vip.GetDictionaryII => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_vip.GetDictionaryII => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -278,7 +278,7 @@ namespace LF
             {
                 case "effect": { result = datarow.EffectDic; break; }
 
-                default: { GameFramework.Log.Error("Table_vip.GetDictionaryIS => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_vip.GetDictionaryIS => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -295,7 +295,7 @@ namespace LF
             switch (column)
             {
 
-                default: { GameFramework.Log.Error("Table_vip.GetDictionarySI => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_vip.GetDictionarySI => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -312,7 +312,7 @@ namespace LF
             switch (column)
             {
 
-                default: { GameFramework.Log.Error("Table_vip.GetDictionarySS => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_vip.GetDictionarySS => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;

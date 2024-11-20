@@ -9,7 +9,7 @@ using System.Collections.Generic;
 using System.IO;
 using GameFramework;
 
-namespace LF
+namespace Chanto.Table
 {
 	public class StringIdTable : BaseTable
     {
@@ -50,14 +50,14 @@ namespace LF
                 {
                     if (request.isNetworkError || request.isHttpError)
                     {
-                        GameFramework.Log.Error("Load {0} fail, error mssage : {1}", request.url, request.error);
+                        Log.Error("Load {0} fail, error mssage : {1}", request.url, request.error);
                         return;
                     }
 
                     // 循环最大时间设置为5分钟, 防止死循环
                     if (loopCount > loopTimeOutCount)
                     {
-                        GameFramework.Log.Error("Load table {0} time out.", filepath);
+                        Log.Error("Load table {0} time out.", filepath);
                         return;
                     }
 
@@ -79,7 +79,7 @@ namespace LF
             }
             catch(Exception e)
             {
-                GameFramework.Log.Error("Read table {0} exception, error msg : {1}", filepath, e.Message);
+                Log.Error("Read table {0} exception, error msg : {1}", filepath, e.Message);
             }
 #endif
 #endif

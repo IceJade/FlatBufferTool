@@ -2,7 +2,7 @@
 using UnityEngine;
 //using XLua;
 
-namespace LF
+namespace Chanto.Table
 {
     public class CSLuaTable
     {

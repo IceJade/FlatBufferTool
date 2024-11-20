@@ -3,10 +3,10 @@
 // </auto-generated>
 using System.IO;
 using FlatBuffers;
-using LF.Table;
+using Chanto.Table;
 using System.Collections.Generic;
 
-namespace LF
+namespace Chanto.Table
 {
     #region Table
 
@@ -31,7 +31,7 @@ namespace LF
             switch (column)
             {
 
-                default: { GameFramework.Log.Error("Table_score.GetBoolValue => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_score.GetBoolValue => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -48,7 +48,7 @@ namespace LF
             switch (column)
             {
 
-                default: { GameFramework.Log.Error("Table_score.GetShortValue => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_score.GetShortValue => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -69,7 +69,7 @@ namespace LF
                 case "points": { result = datarow.Points; break; }
                 case "season_type": { result = datarow.SeasonType; break; }
 
-                default: { GameFramework.Log.Error("Table_score.GetIntValue => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_score.GetIntValue => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -90,7 +90,7 @@ namespace LF
                 case "points": { result = datarow.Points; break; }
                 case "season_type": { result = datarow.SeasonType; break; }
 
-                default: { GameFramework.Log.Error("Table_score.GetFloatValue => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_score.GetFloatValue => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -112,7 +112,7 @@ namespace LF
                 case "points": { result = datarow.Points.ToString(); break; }
                 case "season_type": { result = datarow.SeasonType.ToString(); break; }
 
-                default: { GameFramework.Log.Error("Table_score.GetStringValue => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_score.GetStringValue => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -129,7 +129,7 @@ namespace LF
             switch (column)
             {
 
-                default: { GameFramework.Log.Error("Table_score.GetBoolArray => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_score.GetBoolArray => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -146,7 +146,7 @@ namespace LF
             switch (column)
             {
 
-                default: { GameFramework.Log.Error("Table_score.GetShortArray => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_score.GetShortArray => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -165,7 +165,7 @@ namespace LF
                 case "group": { result = datarow.GroupArray; break; }
                 case "tips": { result = datarow.TipsArray; break; }
 
-                default: { GameFramework.Log.Error("Table_score.GetIntArray => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_score.GetIntArray => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -182,7 +182,7 @@ namespace LF
             switch (column)
             {
 
-                default: { GameFramework.Log.Error("Table_score.GetFloatArray => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_score.GetFloatArray => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -200,7 +200,7 @@ namespace LF
             {
                 case "value": { result = datarow.ValueArray; break; }
 
-                default: { GameFramework.Log.Error("Table_score.GetStringArray => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_score.GetStringArray => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -213,7 +213,7 @@ namespace LF
             int length = this.GetStringArrayLength(id, column);
             if (index < 0 || index >= length)
             {
-                GameFramework.Log.Error("Table_score.GetStringArrayItem => index out of array length({0}), [id:{1}, column:{2}, index:{3}]", length, id, column, index);
+                Log.Error("Table_score.GetStringArrayItem => index out of array length({0}), [id:{1}, column:{2}, index:{3}]", length, id, column, index);
                 return result;
             }
             
@@ -225,7 +225,7 @@ namespace LF
             {
                 case "value": { result = datarow.ValueArray[index]; break; }
 
-                default: { GameFramework.Log.Error("Table_score.GetStringArrayItem => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_score.GetStringArrayItem => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -243,7 +243,7 @@ namespace LF
             {
                 case "value": { result = datarow.ValueArrayLength; break; }
 
-                default: { GameFramework.Log.Error("Table_score.GetStringArrayLength => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_score.GetStringArrayLength => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -260,7 +260,7 @@ namespace LF
             switch (column)
             {
 
-                default: { GameFramework.Log.Error("Table_score.GetDictionaryII => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_score.GetDictionaryII => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -277,7 +277,7 @@ namespace LF
             switch (column)
             {
 
-                default: { GameFramework.Log.Error("Table_score.GetDictionaryIS => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_score.GetDictionaryIS => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -294,7 +294,7 @@ namespace LF
             switch (column)
             {
 
-                default: { GameFramework.Log.Error("Table_score.GetDictionarySI => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_score.GetDictionarySI => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -311,7 +311,7 @@ namespace LF
             switch (column)
             {
 
-                default: { GameFramework.Log.Error("Table_score.GetDictionarySS => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_score.GetDictionarySS => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;

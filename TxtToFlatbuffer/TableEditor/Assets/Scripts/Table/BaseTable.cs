@@ -7,7 +7,7 @@ using System.Collections.Generic;
 using System;
 using UnityEngine;
 
-namespace LF
+namespace Chanto.Table
 {
     /// <summary>
     /// 表格数据加载状态

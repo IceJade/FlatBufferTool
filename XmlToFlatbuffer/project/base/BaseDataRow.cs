@@ -3,14 +3,14 @@
 // </auto-generated>
 using System.IO;
 using FlatBuffers;
-using LF.Table;
+using Chanto.Table;
 using System.Collections.Generic;
 using System;
 using XLua;
 using LuaAPI = XLua.LuaDLL.Lua;
 using RealStatePtr = System.IntPtr;
 
-namespace LF
+namespace Chanto.Table
 {
     /// <summary>
     /// 封装的数据类型,根据不同数据取不同的字段

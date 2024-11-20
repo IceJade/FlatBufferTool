@@ -8,7 +8,7 @@ using UnityEngine;
 using System.Collections.Generic;
 using System.IO;
 
-namespace LF
+namespace Chanto.Table
 {
 	public class StringIdTable : BaseTable
     {

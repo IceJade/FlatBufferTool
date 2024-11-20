@@ -3,11 +3,11 @@
 // </auto-generated>
 using System.IO;
 using FlatBuffers;
-using LF.Table;
+using Chanto.Table;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace LF
+namespace Chanto.Table
 {
     #region Table
     

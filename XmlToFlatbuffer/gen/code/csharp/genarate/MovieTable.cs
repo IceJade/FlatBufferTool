@@ -3,10 +3,10 @@
 // </auto-generated>
 using System.IO;
 using FlatBuffers;
-using LF.Table;
+using Chanto.Table;
 using System.Collections.Generic;
 
-namespace LF
+namespace Chanto.Table
 {
     #region Table
 
@@ -31,7 +31,7 @@ namespace LF
             switch (column)
             {
 
-                default: { GameFramework.Log.Error("Table_movie.GetBoolValue => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_movie.GetBoolValue => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -48,7 +48,7 @@ namespace LF
             switch (column)
             {
 
-                default: { GameFramework.Log.Error("Table_movie.GetShortValue => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_movie.GetShortValue => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -74,7 +74,7 @@ namespace LF
                 case "nextPara": { result = datarow.NextPara; break; }
                 case "DebugDot": { result = datarow.DebugDot; break; }
 
-                default: { GameFramework.Log.Error("Table_movie.GetIntValue => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_movie.GetIntValue => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -102,7 +102,7 @@ namespace LF
                 case "nextPara": { result = datarow.NextPara; break; }
                 case "DebugDot": { result = datarow.DebugDot; break; }
 
-                default: { GameFramework.Log.Error("Table_movie.GetFloatValue => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_movie.GetFloatValue => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -143,7 +143,7 @@ namespace LF
                 case "DebugDot": { result = datarow.DebugDot.ToString(); break; }
                 case "interface_close": { result = datarow.InterfaceClose; break; }
 
-                default: { GameFramework.Log.Error("Table_movie.GetStringValue => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_movie.GetStringValue => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -160,7 +160,7 @@ namespace LF
             switch (column)
             {
 
-                default: { GameFramework.Log.Error("Table_movie.GetBoolArray => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_movie.GetBoolArray => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -177,7 +177,7 @@ namespace LF
             switch (column)
             {
 
-                default: { GameFramework.Log.Error("Table_movie.GetShortArray => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_movie.GetShortArray => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -202,7 +202,7 @@ namespace LF
                 case "delete_Button": { result = datarow.DeleteButtonArray; break; }
                 case "function": { result = datarow.FunctionArray; break; }
 
-                default: { GameFramework.Log.Error("Table_movie.GetIntArray => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_movie.GetIntArray => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -219,7 +219,7 @@ namespace LF
             switch (column)
             {
 
-                default: { GameFramework.Log.Error("Table_movie.GetFloatArray => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_movie.GetFloatArray => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -237,7 +237,7 @@ namespace LF
             {
                 case "fog": { result = datarow.FogArray; break; }
 
-                default: { GameFramework.Log.Error("Table_movie.GetStringArray => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_movie.GetStringArray => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -250,7 +250,7 @@ namespace LF
             int length = this.GetStringArrayLength(id, column);
             if (index < 0 || index >= length)
             {
-                GameFramework.Log.Error("Table_movie.GetStringArrayItem => index out of array length({0}), [id:{1}, column:{2}, index:{3}]", length, id, column, index);
+                Log.Error("Table_movie.GetStringArrayItem => index out of array length({0}), [id:{1}, column:{2}, index:{3}]", length, id, column, index);
                 return result;
             }
             
@@ -262,7 +262,7 @@ namespace LF
             {
                 case "fog": { result = datarow.FogArray[index]; break; }
 
-                default: { GameFramework.Log.Error("Table_movie.GetStringArrayItem => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_movie.GetStringArrayItem => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -280,7 +280,7 @@ namespace LF
             {
                 case "fog": { result = datarow.FogArrayLength; break; }
 
-                default: { GameFramework.Log.Error("Table_movie.GetStringArrayLength => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_movie.GetStringArrayLength => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -297,7 +297,7 @@ namespace LF
             switch (column)
             {
 
-                default: { GameFramework.Log.Error("Table_movie.GetDictionaryII => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_movie.GetDictionaryII => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -314,7 +314,7 @@ namespace LF
             switch (column)
             {
 
-                default: { GameFramework.Log.Error("Table_movie.GetDictionaryIS => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_movie.GetDictionaryIS => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -331,7 +331,7 @@ namespace LF
             switch (column)
             {
 
-                default: { GameFramework.Log.Error("Table_movie.GetDictionarySI => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_movie.GetDictionarySI => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
@@ -348,7 +348,7 @@ namespace LF
             switch (column)
             {
 
-                default: { GameFramework.Log.Error("Table_movie.GetDictionarySS => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
+                default: { Log.Error("Table_movie.GetDictionarySS => data type is not match, or not find [id:{0}, column:{1}]", id, column); break; }
             }
 
             return result;
