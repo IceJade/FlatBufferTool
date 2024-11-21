@@ -153,6 +153,11 @@ namespace MakeTable
                         e_ColumnType = E_ColumnType.Single_Int;
                         break;
                     }
+                case "long":
+                    {
+                        e_ColumnType = E_ColumnType.Single_Long;
+                        break;
+                    }
                 case "float":
                     {
                         e_ColumnType = E_ColumnType.Single_Float;
@@ -197,6 +202,8 @@ namespace MakeTable
                 case "dictionary_ii":
                 case "d[int,int]":
                 case "d[int, int]":
+                case "d[int;int]":
+                case "d[int; int]":
                 case "dictionary[int,int]":
                 case "dictionary[int, int]":
                 case "dictionary<int,int>":
@@ -209,6 +216,8 @@ namespace MakeTable
                 case "dictionary_is":
                 case "d[int,string]":
                 case "d[int, string]":
+                case "d[int;string]":
+                case "d[int; string]":
                 case "dictionary[int,string]":
                 case "dictionary[int, string]":
                 case "dictionary<int,string>":
@@ -221,6 +230,8 @@ namespace MakeTable
                 case "dictionary_si":
                 case "d[string,int]":
                 case "d[string, int]":
+                case "d[string;int]":
+                case "d[string; int]":
                 case "dictionary[string,int]":
                 case "dictionary[string, int]":
                 case "dictionary<string,int>":
@@ -233,6 +244,8 @@ namespace MakeTable
                 case "dictionary_ss":
                 case "d[string,string]":
                 case "d[string, string]":
+                case "d[string;string]":
+                case "d[string; string]":
                 case "dictionary[string,string]":
                 case "dictionary[string, string]":
                 case "dictionary<string,string>":
@@ -517,6 +530,11 @@ namespace MakeTable
                 case E_ColumnType.Single_Short:
                     {
                         type = "short";
+                        break;
+                    }
+                case E_ColumnType.Single_Long:
+                    {
+                        type = "long";
                         break;
                     }
                 case E_ColumnType.Single_Bool:

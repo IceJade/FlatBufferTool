@@ -122,7 +122,7 @@ namespace MakeTable
                     IRow columnNameRow = sheet.GetRow(1);
                     // 取第三行(字段类型)
                     IRow dataTypeRow = sheet.GetRow(2);
-                    // 取第四行(只选取客户端用的字段)
+                    // 取第四行(客户端/服务器端使用的字段)
                     IRow tagTypeRow = sheet.GetRow(3);
 
                     if (dataTypeRow.LastCellNum != columnNameRow.LastCellNum)

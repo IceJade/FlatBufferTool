@@ -303,6 +303,7 @@ namespace MakeTable
             string byteCase = string.Empty;
             string shortCase = string.Empty;
             string intCase = string.Empty;
+            string longCase = string.Empty;
             string floatCase = string.Empty;
             string stringCase = string.Empty;
             string boolArrayCase = string.Empty;
@@ -339,6 +340,12 @@ namespace MakeTable
                     case E_ColumnType.Single_Short:
                         {
                             shortCase += this.GetCaseCodeLine(columnInfo.name);
+
+                            break;
+                        }
+                    case E_ColumnType.Single_Long:
+                        {
+                            longCase += this.GetCaseCodeLine(columnInfo.name);
 
                             break;
                         }
@@ -450,8 +457,10 @@ namespace MakeTable
 
             string genContent = content;
             genContent = genContent.Replace("#case_bool#", boolCase);
+            genContent = genContent.Replace("#case_byte#", shortCase);
             genContent = genContent.Replace("#case_short#", shortCase);
             genContent = genContent.Replace("#case_int#", intCase);
+            genContent = genContent.Replace("#case_long#", intCase);
             genContent = genContent.Replace("#case_float#", floatCase);
             genContent = genContent.Replace("#case_string#", stringCase);
             genContent = genContent.Replace("#case_bool_array#", boolArrayCase);
@@ -501,6 +510,11 @@ namespace MakeTable
                     case E_ColumnType.Single_Short:
                         {
                             properts += this.GetPropertsCodeLine(columnInfo.name, E_ModelType.Short);
+                            break;
+                        }
+                    case E_ColumnType.Single_Long:
+                        {
+                            properts += this.GetPropertsCodeLine(columnInfo.name, E_ModelType.Long);
                             break;
                         }
                     case E_ColumnType.Single_Bool:
@@ -631,6 +645,7 @@ namespace MakeTable
                     case E_ColumnType.Single_Int:
                     case E_ColumnType.Single_Byte:
                     case E_ColumnType.Single_Short:
+                    case E_ColumnType.Single_Long:
                     case E_ColumnType.Single_Bool:
                     case E_ColumnType.Single_Float:
                     case E_ColumnType.Single_String:
@@ -687,6 +702,7 @@ namespace MakeTable
                     case E_ColumnType.Single_Int:
                     case E_ColumnType.Single_Byte:
                     case E_ColumnType.Single_Short:
+                    case E_ColumnType.Single_Long:
                     case E_ColumnType.Single_Bool:
                     case E_ColumnType.Single_Float:
                     case E_ColumnType.Single_String:
@@ -750,6 +766,7 @@ namespace MakeTable
                     case E_ColumnType.Single_Int:
                     case E_ColumnType.Single_Byte:
                     case E_ColumnType.Single_Short:
+                    case E_ColumnType.Single_Long:
                     case E_ColumnType.Single_Bool:
                     case E_ColumnType.Single_Float:
                         {
@@ -875,6 +892,11 @@ namespace MakeTable
                 case E_ModelType.Short:
                     {
                         result += string.Format("        public short {0} [[ get [[ return _datarow.{0}; ]] ]]\n\n", realName);
+                        break;
+                    }
+                case E_ModelType.Long:
+                    {
+                        result += string.Format("        public long {0} [[ get [[ return _datarow.{0}; ]] ]]\n\n", realName);
                         break;
                     }
                 case E_ModelType.Float:

@@ -495,6 +495,17 @@ namespace MakeTable
 
                         break;
                     }
+                case E_ColumnType.Single_Long:
+                    {
+                        long value = 0;
+
+                        if (!string.IsNullOrEmpty(columnValue))
+                            long.TryParse(columnValue, out value);
+
+                        arrayList.Add(value);
+
+                        break;
+                    }
                 case E_ColumnType.Single_Bool:
                     {
                         bool value = false;
@@ -703,17 +714,23 @@ namespace MakeTable
         {
             for(int i = arrayList.Count - 1; i >= 0; i--)
             {
-                bool isInt = arrayList[i] is int;
                 bool isBool = arrayList[i] is bool;
+                bool isByte = arrayList[i] is byte;
                 bool isShort = arrayList[i] is short;
+                bool isInt = arrayList[i] is int;
+                bool isLong = arrayList[i] is long;
                 bool isFloat = arrayList[i] is float;
                 bool isStringOffset = arrayList[i] is StringOffset;
                 bool isVectorOffset = arrayList[i] is VectorOffset;
 
                 if(isInt)
                     fbBuilder.AddInt(i, (int)arrayList[i], 0);
-                else if(isShort)
+                else if (isByte)
+                    fbBuilder.AddByte(i, (byte)arrayList[i], 0);
+                else if (isShort)
                     fbBuilder.AddShort(i, (short)arrayList[i], 0);
+                else if (isLong)
+                    fbBuilder.AddLong(i, (long)arrayList[i], 0);
                 else if (isBool)
                     fbBuilder.AddBool(i, (bool)arrayList[i], false);
                 else if (isFloat)
